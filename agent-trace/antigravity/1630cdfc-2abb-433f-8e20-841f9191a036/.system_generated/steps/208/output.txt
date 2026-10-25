@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+=== Sample Requests (Total: 32) ===
+  Current Email Matches: 29
+  Historical Email Matches: 3
+  Unmatched: 0
+  Ambiguous: 0
+  Sample Historical Resolutions (first 3): [('case_10', 'nadia.ionescu@yahoo.com', 'user_10', 'Resolved to sole historical owner user_10; requested_at (2026-08-31T15:42:00+00:00) outside tracked interval.'), ('case_29', 'noah.f438085@outlook.com', 'user_29', 'Resolved to sole historical owner user_29; requested_at (2026-08-27T12:00:00+00:00) outside tracked interval.'), ('case_30', 'camille.bernard86@outlook.com', 'user_30', 'Resolved to sole historical owner user_30; requested_at (2026-08-26T12:00:00+00:00) outside tracked interval.')]
+=== Evaluation Requests (Total: 518) ===
+  Current Email Matches: 418
+  Historical Email Matches: 100
+  Unmatched: 0
+  Ambiguous: 0
+  Sample Historical Resolutions (first 3): [('case_37', 'abena.o189491@zoho.com', 'user_35', 'Resolved to sole historical owner user_35; requested_at (2026-09-06T12:00:00+00:00) outside tracked interval.'), ('case_40', 'CHOI.JIHOON94@GMAIL.COM', 'user_38', 'Resolved to sole historical owner user_38; requested_at (2026-09-03T12:00:00+00:00) outside tracked interval.'), ('case_41', 'lucas-souza95@gmail.com', 'user_39', 'Resolved to sole historical owner user_39; requested_at (2026-09-02T12:00:00+00:00) outside tracked interval.')]

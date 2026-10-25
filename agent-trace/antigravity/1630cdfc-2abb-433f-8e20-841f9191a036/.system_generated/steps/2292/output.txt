@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py", line 9, in <module>
+    from .config import (
+ImportError: attempted relative import with no known parent package

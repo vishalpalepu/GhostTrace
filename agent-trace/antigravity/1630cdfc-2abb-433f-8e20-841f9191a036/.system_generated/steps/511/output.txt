@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+Case case_09 (INCOMPLETE):
+   {'step_no': 1, 'phase': 'FINDING', 'system_id': 'backup_service', 'resource_id': 'backup_4978', 'operation': 'REPORT_RESTORE_RISK', 'state': 'ACTIVE', 'evidence_id': 'evidence_93'}
+   {'step_no': 2, 'phase': 'REMEDIATION', 'system_id': 'backup_service', 'resource_id': 'backup_4978', 'operation': 'BLOCK_RESTORE', 'state': 'BLOCKED', 'evidence_id': ''}
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'backup_service', 'resource_id': 'backup_4978', 'operation': 'VERIFY_RESTORE_BLOCKED', 'state': 'BLOCKED', 'evidence_id': ''}
+Case case_14 (INCOMPLETE):
+   {'step_no': 1, 'phase': 'FINDING', 'system_id': 'backup_service', 'resource_id': 'backup_3870', 'operation': 'REPORT_RESTORE_RISK', 'state': 'ACTIVE', 'evidence_id': 'evidence_03'}
+   {'step_no': 2, 'phase': 'REMEDIATION', 'system_id': 'backup_service', 'resource_id': 'backup_3870', 'operation': 'BLOCK_RESTORE', 'state': 'BLOCKED', 'evidence_id': ''}
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'backup_service', 'resource_id': 'backup_3870', 'operation': 'VERIFY_RESTORE_BLOCKED', 'state': 'BLOCKED', 'evidence_id': ''}
+Case case_17 (INCOMPLETE):
+   {'step_no': 1, 'phase': 'FINDING', 'system_id': 'backup_service', 'resource_id': 'backup_3245', 'operation': 'REPORT_RESTORE_RISK', 'state': 'ACTIVE', 'evidence_id': 'evidence_01'}
+   {'step_no': 2, 'phase': 'REMEDIATION', 'system_id': 'backup_service', 'resource_id': 'backup_3245', 'operation': 'BLOCK_RESTORE', 'state': 'BLOCKED', 'evidence_id': ''}
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'backup_service', 'resource_id': 'backup_3245', 'operation': 'VERIFY_RESTORE_BLOCKED', 'state': 'BLOCKED', 'evidence_id': ''}
+Case case_26 (COMPLETE):
+   {'step_no': 6, 'phase': 'VERIFICATION', 'system_id': 'backup_service', 'resource_id': 'backup_3120', 'operation': 'VERIFY_RESTORE_BLOCKED', 'state': 'BLOCKED', 'evidence_id': 'evidence_92'}
+Case case_27 (COMPLETE):
+   {'step_no': 6, 'phase': 'VERIFICATION', 'system_id': 'backup_service', 'resource_id': 'backup_5970', 'operation': 'VERIFY_RESTORE_BLOCKED', 'state': 'BLOCKED', 'evidence_id': 'evidence_92'}
+Case case_28 (COMPLETE):
+   {'step_no': 6, 'phase': 'VERIFICATION', 'system_id': 'backup_service', 'resource_id': 'backup_838', 'operation': 'VERIFY_RESTORE_BLOCKED', 'state': 'BLOCKED', 'evidence_id': 'evidence_92'}

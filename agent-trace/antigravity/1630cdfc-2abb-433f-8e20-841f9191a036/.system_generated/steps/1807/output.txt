@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+activity_3045,2026-07-31T18:31:53Z,SYNC_RECORD,account_service,analytics_platform,analytics_4128,SUCCESS,Customer profile synchronization processed analytics_4128.

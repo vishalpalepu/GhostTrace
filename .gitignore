@@ -70,3 +70,10 @@ desktop.ini
 # Local model files
 models/
 *.gguf
+
+
+# HackerRank run artifacts
+hackerrank-orchestrate-october26-main/code.zip
+hackerrank-orchestrate-october26-main/log.txt
+hackerrank-orchestrate-october26-main/output.csv
+hackerrank-orchestrate-october26-main/agent-trace.zip

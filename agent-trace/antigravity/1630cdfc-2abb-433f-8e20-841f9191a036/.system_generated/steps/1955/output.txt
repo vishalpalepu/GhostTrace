@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+Known user accounts: 20
+Security audit records indexed: 315
+
+case_01  COMPLETE   (GT: COMPLETE  ) Steps=1  (GT: 1 ) | PERFECT
+case_02  COMPLETE   (GT: COMPLETE  ) Steps=1  (GT: 1 ) | PERFECT
+case_03  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | PERFECT
+case_04  COMPLETE   (GT: COMPLETE  ) Steps=2  (GT: 2 ) | PERFECT
+case_05  INCOMPLETE (GT: INCOMPLETE) Steps=3  (GT: 3 ) | PERFECT
+case_06  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_07  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_08  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_09  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | DIFF
+case_10  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_11  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | PERFECT
+case_12  COMPLETE   (GT: INCOMPLETE) Steps=3  (GT: 5 ) | DIFF
+case_13  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 8 ) | PERFECT
+case_14  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_15  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_16  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 7 ) | DIFF
+case_17  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_18  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | DIFF
+case_19  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 8 ) | PERFECT
+case_20  INCOMPLETE (GT: INCOMPLETE) Steps=9  (GT: 8 ) | DIFF
+case_21  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | DIFF
+case_22  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 8 ) | PERFECT
+case_23  INCOMPLETE (GT: INCOMPLETE) Steps=9  (GT: 8 ) | DIFF
+case_24  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 7 ) | DIFF
+case_25  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | DIFF
+case_26  COMPLETE   (GT: COMPLETE  ) Steps=6  (GT: 6 ) | DIFF
+case_27  COMPLETE   (GT: COMPLETE  ) Steps=6  (GT: 6 ) | PERFECT
+case_28  COMPLETE   (GT: COMPLETE  ) Steps=6  (GT: 6 ) | DIFF
+case_29  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | DIFF
+case_30  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | PERFECT
+case_31  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | DIFF
+case_32  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | DIFF
+
+Summary:
+Status Matches:     31 / 32 (96.9%)
+Count Matches:      27 / 32 (84.4%)
+Exact Full Matches: 18 / 32 (56.2%)

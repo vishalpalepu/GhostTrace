@@ -1,0 +1,6 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/evidence/records/customer_analytics_export_20260907.json'

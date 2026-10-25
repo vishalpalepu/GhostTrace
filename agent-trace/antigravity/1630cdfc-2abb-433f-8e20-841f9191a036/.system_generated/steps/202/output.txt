@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+sample_deletion_requests.csv requests with requested_at < updated_at for unaudited users: 0
+deletion_requests.csv requests with requested_at < updated_at for unaudited users: 0

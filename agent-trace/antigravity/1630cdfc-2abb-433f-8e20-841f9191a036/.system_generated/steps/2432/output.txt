@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+=================================================================
+CHECK 5: INDEPENDENT OUTPUT VALIDATION RESULTS
+=================================================================
+header_exact                        : PASS
+exact_518_rows                      : PASS
+all_cases_unique_and_aligned        : PASS
+sorted_by_case_id                   : PASS
+all_json_valid                      : PASS
+all_statuses_valid                  : PASS
+all_fields_present                  : PASS
+all_steps_consecutive               : PASS
+all_ops_states_valid                : PASS
+all_sorting_valid                   : PASS
+complete_checks_valid               : PASS
+incomplete_checks_valid             : PASS
+na_checks_valid                     : PASS
+temporal_cutoff_valid               : PASS
+=================================================================
+ALL 14 INDEPENDENT VALIDATION CHECKS PASSED WITH ZERO ERRORS!

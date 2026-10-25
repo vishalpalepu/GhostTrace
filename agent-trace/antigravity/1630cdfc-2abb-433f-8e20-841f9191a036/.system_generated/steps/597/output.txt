@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+Total JSON files processed: 28
+Total extracted observations across all 28 JSON files: 890
+  connector_configurations_20260812.json: 39 items
+  customer_analytics_report_20260907.json: 2 items
+  customer_data_snapshot_bundle_20260131.json: 34 items
+  customer_data_snapshot_bundle_20260223.json: 75 items
+  customer_data_snapshot_bundle_20260322.json: 31 items
+  customer_data_snapshot_bundle_20260416.json: 28 items
+  customer_data_snapshot_bundle_20260511.json: 74 items
+  customer_data_snapshot_bundle_20260605.json: 32 items
+  customer_data_snapshot_bundle_20260630.json: 71 items
+  customer_data_snapshot_bundle_20260725.json: 36 items

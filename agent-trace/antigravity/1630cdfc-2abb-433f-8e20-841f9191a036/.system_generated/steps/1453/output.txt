@@ -1,0 +1,6 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+TypeError: LogExtractor.extract_from_file() missing 1 required positional argument: 'captured_at'

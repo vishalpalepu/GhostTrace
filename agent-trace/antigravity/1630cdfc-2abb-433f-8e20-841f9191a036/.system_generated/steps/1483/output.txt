@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+activity_3463,2026-08-27T08:47:41Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_901,SUCCESS,Deletion worker reported the requested operation as completed. Target resource: analytics_901.

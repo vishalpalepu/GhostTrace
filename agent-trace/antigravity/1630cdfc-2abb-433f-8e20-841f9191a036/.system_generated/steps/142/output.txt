@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+CREATE TABLE backup_restore_entries (resource_id TEXT PRIMARY KEY, customer_reference TEXT, customer_email TEXT, archive_key TEXT NOT NULL, restore_allowed INTEGER NOT NULL CHECK (restore_allowed IN (0,1)), updated_at TEXT NOT NULL);
+INSERT INTO backup_restore_entries VALUES ('backup_3933', 'user_62', NULL, 'archive/customer-data/backup_3933.tar.zst', '0', '2026-09-16T07:33:52Z');
+INSERT INTO backup_restore_entries VALUES ('backup_4978', NULL, 'k.appiah88@gmail.com', 'archive/customer-data/backup_4978.tar.zst', '1', '2026-09-16T07:59:54Z');

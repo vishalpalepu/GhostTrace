@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:32:23,880 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:32:23,891 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:32:23,892 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:32:23,963 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:32:23,981 [INFO] Loaded 4011 system activity records
+Diff in: case_04
+  Pred: [{'evidence_id': 'evidence_56', 'operation': 'VERIFY_RECORD_ABSENT', 'phase': 'VERIFICATION', 'resource_id': 'account_004', 'state': 'ABSENT', 'step_no': 1, 'system_id': 'account_service'}, {'evidence_id': 'evidence_56', 'operation': 'VERIFY_RECORD_ANONYMIZED', 'phase': 'VERIFICATION', 'resource_id': 'analytics_901', 'state': 'ANONYMIZED', 'step_no': 2, 'system_id': 'analytics_platform'}]
+  GT:   [{'evidence_id': 'evidence_54', 'operation': 'VERIFY_RECORD_ABSENT', 'phase': 'VERIFICATION', 'resource_id': 'account_004', 'state': 'ABSENT', 'step_no': 1, 'system_id': 'account_service'}, {'evidence_id': 'evidence_56', 'operation': 'VERIFY_RECORD_ANONYMIZED', 'phase': 'VERIFICATION', 'resource_id': 'analytics_901', 'state': 'ANONYMIZED', 'step_no': 2, 'system_id': 'analytics_platform'}]

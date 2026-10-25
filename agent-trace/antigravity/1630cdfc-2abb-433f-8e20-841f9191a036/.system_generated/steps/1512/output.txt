@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+PRED: [{"evidence_id":"evidence_59","operation":"REPORT_REMAINING_RECORD","phase":"FINDING","resource_id":"export_001","state":"PRESENT","step_no":1,"system_id":"export_service"},{"evidence_id":"","operation":"DELETE_RECORD","phase":"REMEDIATION","resource_id":"export_001","state":"ABSENT","step_no":2,"system_id":"export_service"},{"evidence_id":"","operation":"VERIFY_RECORD_ABSENT","phase":"VERIFICATION","resource_id":"account_008","state":"ABSENT","step_no":3,"system_id":"account_service"},{"evidence_id":"","operation":"VERIFY_RECORD_ABSENT","phase":"VERIFICATION","resource_id":"export_001","state":"ABSENT","step_no":4,"system_id":"export_service"}]
+GT:   [{"evidence_id":"evidence_59","operation":"REPORT_REMAINING_RECORD","phase":"FINDING","resource_id":"export_001","state":"PRESENT","step_no":1,"system_id":"export_service"},{"evidence_id":"","operation":"DELETE_RECORD","phase":"REMEDIATION","resource_id":"export_001","state":"ABSENT","step_no":2,"system_id":"export_service"},{"evidence_id":"","operation":"VERIFY_RECORD_ABSENT","phase":"VERIFICATION","resource_id":"account_008","state":"ABSENT","step_no":3,"system_id":"account_service"},{"evidence_id":"","operation":"VERIFY_RECORD_ABSENT","phase":"VERIFICATION","resource_id":"export_001","state":"ABSENT","step_no":4,"system_id":"export_service"}]
+MATCH: True

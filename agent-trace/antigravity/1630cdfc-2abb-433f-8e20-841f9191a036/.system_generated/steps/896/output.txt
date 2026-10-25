@@ -1,0 +1,50 @@
+Command exited with code 0.
+
+Command output:
+======================================================================
+CASE case_01: amina.elmasri@gmail.com | req=2026-08-18T09:14:00Z | rep=2026-08-20T16:42:00Z
+Expected resources (1): {'account_001'}
+Activities in time window: 31, matching expected: 1
+  -> activity_3342 | 2026-08-20T16:41:43Z | DELETE_RECORD | account_001 | Deletion worker reported the requested operation as completed. Target resource: account_001.
+======================================================================
+CASE case_02: mateo.rios@outlook.com | req=2026-08-21T18:06:00Z | rep=2026-08-22T07:25:00Z
+Expected resources (1): {'account_002'}
+Activities in time window: 5, matching expected: 0
+======================================================================
+CASE case_03: l.fontaine46@yahoo.com | req=2026-09-13T11:00:00Z | rep=2026-09-15T11:00:00Z
+Expected resources (3): {'audit_record_2016', 'analytics_9406', 'account_7566'}
+Activities in time window: 29, matching expected: 2
+  -> activity_3851 | 2026-09-15T10:07:35Z | DELETE_RECORD | account_7566 | Deletion worker submitted primary profile account_7566 to account_service.
+  -> activity_3852 | 2026-09-15T10:31:16Z | ANONYMIZE_RECORD | analytics_9406 | Policy action completed for analytics_9406.
+======================================================================
+CASE case_04: thandiwe.n@gmail.com | req=2026-08-25T12:32:00Z | rep=2026-08-27T08:54:00Z
+Expected resources (2): {'account_004', 'analytics_901'}
+Activities in time window: 30, matching expected: 1
+  -> activity_3463 | 2026-08-27T08:47:41Z | ANONYMIZE_RECORD | analytics_901 | Deletion worker reported the requested operation as completed. Target resource: analytics_901.
+======================================================================
+CASE case_05: leila.haddad@yahoo.com | req=2026-08-27T14:17:00Z | rep=2026-08-28T09:03:00Z
+Expected resources (1): {'account_005'}
+Activities in time window: 11, matching expected: 0
+======================================================================
+CASE case_06: jonas.berg@outlook.com | req=2026-08-29T06:51:00Z | rep=2026-08-30T17:12:00Z
+Expected resources (2): {'account_006', 'search_001'}
+Activities in time window: 51, matching expected: 1
+  -> activity_3545 | 2026-08-30T17:08:20Z | DELETE_RECORD | account_006 | Deletion worker reported the requested operation as completed. Target resource: account_006.
+======================================================================
+CASE case_07: priya.raman@gmail.com | req=2026-08-31T11:26:00Z | rep=2026-09-01T19:30:00Z
+Expected resources (2): {'account_007', 'support_001'}
+Activities in time window: 39, matching expected: 1
+  -> activity_3590 | 2026-09-01T19:28:39Z | DELETE_RECORD | account_007 | Deletion worker reported the requested operation as completed. Target resource: account_007.
+======================================================================
+CASE case_08: gabriel.costa@proton.me | req=2026-08-29T20:03:00Z | rep=2026-08-31T13:44:00Z
+Expected resources (2): {'export_001', 'account_008'}
+Activities in time window: 35, matching expected: 0
+======================================================================
+CASE case_09: k.appiah88@gmail.com | req=2026-09-05T09:00:00Z | rep=2026-09-07T09:00:00Z
+Expected resources (3): {'account_3960', 'audit_record_4902', 'backup_4978'}
+Activities in time window: 53, matching expected: 1
+  -> activity_3703 | 2026-09-07T07:55:18Z | DELETE_RECORD | account_3960 | Deletion worker submitted primary profile account_3960 to account_service.
+======================================================================
+CASE case_10: nadia.ionescu@yahoo.com | req=2026-08-31T15:42:00Z | rep=2026-09-02T10:08:00Z
+Expected resources (2): {'support_002', 'account_010'}
+Activities in time window: 37, matching expected: 0

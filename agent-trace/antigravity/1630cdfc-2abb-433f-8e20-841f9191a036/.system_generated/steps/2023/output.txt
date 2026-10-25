@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+GT JSON len: 550
+GT JSON: '[{"step_no":1,"phase":"VERIFICATION","system_id":"account_service","resource_id":"account_7566","ope'

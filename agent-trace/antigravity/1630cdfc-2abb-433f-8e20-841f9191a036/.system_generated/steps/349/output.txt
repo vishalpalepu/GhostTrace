@@ -1,0 +1,53 @@
+Command exited with code 1.
+
+Command output:
+EEE
+======================================================================
+ERROR: test_identity (unittest.loader._FailedTest.test_identity)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_identity
+Traceback (most recent call last):
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_identity.py", line 7, in <module>
+    from code.config import (
+ModuleNotFoundError: No module named 'code.config'; 'code' is not a package
+
+
+======================================================================
+ERROR: test_intent (unittest.loader._FailedTest.test_intent)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_intent
+Traceback (most recent call last):
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_intent.py", line 5, in <module>
+    from code.config import DELETION_REQUESTS_CSV, SAMPLE_DELETION_REQUESTS_CSV
+ModuleNotFoundError: No module named 'code.config'; 'code' is not a package
+
+
+======================================================================
+ERROR: test_policy (unittest.loader._FailedTest.test_policy)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_policy
+Traceback (most recent call last):
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 6, in <module>
+    from code.config import DELETION_RULES_CSV
+ModuleNotFoundError: No module named 'code.config'; 'code' is not a package
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (errors=3)

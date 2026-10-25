@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+case_18 | rep=2026-09-09 11:00:00+00:00 | email=mori.ren@gmail.com
+   act: time=2026-09-09 09:52:26+00:00 (67.6m before rep) | res=account_5521 | res_status=SUCCESS
+   act: time=2026-09-09 10:03:41+00:00 (56.3m before rep) | res=account_3610 | res_status=SUCCESS
+   act: time=2026-09-09 10:14:55+00:00 (45.1m before rep) | res=account_5037 | res_status=FAILED
+   act: time=2026-09-09 10:53:28+00:00 (6.5m before rep) | res=account_9335 | res_status=FAILED
+case_20 | rep=2026-09-09 11:00:00+00:00 | email=akosua.gyasi@gmail.com
+   act: time=2026-09-09 09:52:26+00:00 (67.6m before rep) | res=account_5521 | res_status=SUCCESS
+   act: time=2026-09-09 10:03:41+00:00 (56.3m before rep) | res=account_3610 | res_status=SUCCESS
+   act: time=2026-09-09 10:14:55+00:00 (45.1m before rep) | res=account_5037 | res_status=FAILED
+   act: time=2026-09-09 10:53:28+00:00 (6.5m before rep) | res=account_9335 | res_status=FAILED
+case_22 | rep=2026-09-01 10:00:00+00:00 | email=seoyeon-han@gmail.com
+   act: time=2026-09-01 08:02:37+00:00 (117.4m before rep) | res=account_902 | res_status=FAILED
+   act: time=2026-09-01 08:11:10+00:00 (108.8m before rep) | res=account_6633 | res_status=SUCCESS
+   act: time=2026-09-01 08:50:41+00:00 (69.3m before rep) | res=account_994 | res_status=FAILED
+   act: time=2026-09-01 09:01:56+00:00 (58.1m before rep) | res=account_6829 | res_status=PARTIAL
+   act: time=2026-09-01 09:12:11+00:00 (47.8m before rep) | res=account_4990 | res_status=SUCCESS
+case_29 | rep=2026-08-30 12:00:00+00:00 | email=noah.f438085@outlook.com
+   act: time=2026-08-30 10:46:13+00:00 (73.8m before rep) | res=account_5482 | res_status=FAILED
+   act: time=2026-08-30 10:57:28+00:00 (62.5m before rep) | res=account_3866 | res_status=SUCCESS
+   act: time=2026-08-30 11:06:57+00:00 (53.0m before rep) | res=account_7012 | res_status=FAILED
+case_30 | rep=2026-08-27 12:00:00+00:00 | email=camille.bernard86@outlook.com
+   act: time=2026-08-27 10:55:42+00:00 (64.3m before rep) | res=account_4163 | res_status=SUCCESS
+case_31 | rep=2026-09-06 12:00:00+00:00 | email=a.eze08@gmail.com
+   act: time=2026-09-06 10:45:58+00:00 (74.0m before rep) | res=account_4857 | res_status=SUCCESS
+   act: time=2026-09-06 10:51:45+00:00 (68.2m before rep) | res=account_2381 | res_status=PARTIAL
+   act: time=2026-09-06 11:00:18+00:00 (59.7m before rep) | res=account_1810 | res_status=SUCCESS
+   act: time=2026-09-06 11:05:15+00:00 (54.8m before rep) | res=account_8858 | res_status=PARTIAL
+   act: time=2026-09-06 11:11:02+00:00 (49.0m before rep) | res=account_3677 | res_status=SUCCESS
+case_32 | rep=2026-09-06 12:00:00+00:00 | email=addo.kofi@gmail.com
+   act: time=2026-09-06 10:45:58+00:00 (74.0m before rep) | res=account_4857 | res_status=SUCCESS
+   act: time=2026-09-06 10:51:45+00:00 (68.2m before rep) | res=account_2381 | res_status=PARTIAL
+   act: time=2026-09-06 11:00:18+00:00 (59.7m before rep) | res=account_1810 | res_status=SUCCESS
+   act: time=2026-09-06 11:05:15+00:00 (54.8m before rep) | res=account_8858 | res_status=PARTIAL
+   act: time=2026-09-06 11:11:02+00:00 (49.0m before rep) | res=account_3677 | res_status=SUCCESS

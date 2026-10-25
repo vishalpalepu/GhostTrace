@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+activity_3703,2026-09-07T07:55:18Z,DELETE_RECORD,deletion_worker,account_service,account_3960,FAILED,Deletion worker submitted primary profile account_3960 to account_service.
+activity_3704,2026-09-07T08:15:34Z,DELETE_RECORD,deletion_worker,account_service,account_565,PARTIAL,Deletion worker submitted primary profile account_565 to account_service.
+activity_3705,2026-09-07T08:31:15Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_5718,SUCCESS,Policy action completed for analytics_5718.

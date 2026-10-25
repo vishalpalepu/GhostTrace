@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+['user_id', 'name', 'current_email', 'current_phone', 'current_email_hash', 'updated_at', 'all_emails', 'all_phones', 'all_email_hashes', 'intervals']

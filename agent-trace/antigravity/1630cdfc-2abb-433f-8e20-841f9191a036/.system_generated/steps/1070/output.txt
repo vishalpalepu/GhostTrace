@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+Type: <class 'dict'>
+Keys: ['exported_at', 'region', 'service_exports', 'source']
+Key: exported_at, type=<class 'str'>, len=20
+Key: region, type=<class 'str'>, len=6
+Key: service_exports, type=<class 'dict'>, len=8
+Key: source, type=<class 'str'>, len=25

@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 8
+    print(f'Total audit records in evidence_02: {len(snap.get(" records\,
+                                                              ^
+SyntaxError: unterminated string literal (detected at line 8)

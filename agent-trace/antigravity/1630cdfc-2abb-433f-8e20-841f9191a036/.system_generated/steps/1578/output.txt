@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 12
+    print(f'{fpath.split(" /\)[-1]}:
+                         ^
+SyntaxError: unterminated string literal (detected at line 12)

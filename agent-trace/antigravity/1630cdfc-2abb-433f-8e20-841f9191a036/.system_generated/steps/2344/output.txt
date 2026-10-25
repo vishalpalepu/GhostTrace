@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:29:16,389 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:29:16,415 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:29:16,420 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:29:16,601 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:29:16,647 [INFO] Loaded 4011 system activity records
+Sample matches with temporal cutoff patch: 32/32
+Temporal violations across all 518 cases with patch: 0

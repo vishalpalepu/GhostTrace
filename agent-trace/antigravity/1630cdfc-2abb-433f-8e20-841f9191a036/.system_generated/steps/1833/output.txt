@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+backup_service / restore_entries: {'archive_key': 'archive/customer-data/backup_5970.tar.zst', 'customer_email': None, 'customer_reference': 'user_27', 'observed_at': '2026-09-15T10:39:37Z', 'resource_id': 'backup_5970', 'restore_allowed': False}
+integration_service / connectors: {'connector_name': 'analytics_identity_bridge', 'customer_email': None, 'customer_reference': 'user_27', 'enabled': False, 'last_delivery_status': 'stopped', 'observed_at': '2026-09-15T08:48:09Z', 'resource_id': 'data_flow_2295'}
+security_service / audit_records: {'event_code': 'IDENTITY_CHANGE_RECORDED', 'observed_at': '2026-09-15T09:31:23Z', 'resource_id': 'audit_record_3830', 'retention_until': '2034-09-30T23:59:59Z', 'subject_reference': 'user_27'}
+support_platform / tickets: {'customer_reference': 'user_27', 'message_excerpt': 'Customer contacted support about account access.', 'observed_at': '2026-09-15T10:48:30Z', 'requester_email': None, 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_4707'}

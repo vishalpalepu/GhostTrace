@@ -1,0 +1,12 @@
+Command exited with code 1.
+
+Command output:
+Loaded 32 sample outputs and 32 requests.
+================================================================================
+CASE case_01 | Status: COMPLETE | User: None | Email: amina.elmasri@gmail.com | Audit: 2026-09-03T11:30:00Z
+Request: Hi, I haven�t used this account in years and would like it closed. Please remove the profile and the personal details attached to it.
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\inspect_samples.py", line 23, in <module>
+    print(f"  Step {s['step']:2d}: {s['action']:<25} | sys: {s['system_id']:<20} | res: {s['resource_id']:<25} | ev: {s['evidence_id']}")
+                    ~^^^^^^^^
+KeyError: 'step'

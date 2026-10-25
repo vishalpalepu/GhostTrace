@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+ExtractedObservation(file_id='evidence_51', source_path='hackerrank-orchestrate-october26-main\\dataset\\evidence\\records\\customer_data_snapshot_bundle_20260915.json', system_id='identity_service', resource_id='tombstone_440', observed_state='REDACTED', data_category='ACCOUNT_TOMBSTONE', subject_id='user_541', subject_email=None, subject_phone=None, observation_time=datetime.datetime(2026, 9, 15, 12, 0, tzinfo=datetime.timezone.utc), captured_at=datetime.datetime(2026, 9, 15, 12, 0, tzinfo=datetime.timezone.utc), extraction_method='JSON_PARSE', details={'collection': 'deleted_customer_references', 'raw': {'resource_id': 'tombstone_440', 'subject_reference': 'user_541', 'name': None, 'email': None, 'phone': None, 'email_hash': None, 'account_status': 'DELETED'}}, uncertainty=None)

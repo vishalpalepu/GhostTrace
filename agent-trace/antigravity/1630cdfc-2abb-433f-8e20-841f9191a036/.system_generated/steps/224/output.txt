@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Total users: 850
+Matches latest audit event_time: 196
+Differs from latest audit: 0
+Users with no audit records: 654

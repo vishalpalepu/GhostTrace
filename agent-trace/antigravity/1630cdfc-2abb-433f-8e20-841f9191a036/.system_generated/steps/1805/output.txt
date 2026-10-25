@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+4128 found in: dataset\sample_output.csv
+4128 found in: dataset\system_activity.csv
+4128 found in: dataset\evidence\records\customer_data_snapshot_bundle_20260917.json

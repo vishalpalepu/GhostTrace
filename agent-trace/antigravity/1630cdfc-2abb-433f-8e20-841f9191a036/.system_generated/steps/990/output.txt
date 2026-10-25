@@ -1,0 +1,14 @@
+Command exited with code 1.
+
+Command output:
+At line:4 char:95
++ ... race_id[\"\\\']?\s*[:=]\s*[\"\\\']?([a-zA-Z0-9_\-]+)[\"\\\']?', line)
++                                                                         ~
+Unexpected token ')' in expression or statement.
+At line:6 char:1
++ "
++ ~
+The string is missing the terminator: ".
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 11
+    print(f'{k}: type={type(val)}, len={len(val) if hasattr(val, " __len__\)
+                                                                 ^
+SyntaxError: unterminated string literal (detected at line 11)

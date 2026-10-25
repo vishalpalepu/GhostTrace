@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'file_id': 'evidence_03', 'file_path': 'evidence/records/customer_account_handover_20261001.txt', 'origin': 'customer_account_service', 'captured_at': '2026-10-01T12:00:00Z'}

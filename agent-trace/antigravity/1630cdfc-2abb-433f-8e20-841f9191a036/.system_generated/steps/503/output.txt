@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+service_export backup item: "backup_service"
+
+d2 keys: ['exported_at', 'source', 'snapshots']
+Key snapshots has backup info. Type <class 'list'>
+  Example item: {'captured_at': '2026-01-29T12:00:00Z', 'data_store': 'account_service', 'collection': 'customer_profiles', 'records': [{'resource_id': 'account_2424', 'customer_reference': 'user_521', 'full_name': 'Aarav Rao', 'email': 'aarav.r528@outlook.com', 'phone': '+91 91726 13808', 'account_status': 'ACTIVE', 'signup_channel': 'organic_search'}, {'resource_id': 'account_4974', 'customer_reference': 'user_523', 'full_name': 'Oliver Walker', 'email': 'o.walker6695@yahoo.com', 'phone': '+1 (646) 555-0123', 'account_status': 'ACTIVE', 'signup_channel': 'referral'}]}

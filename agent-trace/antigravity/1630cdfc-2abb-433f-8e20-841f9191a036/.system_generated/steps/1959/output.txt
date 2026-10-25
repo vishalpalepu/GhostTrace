@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+analytics_9914 ANONYMIZED {'level': 'DEBUG', 'service': 'analytics_platform', 'instance': 'analytics-2', 'pod': 'analytics-9b40', 'region': 'ap-south-1', 'trace_id': 'tr-9137340', 'resource_id': 'analytics_9914', 'event': 'contact_lookup_completed', 'rows': '1', 'email_opt_in': 'true', 'correlation_key': '44a65154bfd8e408852578fbd76813d094d1944f255ac1769ee81ba90492f10e', 'subject_hash': '44a65154bfd8e408852578fbd76813d094d1944f255ac1769ee81ba90492f10e'}

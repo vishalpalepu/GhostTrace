@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+case_63 decision with account_009: COMPLETE 1
+  AuditStep(step_no=1, phase='VERIFICATION', operation='VERIFY_RECORD_ABSENT', system_id='account_service', resource_id='account_009', state='ABSENT', evidence_id='evidence_54')

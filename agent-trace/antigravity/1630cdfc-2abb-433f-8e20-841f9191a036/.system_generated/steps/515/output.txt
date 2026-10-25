@@ -1,0 +1,36 @@
+Command exited with code 0.
+
+Command output:
+
+=== evidence_92: evidence/records/service_resource_export_20260915_114455.json ===
+{
+  "exported_at": "2026-09-15T11:44:55Z",
+  "region": "global",
+  "service_exports": {
+    "account_service": {
+      "profile_lookups": [
+        {
+          "observed_at": "2026-09-15T09:31:40Z",
+          "profile": null,
+          "resource_id": "account_3136",
+          "status_code": 404
+        },
+        {
+          "observed_at": "2026-09-15T09:59:48Z",
+          "profile": null,
+          "resource_id": "account_3866",
+          "status_code": 404
+        },
+        {
+          "observed_at": "2026-09-15T09:41:33Z",
+          "profile": {
+            "customer_reference": null,
+    
+
+=== evidence_93: evidence/databases/customer_data_inventory_20260916.sql ===
+PRAGMA foreign_keys=ON;
+BEGIN TRANSACTION;
+CREATE TABLE snapshot_scope (origin_system TEXT PRIMARY KEY, captured_at TEXT NOT NULL);
+CREATE TABLE customer_profiles (resource_id TEXT PRIMARY KEY, customer_reference TEXT, full_name TEXT, email TEXT, phone TEXT, email_hash TEXT, account_status TEXT NOT NULL, updated_at TEXT NOT NULL);
+CREATE TABLE customer_search_documents (resource_id TEXT PRIMARY KEY, customer_reference TEXT, display_name TEXT, email TEXT, phone TEXT, email_hash TEXT, index_name TEXT NOT NULL, updated_at TEXT NOT NULL);
+CREATE TABLE customer_analytics_profiles (resource_id TEXT 

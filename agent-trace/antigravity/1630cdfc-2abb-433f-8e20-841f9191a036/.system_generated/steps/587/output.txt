@@ -1,0 +1,101 @@
+Command exited with code 0.
+
+Command output:
+Table: customer_profiles_failover_replica
+  Schema: CREATE TABLE customer_profiles_failover_replica (
+                resource_id TEXT PRIMARY KEY, user_id TEXT NOT NULL,
+                full_name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT NOT NULL,
+                account_status TEXT NOT NULL, updated_at TEXT NOT NULL
+            )
+
+Table: customer_profiles_primary
+  Schema: CREATE TABLE customer_profiles_primary (
+                resource_id TEXT PRIMARY KEY, user_id TEXT NOT NULL,
+                full_name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT NOT NULL,
+                account_status TEXT NOT NULL, updated_at TEXT NOT NULL
+            )
+
+Table: customer_data_failover_replica
+  Schema: CREATE TABLE customer_data_failover_replica (
+            resource_id TEXT PRIMARY KEY,
+            origin_system TEXT NOT NULL,
+            collection_name TEXT NOT NULL,
+            record_json TEXT NOT NULL CHECK (json_valid(record_json)),
+            updated_at TEXT NOT NULL
+        )
+
+Table: customer_data_primary
+  Schema: CREATE TABLE customer_data_primary (
+            resource_id TEXT PRIMARY KEY,
+            origin_system TEXT NOT NULL,
+            collection_name TEXT NOT NULL,
+            record_json TEXT NOT NULL CHECK (json_valid(record_json)),
+            updated_at TEXT NOT NULL
+        )
+
+Table: snapshot_scope
+  Schema: CREATE TABLE snapshot_scope (origin_system TEXT PRIMARY KEY, captured_at TEXT NOT NULL)
+
+Table: customer_profiles
+  Schema: CREATE TABLE customer_profiles (resource_id TEXT PRIMARY KEY, customer_reference TEXT, full_name TEXT, email TEXT, phone TEXT, email_hash TEXT, account_status TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: customer_search_documents
+  Schema: CREATE TABLE customer_search_documents (resource_id TEXT PRIMARY KEY, customer_reference TEXT, display_name TEXT, email TEXT, phone TEXT, email_hash TEXT, index_name TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: customer_analytics_profiles
+  Schema: CREATE TABLE customer_analytics_profiles (resource_id TEXT PRIMARY KEY, customer_reference TEXT, email TEXT, phone TEXT, email_hash TEXT, audience_cohort TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: support_records
+  Schema: CREATE TABLE support_records (resource_id TEXT PRIMARY KEY, customer_reference TEXT, requester_name TEXT, requester_email TEXT, requester_phone TEXT, message_excerpt TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: customer_exports
+  Schema: CREATE TABLE customer_exports (resource_id TEXT PRIMARY KEY, customer_reference TEXT, owner_email TEXT, owner_phone TEXT, object_key TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: connector_subscriptions
+  Schema: CREATE TABLE connector_subscriptions (resource_id TEXT PRIMARY KEY, customer_reference TEXT, customer_email TEXT, connector_name TEXT NOT NULL, enabled INTEGER NOT NULL CHECK (enabled IN (0,1)), last_delivery_status TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: backup_restore_entries
+  Schema: CREATE TABLE backup_restore_entries (resource_id TEXT PRIMARY KEY, customer_reference TEXT, customer_email TEXT, archive_key TEXT NOT NULL, restore_allowed INTEGER NOT NULL CHECK (restore_allowed IN (0,1)), updated_at TEXT NOT NULL)
+
+Table: security_audit_records
+  Schema: CREATE TABLE security_audit_records (resource_id TEXT PRIMARY KEY, subject_reference TEXT NOT NULL, event_code TEXT NOT NULL, retention_until TEXT NOT NULL, updated_at TEXT NOT NULL)
+
+Table: customer_data_read_replica
+  Schema: CREATE TABLE customer_data_read_replica (
+            resource_id TEXT PRIMARY KEY,
+            origin_system TEXT NOT NULL,
+            collection_name TEXT NOT NULL,
+            record_json TEXT NOT NULL CHECK (json_valid(record_json)),
+            updated_at TEXT NOT NULL
+        )
+
+Table: customer_data_replica_ap_south
+  Schema: CREATE TABLE customer_data_replica_ap_south (
+            resource_id TEXT PRIMARY KEY,
+            origin_system TEXT NOT NULL,
+            collection_name TEXT NOT NULL,
+            record_json TEXT NOT NULL CHECK (json_valid(record_json)),
+            updated_at TEXT NOT NULL
+        )
+
+Table: customer_data_replica_eu_west
+  Schema: CREATE TABLE customer_data_replica_eu_west (
+            resource_id TEXT PRIMARY KEY,
+            origin_system TEXT NOT NULL,
+            collection_name TEXT NOT NULL,
+            record_json TEXT NOT NULL CHECK (json_valid(record_json)),
+            updated_at TEXT NOT NULL
+        )
+
+Table: customer_data_reporting_replica
+  Schema: CREATE TABLE customer_data_reporting_replica (
+            resource_id TEXT PRIMARY KEY,
+            origin_system TEXT NOT NULL,
+            collection_name TEXT NOT NULL,
+            record_json TEXT NOT NULL CHECK (json_valid(record_json)),
+            updated_at TEXT NOT NULL
+        )
+
+Table: search_documents_primary
+  Schema: CREATE TABLE search_documents_primary (resource_id TEXT PRIMARY KEY, display_name TEXT, email TEXT, source_resource_id TEXT, indexed_at TEXT)
+

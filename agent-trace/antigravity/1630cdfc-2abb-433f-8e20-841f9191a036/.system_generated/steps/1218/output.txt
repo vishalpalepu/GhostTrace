@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Loaded 518 evaluation requests.
+Non-deletion requests: 10 (cases ['case_533', 'case_534', 'case_535', 'case_536', 'case_537', 'case_538', 'case_539', 'case_540', 'case_541', 'case_542'])
+Deletion requests: 508

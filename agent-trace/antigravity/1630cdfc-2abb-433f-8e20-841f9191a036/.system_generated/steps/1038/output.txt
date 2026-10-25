@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+case_03: missing=set(), extra={'support_1066', 'data_flow_223', 'backup_6266', 'analytics_5589'}
+case_04: missing={'analytics_901', 'account_004'}, extra=set()
+case_07: missing={'support_001'}, extra=set()
+case_09: missing={'account_3960'}, extra={'support_6334', 'data_flow_6846', 'account_565', 'analytics_5718', 'backup_3933'}
+case_11: missing={'account_4248'}, extra={'account_146', 'search_2127', 'analytics_5715', 'search_4324', 'support_8765', 'data_flow_7759', 'search_459', 'analytics_9447', 'support_5742'}
+case_12: missing=set(), extra={'search_4801', 'search_428'}
+case_13: missing={'account_9335'}, extra={'search_1934', 'search_4262', 'analytics_037', 'data_flow_1770', 'support_5569', 'export_7689', 'data_flow_4890', 'account_5823', 'search_4013', 'search_5575'}
+case_14: missing=set(), extra={'search_3200', 'tombstone_9178', 'support_4887', 'tombstone_440', 'data_flow_7495'}
+case_15: missing={'account_4745'}, extra={'backup_3245', 'search_4882', 'account_4092'}
+case_16: missing={'account_994'}, extra={'analytics_4440', 'support_835', 'data_flow_5080', 'analytics_1738', 'search_2568', 'search_3995', 'data_flow_2406', 'search_8911', 'account_4990'}
+case_17: missing=set(), extra={'data_flow_9846', 'search_4882'}
+case_18: missing={'analytics_037', 'support_5569', 'data_flow_4890', 'account_5521', 'search_4013'}, extra={'account_5193'}
+case_19: missing={'account_9102'}, extra={'search_2352', 'export_1260', 'account_2373', 'analytics_3264'}
+case_20: missing={'account_5037', 'search_4262', 'data_flow_1770'}, extra={'account_5193'}
+case_21: missing={'account_6440'}, extra={'export_7364', 'support_1034', 'tombstone_8095', 'account_9155', 'search_2912', 'search_898', 'tombstone_8774', 'tombstone_3745'}
+case_22: missing=set(), extra={'support_835', 'analytics_1738', 'data_flow_5080', 'search_2568', 'search_3995', 'data_flow_2406', 'search_1007'}
+case_23: missing={'account_410'}, extra={'support_1034', 'tombstone_8095', 'account_9155', 'analytics_5335', 'search_2912', 'tombstone_8774', 'tombstone_3745'}
+case_24: missing={'account_5334'}, extra={'support_4715', 'backup_3120', 'account_7225', 'tombstone_7389', 'analytics_4566', 'tombstone_3963', 'analytics_1895', 'data_flow_6244'}
+case_25: missing={'account_3136'}, extra={'support_4715', 'backup_3120', 'account_7225', 'tombstone_7389', 'analytics_4566', 'tombstone_3963', 'search_5577', 'data_flow_6244'}
+case_26: missing={'account_5684'}, extra={'account_7225', 'tombstone_7389', 'tombstone_3963', 'analytics_1895', 'search_5577'}
+case_27: missing={'account_3866'}, extra={'account_7012', 'data_flow_2337', 'search_1993', 'backup_838', 'support_5281', 'analytics_5208', 'analytics_6077', 'support_2351', 'data_flow_3827'}
+case_28: missing={'account_5482'}, extra={'search_1993', 'support_5281', 'data_flow_2295', 'analytics_5208', 'account_7012', 'analytics_4574', 'support_4707', 'backup_5970', 'data_flow_3827'}
+case_29: missing=set(), extra={'data_flow_2337', 'backup_838', 'data_flow_2295', 'analytics_6077', 'support_2351', 'analytics_4574', 'support_4707', 'backup_5970'}
+case_31: missing={'account_4857'}, extra={'account_3677', 'search_3200', 'tombstone_9178', 'backup_3870', 'support_4887', 'data_flow_7495'}
+case_32: missing={'account_8858'}, extra={'account_3677', 'search_3200', 'backup_3870', 'support_4887', 'tombstone_440', 'data_flow_7495'}
+Total operational mismatches across 32 samples: missing=26, extra=136

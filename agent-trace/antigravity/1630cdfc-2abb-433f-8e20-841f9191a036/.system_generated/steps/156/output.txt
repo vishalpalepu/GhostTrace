@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 16
+    print(f'   FINDING: op={fd[" operation\]}
+                               ^
+SyntaxError: unterminated string literal (detected at line 16)

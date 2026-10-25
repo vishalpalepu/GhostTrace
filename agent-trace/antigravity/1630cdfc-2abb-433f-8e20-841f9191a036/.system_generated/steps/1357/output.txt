@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+{'observed_at': '2026-09-15T09:31:40Z', 'profile': None, 'resource_id': 'account_3136', 'status_code': 404}
+{'observed_at': '2026-09-15T09:59:48Z', 'profile': None, 'resource_id': 'account_3866', 'status_code': 404}
+{'observed_at': '2026-09-15T09:41:33Z', 'profile': {'customer_reference': None, 'email': 'keiko.nakamura@gmail.com', 'email_hash': None, 'full_name': None, 'phone': None}, 'resource_id': 'account_5334', 'status_code': 200}
+{'observed_at': '2026-09-15T11:07:16Z', 'profile': None, 'resource_id': 'account_5482', 'status_code': 404}
+{'observed_at': '2026-09-15T09:01:48Z', 'profile': None, 'resource_id': 'account_5684', 'status_code': 404}
+{'observed_at': '2026-09-15T09:31:19Z', 'profile': None, 'resource_id': 'account_6440', 'status_code': 404}

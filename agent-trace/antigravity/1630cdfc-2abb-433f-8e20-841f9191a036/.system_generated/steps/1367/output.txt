@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+Target user_27: found 4 entries:
+   backup_service: backup_5970
+   integration_service: data_flow_2295
+   security_service: audit_record_3830
+   support_platform: support_4707
+Target user_28: found 4 entries:
+   backup_service: backup_838
+   integration_service: data_flow_2337
+   security_service: audit_record_9265
+   support_platform: support_2351
+Target user_29: found 0 entries:
+Target smartinez6461@gmail.com: found 0 entries:
+Target ananya-nair@gmail.com: found 0 entries:
+Target noah.f438085@outlook.com: found 4 entries:
+   analytics_platform: analytics_5208
+   integration_service: data_flow_3827
+   search_service: search_1993
+   support_platform: support_5281

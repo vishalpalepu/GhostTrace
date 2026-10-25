@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+=== Sample Requests ===
+Total: 32
+=== Evaluation Requests ===
+Total: 518

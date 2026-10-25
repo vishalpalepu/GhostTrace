@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Package Version
+------- -------
+pip     25.0.1

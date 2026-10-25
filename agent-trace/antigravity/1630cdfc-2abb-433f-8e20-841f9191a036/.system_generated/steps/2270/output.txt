@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     14:01                .system_generated                                                    
+d-----        25-10-2026     14:01                .user_uploaded                                                       
+d-----        25-10-2026     19:26                scratch                                                              
+-a----        25-10-2026     19:57           6120 stage4_corrective_audit_report.md                                    
+-a----        25-10-2026     19:57            341 stage4_corrective_audit_report.md.metadata.json                      
+
+

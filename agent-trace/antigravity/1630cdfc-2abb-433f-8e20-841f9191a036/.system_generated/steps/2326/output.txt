@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Total manifest files: 94
+Earliest: evidence_62 2026-01-29T11:44:59Z evidence/records/service_resource_export_20260129_114459.json
+Latest:   evidence_50 2026-10-01T12:00:00Z evidence/records/security_audit_ledger_20261001.json

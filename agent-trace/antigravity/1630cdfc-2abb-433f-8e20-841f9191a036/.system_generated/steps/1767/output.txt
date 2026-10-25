@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+8858 in user_identities.csv
+3677 in user_identities.csv

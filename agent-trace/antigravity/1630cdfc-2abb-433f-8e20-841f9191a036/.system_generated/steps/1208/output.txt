@@ -1,0 +1,9 @@
+Command exited with code 1.
+
+Command output:
+Loaded 518 evaluation requests.
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\analyze_all_eval_cases.py", line 40, in <module>
+    res = intent_classifier.classify_text(r["request_text"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentClassifier' object has no attribute 'classify_text'

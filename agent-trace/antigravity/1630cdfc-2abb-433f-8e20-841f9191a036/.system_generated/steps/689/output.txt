@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Logged successfully to both log.txt locations.

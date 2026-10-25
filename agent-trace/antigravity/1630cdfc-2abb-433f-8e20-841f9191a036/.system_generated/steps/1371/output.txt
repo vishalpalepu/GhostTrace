@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+user_identities header: ['user_id', 'name', 'email', 'phone', 'email_hash', 'updated_at']
+evidence_54 sample: ['account_status TEXT NOT NULL, updated_at TEXT NOT NULL', 'INSERT INTO "customer_profiles_failover_replica" VALUES(\'account_005\',\'user_05\',\'Leila Haddad\',\'leila.haddad@yahoo.com\',\'+212 6 48 27 15 93\',\'ACTIVE\',\'2026-09-02T22:45:00Z\');', 'INSERT INTO "customer_profiles_failover_replica" VALUES(\'account_8741\',\'user_8741\',\'Karim El-Masri\',\'karim.elmasri@gmail.com\',\'+971 50 731 6284\',\'ACTIVE\',\'2026-09-02T22:45:00Z\');']
+evidence_03 sample: ['CUSTOMER PLATFORM - SHIFT HANDOVER', 'Snapshot: 2026-10-01T12:00:00Z', 'Account and downstream checks completed during the shift:']
+evidence_51 top keys: ['exported_at', 'source', 'snapshots']

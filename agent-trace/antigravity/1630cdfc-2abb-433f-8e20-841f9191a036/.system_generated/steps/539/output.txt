@@ -1,0 +1,96 @@
+Command exited with code 0.
+
+Command output:
+
+=======================================================
+Evidence ID: evidence_01 -> evidence/logs/service_events_ap_south_20260915.log (central_observability_export) captured at 2026-09-15T11:59:39Z
+Cited by 5 steps across cases: {'case_12', 'case_15', 'case_19', 'case_17'}
+   Case case_12: REPORT_REMAINING_RECORD on analytics_platform:analytics_9914 (state=PRESENT)
+   Case case_15: REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_9846 (state=ACTIVE)
+   Case case_17: REPORT_RESTORE_RISK on backup_service:backup_3245 (state=ACTIVE)
+   Case case_19: REPORT_REMAINING_RECORD on search_service:search_6083 (state=PRESENT)
+   Case case_19: REPORT_EXPOSED_PII on support_platform:support_9553 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_03 -> evidence/records/customer_account_handover_20261001.txt (customer_account_service) captured at 2026-10-01T12:00:00Z
+Cited by 7 steps across cases: {'case_14', 'case_11', 'case_13'}
+   Case case_11: REPORT_REMAINING_RECORD on search_service:search_052 (state=PRESENT)
+   Case case_11: REPORT_EXPOSED_PII on analytics_platform:analytics_2034 (state=PRESENT)
+   Case case_11: REPORT_EXPOSED_PII on support_platform:support_864 (state=PRESENT)
+   Case case_11: REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_9522 (state=ACTIVE)
+   Case case_13: REPORT_REMAINING_RECORD on search_service:search_1308 (state=PRESENT)
+   ... and 2 more citations
+
+=======================================================
+Evidence ID: evidence_05 -> evidence/databases/customer_data_read_replica_20260921.sql (customer_data_read_replica_capture) captured at 2026-09-21T10:00:00Z
+Cited by 4 steps across cases: {'case_22', 'case_16'}
+   Case case_16: REPORT_REMAINING_RECORD on account_service:account_994 (state=PRESENT)
+   Case case_16: REPORT_REMAINING_RECORD on search_service:search_1007 (state=PRESENT)
+   Case case_22: REPORT_REMAINING_RECORD on search_service:search_8911 (state=PRESENT)
+   Case case_22: REPORT_EXPOSED_PII on analytics_platform:analytics_4440 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_51 -> evidence/records/customer_data_snapshot_bundle_20260915.json (records_assurance_snapshot_bundle) captured at 2026-09-15T12:00:00Z
+Cited by 4 steps across cases: {'case_31', 'case_32'}
+   Case case_31: VERIFY_RECORD_ABSENT on account_service:account_4857 (state=ABSENT)
+   Case case_31: VERIFY_RECORD_PRESENT on security_service:audit_record_6909 (state=PRESENT)
+   Case case_31: VERIFY_RECORD_REDACTED on identity_service:tombstone_440 (state=REDACTED)
+   Case case_32: REPORT_EXPOSED_PII on identity_service:tombstone_9178 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_54 -> evidence/databases/customer_accounts_failover_replica_20260902.sql (customer_account_failover_replica_capture) captured at 2026-09-02T23:00:00Z
+Cited by 4 steps across cases: {'case_05', 'case_04', 'case_02', 'case_01'}
+   Case case_01: VERIFY_RECORD_ABSENT on account_service:account_001 (state=ABSENT)
+   Case case_02: VERIFY_RECORD_ABSENT on account_service:account_002 (state=ABSENT)
+   Case case_04: VERIFY_RECORD_ABSENT on account_service:account_004 (state=ABSENT)
+   Case case_05: REPORT_REMAINING_RECORD on account_service:account_005 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_56 -> evidence/records/customer_analytics_report_20260907.json (analytics_platform) captured at 2026-09-07T09:45:00Z
+Cited by 1 steps across cases: {'case_04'}
+   Case case_04: VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_901 (state=ANONYMIZED)
+
+=======================================================
+Evidence ID: evidence_57 -> evidence/databases/customer_search_primary_20260910.sql (customer_search_primary_capture) captured at 2026-09-10T08:45:00Z
+Cited by 1 steps across cases: {'case_06'}
+   Case case_06: REPORT_REMAINING_RECORD on search_service:search_001 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_58 -> evidence/documents/delivery_correction_attachment.pdf (support_platform) captured at 2026-09-12T07:30:00Z
+Cited by 1 steps across cases: {'case_07'}
+   Case case_07: REPORT_REMAINING_RECORD on support_platform:support_001 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_59 -> evidence/records/customer_export_jobs_20260914.json (export_service) captured at 2026-09-14T15:40:00Z
+Cited by 1 steps across cases: {'case_08'}
+   Case case_08: REPORT_REMAINING_RECORD on export_service:export_001 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_61 -> evidence/logs/support_replica.log (support_platform) captured at 2026-09-17T22:00:19Z
+Cited by 1 steps across cases: {'case_10'}
+   Case case_10: REPORT_REMAINING_RECORD on support_platform:support_002 (state=PRESENT)
+
+=======================================================
+Evidence ID: evidence_92 -> evidence/records/service_resource_export_20260915_114455.json (service_resource_export) captured at 2026-09-15T11:44:55Z
+Cited by 36 steps across cases: {'case_27', 'case_29', 'case_25', 'case_21', 'case_23', 'case_26', 'case_30', 'case_24', 'case_28'}
+   Case case_21: VERIFY_RECORD_ABSENT on account_service:account_6440 (state=ABSENT)
+   Case case_21: VERIFY_RECORD_PRESENT on security_service:audit_record_3737 (state=PRESENT)
+   Case case_21: VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_5335 (state=ANONYMIZED)
+   Case case_23: REPORT_REMAINING_RECORD on export_service:export_7364 (state=PRESENT)
+   Case case_23: REPORT_REMAINING_RECORD on search_service:search_898 (state=PRESENT)
+   ... and 31 more citations
+
+=======================================================
+Evidence ID: evidence_93 -> evidence/databases/customer_data_inventory_20260916.sql (customer_data_inventory_capture) captured at 2026-09-16T08:37:39Z
+Cited by 1 steps across cases: {'case_09'}
+   Case case_09: REPORT_RESTORE_RISK on backup_service:backup_4978 (state=ACTIVE)
+
+=======================================================
+Evidence ID: evidence_94 -> evidence/logs/resource_lookup_trace_20260926_103856.log (service_readback_logs) captured at 2026-09-26T10:38:56Z
+Cited by 9 steps across cases: {'case_03', 'case_20', 'case_18'}
+   Case case_03: VERIFY_RECORD_ABSENT on account_service:account_7566 (state=ABSENT)
+   Case case_03: VERIFY_RECORD_PRESENT on security_service:audit_record_2016 (state=PRESENT)
+   Case case_03: VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_9406 (state=ANONYMIZED)
+   Case case_18: REPORT_REMAINING_RECORD on search_service:search_4013 (state=PRESENT)
+   Case case_18: REPORT_EXPOSED_PII on analytics_platform:analytics_037 (state=PRESENT)
+   ... and 4 more citations

@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+case_01: MATCH -> account_001
+case_02: MATCH -> account_002
+case_03: MATCH -> account_7566
+case_04: MATCH -> account_004
+case_05: MATCH -> account_005
+case_06: MATCH -> account_006
+case_07: MATCH -> account_007
+case_08: MATCH -> account_008
+case_09: MISMATCH -> found account_565 vs expected account_3960
+case_10: MATCH -> account_010
+case_11: MATCH -> account_4248
+case_12: MATCH -> account_9797
+case_13: MATCH -> account_9335
+case_14: MATCH -> account_3677
+case_15: MATCH -> account_4745
+case_16: MATCH -> account_994
+case_17: MATCH -> account_4092
+case_18: MISMATCH -> found account_5193 vs expected account_5521
+case_19: MATCH -> account_9102
+case_20: MISMATCH -> found account_5193 vs expected account_5037
+case_21: MISMATCH -> found account_9155 vs expected account_6440
+case_22: MATCH -> account_4990
+case_23: MISMATCH -> found account_9155 vs expected account_410
+case_24: MATCH -> account_5334
+case_25: MISMATCH -> found account_7225 vs expected account_3136
+case_26: MISMATCH -> found account_7225 vs expected account_5684
+case_27: MISMATCH -> found account_7012 vs expected account_3866
+case_28: MISMATCH -> found account_7012 vs expected account_5482
+case_29: MATCH -> account_7012
+case_30: MATCH -> account_4163
+case_31: MISMATCH -> found account_3677 vs expected account_4857
+case_32: MISMATCH -> found account_3677 vs expected account_8858
+
+Account Resolution Accuracy: 21/32

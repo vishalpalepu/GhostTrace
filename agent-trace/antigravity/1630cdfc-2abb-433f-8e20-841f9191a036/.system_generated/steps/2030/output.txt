@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+case_01 ['evidence_id', 'operation', 'phase', 'resource_id', 'state', 'step_no', 'system_id']
+case_02 ['evidence_id', 'operation', 'phase', 'resource_id', 'state', 'step_no', 'system_id']
+case_03 ['step_no', 'phase', 'system_id', 'resource_id', 'operation', 'state', 'evidence_id']

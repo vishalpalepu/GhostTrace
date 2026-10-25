@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Stream data first 100 bytes: b"Gau`Thf%4>&:WfGR)`N[g$UNJlaLY[4#Q:\\%<a8pl/\\3XTu&]jQAb=khlL[R5o</R'1%I4T%TNMAnQ9O_LUX$Q%.6ki&ZURIkkCO"
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\decode_pdf_content.py", line 22, in <module>
+    a85_decoded = base64.a85decode(stream_data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\base64.py", line 430, in a85decode
+    raise ValueError('Non-Ascii85 digit found: %c' % x)
+ValueError: Non-Ascii85 digit found: ~

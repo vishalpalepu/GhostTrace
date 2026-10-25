@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+customer_accounts_failover_replica_20260902.sql
+                account_status TEXT NOT NULL, updated_at TEXT NOT NULL

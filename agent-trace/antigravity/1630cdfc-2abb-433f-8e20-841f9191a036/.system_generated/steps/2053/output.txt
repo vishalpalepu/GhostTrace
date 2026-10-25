@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     13:58                evaluation                                                           
+d-----        25-10-2026     16:09                evidence                                                             
+d-----        25-10-2026     16:14                graph                                                                
+d-----        25-10-2026     14:37                identity                                                             
+d-----        25-10-2026     14:37                ingestion                                                            
+d-----        25-10-2026     15:04                intent                                                               
+d-----        25-10-2026     17:27                planner                                                              
+d-----        25-10-2026     15:04                policy                                                               
+d-----        25-10-2026     19:21                serializer                                                           
+d-----        25-10-2026     16:13                tests                                                                
+da----        25-10-2026     14:37                __pycache__                                                          
+-a----        25-10-2026     14:35            843 config.py                                                            
+-a----        25-10-2026     13:58              0 main.py                                                              
+-a----        25-10-2026     14:35             40 __init__.py                                                          
+
+

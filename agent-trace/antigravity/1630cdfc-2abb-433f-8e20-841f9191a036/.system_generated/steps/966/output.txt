@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+2026-02-28T10:53:12Z [DEBUG] [account_service] [tr-5449438] profile_lookup_started: instance="account-2" pod="account-cb10" region="ap-south-1" lookup_key="jieun.c2902@zoho.com" attempt="1"
+2026-02-28T10:53:17Z [DEBUG] [account_service] [tr-5449438] cache_lookup: instance="account-2" pod="account-cb10" region="ap-south-1" result="miss" cache="account_service_lookup_v2"
+2026-02-28T10:53:18Z [INFO] [account_service] [tr-5449438] profile_lookup_completed: instance="account-2" pod="account-cb10" region="ap-south-1" resource_id="account_6645" rows="0" http_status="404" duration_ms="13"

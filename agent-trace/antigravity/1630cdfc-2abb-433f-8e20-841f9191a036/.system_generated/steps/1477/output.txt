@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Total raw obs for user_61: 3
+   file=evidence_06, res=audit_record_4902, sys=security_service, obs_time=2026-09-16 08:52:59+00:00, cap_time=2026-09-18 11:55:24+00:00
+   file=evidence_06, res=account_3960, sys=account_service, obs_time=2026-09-16 08:57:34+00:00, cap_time=2026-09-18 11:55:24+00:00
+   file=evidence_93, res=backup_4978, sys=backup_service, obs_time=2026-09-16 07:59:54+00:00, cap_time=2026-09-16 08:37:39+00:00

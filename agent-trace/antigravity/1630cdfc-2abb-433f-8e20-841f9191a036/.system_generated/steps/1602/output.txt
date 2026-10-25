@@ -1,0 +1,40 @@
+Command exited with code 0.
+
+Command output:
+Total obs in evidence_92: 36
+   res=account_3136       | sys=account_service      | sub=None       | email=None                          
+   res=account_3866       | sys=account_service      | sub=None       | email=None                          
+   res=account_5334       | sys=account_service      | sub=None       | email=keiko.nakamura@gmail.com      
+   res=account_5482       | sys=account_service      | sub=None       | email=None                          
+   res=account_5684       | sys=account_service      | sub=None       | email=None                          
+   res=account_6440       | sys=account_service      | sub=None       | email=None                          
+   res=analytics_1895     | sys=analytics_platform   | sub=None       | email=None                          
+   res=analytics_3697     | sys=analytics_platform   | sub=None       | email=camille.bernard86@outlook.com 
+   res=analytics_4566     | sys=analytics_platform   | sub=None       | email=None                          
+   res=analytics_4574     | sys=analytics_platform   | sub=None       | email=None                          
+   res=analytics_5208     | sys=analytics_platform   | sub=None       | email=noah.f438085@outlook.com      
+   res=analytics_5335     | sys=analytics_platform   | sub=None       | email=None                          
+   res=analytics_6077     | sys=analytics_platform   | sub=None       | email=None                          
+   res=backup_3120        | sys=backup_service       | sub=user_26    | email=None                          
+   res=backup_5970        | sys=backup_service       | sub=user_27    | email=None                          
+   res=backup_838         | sys=backup_service       | sub=user_28    | email=None                          
+   res=export_7364        | sys=export_service       | sub=None       | email=None                          
+   res=data_flow_2295     | sys=integration_service  | sub=user_27    | email=None                          
+   res=data_flow_2337     | sys=integration_service  | sub=user_28    | email=None                          
+   res=data_flow_3827     | sys=integration_service  | sub=None       | email=noah.f438085@outlook.com      
+   res=data_flow_6244     | sys=integration_service  | sub=user_26    | email=None                          
+   res=data_flow_8524     | sys=integration_service  | sub=None       | email=camille.bernard86@outlook.com 
+   res=search_1993        | sys=search_service       | sub=None       | email=None                          
+   res=search_5577        | sys=search_service       | sub=None       | email=None                          
+   res=search_898         | sys=search_service       | sub=None       | email=None                          
+   res=search_9359        | sys=search_service       | sub=None       | email=None                          
+   res=audit_record_3737  | sys=security_service     | sub=user_21    | email=None                          
+   res=audit_record_3830  | sys=security_service     | sub=user_27    | email=None                          
+   res=audit_record_451   | sys=security_service     | sub=user_25    | email=None                          
+   res=audit_record_5416  | sys=security_service     | sub=user_26    | email=None                          
+   res=audit_record_9265  | sys=security_service     | sub=user_28    | email=None                          
+   res=support_2351       | sys=support_platform     | sub=user_28    | email=None                          
+   res=support_4707       | sys=support_platform     | sub=user_27    | email=None                          
+   res=support_4715       | sys=support_platform     | sub=user_26    | email=None                          
+   res=support_5281       | sys=support_platform     | sub=None       | email=None                          
+   res=support_6477       | sys=support_platform     | sub=None       | email=None                          

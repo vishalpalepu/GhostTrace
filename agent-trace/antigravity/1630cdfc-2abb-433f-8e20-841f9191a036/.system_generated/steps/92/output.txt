@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+case_538 Please remove me from marketing lists only. I still want receipts and service messages for this account.

@@ -1,0 +1,55 @@
+Command exited with code 0.
+
+Command output:
+
+hackerrank-orchestrate-october26-main\dataset\sample_output.csv:2:case_01,COMPLETE,"[{""evidence_id"":""evidence_54"","
+"operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""account_001"",""state"":""ABSENT"","
+"step_no"":1,""system_id"":""account_service""}]"
+hackerrank-orchestrate-october26-main\dataset\sample_output.csv:3:case_02,COMPLETE,"[{""evidence_id"":""evidence_54"","
+"operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""account_002"",""state"":""ABSENT"","
+"step_no"":1,""system_id"":""account_service""}]"
+hackerrank-orchestrate-october26-main\dataset\sample_output.csv:6:case_05,INCOMPLETE,"[{""evidence_id"":""evidence_54""
+,""operation"":""REPORT_REMAINING_RECORD"",""phase"":""FINDING"",""resource_id"":""account_005"",""state"":""PRESENT"",
+""step_no"":1,""system_id"":""account_service""},{""evidence_id"":"""",""operation"":""DELETE_RECORD"",""phase"":""REME
+DIATION"",""resource_id"":""account_005"",""state"":""ABSENT"",""step_no"":2,""system_id"":""account_service""},{""evid
+ence_id"":"""",""operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""account_005"",""stat
+e"":""ABSENT"",""step_no"":3,""system_id"":""account_service""}]"
+hackerrank-orchestrate-october26-main\dataset\sample_output.csv:8:case_07,INCOMPLETE,"[{""evidence_id"":""evidence_58""
+,""operation"":""REPORT_REMAINING_RECORD"",""phase"":""FINDING"",""resource_id"":""support_001"",""state"":""PRESENT"",
+""step_no"":1,""system_id"":""support_platform""},{""evidence_id"":"""",""operation"":""DELETE_RECORD"",""phase"":""REM
+EDIATION"",""resource_id"":""support_001"",""state"":""ABSENT"",""step_no"":2,""system_id"":""support_platform""},{""ev
+idence_id"":"""",""operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""account_007"",""st
+ate"":""ABSENT"",""step_no"":3,""system_id"":""account_service""},{""evidence_id"":"""",""operation"":""VERIFY_RECORD_A
+BSENT"",""phase"":""VERIFICATION"",""resource_id"":""support_001"",""state"":""ABSENT"",""step_no"":4,""system_id"":""s
+upport_platform""}]"
+hackerrank-orchestrate-october26-main\dataset\sample_output.csv:11:case_10,INCOMPLETE,"[{""evidence_id"":""evidence_61"
+",""operation"":""REPORT_REMAINING_RECORD"",""phase"":""FINDING"",""resource_id"":""support_002"",""state"":""PRESENT""
+,""step_no"":1,""system_id"":""support_platform""},{""evidence_id"":"""",""operation"":""DELETE_RECORD"",""phase"":""RE
+MEDIATION"",""resource_id"":""support_002"",""state"":""ABSENT"",""step_no"":2,""system_id"":""support_platform""},{""e
+vidence_id"":"""",""operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""account_010"",""s
+tate"":""ABSENT"",""step_no"":3,""system_id"":""account_service""},{""evidence_id"":"""",""operation"":""VERIFY_RECORD_
+ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""support_002"",""state"":""ABSENT"",""step_no"":4,""system_id"":""
+support_platform""}]"
+hackerrank-orchestrate-october26-main\dataset\system_activity.csv:3343:activity_3342,2026-08-20T16:41:43Z,DELETE_RECORD
+,deletion_worker,account_service,account_001,SUCCESS,Deletion worker reported the requested operation as completed. 
+Target resource: account_001.
+hackerrank-orchestrate-october26-main\dataset\system_activity.csv:3377:activity_3376,2026-08-22T07:30:03Z,DELETE_RECORD
+,deletion_worker,account_service,account_002,PARTIAL,Deletion worker completed some internal work but could not 
+confirm the final state. Target resource: account_002.
+hackerrank-orchestrate-october26-main\dataset\system_activity.csv:3483:activity_3482,2026-08-28T09:11:01Z,DELETE_RECORD
+,deletion_worker,account_service,account_005,SUCCESS,Deletion worker reported the requested operation as completed. 
+Target resource: account_005.
+hackerrank-orchestrate-october26-main\dataset\system_activity.csv:3484:activity_3483,2026-08-28T09:11:09Z,SYNC_RECORD,a
+ccount_service,account_failover_replica,account_005,SUCCESS,Replication worker reported its final checkpoint. Target 
+resource: account_005.
+hackerrank-orchestrate-october26-main\dataset\system_activity.csv:3591:activity_3590,2026-09-01T19:28:39Z,DELETE_RECORD
+,deletion_worker,account_service,account_007,SUCCESS,Deletion worker reported the requested operation as completed. 
+Target resource: account_007.
+hackerrank-orchestrate-october26-main\dataset\system_activity.csv:3596:activity_3595,2026-09-02T10:08:37Z,DELETE_RECORD
+,deletion_worker,account_service,account_010,SUCCESS,Deletion worker reported the requested operation as completed. 
+Target resource: account_010.
+hackerrank-orchestrate-october26-main\dataset\evidence\databases\customer_accounts_failover_replica_20260902.sql:13:INS
+ERT INTO "customer_profiles_failover_replica" VALUES('account_005','user_05','Leila 
+Haddad','leila.haddad@yahoo.com','+212 6 48 27 15 93','ACTIVE','2026-09-02T22:45:00Z');
+
+

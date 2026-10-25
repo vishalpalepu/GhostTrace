@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+support_9553 deletion_worker REDACT_RECORD
+support_6477 deletion_worker REDACT_RECORD
+support_2351 deletion_worker REDACT_RECORD
+support_4707 deletion_worker REDACT_RECORD
+support_5281 deletion_worker REDACT_RECORD
+support_4715 deletion_worker REDACT_RECORD
+support_5569 deletion_worker REDACT_RECORD
+support_864 deletion_worker REDACT_RECORD

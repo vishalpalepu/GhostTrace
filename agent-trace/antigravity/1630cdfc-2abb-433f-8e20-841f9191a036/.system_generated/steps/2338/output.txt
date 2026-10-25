@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+2026-07-16T07:45:12Z account_service account_6372 DELETE_RECORD
+2026-07-16T08:05:56Z account_service account_923 DELETE_RECORD
+2026-07-16T09:38:04Z integration_service data_flow_9030 CHECK_DATA_FLOW
+2026-07-16T09:57:33Z search_service search_7363 DELETE_RECORD
+2026-07-16T10:04:18Z search_service search_460 DELETE_RECORD
+2026-07-16T10:16:03Z support_platform support_5323 REDACT_RECORD
+2026-07-16T10:35:32Z analytics_platform analytics_3006 ANONYMIZE_RECORD
+2026-07-17T04:49:49Z account_service account_3064 DELETE_RECORD
+2026-07-17T05:00:33Z account_service account_9549 DELETE_RECORD
+2026-07-17T05:09:34Z account_service account_1837 DELETE_RECORD
+2026-07-17T05:31:14Z analytics_platform analytics_6402 ANONYMIZE_RECORD
+2026-07-17T06:59:26Z search_service search_5261 DELETE_RECORD
+2026-07-17T07:11:11Z search_service search_8678 DELETE_RECORD
+2026-07-17T07:18:55Z support_platform support_3155 REDACT_RECORD
+2026-07-17T07:30:40Z support_platform support_3586 REDACT_RECORD
+2026-07-17T07:49:10Z analytics_platform analytics_2713 ANONYMIZE_RECORD

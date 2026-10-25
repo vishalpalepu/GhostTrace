@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+2026-09-16T08:52:59Z {"severity":"DEBUG","logger":"security_service","service":"security_service","instance":"security-5","pod":"security-c548","region":"ap-south-1","trace_id":"tr-9028396","resource_id":"audit_record_4902","event":"audit_record_read_completed","integrity_check":"passed","rows":"1"}

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+2026-02-18T06:55:54Z level=DEBUG service=security_service trace_id=rb-065554-010 event=audit_record_read_started resource_id=audit_record_5451 lookup_key=user_484
+2026-02-18T06:55:54Z level=INFO service=security_service trace_id=rb-065554-010 event=audit_record_read_completed resource_id=audit_record_5451 rows=1 subject_reference=user_484 event_code=ACCOUNT_DELETION_RECORDED retention_until=2031-12-31T23:59:59Z
+2026-02-18T07:57:31Z level=DEBUG service=security_service trace_id=rb-075731-019 event=audit_record_read_started resource_id=audit_record_7073 lookup_key=user_489
+2026-02-18T07:57:31Z level=INFO service=security_service trace_id=rb-075731-019 event=audit_record_read_completed resource_id=audit_record_7073 rows=1 subject_reference=user_489 event_code=SUBJECT_REQUEST_AUDITED retention_until=2033-12-31T23:59:59Z

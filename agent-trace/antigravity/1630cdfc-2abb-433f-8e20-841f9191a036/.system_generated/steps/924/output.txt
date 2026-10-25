@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+search_4013 True
+analytics_037 True
+support_5569 True
+data_flow_4890 True
+audit_record_6645 False

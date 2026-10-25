@@ -1,0 +1,23 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-31: character maps to <undefined>
+case_01 --> Hi, I haven�t used this account in years and would like it closed. Please remove the profile and the personal details attached to it.
+case_02 --> Intent� eliminar mi cuenta ayer, pero la p�gina termin� mostrando un error. �Pueden comprobar si todav�a queda alg�n dato y completar la eliminaci�n si hace falta?
+case_03 --> Je demande la suppression d�finitive du compte associ� � cette adresse e-mail. Veuillez examiner les identifiants actuels et ant�rieurs conform�ment � votre proc�dure de confidentialit�. Merci de confirmer le r�sultat une fois la v�rification termin�e.
+case_04 --> I�m deleting my account. You can keep anonymous statistics, but nothing in analytics should still point back to me.
+case_05 --> I deleted this account and received a confirmation, but the same email address is still recognized. Please remove any remaining copy of my profile.
+case_06 --> My account page is gone, but my old profile still appears when I search for it. Can you remove that search result too?
+case_07 --> Please delete my account and the identity document I sent to support while resolving a delivery issue.
+case_08 --> I closed my account, but an old �download your data� link still works. Please delete that export file as well.
+case_09 --> Please permanently delete the account associated with this email address. Please apply the correct treatment to records covered by the request. Please confirm when the review is complete.
+case_10 --> I used this Yahoo address before changing the email on my account. Please remove records linked to both the old and current addresses.
+case_11 --> I would like the account associated with this address to be erased. Please handle any copies that fall within the scope of the deletion request. Please contact me if you need information to verify the request.
+case_12 --> I changed the email on this account before deleting it. Please check that nothing tied to the old address was left behind, even in systems that do not display the email.
+case_13 --> Please close my account and process the associated personal-data deletion. Please check the records connected to the account before confirming completion. Please contact me if you need information to verify the request.
+case_14 --> 

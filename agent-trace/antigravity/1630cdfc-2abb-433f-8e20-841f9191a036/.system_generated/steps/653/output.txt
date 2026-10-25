@@ -1,0 +1,46 @@
+Command exited with code 0.
+
+Command output:
+Building identity resolver...
+Building evidence index...
+Loading sample requests and ground truth...
+
+--- case_01 (user=user_01, audit_at=2026-09-03T11:30:00+00:00) ---
+Extracted from Evidence Index:
+Ground Truth in sample_output.csv:
+   ('account_service', 'account_001', 'ABSENT', 'evidence_54')
+
+--- case_02 (user=user_02, audit_at=2026-09-04T15:00:00+00:00) ---
+Extracted from Evidence Index:
+Ground Truth in sample_output.csv:
+   ('account_service', 'account_002', 'ABSENT', 'evidence_54')
+
+--- case_03 (user=user_43, audit_at=2026-09-26T11:00:00+00:00) ---
+Extracted from Evidence Index:
+   ('account_service', 'account_7566', 'PRESENT', 'evidence_94')
+   ('security_service', 'audit_record_2016', 'PRESENT', 'evidence_94')
+Ground Truth in sample_output.csv:
+   ('account_service', 'account_7566', 'ABSENT', 'evidence_94')
+   ('analytics_platform', 'analytics_9406', 'ANONYMIZED', 'evidence_94')
+   ('security_service', 'audit_record_2016', 'PRESENT', 'evidence_94')
+
+--- case_04 (user=user_04, audit_at=2026-09-07T10:20:00+00:00) ---
+Extracted from Evidence Index:
+Ground Truth in sample_output.csv:
+   ('account_service', 'account_004', 'ABSENT', 'evidence_54')
+   ('analytics_platform', 'analytics_901', 'ANONYMIZED', 'evidence_56')
+
+--- case_05 (user=user_05, audit_at=2026-09-08T13:40:00+00:00) ---
+Extracted from Evidence Index:
+   ('account_service', 'account_005', 'PRESENT', 'evidence_54')
+Ground Truth in sample_output.csv:
+   ('account_service', 'account_005', 'ABSENT', '')
+   ('account_service', 'account_005', 'PRESENT', 'evidence_54')
+
+--- case_06 (user=user_06, audit_at=2026-09-10T09:15:00+00:00) ---
+Extracted from Evidence Index:
+   ('search_service', 'search_001', 'PRESENT', 'evidence_57')
+Ground Truth in sample_output.csv:
+   ('account_service', 'account_006', 'ABSENT', '')
+   ('search_service', 'search_001', 'ABSENT', '')
+   ('search_service', 'search_001', 'PRESENT', 'evidence_57')

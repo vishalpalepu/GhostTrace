@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+Total unique evidence_id cited in sample_output.csv: 13
+  evidence_01 (file_id, count=5): [('case_12', 'FINDING', 'REPORT_REMAINING_RECORD', 'analytics_platform', 'analytics_9914'), ('case_15', 'FINDING', 'REPORT_ACTIVE_DATA_FLOW', 'integration_service', 'data_flow_9846')]
+  evidence_03 (file_id, count=7): [('case_11', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_052'), ('case_11', 'FINDING', 'REPORT_EXPOSED_PII', 'analytics_platform', 'analytics_2034')]
+  evidence_05 (file_id, count=4): [('case_16', 'FINDING', 'REPORT_REMAINING_RECORD', 'account_service', 'account_994'), ('case_16', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_1007')]
+  evidence_51 (file_id, count=4): [('case_31', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_4857'), ('case_31', 'VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service', 'audit_record_6909')]
+  evidence_54 (file_id, count=4): [('case_01', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_001'), ('case_02', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_002')]
+  evidence_56 (file_id, count=1): [('case_04', 'VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform', 'analytics_901')]
+  evidence_57 (file_id, count=1): [('case_06', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_001')]
+  evidence_58 (file_id, count=1): [('case_07', 'FINDING', 'REPORT_REMAINING_RECORD', 'support_platform', 'support_001')]
+  evidence_59 (file_id, count=1): [('case_08', 'FINDING', 'REPORT_REMAINING_RECORD', 'export_service', 'export_001')]
+  evidence_61 (file_id, count=1): [('case_10', 'FINDING', 'REPORT_REMAINING_RECORD', 'support_platform', 'support_002')]
+  evidence_92 (file_id, count=36): [('case_21', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_6440'), ('case_21', 'VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service', 'audit_record_3737')]
+  evidence_93 (file_id, count=1): [('case_09', 'FINDING', 'REPORT_RESTORE_RISK', 'backup_service', 'backup_4978')]
+  evidence_94 (file_id, count=9): [('case_03', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_7566'), ('case_03', 'VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service', 'audit_record_2016')]

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+OCR Error: Method invocation failed because [System.__ComObject] does not contain a method named 'GetAwaiter'.

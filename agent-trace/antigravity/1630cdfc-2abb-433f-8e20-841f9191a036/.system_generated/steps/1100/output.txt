@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Deletion worker event types: {'CHECK_DATA_FLOW', 'RETAIN_RECORD', 'DISABLE_DATA_FLOW', 'CHECK_RESTORE_ACCESS', 'DELETE_RECORD', 'BLOCK_RESTORE', 'REDACT_RECORD', 'ANONYMIZE_RECORD'}
+Deletion worker activities with user_ in details: 0/1466
+Deletion worker activities with email in details: 0/1466

@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+code.zip contains 41 entries
+code.zip structure verification: PASS

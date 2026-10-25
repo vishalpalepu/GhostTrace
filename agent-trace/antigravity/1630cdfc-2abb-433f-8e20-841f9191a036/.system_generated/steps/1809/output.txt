@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+security_service {'resource_id': 'audit_record_4128', 'subject_reference': 'user_23', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000001020'}

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Tables in evidence_54: [('customer_profiles_failover_replica',), ('customer_profiles_primary',)]
+Rows found:
+  ('account_005', 'user_05', 'Leila Haddad', 'leila.haddad@yahoo.com', '+212 6 48 27 15 93', 'ACTIVE', '2026-09-02T22:45:00Z')
+Total rows in customer_profiles_failover_replica: 4

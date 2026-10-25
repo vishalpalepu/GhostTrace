@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+sample_deletion_requests.csv curr=29, hist=3, missing=0, total=32
+deletion_requests.csv curr=418, hist=100, missing=0, total=518

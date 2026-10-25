@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 20
+    print(f'=== {cid} ({row[" deletion_status\]})
+                            ^
+SyntaxError: unterminated string literal (detected at line 20)

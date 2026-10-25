@@ -1,0 +1,94 @@
+Command exited with code 0.
+
+Command output:
+
+=================== case_01 (COMPLETE) ===================
+Graph resources: []
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('account_service', 'account_001', 'VERIFY_RECORD_ABSENT', 'ABSENT', 'evidence_54')
+
+=================== case_02 (COMPLETE) ===================
+Graph resources: []
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('account_service', 'account_002', 'VERIFY_RECORD_ABSENT', 'ABSENT', 'evidence_54')
+
+=================== case_03 (COMPLETE) ===================
+Graph resources: [('account_service', 'account_7566'), ('security_service', 'audit_record_2016')]
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('account_service', 'account_7566', 'VERIFY_RECORD_ABSENT', 'ABSENT', 'evidence_94')
+   ('security_service', 'audit_record_2016', 'VERIFY_RECORD_PRESENT', 'PRESENT', 'evidence_94')
+   ('analytics_platform', 'analytics_9406', 'VERIFY_RECORD_ANONYMIZED', 'ANONYMIZED', 'evidence_94')
+
+=================== case_04 (COMPLETE) ===================
+Graph resources: []
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('account_service', 'account_004', 'VERIFY_RECORD_ABSENT', 'ABSENT', 'evidence_54')
+   ('analytics_platform', 'analytics_901', 'VERIFY_RECORD_ANONYMIZED', 'ANONYMIZED', 'evidence_56')
+
+=================== case_05 (INCOMPLETE) ===================
+Graph resources: [('account_service', 'account_005')]
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('account_service', 'account_005', 'REPORT_REMAINING_RECORD', 'PRESENT', 'evidence_54')
+   ('account_service', 'account_005', 'DELETE_RECORD', 'ABSENT', '')
+   ('account_service', 'account_005', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+
+=================== case_06 (INCOMPLETE) ===================
+Graph resources: [('search_service', 'search_001')]
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('search_service', 'search_001', 'REPORT_REMAINING_RECORD', 'PRESENT', 'evidence_57')
+   ('search_service', 'search_001', 'DELETE_RECORD', 'ABSENT', '')
+   ('account_service', 'account_006', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+   ('search_service', 'search_001', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+
+=================== case_07 (INCOMPLETE) ===================
+Graph resources: [('support_platform', 'support_001')]
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('support_platform', 'support_001', 'REPORT_REMAINING_RECORD', 'PRESENT', 'evidence_58')
+   ('support_platform', 'support_001', 'DELETE_RECORD', 'ABSENT', '')
+   ('account_service', 'account_007', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+   ('support_platform', 'support_001', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+
+=================== case_08 (INCOMPLETE) ===================
+Graph resources: [('document_archive', 'doc_evidence_27'), ('user_export_store', 'export_001')]
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('export_service', 'export_001', 'REPORT_REMAINING_RECORD', 'PRESENT', 'evidence_59')
+   ('export_service', 'export_001', 'DELETE_RECORD', 'ABSENT', '')
+   ('account_service', 'account_008', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+   ('export_service', 'export_001', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+
+=================== case_09 (INCOMPLETE) ===================
+Graph resources: []
+Graph processes: []
+Graph restore_paths: ['backup_4978']
+Ground Truth steps:
+   ('backup_service', 'backup_4978', 'REPORT_RESTORE_RISK', 'ACTIVE', 'evidence_93')
+   ('backup_service', 'backup_4978', 'BLOCK_RESTORE', 'BLOCKED', '')
+   ('account_service', 'account_3960', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+   ('security_service', 'audit_record_4902', 'VERIFY_RECORD_PRESENT', 'PRESENT', '')
+   ('backup_service', 'backup_4978', 'VERIFY_RESTORE_BLOCKED', 'BLOCKED', '')
+
+=================== case_10 (INCOMPLETE) ===================
+Graph resources: []
+Graph processes: []
+Graph restore_paths: []
+Ground Truth steps:
+   ('support_platform', 'support_002', 'REPORT_REMAINING_RECORD', 'PRESENT', 'evidence_61')
+   ('support_platform', 'support_002', 'DELETE_RECORD', 'ABSENT', '')
+   ('account_service', 'account_010', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')
+   ('support_platform', 'support_002', 'VERIFY_RECORD_ABSENT', 'ABSENT', '')

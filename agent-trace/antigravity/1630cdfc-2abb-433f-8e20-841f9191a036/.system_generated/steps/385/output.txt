@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Keys in step: ['evidence_id', 'operation', 'phase', 'resource_id', 'state', 'step_no', 'system_id']
+First step example: {'evidence_id': 'evidence_54', 'operation': 'VERIFY_RECORD_ABSENT', 'phase': 'VERIFICATION', 'resource_id': 'account_001', 'state': 'ABSENT', 'step_no': 1, 'system_id': 'account_service'}

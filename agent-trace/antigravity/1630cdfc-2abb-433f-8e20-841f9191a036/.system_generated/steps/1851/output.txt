@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'file_id': 'evidence_01', 'file_path': 'evidence/logs/service_events_ap_south_20260915.log', 'origin': 'central_observability_export', 'captured_at': '2026-09-15T11:59:39Z'}

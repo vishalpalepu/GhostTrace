@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+Testing refined planner logic against all 32 sample cases...
+
+case_01  COMPLETE   Disc=1 GT=1 | MATCH
+case_02  COMPLETE   Disc=1 GT=1 | MATCH
+case_03  COMPLETE   Disc=3 GT=3 | DIFF (missing={'analytics_9406'}, extra={'analytics_5589'})
+case_04  COMPLETE   Disc=2 GT=2 | MATCH
+case_05  INCOMPLETE Disc=1 GT=1 | MATCH
+case_06  INCOMPLETE Disc=2 GT=2 | MATCH
+case_07  INCOMPLETE Disc=2 GT=2 | MATCH
+case_08  INCOMPLETE Disc=2 GT=2 | MATCH
+case_09  INCOMPLETE Disc=3 GT=3 | DIFF (missing={'account_3960', 'audit_record_4902'}, extra={'account_565', 'analytics_5718'})
+case_10  INCOMPLETE Disc=2 GT=2 | MATCH
+case_11  INCOMPLETE Disc=6 GT=6 | MATCH
+case_12  INCOMPLETE Disc=3 GT=3 | MATCH
+case_13  INCOMPLETE Disc=5 GT=4 | DIFF (missing=set(), extra={'analytics_037'})
+case_14  INCOMPLETE Disc=3 GT=3 | MATCH
+case_15  INCOMPLETE Disc=3 GT=3 | MATCH
+case_16  INCOMPLETE Disc=3 GT=3 | MATCH
+case_17  INCOMPLETE Disc=4 GT=3 | DIFF (missing=set(), extra={'account_6523'})
+case_18  INCOMPLETE Disc=5 GT=6 | DIFF (missing={'account_5521', 'audit_record_6645'}, extra={'account_5193'})
+case_19  INCOMPLETE Disc=5 GT=4 | DIFF (missing=set(), extra={'analytics_3264'})
+case_20  INCOMPLETE Disc=4 GT=4 | DIFF (missing={'account_5037', 'audit_record_5569'}, extra={'analytics_2265', 'account_5193'})
+case_21  COMPLETE   Disc=3 GT=3 | DIFF (missing={'account_6440'}, extra={'account_9155'})
+case_22  INCOMPLETE Disc=4 GT=4 | MATCH
+case_23  INCOMPLETE Disc=4 GT=4 | DIFF (missing={'audit_record_4128', 'account_410'}, extra={'account_9155', 'analytics_5335'})
+case_24  INCOMPLETE Disc=3 GT=3 | DIFF (missing={'audit_record_7095'}, extra={'analytics_4566'})
+case_25  COMPLETE   Disc=3 GT=3 | DIFF (missing={'analytics_1895', 'account_3136'}, extra={'account_7225', 'analytics_4566'})
+case_26  COMPLETE   Disc=6 GT=6 | DIFF (missing={'account_5684'}, extra={'account_7225'})
+case_27  COMPLETE   Disc=6 GT=6 | DIFF (missing={'account_3866', 'analytics_4574'}, extra={'account_7012', 'analytics_6077'})
+case_28  COMPLETE   Disc=6 GT=6 | DIFF (missing={'account_5482'}, extra={'account_7012'})
+case_29  INCOMPLETE Disc=5 GT=6 | DIFF (missing={'audit_record_3954'}, extra=set())
+case_30  INCOMPLETE Disc=5 GT=6 | DIFF (missing={'audit_record_1707'}, extra=set())
+case_31  COMPLETE   Disc=3 GT=3 | DIFF (missing={'account_4857'}, extra={'account_3677'})
+case_32  INCOMPLETE Disc=3 GT=3 | DIFF (missing={'account_8858'}, extra={'account_3677'})

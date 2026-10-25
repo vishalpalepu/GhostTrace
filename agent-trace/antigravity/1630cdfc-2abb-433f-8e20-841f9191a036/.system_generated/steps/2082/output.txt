@@ -1,0 +1,22 @@
+Command exited with code 1.
+
+Command output:
+At line:23 char:89
++ ... il']}): {len(matching_acc)} account acts -> {[a['resource_id'] for a  ...
++                                                     ~~~~~~~~~~~~~
+Unexpected token ''resource_id'' in expression or statement.
+At line:23 char:103
++ ... l']}): {len(matching_acc)} account acts -> {[a['resource_id'] for a i ...
++                                                                  ~
+Missing ] at end of attribute or type literal.
+At line:23 char:104
++ ... ): {len(matching_acc)} account acts -> {[a['resource_id'] for a in ma ...
++                                                               ~~~
+Unexpected token 'for' in expression or statement.
+At line:23 char:107
++ ... ): {len(matching_acc)} account acts -> {[a['resource_id'] for a in ma ...
++                                                                  ~
+Missing opening '(' after keyword 'for'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

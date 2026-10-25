@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+Timestamp formats found:
+  deletion_requests.csv:requested_at:%Y-%m-%dT%H:%M:%SZ: 518 values
+  deletion_requests.csv:reported_at:%Y-%m-%dT%H:%M:%SZ: 518 values
+  deletion_requests.csv:audit_at:%Y-%m-%dT%H:%M:%SZ: 518 values
+  sample_deletion_requests.csv:requested_at:%Y-%m-%dT%H:%M:%SZ: 32 values
+  sample_deletion_requests.csv:reported_at:%Y-%m-%dT%H:%M:%SZ: 32 values
+  sample_deletion_requests.csv:audit_at:%Y-%m-%dT%H:%M:%SZ: 32 values
+  evidence_files.csv:captured_at:%Y-%m-%dT%H:%M:%SZ: 94 values
+  system_activity.csv:event_time:%Y-%m-%dT%H:%M:%SZ: 4011 values
+  user_audit_log.csv:event_time:%Y-%m-%dT%H:%M:%SZ: 306 values
+  user_identities.csv:updated_at:%Y-%m-%dT%H:%M:%SZ: 850 values

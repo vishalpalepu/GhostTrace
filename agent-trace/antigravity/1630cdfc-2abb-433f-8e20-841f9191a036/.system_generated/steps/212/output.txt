@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        25-10-2026     13:58             35 output.csv                                                           
+
+

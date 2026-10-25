@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 5
+    print(f'Count of snapshots: {len(data[" snapshots\])}')
+                                          ^
+SyntaxError: unterminated string literal (detected at line 5)

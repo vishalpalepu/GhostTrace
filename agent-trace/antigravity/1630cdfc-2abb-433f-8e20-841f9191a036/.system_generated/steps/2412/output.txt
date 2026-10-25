@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:34:15,249 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:34:15,263 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:34:15,264 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:34:15,366 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:34:15,386 [INFO] Loaded 4011 system activity records
+Diff in: case_31
+  Pred: [{'evidence_id': 'evidence_54', 'operation': 'VERIFY_RECORD_ABSENT', 'phase': 'VERIFICATION', 'resource_id': 'account_4857', 'state': 'ABSENT', 'step_no': 1, 'system_id': 'account_service'}, {'evidence_id': 'evidence_51', 'operation': 'VERIFY_RECORD_PRESENT', 'phase': 'VERIFICATION', 'resource_id': 'audit_record_6909', 'state': 'PRESENT', 'step_no': 2, 'system_id': 'security_service'}, {'evidence_id': 'evidence_51', 'operation': 'VERIFY_RECORD_REDACTED', 'phase': 'VERIFICATION', 'resource_id': 'tombstone_440', 'state': 'REDACTED', 'step_no': 3, 'system_id': 'identity_service'}]
+  GT:   [{'step_no': 1, 'phase': 'VERIFICATION', 'system_id': 'account_service', 'resource_id': 'account_4857', 'operation': 'VERIFY_RECORD_ABSENT', 'state': 'ABSENT', 'evidence_id': 'evidence_51'}, {'step_no': 2, 'phase': 'VERIFICATION', 'system_id': 'security_service', 'resource_id': 'audit_record_6909', 'operation': 'VERIFY_RECORD_PRESENT', 'state': 'PRESENT', 'evidence_id': 'evidence_51'}, {'step_no': 3, 'phase': 'VERIFICATION', 'system_id': 'identity_service', 'resource_id': 'tombstone_440', 'operation': 'VERIFY_RECORD_REDACTED', 'state': 'REDACTED', 'evidence_id': 'evidence_51'}]

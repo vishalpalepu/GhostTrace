@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Found user_25 in service: security_service
+  Item: {'event_code': 'ACCOUNT_DELETION_RECORDED', 'observed_at': '2026-09-15T10:07:33Z', 'resource_id': 'audit_record_451', 'retention_until': '2031-12-31T23:59:59Z', 'subject_reference': 'user_25'}

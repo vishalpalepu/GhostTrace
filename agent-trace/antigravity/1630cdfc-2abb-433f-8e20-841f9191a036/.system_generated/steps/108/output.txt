@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Found account_001 in: sample_output.csv
+Found account_001 in: system_activity.csv

@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+sys= : The term 'sys=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:18 char:63
++ ...    print(f\"   step {s.get('step')}: {s.get('action')} | sys={s.get(' ...
++                                                              ~~~~
+    + CategoryInfo          : ObjectNotFound: (sys=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+deletion_requests.csv case_id unique: True (total 518, unique 518)
+sample_deletion_requests.csv case_id unique: True (total 32, unique 32)
+sample_output.csv case_id unique: True (total 32, unique 32)
+evidence_files.csv file_id unique: True (total 94, unique 94)
+system_activity.csv activity_id unique: True (total 4011, unique 4011)
+user_audit_log.csv audit_id unique: True (total 306, unique 306)
+user_identities.csv user_id unique: True (total 850, unique 850)
+deletion_rules.csv rule_id unique: True (total 15, unique 15)
+Evidence manifest formats: {'.log': 26, '.json': 28, '.txt': 1, '.png': 11, '.sql': 24, '.pdf': 4}
+Missing files from evidence_files.csv: 0
+Actual files on disk under evidence/: 94 {'.sql': 24, '.pdf': 4, '.png': 11, '.log': 26, '.json': 28, '.txt': 1}

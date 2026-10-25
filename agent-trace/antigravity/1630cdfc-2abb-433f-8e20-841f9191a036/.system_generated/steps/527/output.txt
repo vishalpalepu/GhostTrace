@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+backup_3245 in evidence_01: 2026-09-15T11:54:41Z level=ERROR service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 resource_id=backup_3245 event=restore_candidate_evaluated eligible=true deletion_block=false

@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+search_1007 in sample_output.csv
+search_1007 in system_activity.csv
+search_1007 in customer_data_read_replica_20260921.sql

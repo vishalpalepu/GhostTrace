@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Total resource lines: 912
+Lines with subject: 682
+Recovered through trace context: 87

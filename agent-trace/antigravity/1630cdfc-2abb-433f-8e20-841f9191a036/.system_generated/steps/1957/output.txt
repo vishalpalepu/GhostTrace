@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+=== case_09 (INCOMPLETE) ===
+  FINDING REPORT_RESTORE_RISK backup_service backup_4978 ACTIVE evidence_93
+  REMEDIATION BLOCK_RESTORE backup_service backup_4978 BLOCKED 
+  VERIFICATION VERIFY_RECORD_ABSENT account_service account_3960 ABSENT 
+  VERIFICATION VERIFY_RECORD_PRESENT security_service audit_record_4902 PRESENT 
+  VERIFICATION VERIFY_RESTORE_BLOCKED backup_service backup_4978 BLOCKED 
+=== case_12 (INCOMPLETE) ===
+  FINDING REPORT_REMAINING_RECORD analytics_platform analytics_9914 PRESENT evidence_01
+  REMEDIATION DELETE_RECORD analytics_platform analytics_9914 ABSENT 
+  VERIFICATION VERIFY_RECORD_ABSENT account_service account_9797 ABSENT 
+  VERIFICATION VERIFY_RECORD_ABSENT analytics_platform analytics_9914 ABSENT 
+  VERIFICATION VERIFY_RECORD_PRESENT security_service audit_record_2945 PRESENT 
+=== case_16 (INCOMPLETE) ===
+  FINDING REPORT_REMAINING_RECORD account_service account_994 PRESENT evidence_05
+  FINDING REPORT_REMAINING_RECORD search_service search_1007 PRESENT evidence_05
+  REMEDIATION DELETE_RECORD account_service account_994 ABSENT 
+  REMEDIATION DELETE_RECORD search_service search_1007 ABSENT 
+  VERIFICATION VERIFY_RECORD_ABSENT account_service account_994 ABSENT 
+  VERIFICATION VERIFY_RECORD_ABSENT search_service search_1007 ABSENT 
+  VERIFICATION VERIFY_RECORD_PRESENT security_service audit_record_9528 PRESENT 
+=== case_31 (COMPLETE) ===
+  VERIFICATION VERIFY_RECORD_ABSENT account_service account_4857 ABSENT evidence_51
+  VERIFICATION VERIFY_RECORD_PRESENT security_service audit_record_6909 PRESENT evidence_51
+  VERIFICATION VERIFY_RECORD_REDACTED identity_service tombstone_440 REDACTED evidence_51
+=== case_32 (INCOMPLETE) ===
+  FINDING REPORT_EXPOSED_PII identity_service tombstone_9178 PRESENT evidence_51
+  REMEDIATION REDACT_RECORD identity_service tombstone_9178 REDACTED 
+  VERIFICATION VERIFY_RECORD_ABSENT account_service account_8858 ABSENT 
+  VERIFICATION VERIFY_RECORD_PRESENT security_service audit_record_7068 PRESENT 
+  VERIFICATION VERIFY_RECORD_REDACTED identity_service tombstone_9178 REDACTED 

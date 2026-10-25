@@ -1,0 +1,38 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     16:09                evidence                                                             
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evidence
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        25-10-2026     16:09           6254 evidence_index.py                                                    
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evidence\__pycache__
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        25-10-2026     16:10           7822 evidence_index.cpython-312.pyc                                       
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     13:58                evidence                                                             
+-a----        25-10-2026     13:58          11089 evidence_files.csv                                                   
+
+

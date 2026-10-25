@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+Name        Source                                                            CommandType
+----        ------                                                            -----------
+python.exe  C:\Users\visha\AppData\Local\Programs\Python\Python312\python.exe Application
+python3.exe C:\Users\visha\AppData\Local\Microsoft\WindowsApps\python3.exe    Application
+
+

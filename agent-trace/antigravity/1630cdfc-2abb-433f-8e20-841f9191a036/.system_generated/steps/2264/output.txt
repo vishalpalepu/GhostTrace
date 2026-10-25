@@ -1,0 +1,45 @@
+Command exited with code 0.
+
+Command output:
+Total files staged for code.zip: 41
+  AGENTS.md
+  README.md
+  agent_trace_instructions.md
+  code\__init__.py
+  code\config.py
+  code\evaluation\evaluation_report.md
+  code\evaluation\main.py
+  code\evaluation\usage_report.md
+  code\evidence\__init__.py
+  code\evidence\document_extractor.py
+  code\evidence\evidence_index.py
+  code\evidence\json_extractor.py
+  code\evidence\log_extractor.py
+  code\evidence\models.py
+  code\evidence\sql_extractor.py
+  code\graph\__init__.py
+  code\graph\builder.py
+  code\graph\models.py
+  code\identity\__init__.py
+  code\identity\models.py
+  code\identity\resolver.py
+  code\ingestion\__init__.py
+  code\ingestion\csv_loader.py
+  code\intent\__init__.py
+  code\intent\classifier.py
+  code\main.py
+  code\planner\__init__.py
+  code\planner\audit_planner.py
+  code\planner\models.py
+  code\policy\__init__.py
+  code\policy\rules_engine.py
+  code\serializer\__init__.py
+  code\serializer\csv_serializer.py
+  code\tests\__init__.py
+  code\tests\test_graph.py
+  code\tests\test_identity.py
+  code\tests\test_intent.py
+  code\tests\test_planner.py
+  code\tests\test_policy.py
+  code\tests\test_serializer.py
+  problem_statement.md

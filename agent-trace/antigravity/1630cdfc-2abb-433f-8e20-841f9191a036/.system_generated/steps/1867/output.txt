@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+account_service {'resource_id': 'account_3866', 'customer_reference': 'user_27', 'full_name': 'Ananya Nair', 'email': 'ananya-nair@gmail.com', 'phone': '+91 97441 66195', 'account_status': 'ACTIVE', 'signup_channel': 'referral'}

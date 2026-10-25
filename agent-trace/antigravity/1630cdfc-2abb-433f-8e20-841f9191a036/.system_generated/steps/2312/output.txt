@@ -1,0 +1,10 @@
+Command exited with code 1.
+
+Command output:
+Copy-Item : Could not find a part of the path 'C:\Vishal\scratch\output_backup_before_check4.csv'.
+At line:1 char:87
++ ... CALAPPDATA; Copy-Item -Path "hackerrank-orchestrate-october26-main\ou ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.CopyItemCommand
+ 

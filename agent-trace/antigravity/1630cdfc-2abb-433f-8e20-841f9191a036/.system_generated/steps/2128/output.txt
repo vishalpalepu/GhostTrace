@@ -1,0 +1,306 @@
+Command exited with code 0.
+
+Command output:
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_failover_replica" VALUES('account_005','user_05','Leila Haddad','leil
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_failover_replica" VALUES('account_8741','user_8741','Karim El-Masri',
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_failover_replica" VALUES('account_9116','user_9116','Mateo Rios Gil',
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_failover_replica" VALUES('account_7204','user_7204','Priya Ramanathan
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_primary" VALUES('account_8741','user_8741','Karim El-Masri','karim.el
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_primary" VALUES('account_9116','user_9116','Mateo Rios Gil','m.rios.g
+customer_accounts_failover_replica_20260902.sql INSERT INTO "customer_profiles_primary" VALUES('account_7204','user_7204','Priya Ramanathan','p.rama
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_1037','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_1491','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_3831','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_5041','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_518','security_service','security_
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_6244','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_6970','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('audit_record_7352','security_service','security
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_205','identity_service','deleted_cust
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_3745','identity_service','deleted_cus
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_3963','identity_service','deleted_cus
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_7389','identity_service','deleted_cus
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_8095','identity_service','deleted_cus
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_8648','identity_service','deleted_cus
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_8774','identity_service','deleted_cus
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_failover_replica" VALUES('tombstone_946','identity_service','deleted_cust
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1037','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1491','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3831','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5041','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_518','security_service','security_audit_eve
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6244','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6970','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7352','security_service','security_audit_ev
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_205','identity_service','deleted_customer_refe
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_3745','identity_service','deleted_customer_ref
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_3963','identity_service','deleted_customer_ref
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_7389','identity_service','deleted_customer_ref
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_8095','identity_service','deleted_customer_ref
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_8648','identity_service','deleted_customer_ref
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_8774','identity_service','deleted_customer_ref
+customer_data_failover_replica_20260920.sql INSERT INTO "customer_data_primary" VALUES('tombstone_946','identity_service','deleted_customer_refe
+customer_data_inventory_20260213.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-02-13T07:43:27Z');
+customer_data_inventory_20260213.sql INSERT INTO customer_profiles VALUES ('account_3626', NULL, NULL, 'daniel.m47291@outlook.com', NULL,
+customer_data_inventory_20260213.sql INSERT INTO customer_profiles VALUES ('account_634', NULL, NULL, 'O.ERIKSEN10@YAHOO.COM', NULL, NULL
+customer_data_inventory_20260310.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-03-10T05:38:48Z');
+customer_data_inventory_20260404.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-04-04T10:04:19Z');
+customer_data_inventory_20260504.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-05-04T09:41:47Z');
+customer_data_inventory_20260504.sql INSERT INTO customer_profiles VALUES ('account_2475', NULL, NULL, 'a.ionescu1879@yahoo.com', NULL, N
+customer_data_inventory_20260524.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-05-24T06:39:55Z');
+customer_data_inventory_20260618.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-06-18T11:44:03Z');
+customer_data_inventory_20260618.sql INSERT INTO customer_profiles VALUES ('account_2981', NULL, NULL, 'rina.y488481@outlook.com', NULL, 
+customer_data_inventory_20260618.sql INSERT INTO customer_profiles VALUES ('account_4181', NULL, NULL, 'j.rodrigues22@yahoo.com', NULL, N
+customer_data_inventory_20260703.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-07-03T07:43:56Z');
+customer_data_inventory_20260723.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-07-23T11:43:30Z');
+customer_data_inventory_20260723.sql INSERT INTO customer_profiles VALUES ('account_8423', NULL, NULL, 'z.popescu54@yahoo.com', NULL, NUL
+customer_data_inventory_20260817.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-08-17T09:42:50Z');
+customer_data_inventory_20260817.sql INSERT INTO customer_profiles VALUES ('account_6673', NULL, NULL, 's.tshabalala42@yahoo.com', NULL, 
+customer_data_inventory_20260905.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-09-05T07:18:01Z');
+customer_data_inventory_20260916.sql INSERT INTO snapshot_scope VALUES ('account_service', '2026-09-16T08:37:39Z');
+customer_data_inventory_20260916.sql INSERT INTO customer_profiles VALUES ('account_9079', NULL, NULL, 'rafael.r9464@outlook.com', NULL, 
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1421','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1876','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2453','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2513','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2927','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3335','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4812','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7193','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9256','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9890','security_service','security_audit_ev
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('account_3150','account_service','customer_profiles'
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('account_9608','account_service','customer_profiles'
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_1421','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_1876','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2453','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2513','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2927','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_3335','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4812','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_7193','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9256','security_service','security_aud
+customer_data_read_replica_20260613.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9890','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1159','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2697','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2736','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3261','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3578','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5023','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6796','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7804','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8189','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9878','security_service','security_audit_ev
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('account_4348','account_service','customer_profiles'
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_1159','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2697','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2736','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_3261','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_3578','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_5023','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_6796','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_7804','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8189','security_service','security_aud
+customer_data_read_replica_20260708.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9878','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2580','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4199','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5652','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5890','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6362','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8002','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8742','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8821','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9665','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9882','security_service','security_audit_ev
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('account_8023','account_service','customer_profiles'
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2580','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4199','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_5652','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_5890','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_6362','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8002','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8742','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8821','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9665','security_service','security_aud
+customer_data_read_replica_20260802.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9882','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1469','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2718','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4082','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4520','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6230','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7572','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8723','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8933','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9268','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9522','security_service','security_audit_ev
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('account_6345','account_service','customer_profiles'
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_1469','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_2718','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4082','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4520','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_6230','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_7572','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8723','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8933','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9268','security_service','security_aud
+customer_data_read_replica_20260827.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9522','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3482','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4078','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4316','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4889','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_629','security_service','security_audit_eve
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6325','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7219','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8465','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9528','security_service','security_audit_ev
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_primary" VALUES('audit_record_962','security_service','security_audit_eve
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('account_994','account_service','customer_profiles',
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_3482','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4078','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4316','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_4889','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_629','security_service','security_audi
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_6325','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_7219','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_8465','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_9528','security_service','security_aud
+customer_data_read_replica_20260921.sql INSERT INTO "customer_data_read_replica" VALUES('audit_record_962','security_service','security_audi
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2559','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4216','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4330','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4522','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4733','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5455','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5637','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6099','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6152','security_service','security_audit_ev
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_primary" VALUES('audit_record_896','security_service','security_audit_eve
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('account_5389','account_service','customer_profi
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_2559','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_4216','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_4330','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_4522','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_4733','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_5455','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_5637','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_6099','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_6152','security_service','security
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_896','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_2559','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_4216','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_4330','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_4522','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_4733','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_5455','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_5637','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_6099','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_6152','security_service','security_
+customer_data_regional_replicas_20260330.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_896','security_service','security_a
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1151','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1395','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2605','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2641','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_350','security_service','security_audit_eve
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5773','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7587','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_771','security_service','security_audit_eve
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8638','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9286','security_service','security_audit_ev
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_1151','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_1395','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_2605','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_2641','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_350','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_5773','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_7587','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_771','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_8638','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_9286','security_service','security
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('account_6539','account_service','customer_profil
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('account_8105','account_service','customer_profil
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_1151','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_1395','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_2605','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_2641','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_350','security_service','security_a
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_5773','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_7587','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_771','security_service','security_a
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_8638','security_service','security_
+customer_data_regional_replicas_20260424.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_9286','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1945','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3221','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4759','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_507','security_service','security_audit_eve
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5129','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5640','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6245','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6559','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7923','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_primary" VALUES('audit_record_9051','security_service','security_audit_ev
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('account_585','account_service','customer_profil
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_1945','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_3221','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_4759','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_507','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_5129','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_5640','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_6245','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_6559','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_7923','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_ap_south" VALUES('audit_record_9051','security_service','security
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_1945','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_3221','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_4759','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_507','security_service','security_a
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_5129','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_5640','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_6245','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_6559','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_7923','security_service','security_
+customer_data_regional_replicas_20260519.sql INSERT INTO "customer_data_replica_eu_west" VALUES('audit_record_9051','security_service','security_
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1361','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2323','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3441','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3733','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4219','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4266','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_4883','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_5454','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_7627','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8154','security_service','security_audit_ev
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('account_1035','account_service','customer_prof
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_1361','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_2323','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_3441','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_3733','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_4219','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_4266','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_4883','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_5454','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_7627','security_service','securit
+customer_data_reporting_replica_20260208.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_8154','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1171','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_1369','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2775','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_2788','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3600','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_3883','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6171','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_641','security_service','security_audit_eve
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_6750','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_primary" VALUES('audit_record_8176','security_service','security_audit_ev
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('account_3183','account_service','customer_prof
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_1171','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_1369','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_2775','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_2788','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_3600','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_3883','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_6171','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_641','security_service','security
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_6750','security_service','securit
+customer_data_reporting_replica_20260305.sql INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_8176','security_service','securit
+customer_search_primary_20260910.sql INSERT INTO "search_documents_primary" VALUES('search_001','Jonas Berg','jonas.berg@outlook.com','ac
+customer_search_primary_20260910.sql INSERT INTO "search_documents_primary" VALUES('search_8814','Jonas Berglund','jonas.berglund@outlook
+customer_search_primary_20260910.sql INSERT INTO "search_documents_primary" VALUES('search_4203','Joana Berg','joana.berg@outlook.com','a

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Found user_43 in notification_delivery_20260315.log
+Found account_7566 in resource_lookup_trace_20260926_103856.log
+Found user_43 in resource_lookup_trace_20260926_103856.log
+Found user_43 in customer_data_snapshot_bundle_20260322.json

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+(case_id: str, email: str, requested_at: datetime.datetime, reported_status: str, reported_at: datetime.datetime, audit_at: datetime.datetime, request_text: str) -> None

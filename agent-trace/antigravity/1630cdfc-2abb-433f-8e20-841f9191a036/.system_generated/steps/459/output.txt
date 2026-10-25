@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Obj 5 decompressed (1888 bytes). Text ops found: 0
+Obj 6 decompressed (41008 bytes). Text ops found: 0
+Obj 9 decompressed (1873 bytes). Text ops found: 0
+Obj 10 decompressed (45456 bytes). Text ops found: 0

@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 26
+    print(f'Differs: {uid} updated_at={ident[" updated_at\]}
+                                             ^
+SyntaxError: unterminated string literal (detected at line 26)

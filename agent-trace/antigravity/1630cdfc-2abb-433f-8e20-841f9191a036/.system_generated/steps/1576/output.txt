@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+'user_50' found in customer_data_inventory_20260213.sql
+'user_50' found in customer_data_reporting_replica_20260208.sql
+'6645' found in application_trace_eu_north_20260302.log
+'user_48' found in resource_lookup_trace_20260218_083911.log
+'mori.ren@gmail.com' found in resource_lookup_trace_20260926_103856.log
+'akosua.gyasi@gmail.com' found in resource_lookup_trace_20260926_103856.log
+'user_48' found in customer_data_snapshot_bundle_20260223.json

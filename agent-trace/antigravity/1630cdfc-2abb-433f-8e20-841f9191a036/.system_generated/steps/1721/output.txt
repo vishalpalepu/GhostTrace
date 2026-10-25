@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+case_01: MISMATCH | Missing: set() | Extra: {'analytics_3264'}
+case_02: PERFECT MATCH (1 resources)
+case_03: MISMATCH | Missing: {'analytics_9406'} | Extra: {'analytics_5589'}
+case_04: PERFECT MATCH (2 resources)
+case_05: PERFECT MATCH (1 resources)
+case_06: PERFECT MATCH (2 resources)
+case_07: PERFECT MATCH (2 resources)
+case_08: PERFECT MATCH (2 resources)
+case_09: MISMATCH | Missing: {'account_3960', 'audit_record_4902'} | Extra: {'account_565', 'analytics_5718'}
+case_10: PERFECT MATCH (2 resources)
+case_11: PERFECT MATCH (6 resources)
+case_12: MISMATCH | Missing: {'analytics_9914'} | Extra: set()
+case_13: MISMATCH | Missing: set() | Extra: {'analytics_037'}
+case_14: MISMATCH | Missing: set() | Extra: {'analytics_5335'}
+case_15: PERFECT MATCH (3 resources)
+case_16: MISMATCH | Missing: set() | Extra: {'analytics_4440'}
+case_17: MISMATCH | Missing: set() | Extra: {'account_6523', 'analytics_8539'}
+case_18: MISMATCH | Missing: {'audit_record_6645', 'account_5521'} | Extra: {'account_9335'}
+case_19: MISMATCH | Missing: set() | Extra: {'analytics_3264'}
+case_20: MISMATCH | Missing: {'audit_record_5569', 'account_5037'} | Extra: {'account_9335', 'analytics_2265'}
+case_21: MISMATCH | Missing: {'account_6440'} | Extra: {'account_9155'}
+case_22: PERFECT MATCH (4 resources)
+case_23: MISMATCH | Missing: {'audit_record_4128', 'account_410'} | Extra: {'analytics_5335', 'account_9155'}
+case_24: MISMATCH | Missing: {'audit_record_7095'} | Extra: {'analytics_4566'}
+case_25: MISMATCH | Missing: {'account_3136', 'analytics_1895'} | Extra: {'account_7225', 'analytics_4566'}
+case_26: MISMATCH | Missing: {'account_5684'} | Extra: {'account_7225'}
+case_27: MISMATCH | Missing: {'analytics_4574', 'account_3866'} | Extra: {'account_7012', 'analytics_6077'}
+case_28: MISMATCH | Missing: {'account_5482'} | Extra: {'account_7012'}
+case_29: MISMATCH | Missing: {'audit_record_3954'} | Extra: set()
+case_30: MISMATCH | Missing: {'audit_record_1707'} | Extra: set()
+case_31: MISMATCH | Missing: {'account_4857'} | Extra: {'analytics_5335', 'account_3677'}
+case_32: MISMATCH | Missing: {'account_8858'} | Extra: {'analytics_5335', 'account_3677'}

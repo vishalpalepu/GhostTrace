@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Total manifest files: 94
+Total observations indexed across all 94 files: 3173
+Observations by file type: {'.log': 1336, '.json': 890, '.txt': 41, '.png': 11, '.sql': 891, '.pdf': 4}

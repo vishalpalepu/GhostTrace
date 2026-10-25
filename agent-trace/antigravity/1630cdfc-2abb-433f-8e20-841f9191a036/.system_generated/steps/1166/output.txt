@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+activity_2845 2026-07-17T04:49:49Z DELETE_RECORD account_service account_3064 SUCCESS
+activity_2846 2026-07-17T05:00:33Z DELETE_RECORD account_service account_9549 SUCCESS
+activity_2847 2026-07-17T05:09:34Z DELETE_RECORD account_service account_1837 SUCCESS
+activity_2849 2026-07-17T05:31:14Z ANONYMIZE_RECORD analytics_platform analytics_6402 SUCCESS
+activity_2852 2026-07-17T06:59:26Z DELETE_RECORD search_service search_5261 FAILED
+activity_2853 2026-07-17T07:11:11Z DELETE_RECORD search_service search_8678 FAILED
+activity_2854 2026-07-17T07:18:55Z REDACT_RECORD support_platform support_3155 FAILED
+activity_2856 2026-07-17T07:30:40Z REDACT_RECORD support_platform support_3586 FAILED
+activity_2857 2026-07-17T07:49:10Z ANONYMIZE_RECORD analytics_platform analytics_2713 FAILED

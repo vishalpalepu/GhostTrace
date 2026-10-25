@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+Total steps across 32 sample cases: 193
+Missing from evidence: 18
+   Case case_01: account_001 (account_service)
+   Case case_02: account_002 (account_service)
+   Case case_04: account_004 (account_service)
+   Case case_07: support_001 (support_platform)
+   Case case_07: support_001 (support_platform)
+   Case case_07: account_007 (account_service)
+   Case case_07: support_001 (support_platform)
+   Case case_08: account_008 (account_service)
+   Case case_10: account_010 (account_service)
+   Case case_18: account_5521 (account_service)
+   Case case_18: audit_record_6645 (security_service)
+   Case case_20: account_5037 (account_service)
+   Case case_20: audit_record_5569 (security_service)
+   Case case_22: account_4990 (account_service)
+   Case case_29: account_7012 (account_service)
+   Case case_30: account_4163 (account_service)
+   Case case_31: account_4857 (account_service)
+   Case case_32: account_8858 (account_service)

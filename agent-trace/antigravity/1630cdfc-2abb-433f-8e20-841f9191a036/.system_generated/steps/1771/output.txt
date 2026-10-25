@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+2026-09-30T11:51:46Z requestId=tr-3290290 level=DEBUG function=profile_service message="instance=\"profile-7\" pod=\"profile-5412\" region=\"us-east-2\" resource_id=\"account_12964\" event=\"profile_lookup_completed\" rows=\"1\" http_status=\"200\" duration_ms=\"24\" correlation_key=\"sdlamini7693@gmail.com\""
+2026-09-30T11:51:53Z requestId=tr-5427620 level=DEBUG function=profile_service message="instance=\"profile-7\" pod=\"profile-8ac2\" region=\"us-east-2\" resource_id=\"account_62727\" event=\"profile_lookup_completed\" rows=\"1\" http_status=\"200\" duration_ms=\"70\" correlation_key=\"nana-gyasi@proton.me\""
+2026-09-30T11:54:53Z requestId=tr-9148570 level=DEBUG function=profile_service message="instance=\"profile-1\" pod=\"profile-8752\" region=\"us-east-2\" resource_id=\"account_18272\" event=\"profile_lookup_completed\" rows=\"1\" http_status=\"200\" duration_ms=\"20\" correlation_key=\"jcho3001@gmail.com\""
+2026-09-30T11:54:57Z requestId=tr-9447830 level=DEBUG function=profile_service message="instance=\"profile-7\" pod=\"profile-4772\" region=\"us-east-2\" resource_id=\"account_58858\" event=\"profile_lookup_completed\" rows=\"1\" http_status=\"200\" duration_ms=\"19\" correlation_key=\"lindiwe.khumalo@outlook.com\""

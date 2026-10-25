@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Sample Failed: case_26 --> I found an old report saying my account still existed. Please check the latest state and confirm that the profile is gone and that remaining records cannot identify me.

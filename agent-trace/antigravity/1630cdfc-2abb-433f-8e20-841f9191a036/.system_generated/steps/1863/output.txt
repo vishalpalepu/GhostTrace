@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+account_service / profile_lookups: {'observed_at': '2026-09-15T09:31:40Z', 'profile': None, 'resource_id': 'account_3136', 'status_code': 404}
+account_service / profile_lookups: {'observed_at': '2026-09-15T09:41:33Z', 'profile': {'customer_reference': None, 'email': 'keiko.nakamura@gmail.com', 'email_hash': None, 'full_name': None, 'phone': None}, 'resource_id': 'account_5334', 'status_code': 200}
+account_service / profile_lookups: {'observed_at': '2026-09-15T09:01:48Z', 'profile': None, 'resource_id': 'account_5684', 'status_code': 404}

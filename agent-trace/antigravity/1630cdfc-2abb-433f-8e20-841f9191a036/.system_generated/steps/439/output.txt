@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+All unique evidence_ids cited in sample_output.csv:
+['', 'evidence_01', 'evidence_03', 'evidence_05', 'evidence_51', 'evidence_54', 'evidence_56', 'evidence_57', 'evidence_58', 'evidence_59', 'evidence_61', 'evidence_92', 'evidence_93', 'evidence_94']
+
+Are any images/pdfs/txt cited in sample_output.csv?
+YES: evidence_03
+YES: evidence_58

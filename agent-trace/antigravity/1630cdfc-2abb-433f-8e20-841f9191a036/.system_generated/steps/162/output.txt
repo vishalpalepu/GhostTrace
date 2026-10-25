@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+sample_output.csv
+evidence\logs\structured_service_events_eu_west_20260918.log

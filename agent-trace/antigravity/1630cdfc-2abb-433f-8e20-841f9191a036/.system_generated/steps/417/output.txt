@@ -1,0 +1,44 @@
+Command exited with code 0.
+
+Command output:
+4. For every user turn, append a summary entry using �5.2.
+5. When building, testing, evaluating, or packaging the solution, follow the project contract in �6.
+
+Do not skip logging or rewrite old log entries. Sub-agents and worktrees use the same log file.
+
+---
+
+## 1. What This Repo Is
+
+This is a starter repo for the **HackerRank Orchestrate** challenge: **Ghost Data Still Exists**.
+
+Participants must build an AI-powered deletion-audit agent. For every request in `dataset/deletion_requests.csv`, the agent first determines whether the person actually requested deletion. For an authorized deletion, it reconstructs the person's current and historical identifiers, searches global activity and evidence, applies the supplied deletion policy, and decides whether the deletion is complete.
+
+The dataset models a commerce platform where a workflow can report **Complete** while personal data remains in databases, replicas, logs, support attachments, exports, search indexes, analytics records, archives, or backups. Active synchronization and restore processes can also recreate data that was deleted from its original source. Reported statuses and activity results are claims; the agent must establish the state at each case's `audit_at` time from the supplied evidence.
+
+When deletion is incomplete, the agent reports the remaining records and recreation risks, produces a safe ordered remediation plan, and states the verification checks that must pass afterward. When deletion is complete, it returns the evidence-backed verification checks that prove the required state. It must preserve records required by policy and correctly handle account tombstones whose stable internal user reference remains while prohibited direct identifiers are removed.
+
+The final submission must produce `output.csv` with:
+
+```text
+case_id,deletion_status,steps_json
+```
+
+Read `problem_statement.md` for the full participant-facing specification.
+
+---
+
+## 2. Log File � Location And Lifecycle
+
+The log file is named `log.txt` and lives in the same directory as this `AGENTS.md` file � the repository root.
+
+| Platform | Path |
+|---|---|
+| macOS / Linux | `<directory containing AGENTS.md>/log.txt` |
+| Windows | `<directory containing AGENTS.md>\log.txt` |
+
+Resolve the path relative to this file. Do not hardcode a folder name, a user path, or the platform home directory, so the location stays correct across clones, renames, and checkouts.
+
+Rules:
+
+

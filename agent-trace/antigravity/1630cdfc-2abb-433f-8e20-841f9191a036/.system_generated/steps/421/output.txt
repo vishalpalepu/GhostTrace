@@ -1,0 +1,46 @@
+Command exited with code 0.
+
+Command output:
+## 5. Log Format
+
+### 5.1 Session Start Entry
+
+```text
+## [ISO-8601 TIMESTAMP] SESSION START
+
+tool=<exact_harness_or_coding_agent_name>
+model=<exact_runtime_model_name>
+Repo Root: <absolute_path>
+Branch: <git_branch_or_unknown>
+Worktree: <worktree_path_or_main>
+Parent Agent: <parent_agent_name_or_none>
+Language: <js|ts|py|custom:name>
+Time Remaining: <Xd Yh Zm, or not configured>
+```
+
+### 5.2 Per-Turn Entry
+
+Append after every user message you respond to:
+
+```text
+## [ISO-8601 TIMESTAMP] <short title, max 80 chars>
+
+User Prompt (verbatim, secrets redacted):
+<exact user message, with secrets replaced by [REDACTED]>
+
+Agent Response Summary:
+<2-5 sentences: what was done, why, and any important decision>
+
+Actions:
+* <file edited / command run / tool invoked>
+
+Context:
+tool=<exact_harness_or_coding_agent_name>
+model=<exact_runtime_model_name>
+branch=<git_branch_or_unknown>
+repo_root=<absolute_path>
+worktree=<worktree_path_or_main>
+parent_agent=<parent_name_or_none>
+```
+
+**Mandatory tool-name rule:** Every `SESSION START` and per-turn log entry must contain one non-empty `tool=` line with the exact name of the coding harness or agent writing the entry. Replace the template value before writing the log. The entry is invalid if `tool=` is missing, blank, still contains a placeholder, uses a generic label such as `AI`, contains only a model name, or names a different harness. Before responding, verify the value against the harness identity provided by the current runtime and re-read 

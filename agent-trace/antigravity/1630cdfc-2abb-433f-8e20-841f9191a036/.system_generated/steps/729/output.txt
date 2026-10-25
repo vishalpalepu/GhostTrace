@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Found account_002 in system_activity.csv
+   activity_3376,2026-08-22T07:30:03Z,DELETE_RECORD,deletion_worker,account_service,account_002,PARTIAL,Deletion worker completed some internal work but could not confirm the final state. Target resource: account_002.

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+['_build_index', 'get_observations_for_resource', 'get_observations_for_subject']

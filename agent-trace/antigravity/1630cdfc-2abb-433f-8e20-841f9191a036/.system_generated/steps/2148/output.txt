@@ -1,0 +1,20 @@
+Command exited with code 1.
+
+Command output:
+2026-10-25 19:52:25,044 [INFO] Initializing GhostTrace Pipeline with dataset: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset
+2026-10-25 19:52:25,069 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 19:52:25,070 [INFO] Policy engine loaded 15 rules
+2026-10-25 19:52:25,265 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 19:52:25,298 [INFO] Loaded 4011 system activity records
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py", line 126, in <module>
+    main()
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py", line 113, in main
+    pipeline = GhostTracePipeline(args.dataset_dir)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py", line 78, in __init__
+    valid_eids = {f.file_id for f in self.evidence_index.manifest}
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EvidenceIndex' object has no attribute 'manifest'

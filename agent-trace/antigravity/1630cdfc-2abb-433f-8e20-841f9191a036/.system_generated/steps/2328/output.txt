@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+Files <= 2026-02-14: 6
+evidence_46 2026-02-13T08:00:00Z evidence/images/object_storage_browser_20260213.png
+evidence_47 2026-02-08T07:00:00Z evidence/databases/customer_data_reporting_replica_20260208.sql
+evidence_48 2026-02-03T05:59:42Z evidence/logs/operations_stream_me_central_20260203.log
+evidence_49 2026-01-31T15:00:00Z evidence/records/customer_data_snapshot_bundle_20260131.json
+evidence_62 2026-01-29T11:44:59Z evidence/records/service_resource_export_20260129_114459.json
+evidence_63 2026-02-13T07:43:27Z evidence/databases/customer_data_inventory_20260213.sql

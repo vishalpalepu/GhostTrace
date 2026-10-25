@@ -1,0 +1,8 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+KeyError: 0
+Services: ['account_service', 'analytics_platform', 'backup_service', 'export_service', 'integration_service', 'search_service', 'security_service', 'support_platform']
+Service: account_service, count: 1

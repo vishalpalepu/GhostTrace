@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+INSERT INTO "customer_data_primary" VALUES('search_1007','search_service','customer_search_documents','{"resource_id":"search_1007","index_name":"customer_directory_v3","document":{"display_name":"Diya Kapoor","email":"diya.k4436@outlook.com","customer_reference":"user_53"}}','2026-09-21T10:00:00Z');
+INSERT INTO "customer_data_read_replica" VALUES('search_1007','search_service','customer_search_documents','{"resource_id":"search_1007","index_name":"customer_directory_v3","document":{"display_name":"Diya Kapoor","email":"diya.k4436@outlook.com","customer_reference":"user_53"}}','2026-09-21T10:00:00Z');

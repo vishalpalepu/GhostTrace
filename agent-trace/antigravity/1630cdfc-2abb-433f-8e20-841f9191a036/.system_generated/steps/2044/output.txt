@@ -1,0 +1,50 @@
+Command exited with code 0.
+
+Command output:
+Loaded 32 sample requests and 32 ground truth outputs.
+
+CASE case_01 : EXACT MATCH (Status=COMPLETE, Steps=1)
+CASE case_02 : EXACT MATCH (Status=COMPLETE, Steps=1)
+CASE case_03 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=3 (gt=3) | SeqMatch=True
+CASE case_04 : EXACT MATCH (Status=COMPLETE, Steps=2)
+CASE case_05 : EXACT MATCH (Status=INCOMPLETE, Steps=3)
+CASE case_06 : EXACT MATCH (Status=INCOMPLETE, Steps=4)
+CASE case_07 : EXACT MATCH (Status=INCOMPLETE, Steps=4)
+CASE case_08 : EXACT MATCH (Status=INCOMPLETE, Steps=4)
+CASE case_09 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=5 (gt=5) | SeqMatch=True
+CASE case_10 : EXACT MATCH (Status=INCOMPLETE, Steps=4)
+CASE case_11 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=14 (gt=14) | SeqMatch=True
+CASE case_12 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=5 (gt=5) | SeqMatch=True
+CASE case_13 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=8 (gt=8) | SeqMatch=True
+CASE case_14 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=5 (gt=5) | SeqMatch=True
+CASE case_15 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=5 (gt=5) | SeqMatch=True
+CASE case_16 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=7 (gt=7) | SeqMatch=True
+CASE case_17 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=5 (gt=5) | SeqMatch=True
+CASE case_18 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=14 (gt=14) | SeqMatch=True
+CASE case_19 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=8 (gt=8) | SeqMatch=True
+CASE case_20 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=8 (gt=8) | SeqMatch=True
+CASE case_21 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=3 (gt=3) | SeqMatch=True
+CASE case_22 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=8 (gt=8) | SeqMatch=True
+CASE case_23 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=8 (gt=8) | SeqMatch=True
+CASE case_24 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=7 (gt=7) | SeqMatch=True
+CASE case_25 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=3 (gt=3) | SeqMatch=True
+CASE case_26 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=6 (gt=6) | SeqMatch=True
+CASE case_27 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=6 (gt=6) | SeqMatch=True
+CASE case_28 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=6 (gt=6) | SeqMatch=True
+CASE case_29 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=14 (gt=14) | SeqMatch=True
+CASE case_30 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=14 (gt=14) | SeqMatch=True
+CASE case_31 : MISMATCH | Status: pred=COMPLETE (gt=COMPLETE) | Steps: pred=3 (gt=3) | SeqMatch=True
+CASE case_32 : MISMATCH | Status: pred=INCOMPLETE (gt=INCOMPLETE) | Steps: pred=5 (gt=5) | SeqMatch=True
+
+============================================================
+STAGE 4 SAMPLE REGRESSION BENCHMARK SUMMARY
+============================================================
+Total Sample Cases:             32
+Status Accuracy:                32/32 (100.0%)
+Step Count Accuracy:            32/32 (100.0%)
+Sequence Match Accuracy:        32/32 (100.0%)
+Exact JSON String Accuracy:     8/32 (25.0%)
+Field-Level Agreement:          1351/1351 (100.0%)
+Total GT Steps:                 193
+Total Predicted Steps:          193
+============================================================

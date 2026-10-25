@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+Total audit records in sample_output: 24
+audit_record_2016 (case_03, eid=evidence_94): found in ['resource_lookup_trace_20260926_103856.log']
+audit_record_4902 (case_09, eid=): found in ['structured_service_events_eu_west_20260918.log']
+audit_record_9394 (case_11, eid=): found in ['customer_account_handover_20261001.txt']
+audit_record_2945 (case_12, eid=): found in ['service_events_ap_south_20260915.log']
+audit_record_4816 (case_13, eid=): found in ['customer_account_handover_20261001.txt']
+audit_record_987 (case_14, eid=): found in ['customer_data_read_replica_20260708.sql', 'customer_account_handover_20261001.txt']
+audit_record_1596 (case_15, eid=): found in ['service_events_ap_south_20260915.log']
+audit_record_9528 (case_16, eid=): found in ['customer_data_read_replica_20260921.sql']
+audit_record_1797 (case_17, eid=): found in ['service_events_ap_south_20260915.log']
+audit_record_6645 (case_18, eid=): found in []
+audit_record_6793 (case_19, eid=): found in ['service_events_ap_south_20260915.log']
+audit_record_5569 (case_20, eid=): found in []
+audit_record_3737 (case_21, eid=evidence_92): found in ['customer_data_snapshot_bundle_20260917.json', 'service_resource_export_20260915_114455.json']
+audit_record_3482 (case_22, eid=): found in ['customer_data_read_replica_20260921.sql']
+audit_record_4128 (case_23, eid=): found in ['customer_data_snapshot_bundle_20260917.json']
+audit_record_7095 (case_24, eid=): found in ['customer_data_snapshot_bundle_20260917.json']
+audit_record_451 (case_25, eid=evidence_92): found in ['customer_data_snapshot_bundle_20260917.json', 'service_resource_export_20260915_114455.json']
+audit_record_5416 (case_26, eid=evidence_92): found in ['customer_data_snapshot_bundle_20260917.json', 'service_resource_export_20260915_114455.json']
+audit_record_3830 (case_27, eid=evidence_92): found in ['customer_data_snapshot_bundle_20260917.json', 'service_resource_export_20260915_114455.json']
+audit_record_9265 (case_28, eid=evidence_92): found in ['customer_data_snapshot_bundle_20260917.json', 'service_resource_export_20260915_114455.json']
+audit_record_3954 (case_29, eid=): found in ['customer_data_snapshot_bundle_20260917.json']
+audit_record_1707 (case_30, eid=): found in ['customer_data_snapshot_bundle_20260917.json']
+audit_record_6909 (case_31, eid=evidence_51): found in ['customer_data_snapshot_bundle_20260915.json']
+audit_record_7068 (case_32, eid=): found in ['customer_data_snapshot_bundle_20260915.json']

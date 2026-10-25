@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+Sample Requests (Total 32):
+  Correctly Attributed: 32
+  Incorrect: 0 []
+  Unmatched: 0 []
+  Ambiguous: 0 []
+Evaluation Requests (Total 518):
+  Correctly Attributed: 518
+  Incorrect: 0 []
+  Unmatched: 0 []
+  Ambiguous: 0 []

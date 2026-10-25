@@ -1,0 +1,118 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        25-10-2026     17:07           1569 activity_offsets.py                                                  
+-a----        25-10-2026     16:51          38250 all_samples_breakdown.txt                                            
+-a----        25-10-2026     17:23           1752 analyze_all_eval_cases.py                                            
+-a----        25-10-2026     16:55           2903 analyze_sample_resources.py                                          
+-a----        25-10-2026     16:01           1239 audit_13_citations.py                                                
+-a----        25-10-2026     16:45            964 audit_all_sample_steps.py                                            
+-a----        25-10-2026     17:18           2273 audit_evidence_matching.py                                           
+-a----        25-10-2026     15:35           1252 audit_samples.py                                                     
+-a----        25-10-2026     16:13            995 check_case_activities.py                                             
+-a----        25-10-2026     16:58           1868 check_case_activity_window.py                                        
+-a----        25-10-2026     15:56            831 check_sample_citations.py                                            
+-a----        25-10-2026     16:52           1523 check_sample_ordering.py                                             
+-a----        25-10-2026     16:59           1477 check_trace_correlation.py                                           
+-a----        25-10-2026     16:44            517 check_winmds.ps1                                                     
+-a----        25-10-2026     17:06           2154 compare_graph_with_sample.py                                         
+-a----        25-10-2026     16:47           1990 compare_sample_graphs.py                                             
+-a----        25-10-2026     17:13           1223 compare_timeline_ranges.py                                           
+-a----        25-10-2026     15:57            868 decode_pdf_adobe.py                                                  
+-a----        25-10-2026     15:57            975 decode_pdf_content.py                                                
+-a----        25-10-2026     17:13           1731 del_worker_details.py                                                
+-a----        25-10-2026     15:58           1764 extract_all_pdf_strings.py                                           
+-a----        25-10-2026     15:56           1311 extract_pdf_streams.py                                               
+-a----        25-10-2026     15:58           1332 extract_pdf_tj.py                                                    
+-a----        25-10-2026     16:48            363 find_94_user_43.py                                                   
+-a----        25-10-2026     16:12            712 find_account_001.py                                                  
+-a----        25-10-2026     16:46            691 find_account_002.py                                                  
+-a----        25-10-2026     17:09           1505 find_account_link.py                                                 
+-a----        25-10-2026     16:58            449 find_all_account_sources.py                                          
+-a----        25-10-2026     17:01           1065 find_all_audit_ids.py                                                
+-a----        25-10-2026     16:48            706 find_analytics_9406.py                                               
+-a----        25-10-2026     15:58            716 find_backup_evidence.py                                              
+-a----        25-10-2026     15:58            718 find_backup_json.py                                                  
+-a----        25-10-2026     15:59            605 find_backup_snapshot.py                                              
+-a----        25-10-2026     16:48            519 find_case_03_user.py                                                 
+-a----        25-10-2026     16:00            498 find_sample_backup_steps.py                                          
+-a----        25-10-2026     15:56            420 find_stream.py                                                       
+-a----        25-10-2026     16:56            922 find_targets_in_index.py                                             
+-a----        25-10-2026     16:12            283 find_user_01_activity.py                                             
+-a----        25-10-2026     16:00            287 inspect_01_backup.py                                                 
+-a----        25-10-2026     16:00            508 inspect_92_93.py                                                     
+-a----        25-10-2026     16:00            451 inspect_92_backup.py                                                 
+-a----        25-10-2026     16:01            416 inspect_92_integration.py                                            
+-a----        25-10-2026     16:00            292 inspect_93_backup.py                                                 
+-a----        25-10-2026     15:59            241 inspect_backup_sql.py                                                
+-a----        25-10-2026     17:10            991 inspect_case21_acts.py                                               
+-a----        25-10-2026     16:46            273 inspect_case_26.py                                                   
+-a----        25-10-2026     15:56            800 inspect_cited_files.py                                               
+-a----        25-10-2026     15:56            432 inspect_evidence.py                                                  
+-a----        25-10-2026     16:11            799 inspect_evidence_54.py                                               
+-a----        25-10-2026     15:59            779 inspect_json_backup.py                                               
+-a----        25-10-2026     15:59            805 inspect_json_details.py                                              
+-a----        25-10-2026     17:10            531 inspect_json_evidence.py                                             
+-a----        25-10-2026     17:14            689 inspect_runs.py                                                      
+-a----        25-10-2026     16:51           1587 inspect_samples.py                                                   
+-a----        25-10-2026     16:01            447 inspect_sample_flows.py                                              
+-a----        25-10-2026     15:35            375 inspect_steps.py                                                     
+-a----        25-10-2026     16:12            613 inspect_system_activity.py                                           
+-a----        25-10-2026     16:04            553 inspect_tombstone.py                                                 
+-a----        25-10-2026     16:05            610 list_all_sql_tables.py                                               
+-a----        25-10-2026     17:01            796 list_audit_records_in_samples.py                                     
+-a----        25-10-2026     17:08           1376 list_case_accounts.py                                                
+-a----        25-10-2026     15:57            555 list_pdf_objs.py                                                     
+-a----        25-10-2026     17:07           1608 map_worker_activities.py                                             
+-a----        25-10-2026     17:08           1817 match_batches.py                                                     
+-a----        25-10-2026     16:47           1333 match_case_activities.py                                             
+-a----        25-10-2026     15:57           1325 parse_pdf_objs.py                                                    
+-a----        25-10-2026     16:11            497 print_all_54.py                                                      
+-a----        25-10-2026     17:12            441 print_evidence_92.py                                                 
+-a----        25-10-2026     17:20            253 print_rules.py                                                       
+-a----        25-10-2026     16:47           2516 prototype_planner.py                                                 
+-a----        25-10-2026     17:28           3779 run_sample_regression.py                                             
+-a----        25-10-2026     16:02            321 sample_audit_at.py                                                   
+-a----        25-10-2026     16:07            171 sample_evidence_61.py                                                
+-a----        25-10-2026     16:07            241 sample_evidence_94.py                                                
+-a----        25-10-2026     15:35            698 sample_ops.py                                                        
+-a----        25-10-2026     16:05            660 sample_replica.py                                                    
+-a----        25-10-2026     16:04            453 sample_resources_audit.py                                            
+-a----        25-10-2026     15:38           2319 sample_rule_analysis.py                                              
+-a----        25-10-2026     15:59            701 search_all_backup.py                                                 
+-a----        25-10-2026     17:13            563 sources_mentioning_user.py                                           
+-a----        25-10-2026     17:14           2707 test_account_matching.py                                             
+-a----        25-10-2026     17:16           4363 test_account_resolution2.py                                          
+-a----        25-10-2026     17:08           2266 test_batch_accuracy.py                                               
+-a----        25-10-2026     17:14           5204 test_batch_resolution.py                                             
+-a----        25-10-2026     17:17           5150 test_connected_footprint.py                                          
+-a----        25-10-2026     16:44           1445 test_csharp_ocr.ps1                                                  
+-a----        25-10-2026     15:57            837 test_decompress.py                                                   
+-a----        25-10-2026     17:10           4340 test_footprint_discovery.py                                          
+-a----        25-10-2026     16:09           1463 test_full_index.py                                                   
+-a----        25-10-2026     17:21           1716 test_full_planner.py                                                 
+-a----        25-10-2026     16:11           2221 test_graph_recon.py                                                  
+-a----        25-10-2026     16:06           1005 test_json_extractor.py                                               
+-a----        25-10-2026     16:03            821 test_json_parse.py                                                   
+-a----        25-10-2026     16:07            602 test_log_extractor.py                                                
+-a----        25-10-2026     17:03            752 test_log_extractor_trace.py                                          
+-a----        25-10-2026     16:03            701 test_log_parse.py                                                    
+-a----        25-10-2026     16:02           1045 test_sql_sqlite.py                                                   
+-a----        25-10-2026     17:04           2270 test_trace_recovery.py                                               
+-a----        25-10-2026     16:08            693 test_txt_handover.py                                                 
+-a----        25-10-2026     16:44           1687 test_winrt_ocr.ps1                                                   
+-a----        25-10-2026     17:02           2219 trace_audit_associations.py                                          
+-a----        25-10-2026     16:52           1440 trace_resources.py                                                   
+-a----        25-10-2026     16:46            548 verify_incomplete_empty_eid.py                                       
+-a----        25-10-2026     16:48           3100 verify_resource_discovery.py                                         
+-a----        25-10-2026     17:04           1300 verify_target_recovery.py                                            
+-a----        25-10-2026     16:02           1096 verify_temporal_citations.py                                         
+
+

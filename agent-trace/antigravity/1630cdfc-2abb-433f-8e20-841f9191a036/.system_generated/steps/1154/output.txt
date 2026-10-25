@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+activity_3700,2026-09-07T01:31:06Z,SEND_EMAIL,notification_service,email_delivery_service,email_delivery_5591,SUCCESS,Transactional email delivery processed email_delivery_5591.
+activity_3701,2026-09-07T02:04:42Z,UPDATE_RECORD,profile_service,account_service,account_6325,SUCCESS,Profile preference update processed account_6325.
+activity_3702,2026-09-07T07:55:02Z,UPDATE_RECORD,support_platform,search_service,support_3789,SUCCESS,Support-case index update processed support_3789.
+activity_3703,2026-09-07T07:55:18Z,DELETE_RECORD,deletion_worker,account_service,account_3960,FAILED,Deletion worker submitted primary profile account_3960 to account_service.
+activity_3704,2026-09-07T08:15:34Z,DELETE_RECORD,deletion_worker,account_service,account_565,PARTIAL,Deletion worker submitted primary profile account_565 to account_service.
+activity_3705,2026-09-07T08:31:15Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_5718,SUCCESS,Policy action completed for analytics_5718.
+activity_3706,2026-09-07T08:38:44Z,REDACT_RECORD,deletion_worker,support_platform,support_6334,SUCCESS,Policy action completed for support_6334.
+activity_3707,2026-09-07T08:45:14Z,DISABLE_DATA_FLOW,deletion_worker,integration_service,data_flow_6846,SUCCESS,Policy action completed for data_flow_6846.
+activity_3708,2026-09-07T08:52:43Z,BLOCK_RESTORE,deletion_worker,backup_service,backup_3933,SUCCESS,Policy action completed for backup_3933.
+activity_3709,2026-09-07T09:51:10Z,CHECK_RESTORE_ACCESS,deletion_worker,backup_service,backup_4978,SUCCESS,Restore-access check confirmed that archive backup_4978 can still be restored.
+activity_3710,2026-09-07T17:31:24Z,RETAIN_RECORD,security_service,archive_service,audit_record_5951,SUCCESS,Security-event archival processed audit_record_5951.
+activity_3711,2026-09-07T17:44:02Z,SYNC_RECORD,account_service,analytics_platform,analytics_7049,SUCCESS,Customer profile synchronization processed analytics_7049.
+activity_3712,2026-09-07T18:34:28Z,UPDATE_RECORD,support_platform,search_service,support_2203,SUCCESS,Support-case index update processed support_2203.
+activity_3713,2026-09-07T18:58:32Z,REFRESH_CACHE,account_service,cache_service,cache_1280,SUCCESS,Profile cache refresh processed cache_1280.
+activity_3714,2026-09-07T21:44:30Z,UPDATE_RECORD,profile_service,account_service,account_5863,SUCCESS,Profile preference update processed account_5863.
+activity_3715,2026-09-08T02:26:42Z,UPDATE_RECORD,profile_service,account_service,account_4099,SUCCESS,Profile preference update processed account_4099.

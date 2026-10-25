@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+activity_3342,2026-08-20T16:41:43Z,DELETE_RECORD,deletion_worker,account_service,account_001,SUCCESS,Deletion worker reported the requested operation as completed. Target resource: account_001.

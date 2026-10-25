@@ -1,0 +1,10 @@
+Command exited with code 1.
+
+Command output:
+python.exe : ScriptBlock should only be specified as a value of the Command parameter.
+At line:1 char:144
++ ...  $env:PYTHONPATH="hackerrank-orchestrate-october26-main"; python -c "
++                                                               ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], ParameterBindingException
+    + FullyQualifiedErrorId : IncorrectValueForCommandParameter
+ 

@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+case_34: outcome=DELETION | text=I would like the account associated with this address to be 
+case_50: outcome=DELETION | text=Please treat this message as a request for permanent account
+case_533: outcome=NON_DELETION | text=The mobile number on my profile is out of date. Please repla
+case_534: outcome=NON_DELETION | text=Please stop the promotional emails. I still need the account
+case_535: outcome=NON_DELETION | text=I'd like to download my account information in a portable fo
+case_536: outcome=NON_DELETION | text=I can't access my profile and need help resetting the login.
+case_537: outcome=NON_DELETION | text=My surname is misspelled on the account. Can you correct it 
+case_538: outcome=NON_DELETION | text=Please remove me from marketing lists only. I still want rec
+case_539: outcome=NON_DELETION | text=Can you tell me what personal information you hold about me?
+case_540: outcome=NON_DELETION | text=I need a copy of last year's invoices for my records. Please
+case_541: outcome=NON_DELETION | text=Please change the email address used for this account. I wan
+case_542: outcome=NON_DELETION | text=Could you send me a copy of the information held on my accou

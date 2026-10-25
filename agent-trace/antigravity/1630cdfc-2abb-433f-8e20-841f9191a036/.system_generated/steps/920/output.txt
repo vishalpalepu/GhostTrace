@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+Total multi-line traces with resource AND subject: 304
+rb-054712-001 {'emails': {'t.oliveira6897@gmail.com'}, 'users': set(), 'resources': {'data_flow_3669'}}
+rb-054723-002 {'emails': {'eamponsah5039@fastmail.com'}, 'users': set(), 'resources': {'analytics_1575'}}
+rb-060213-003 {'emails': {'eamponsah5039@fastmail.com'}, 'users': set(), 'resources': {'export_6406'}}
+rb-062253-004 {'emails': {'arthur.c5444@outlook.com'}, 'users': set(), 'resources': {'search_901'}}
+rb-062643-005 {'emails': {'arthur.c5444@outlook.com'}, 'users': set(), 'resources': {'account_5293'}}
+rb-064421-006 {'emails': {'rao.neel@gmail.com'}, 'users': set(), 'resources': {'support_7973'}}
+rb-064522-007 {'emails': {'arthur.c5444@outlook.com'}, 'users': set(), 'resources': {'analytics_7818'}}
+rb-064734-008 {'emails': {'t.oliveira6897@gmail.com'}, 'users': set(), 'resources': {'support_4364'}}
+rb-065406-009 {'emails': {'eamponsah5039@fastmail.com'}, 'users': set(), 'resources': {'search_9733'}}
+rb-065554-010 {'emails': set(), 'users': {'user_484'}, 'resources': {'audit_record_5451'}}
+Checking targets:

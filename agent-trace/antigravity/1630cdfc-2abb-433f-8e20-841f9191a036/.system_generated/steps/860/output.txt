@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+MISSING: case case_04, res account_004, sys account_service, op VERIFY_RECORD_ABSENT
+MISSING: case case_18, res audit_record_6645, sys security_service, op VERIFY_RECORD_PRESENT
+MISSING: case case_20, res audit_record_5569, sys security_service, op VERIFY_RECORD_PRESENT
+Total step resources: 193
+Found in both: 151
+Found in evidence only: 25
+Found in activity only: 14
+Missing everywhere: 3

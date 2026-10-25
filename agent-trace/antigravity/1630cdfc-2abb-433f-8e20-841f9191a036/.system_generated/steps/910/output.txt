@@ -1,0 +1,47 @@
+Command exited with code 1.
+
+Command output:
+At line:9 char:99
++ ... ([a-zA-Z0-9_\-]+)', line) or re.search(r'\"trace_id\":\s*\"([^\"]+)\" ...
++                                                                  ~
+Missing type name after '['.
+At line:13 char:41
++                 m_email = re.search(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+ ...
++                                         ~
+Missing ] at end of attribute or type literal.
+At line:13 char:42
++                 m_email = re.search(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+ ...
++                                          ~~~
+Unexpected token '-zA' in expression or statement.
+At line:13 char:45
++                 m_email = re.search(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+ ...
++                                             ~~~~~~
+Unexpected token '-Z0-9_' in expression or statement.
+At line:13 char:45
++                 m_email = re.search(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+ ...
++                                             ~
+Missing closing ')' in expression.
+At line:15 char:51
++                 m_res = re.search(r'resource_id=([a-zA-Z0-9_]+)', lin ...
++                                                   ~
+Missing ] at end of attribute or type literal.
+At line:15 char:52
++                 m_res = re.search(r'resource_id=([a-zA-Z0-9_]+)', lin ...
++                                                    ~~~
+Unexpected token '-zA' in expression or statement.
+At line:15 char:55
++ ...                m_res = re.search(r'resource_id=([a-zA-Z0-9_]+)', line ...
++                                                          ~~~~~~~~
+Unexpected token '-Z0-9_]+' in expression or statement.
+At line:15 char:55
++                 m_res = re.search(r'resource_id=([a-zA-Z0-9_]+)', lin ...
++                                                       ~
+Missing closing ')' in expression.
+At line:15 char:63
++ ...               m_res = re.search(r'resource_id=([a-zA-Z0-9_]+)', line) ...
++                                                                 ~
+Unexpected token ')' in expression or statement.
+Not all parse errors were reported.  Correct the reported errors and try again.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingTypename
+ 

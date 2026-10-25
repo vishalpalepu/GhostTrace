@@ -1,0 +1,36 @@
+Command exited with code 0.
+
+Command output:
+CASE case_01: 100% MATCH (1 resources)
+CASE case_02: 100% MATCH (1 resources)
+CASE case_03: missing=set(), extra={'support_1066', 'backup_6266', 'data_flow_223', 'analytics_5589'}
+CASE case_04: missing={'analytics_901'}, extra=set()
+CASE case_05: 100% MATCH (1 resources)
+CASE case_06: 100% MATCH (2 resources)
+CASE case_07: 100% MATCH (2 resources)
+CASE case_08: 100% MATCH (2 resources)
+CASE case_09: missing={'account_3960', 'audit_record_4902'}, extra={'support_6334', 'data_flow_6846', 'analytics_5718', 'account_565', 'backup_3933'}
+CASE case_10: 100% MATCH (2 resources)
+CASE case_11: 100% MATCH (6 resources)
+CASE case_12: missing=set(), extra={'search_4801', 'search_428'}
+CASE case_13: 100% MATCH (4 resources)
+CASE case_14: missing=set(), extra={'data_flow_7495', 'search_3200', 'support_4887', 'tombstone_440', 'tombstone_9178'}
+CASE case_15: missing={'data_flow_9846'}, extra=set()
+CASE case_16: missing={'search_1007'}, extra=set()
+CASE case_17: missing=set(), extra={'data_flow_9846', 'search_4882', 'account_6523'}
+CASE case_18: missing={'audit_record_6645', 'account_5521'}, extra={'account_5823', 'data_flow_1770', 'support_4218', 'export_7689', 'search_1308', 'search_4262'}
+CASE case_19: missing={'support_9553'}, extra=set()
+CASE case_20: missing={'account_5037', 'audit_record_5569'}, extra={'search_4013', 'analytics_037', 'account_5823', 'support_4218', 'export_7689', 'search_1308', 'support_5569', 'data_flow_4890'}
+CASE case_21: missing={'account_6440', 'analytics_5335'}, extra=set()
+CASE case_22: missing=set(), extra={'analytics_1738', 'search_2568', 'data_flow_5080', 'search_1007', 'support_835', 'search_3995', 'data_flow_2406'}
+CASE case_23: missing={'search_898', 'account_410', 'audit_record_4128', 'export_7364'}, extra=set()
+CASE case_24: missing={'audit_record_7095', 'search_5577'}, extra=set()
+CASE case_25: missing={'account_3136', 'analytics_1895'}, extra=set()
+CASE case_26: missing={'account_5684'}, extra={'tombstone_3963', 'account_7225', 'tombstone_7389', 'search_5577', 'analytics_1895'}
+CASE case_27: missing={'account_3866'}, extra={'analytics_5208', 'analytics_6077', 'account_7012', 'support_2351', 'backup_838', 'data_flow_2337', 'data_flow_3827', 'support_5281', 'search_1993'}
+CASE case_28: missing={'account_5482'}, extra={'analytics_4574', 'analytics_5208', 'account_7012', 'backup_5970', 'data_flow_2295', 'support_4707', 'data_flow_3827', 'support_5281', 'search_1993'}
+CASE case_29: missing={'audit_record_3954'}, extra={'analytics_4574', 'analytics_6077', 'support_2351', 'backup_838', 'data_flow_2295', 'backup_5970', 'data_flow_2337', 'support_4707'}
+CASE case_30: missing={'audit_record_1707'}, extra=set()
+CASE case_31: missing={'account_4857'}, extra={'backup_3870', 'account_3677', 'data_flow_7495', 'search_3200', 'support_4887', 'tombstone_9178'}
+CASE case_32: missing={'account_8858'}, extra={'backup_3870', 'account_3677', 'data_flow_7495', 'search_3200', 'support_4887', 'tombstone_440'}
+Total exact matches: 9/32

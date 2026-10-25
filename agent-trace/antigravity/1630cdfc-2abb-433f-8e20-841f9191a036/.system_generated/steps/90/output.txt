@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\uc774' in position 0: character maps to <undefined>
+case_54 Solicito a exclus�o permanente da conta associada a este e-mail. Verifiquem os identificadores atuais e anteriores confo
+case_66 

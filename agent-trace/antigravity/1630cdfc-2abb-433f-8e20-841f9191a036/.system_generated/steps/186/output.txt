@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Multiple changes for same field: 4 {('user_10', 'email'): 2, ('user_10', 'email_hash'): 2, ('user_35', 'email'): 2, ('user_35', 'email_hash'): 2}

@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+integration_service in evidence_92:
+{
+  "connectors": [
+    {
+      "connector_name": "analytics_identity_bridge",
+      "customer_email": null,
+      "customer_reference": "user_27",
+      "enabled": false,
+      "last_delivery_status": "stopped",
+      "observed_at": "2026-09-15T08:48:09Z",
+      "resource_id": "data_flow_2295"
+    },
+    {
+      "connector_name": "support_profile_sync",
+      "customer_email": null,
+      "customer_reference": "user_28",
+      "enabled": false,
+      "last_delivery_status": "stopped",
+      "observed_at": "2026-09-15T09:35:32Z",
+      "resource_id": "data_flow_2337"
+    },
+    {
+      "connector_name": "analytics_identity_bridge",
+      "customer_email": "noah.f438085@outlook.com",
+      "customer_reference": null,
+      "enabled": true,
+      "last_delivery_status": "delivered",
+      "observed_at": "2026-09-15T08:56:38Z",
+      "resource_id": "data_flow_3827"
+    },
+    {
+      "connector_name": "customer_events_connector",
+      "customer_email": null,
+      "customer_reference": "

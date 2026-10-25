@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+All 32 cases semantic JSON and status match: True

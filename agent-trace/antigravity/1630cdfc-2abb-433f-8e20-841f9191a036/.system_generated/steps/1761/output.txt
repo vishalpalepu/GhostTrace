@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+{'activity_id': 'activity_456', 'event_time': '2026-02-06T17:34:05Z', 'event_type': 'UPDATE_RECORD', 'source_system': 'support_platform', 'target_system': 'search_service', 'resource_id': 'support_3677', 'reported_result': 'SUCCESS', 'details': 'Support-case index update processed support_3677.'}
+{'activity_id': 'activity_3686', 'event_time': '2026-09-06T11:11:02Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_3677', 'reported_result': 'SUCCESS', 'details': 'Deletion worker submitted primary profile account_3677 to account_service.'}

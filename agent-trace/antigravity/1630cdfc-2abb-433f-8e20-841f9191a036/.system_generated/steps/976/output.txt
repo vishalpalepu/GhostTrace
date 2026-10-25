@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+evidence_06 total obs: 37, with subject: 1

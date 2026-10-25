@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+class TestEvidenceIngestionAndGraph(unittest.TestCase):
+    """Test suite for evidence indexing, temporal reconstruction, and graph building."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.identities = load_user_identities(USER_IDENTITIES_CSV)
+        cls.audit_log = load_user_audit_log(USER_AUDIT_LOG_CSV)
+        cls.resolver = IdentityResolver(cls.identities, cls.audit_log)
+        cls.evidence_index = EvidenceIndex(EVIDENCE_FILES_CSV, DATASET_DIR)
+        cls.graph_builder = GraphBuilder(cls.resolver, cls.evidence_index)
+        cls.sample_requests = load_deletion_requests(SAMPLE_DELETION_REQUESTS_CSV)
+        cls.sample_by_id = {r.case_id: r for r in cls.sample_requests}
+
+    def test_full_evidence_manifest_coverage(self):
+        """Verify that all 94 evidence files are parsed with 0 unhandled failures."""
+        manifest = load_evidence_manifest(EVIDENCE_FILES_CSV)
+        self.assertEqual(len(manifest), 94)
+        self.assertEqual(len(self.evidence_index.parsed_files), 94)
+        self.assertEqual(len(self.evidence_index.failed_files), 0)
+        self.assertGreater(len(self.evidence_index.observations), 3000)
+
+    def test_surviving_record_in_replica_after_primary_deletion(self):
+        """Test case_05: account record surviving in replica (evidence_54) despite deletion claim."""
+        req = self.sample_by_id["case_05"]
+        graph = self.graph_builder.build_graph(req.case_id, req.email, req.audit_at)

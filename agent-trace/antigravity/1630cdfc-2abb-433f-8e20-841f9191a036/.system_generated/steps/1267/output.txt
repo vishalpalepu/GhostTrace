@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Get-ChildItem : Cannot find path 'C:\Vishal\GhostTrace\scratch' because it does not exist.
+At line:1 char:87
++ ... $env:LOCALAPPDATA = $env:_LOCALAPPDATA; Get-ChildItem -Path "scratch"
++                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Vishal\GhostTrace\scratch:String) [Get-ChildItem], ItemNotFoundExcep 
+   tion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 

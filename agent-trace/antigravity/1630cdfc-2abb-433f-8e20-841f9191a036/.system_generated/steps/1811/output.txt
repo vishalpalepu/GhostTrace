@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+security_service {'resource_id': 'audit_record_7095', 'subject_reference': 'user_24', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000001bb7'}
+security_service {'resource_id': 'audit_record_3954', 'subject_reference': 'user_29', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000000f72'}
+security_service {'resource_id': 'audit_record_1707', 'subject_reference': 'user_30', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:00000000000000000000000000000000000000000000000000000000000006ab'}

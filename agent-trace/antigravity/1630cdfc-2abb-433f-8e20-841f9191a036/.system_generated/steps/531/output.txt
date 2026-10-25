@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+Case case_11 (INCOMPLETE):
+   {'step_no': 4, 'phase': 'FINDING', 'system_id': 'integration_service', 'resource_id': 'data_flow_9522', 'operation': 'REPORT_ACTIVE_DATA_FLOW', 'state': 'ACTIVE', 'evidence_id': 'evidence_03'}
+   {'step_no': 5, 'phase': 'REMEDIATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_9522', 'operation': 'DISABLE_DATA_FLOW', 'state': 'DISABLED', 'evidence_id': ''}
+   {'step_no': 14, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_9522', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': ''}
+Case case_15 (INCOMPLETE):
+   {'step_no': 1, 'phase': 'FINDING', 'system_id': 'integration_service', 'resource_id': 'data_flow_9846', 'operation': 'REPORT_ACTIVE_DATA_FLOW', 'state': 'ACTIVE', 'evidence_id': 'evidence_01'}
+   {'step_no': 2, 'phase': 'REMEDIATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_9846', 'operation': 'DISABLE_DATA_FLOW', 'state': 'DISABLED', 'evidence_id': ''}
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_9846', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': ''}
+Case case_18 (INCOMPLETE):
+   {'step_no': 4, 'phase': 'FINDING', 'system_id': 'integration_service', 'resource_id': 'data_flow_4890', 'operation': 'REPORT_ACTIVE_DATA_FLOW', 'state': 'ACTIVE', 'evidence_id': 'evidence_94'}
+   {'step_no': 5, 'phase': 'REMEDIATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_4890', 'operation': 'DISABLE_DATA_FLOW', 'state': 'DISABLED', 'evidence_id': ''}
+   {'step_no': 14, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_4890', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': ''}
+Case case_20 (INCOMPLETE):
+   {'step_no': 2, 'phase': 'FINDING', 'system_id': 'integration_service', 'resource_id': 'data_flow_1770', 'operation': 'REPORT_ACTIVE_DATA_FLOW', 'state': 'ACTIVE', 'evidence_id': 'evidence_94'}
+   {'step_no': 3, 'phase': 'REMEDIATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_1770', 'operation': 'DISABLE_DATA_FLOW', 'state': 'DISABLED', 'evidence_id': ''}
+   {'step_no': 8, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_1770', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': ''}
+Case case_26 (COMPLETE):
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_6244', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': 'evidence_92'}
+Case case_27 (COMPLETE):
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_2295', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': 'evidence_92'}
+Case case_28 (COMPLETE):
+   {'step_no': 5, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_2337', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': 'evidence_92'}
+Case case_29 (INCOMPLETE):
+   {'step_no': 4, 'phase': 'FINDING', 'system_id': 'integration_service', 'resource_id': 'data_flow_3827', 'operation': 'REPORT_ACTIVE_DATA_FLOW', 'state': 'ACTIVE', 'evidence_id': 'evidence_92'}
+   {'step_no': 5, 'phase': 'REMEDIATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_3827', 'operation': 'DISABLE_DATA_FLOW', 'state': 'DISABLED', 'evidence_id': ''}
+   {'step_no': 14, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_3827', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': ''}
+Case case_30 (INCOMPLETE):
+   {'step_no': 4, 'phase': 'FINDING', 'system_id': 'integration_service', 'resource_id': 'data_flow_8524', 'operation': 'REPORT_ACTIVE_DATA_FLOW', 'state': 'ACTIVE', 'evidence_id': 'evidence_92'}
+   {'step_no': 5, 'phase': 'REMEDIATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_8524', 'operation': 'DISABLE_DATA_FLOW', 'state': 'DISABLED', 'evidence_id': ''}
+   {'step_no': 14, 'phase': 'VERIFICATION', 'system_id': 'integration_service', 'resource_id': 'data_flow_8524', 'operation': 'VERIFY_DATA_FLOW_DISABLED', 'state': 'DISABLED', 'evidence_id': ''}

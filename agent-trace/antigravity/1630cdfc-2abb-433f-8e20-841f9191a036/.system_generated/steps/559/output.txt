@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+Total .json files: 28
+JSON test completed. 28/28 parsed successfully!
+JSON top-level schemas:
+  Count 3: ('exported_at', 'origin', 'record_count', 'records')
+  Count 2: ('captured_at', 'collection', 'records', 'source')
+  Count 12: ('exported_at', 'snapshots', 'source')
+  Count 11: ('exported_at', 'region', 'service_exports', 'source')

@@ -1,0 +1,31 @@
+Command exited with code 0.
+
+Command output:
+Services in export: ['account_service', 'analytics_platform', 'backup_service', 'export_service', 'integration_service', 'search_service', 'security_service', 'support_platform']
+backup_service in evidence_92:
+{
+  "restore_entries": [
+    {
+      "archive_key": "archive/customer-data/backup_3120.tar.zst",
+      "customer_email": null,
+      "customer_reference": "user_26",
+      "observed_at": "2026-09-15T10:58:35Z",
+      "resource_id": "backup_3120",
+      "restore_allowed": false
+    },
+    {
+      "archive_key": "archive/customer-data/backup_5970.tar.zst",
+      "customer_email": null,
+      "customer_reference": "user_27",
+      "observed_at": "2026-09-15T10:39:37Z",
+      "resource_id": "backup_5970",
+      "restore_allowed": false
+    },
+    {
+      "archive_key": "archive/customer-data/backup_838.tar.zst",
+      "customer_email": null,
+      "customer_reference": "user_28",
+      "observed_at": "2026-09-15T09:04:41Z",
+      "resource_id": "backup_838",
+      "restore_allowed": false
+    

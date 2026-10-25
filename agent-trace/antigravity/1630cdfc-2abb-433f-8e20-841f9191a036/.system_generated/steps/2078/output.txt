@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Total account DELETE_RECORD activities: 539

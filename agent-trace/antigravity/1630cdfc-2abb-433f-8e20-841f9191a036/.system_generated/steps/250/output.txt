@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.036s
+
+OK

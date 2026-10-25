@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 29
+    print(f'  step {s[" step_no\]}:
+                      ^
+SyntaxError: unterminated string literal (detected at line 29)

@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+Case case_03 (COMPLETE): res=audit_record_2016 ev=evidence_94
+Case case_09 (INCOMPLETE): res=audit_record_4902 ev=
+Case case_11 (INCOMPLETE): res=audit_record_9394 ev=
+Case case_12 (INCOMPLETE): res=audit_record_2945 ev=
+Case case_13 (INCOMPLETE): res=audit_record_4816 ev=
+Case case_14 (INCOMPLETE): res=audit_record_987 ev=
+Case case_15 (INCOMPLETE): res=audit_record_1596 ev=
+Case case_16 (INCOMPLETE): res=audit_record_9528 ev=
+Case case_17 (INCOMPLETE): res=audit_record_1797 ev=
+Case case_18 (INCOMPLETE): res=audit_record_6645 ev=
+Case case_19 (INCOMPLETE): res=audit_record_6793 ev=
+Case case_20 (INCOMPLETE): res=audit_record_5569 ev=
+Case case_21 (COMPLETE): res=audit_record_3737 ev=evidence_92
+Case case_22 (INCOMPLETE): res=audit_record_3482 ev=
+Case case_23 (INCOMPLETE): res=audit_record_4128 ev=
+Case case_24 (INCOMPLETE): res=audit_record_7095 ev=
+Case case_25 (COMPLETE): res=audit_record_451 ev=evidence_92
+Case case_26 (COMPLETE): res=audit_record_5416 ev=evidence_92
+Case case_27 (COMPLETE): res=audit_record_3830 ev=evidence_92
+Case case_28 (COMPLETE): res=audit_record_9265 ev=evidence_92
+Case case_29 (INCOMPLETE): res=audit_record_3954 ev=
+Case case_30 (INCOMPLETE): res=audit_record_1707 ev=
+Case case_31 (COMPLETE): res=audit_record_6909 ev=evidence_51
+Case case_32 (INCOMPLETE): res=audit_record_7068 ev=

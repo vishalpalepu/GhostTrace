@@ -1,0 +1,8 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\sample_audit_at.py", line 7, in <module>
+    print(f"Case {row['case_id']}: audit_at={row['audit_at']}, email={row['requester_email']}")
+                                                                      ~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'requester_email'

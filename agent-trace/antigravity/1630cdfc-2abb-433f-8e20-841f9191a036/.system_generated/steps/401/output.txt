@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+Please do not delete my account. --> NON_DELETION RETENTION_REQUEST
+Don't delete my profile. --> NON_DELETION RETENTION_REQUEST
+Never delete this account. --> NON_DELETION RETENTION_REQUEST
+I am not asking for deletion. --> NON_DELETION RETENTION_REQUEST
+Please leave my account in place. --> AMBIGUOUS AMBIGUOUS
+Please keep my account active. --> NON_DELETION RETENTION_REQUEST

@@ -1,0 +1,42 @@
+Command exited with code 0.
+
+Command output:
+
+  hackerrank-orchestrate-october26-main\problem_statement.md:16:
+  hackerrank-orchestrate-october26-main\problem_statement.md:17:For each request, build a system that determines:
+  hackerrank-orchestrate-october26-main\problem_statement.md:18:
+> hackerrank-orchestrate-october26-main\problem_statement.md:19:- whether the deletion is `COMPLETE`, `INCOMPLETE`, or 
+`NOT_APPLICABLE` because the person did not request deletion;
+  hackerrank-orchestrate-october26-main\problem_statement.md:20:- which records or identifiers still expose the user;
+  hackerrank-orchestrate-october26-main\problem_statement.md:21:- which active processes can recreate deleted data;
+  hackerrank-orchestrate-october26-main\problem_statement.md:22:- the ordered remediation steps required to complete 
+the request.
+  hackerrank-orchestrate-october26-main\problem_statement.md:67:| Column | Meaning |
+  hackerrank-orchestrate-october26-main\problem_statement.md:68:| --- | --- |
+  hackerrank-orchestrate-october26-main\problem_statement.md:69:| `case_id` | Case being audited |
+> hackerrank-orchestrate-october26-main\problem_statement.md:70:| `deletion_status` | `COMPLETE`, `INCOMPLETE`, or 
+`NOT_APPLICABLE` |
+  hackerrank-orchestrate-october26-main\problem_statement.md:71:| `steps_json` | Ordered JSON array of findings, 
+remediation actions, and verification checks |
+  hackerrank-orchestrate-october26-main\problem_statement.md:72:
+  hackerrank-orchestrate-october26-main\problem_statement.md:73:The final file must contain exactly 518 data rows, 
+sorted by `case_id`.
+  hackerrank-orchestrate-october26-main\problem_statement.md:88:
+  hackerrank-orchestrate-october26-main\problem_statement.md:89:`phase` must be `FINDING`, `REMEDIATION`, or 
+`VERIFICATION`. Step numbers start at `1` and increase consecutively. Array order is significant.
+  hackerrank-orchestrate-october26-main\problem_statement.md:90:
+> hackerrank-orchestrate-october26-main\problem_statement.md:91:For `COMPLETE`, include only verification steps 
+proving the current state. For `INCOMPLETE`, include findings, the complete remediation plan, and the checks that must 
+pass afterward. For `NOT_APPLICABLE`, use an empty JSON array (`[]`) because no deletion or deletion verification is 
+authorized.
+  hackerrank-orchestrate-october26-main\problem_statement.md:92:
+  hackerrank-orchestrate-october26-main\problem_statement.md:93:A non-deletion row therefore has this form:
+  hackerrank-orchestrate-october26-main\problem_statement.md:94:
+  hackerrank-orchestrate-october26-main\problem_statement.md:95:```csv
+> hackerrank-orchestrate-october26-main\problem_statement.md:96:case_000,NOT_APPLICABLE,[]
+  hackerrank-orchestrate-october26-main\problem_statement.md:97:```
+  hackerrank-orchestrate-october26-main\problem_statement.md:98:
+  hackerrank-orchestrate-october26-main\problem_statement.md:99:The grader parses `steps_json` as JSON. JSON 
+object-key order and whitespace are ignored; array order is not.
+
+

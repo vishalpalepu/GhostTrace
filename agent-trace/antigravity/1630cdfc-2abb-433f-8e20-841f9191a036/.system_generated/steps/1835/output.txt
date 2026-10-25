@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+backup_service / restore_entries: {'archive_key': 'archive/customer-data/backup_838.tar.zst', 'customer_email': None, 'customer_reference': 'user_28', 'observed_at': '2026-09-15T09:04:41Z', 'resource_id': 'backup_838', 'restore_allowed': False}
+integration_service / connectors: {'connector_name': 'support_profile_sync', 'customer_email': None, 'customer_reference': 'user_28', 'enabled': False, 'last_delivery_status': 'stopped', 'observed_at': '2026-09-15T09:35:32Z', 'resource_id': 'data_flow_2337'}
+security_service / audit_records: {'event_code': 'SUBJECT_REQUEST_AUDITED', 'observed_at': '2026-09-15T09:52:37Z', 'resource_id': 'audit_record_9265', 'retention_until': '2033-12-31T23:59:59Z', 'subject_reference': 'user_28'}
+support_platform / tickets: {'customer_reference': 'user_28', 'message_excerpt': 'Customer supplied contact details for a delivery query.', 'observed_at': '2026-09-15T10:51:49Z', 'requester_email': None, 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_2351'}

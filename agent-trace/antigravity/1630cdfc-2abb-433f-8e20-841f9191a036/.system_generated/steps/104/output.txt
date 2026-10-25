@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Event types: Counter({'DELETE_RECORD': 890, 'UPDATE_RECORD': 672, 'SYNC_RECORD': 447, 'INDEX_RECORD': 400, 'SEND_EMAIL': 368, 'REFRESH_CACHE': 284, 'RETAIN_RECORD': 206, 'ANONYMIZE_RECORD': 204, 'REDACT_RECORD': 173, 'CREATE_EXPORT': 155, 'CHECK_DATA_FLOW': 89, 'DISABLE_DATA_FLOW': 36, 'BLOCK_RESTORE': 36, 'CHECK_RESTORE_ACCESS': 28, 'LINK_RESOURCE_IDENTITY': 12, 'CLASSIFY_REQUEST': 10, 'RESTORE_BACKUP': 1})
+Source systems: Counter({'deletion_worker': 1466, 'account_service': 1100, 'profile_service': 440, 'notification_service': 368, 'support_platform': 232, 'security_service': 196, 'export_service': 155, 'integration_service': 31, 'data_catalog': 12, 'privacy_intake': 10, 'backup_service': 1})
+Target systems: Counter({'account_service': 980, 'search_service': 954, 'analytics_platform': 566, 'email_delivery_service': 368, 'cache_service': 284, 'archive_service': 196, 'support_platform': 193, 'object_store': 155, 'integration_service': 126, 'backup_service': 65, 'account_replication_cluster': 55, 'export_service': 34, 'identity_service': 11, 'legal_service': 10, 'privacy_case_management': 10, 'account_failover_replica': 1, 'object_storage': 1, 'marketing_platform': 1, 'security_service': 1})
+Reported results: Counter({'SUCCESS': 2914, 'FAILED': 721, 'PARTIAL': 376})

@@ -1,0 +1,10 @@
+Command exited with code 1.
+
+Command output:
+Testing refined planner logic against all 32 sample cases...
+
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_refined_planner.py", line 107, in <module>
+    discovered: Dict[str, ExtractedObservation] = {}
+                ^^^^
+NameError: name 'Dict' is not defined. Did you mean: 'dict'?

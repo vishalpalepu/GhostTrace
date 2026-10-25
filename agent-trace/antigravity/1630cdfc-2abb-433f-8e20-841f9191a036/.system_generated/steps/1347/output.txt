@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Top-level keys: ['exported_at', 'region', 'service_exports', 'source']
+Key: exported_at, type: <class 'str'>
+Key: region, type: <class 'str'>
+Key: service_exports, type: <class 'dict'>
+Key: source, type: <class 'str'>

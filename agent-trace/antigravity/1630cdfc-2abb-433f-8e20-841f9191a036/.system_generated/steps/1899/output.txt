@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+activity_3595 2026-09-02T10:08:37Z DELETE_RECORD account_service account_010 SUCCESS
+activity_3596 2026-09-02T10:09:01Z DELETE_RECORD support_platform support_002 SUCCESS
+activity_3597 2026-09-02T10:48:27Z DELETE_RECORD account_service account_3136 FAILED
+activity_3598 2026-09-02T10:50:09Z DELETE_RECORD account_service account_4842 SUCCESS
+activity_3599 2026-09-02T10:59:41Z DELETE_RECORD account_service account_5334 SUCCESS
+activity_3600 2026-09-02T11:08:43Z DELETE_RECORD account_service account_5684 FAILED
+activity_3601 2026-09-02T11:10:25Z DELETE_RECORD account_service account_7225 SUCCESS
+activity_3602 2026-09-02T11:31:08Z ANONYMIZE_RECORD analytics_platform analytics_1895 SUCCESS
+activity_3603 2026-09-02T11:31:24Z ANONYMIZE_RECORD analytics_platform analytics_4566 SUCCESS
+activity_3604 2026-09-02T11:31:49Z REDACT_RECORD identity_service tombstone_3963 SUCCESS
+activity_3605 2026-09-02T11:38:53Z REDACT_RECORD support_platform support_4715 SUCCESS
+activity_3606 2026-09-02T11:45:23Z DISABLE_DATA_FLOW integration_service data_flow_6244 SUCCESS
+activity_3607 2026-09-02T11:52:52Z BLOCK_RESTORE backup_service backup_3120 SUCCESS
+activity_3609 2026-09-02T12:47:17Z REDACT_RECORD identity_service tombstone_7389 FAILED
+activity_3610 2026-09-02T13:04:03Z DELETE_RECORD search_service search_5577 SUCCESS

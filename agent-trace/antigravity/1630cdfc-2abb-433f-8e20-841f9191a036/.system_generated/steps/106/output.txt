@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+activity_4000 LINK_RESOURCE_IDENTITY account_5762 Data catalog linked account_5762 (account_5762) to haruka.s1838@zoho.com and user_11.

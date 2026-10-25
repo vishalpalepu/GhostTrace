@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+INSERT INTO "customer_data_primary" VALUES('support_6569','support_platform','support_conversations','{"resource_id":"support_6569","ticket_id":"CS-5569","subject_reference":"user_405","channel":"email","message_text":"Please send the delivery update to lucia-garcia@proton.me. The affected order includes: Running shoes."}','2026-03-30T10:00:00Z');
+INSERT INTO "customer_data_replica_ap_south" VALUES('support_6569','support_platform','support_conversations','{"resource_id":"support_6569","ticket_id":"CS-5569","subject_reference":"user_405","channel":"email","message_text":"Please send the delivery update to lucia-garcia@proton.me. The affected order includes: Running shoes."}','2026-03-30T10:00:00Z');
+INSERT INTO "customer_data_replica_eu_west" VALUES('support_6569','support_platform','support_conversations','{"resource_id":"support_6569","ticket_id":"CS-5569","subject_reference":"user_405","channel":"email","message_text":"Please send the delivery update to lucia-garcia@proton.me. The affected order includes: Running shoes."}','2026-03-30T10:00:00Z');

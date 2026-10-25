@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+activity_3529,2026-08-30T10:46:13Z,DELETE_RECORD,deletion_worker,account_service,account_5482,FAILED,Deletion worker submitted primary profile account_5482 to account_service.
+activity_3530,2026-08-30T10:57:28Z,DELETE_RECORD,deletion_worker,account_service,account_3866,SUCCESS,Deletion worker submitted primary profile account_3866 to account_service.
+activity_3532,2026-08-30T11:06:57Z,DELETE_RECORD,deletion_worker,account_service,account_7012,FAILED,Deletion worker submitted primary profile account_7012 to account_service.
+activity_3533,2026-08-30T11:31:09Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_4574,SUCCESS,Policy action completed for analytics_4574.
+activity_3534,2026-08-30T11:31:53Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_6077,SUCCESS,Policy action completed for analytics_6077.
+activity_3535,2026-08-30T11:38:23Z,REDACT_RECORD,deletion_worker,support_platform,support_2351,SUCCESS,Policy action completed for support_2351.
+activity_3536,2026-08-30T11:38:38Z,REDACT_RECORD,deletion_worker,support_platform,support_4707,SUCCESS,Policy action completed for support_4707.
+activity_3537,2026-08-30T11:45:08Z,DISABLE_DATA_FLOW,deletion_worker,integration_service,data_flow_2295,SUCCESS,Policy action completed for data_flow_2295.
+activity_3538,2026-08-30T11:45:52Z,DISABLE_DATA_FLOW,deletion_worker,integration_service,data_flow_2337,SUCCESS,Policy action completed for data_flow_2337.
+activity_3539,2026-08-30T11:52:22Z,BLOCK_RESTORE,deletion_worker,backup_service,backup_838,SUCCESS,Policy action completed for backup_838.
+activity_3540,2026-08-30T11:52:37Z,BLOCK_RESTORE,deletion_worker,backup_service,backup_5970,SUCCESS,Policy action completed for backup_5970.

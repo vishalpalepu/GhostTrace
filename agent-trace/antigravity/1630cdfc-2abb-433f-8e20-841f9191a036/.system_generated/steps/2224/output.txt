@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'user_id': 'user_13', 'name': 'Gabriel Silva', 'email': 'g.silva76@gmail.com', 'phone': '+55 11 96954-2024', 'email_hash': '7afbbca4e0e4d5228a422ca39f5453505d365849ba5e20a288a203f0ba505c3d', 'updated_at': '2024-11-19T16:11:00Z'}

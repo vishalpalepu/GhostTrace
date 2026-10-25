@@ -1,0 +1,12 @@
+Command exited with code 1.
+
+Command output:
+2026-10-25 20:29:03,898 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:29:03,929 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:29:03,936 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:29:04,105 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:29:04,144 [INFO] Loaded 4011 system activity records
+Traceback (most recent call last):
+  File "<string>", line 45, in <module>
+  File "<string>", line 33, in new_plan_case
+AttributeError: property 'steps_json' of 'AuditDecision' object has no setter

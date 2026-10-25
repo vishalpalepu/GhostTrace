@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+evidence_03: evidence/records/customer_account_handover_20261001.txt (bytes=4488)
+evidence_04: evidence/images/account_admin_console_20260926.png (bytes=124989)
+evidence_09: evidence/images/search_index_inspector_20260901.png (bytes=121101)
+evidence_14: evidence/images/connector_management_console_20260807.png (bytes=130271)
+evidence_18: evidence/documents/account_history_report_20260718.pdf (bytes=65704)
+evidence_19: evidence/images/analytics_profile_view_20260713.png (bytes=129362)
+evidence_23: evidence/images/customer_export_console_20260618.png (bytes=134597)
+evidence_27: evidence/documents/legal_retention_register_20260529.pdf (bytes=65857)
+evidence_28: evidence/images/support_ticket_console_20260524.png (bytes=135008)
+evidence_32: evidence/images/backup_restore_console_20260429.png (bytes=155587)
+evidence_37: evidence/images/security_audit_explorer_20260905.png (bytes=147699)
+evidence_42: evidence/images/deleted_account_reference_20260310.png (bytes=136696)
+evidence_46: evidence/images/object_storage_browser_20260213.png (bytes=154193)
+evidence_55: evidence/documents/security_retention_extract.pdf (bytes=64847)
+evidence_58: evidence/documents/delivery_correction_attachment.pdf (bytes=66039)
+evidence_60: evidence/images/marketing_profile_console.png (bytes=129711)

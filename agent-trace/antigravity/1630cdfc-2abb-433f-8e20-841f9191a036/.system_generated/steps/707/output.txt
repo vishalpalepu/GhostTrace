@@ -1,0 +1,1 @@
+Made 1 replacement in c:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evidence\document_extractor.py starting at line 215 (+8/-4 lines).

@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+Type of data: <class 'dict'>
+Keys: dict_keys(['exported_at', 'region', 'service_exports', 'source'])
+exported_at --> 2026-09-15T11:44:55Z
+region --> global
+service_exports --> {'account_service': {'profile_lookups': [{'observed_at': '2026-09-15T09:31:40Z', 'profile': None, 'r
+source --> records_assurance_gateway

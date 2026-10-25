@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Row 1 raw: case_01,COMPLETE,"[{""evidence_id"":""evidence_54"",""operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""

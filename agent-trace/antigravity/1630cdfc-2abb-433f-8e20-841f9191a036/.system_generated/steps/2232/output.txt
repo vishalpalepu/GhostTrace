@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+case_09 | Email: k.appiah88@gmail.com | GT: INCOMPLETE | Steps: 5
+case_13 | Email: noor-khalil@proton.me | GT: INCOMPLETE | Steps: 8
+case_16 | Email: diya.k4436@outlook.com | GT: INCOMPLETE | Steps: 7
+case_17 | Email: leonie.g9352@outlook.com | GT: INCOMPLETE | Steps: 5
+case_20 | Email: akosua.gyasi@gmail.com | GT: INCOMPLETE | Steps: 8
+case_23 | Email: thandiwe.m6866@zoho.com | GT: INCOMPLETE | Steps: 8
+case_25 | Email: s.yoon04@gmail.com | GT: COMPLETE | Steps: 3
+case_26 | Email: almeida.mariana@gmail.com | GT: COMPLETE | Steps: 6
+case_28 | Email: smartinez6461@gmail.com | GT: COMPLETE | Steps: 6
+case_29 | Email: noah.f438085@outlook.com | GT: INCOMPLETE | Steps: 14

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+evidence_05 account_994 ABSENT {'table': 'customer_data_read_replica', 'collection': 'customer_profiles', 'raw': {'resource_id': 'account_994', 'customer_reference': 'user_53', 'full_name': 'Diya Kapoor', 'email': 'diya.k4436@outlook.com', 'phone': '+91 96023 32879', 'account_status': 'ACTIVE', 'signup_channel': 'referral'}}

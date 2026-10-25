@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'activity_id': 'activity_3342', 'event_time': '2026-08-20T16:41:43Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_001', 'reported_result': 'SUCCESS', 'details': 'Deletion worker reported the requested operation as completed. Target resource: account_001.'}

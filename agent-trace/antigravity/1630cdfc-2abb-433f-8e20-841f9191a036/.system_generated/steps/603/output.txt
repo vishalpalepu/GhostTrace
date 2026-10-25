@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+application_trace_ap_northeast_20260730.log: 93 lines, resources found: 0
+application_trace_eu_north_20260302.log: 125 lines, resources found: 0
+cloud_runtime_export_af_south_20260930.log: 305 lines, resources found: 0
+cloud_runtime_export_us_west_20260608.log: 128 lines, resources found: 0
+notification_delivery_20260315.log: 39 lines, resources found: 0
+operations_stream_eu_central_20260705.log: 128 lines, resources found: 0
+operations_stream_me_central_20260203.log: 103 lines, resources found: 0
+resource_lookup_trace_20260218_083911.log: 54 lines, resources found: 26
+resource_lookup_trace_20260310_061801.log: 4 lines, resources found: 1
+resource_lookup_trace_20260414_054007.log: 50 lines, resources found: 24
+resource_lookup_trace_20260509_104353.log: 68 lines, resources found: 33
+resource_lookup_trace_20260529_074313.log: 48 lines, resources found: 23
+resource_lookup_trace_20260623_053726.log: 60 lines, resources found: 29
+resource_lookup_trace_20260713_093359.log: 54 lines, resources found: 26
+resource_lookup_trace_20260728_054417.log: 46 lines, resources found: 22
+resource_lookup_trace_20260822_103910.log: 46 lines, resources found: 22
+resource_lookup_trace_20260911_074253.log: 62 lines, resources found: 30
+resource_lookup_trace_20260926_103856.log: 58 lines, resources found: 28
+search_index_diagnostic_20260906.log: 36 lines, resources found: 0
+service_events_ap_south_20260915.log: 104 lines, resources found: 36
+service_events_sa_east_20260516.log: 110 lines, resources found: 37
+structured_service_events_ca_central_20260419.log: 136 lines, resources found: 44
+structured_service_events_eu_west_20260918.log: 112 lines, resources found: 36
+support_replica.log: 10 lines, resources found: 4
+syslog_archive_ap_southeast_20260325.log: 114 lines, resources found: 0
+syslog_archive_us_east_20260824.log: 118 lines, resources found: 0

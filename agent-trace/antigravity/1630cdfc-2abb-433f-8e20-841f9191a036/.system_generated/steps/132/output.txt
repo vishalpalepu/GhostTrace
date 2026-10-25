@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+Sample case count: 32 Eval case count: 518
+Case ID overlap count: 0
+Email overlap count: 2
+rule_01 ::: data_category: USER_PROFILE ::: condition: Always ::: action: DELETE
+rule_02 ::: data_category: SECONDARY_IDENTIFIER ::: condition: Always ::: action: DELETE
+rule_03 ::: data_category: SEARCH_INDEX_ENTRY ::: condition: Always ::: action: DELETE
+rule_04 ::: data_category: CACHE_ENTRY ::: condition: Always ::: action: DELETE
+rule_05 ::: data_category: SUPPORT_MESSAGE ::: condition: Conversation contains shared customer, agent, or order context that must be retained ::: action: REDACT
+rule_06 ::: data_category: SUPPORT_ATTACHMENT ::: condition: Attachment belongs only to the deletion subject ::: action: DELETE
+rule_07 ::: data_category: ANALYTICS_PROFILE ::: condition: Record is still attributable to a user ::: action: ANONYMIZE
+rule_08 ::: data_category: PRODUCT_TELEMETRY ::: condition: Record is still attributable to a user ::: action: ANONYMIZE
+rule_09 ::: data_category: USER_EXPORT ::: condition: Always ::: action: DELETE
+rule_10 ::: data_category: MARKETING_PROFILE ::: condition: Always ::: action: DELETE
+rule_11 ::: data_category: EMAIL_DELIVERY_LOG ::: condition: Log contains a user email address ::: action: REDACT
+rule_12 ::: data_category: SECURITY_AUDIT_LOG ::: condition: Record is within the supplied retention period ::: action: RETAIN
+rule_13 ::: data_category: LEGAL_HOLD_RECORD ::: condition: A supplied legal hold is active ::: action: RETAIN
+rule_14 ::: data_category: BACKUP_ARCHIVE ::: condition: Restore access can be blocked ::: action: RETAIN
+rule_15 ::: data_category: ACCOUNT_TOMBSTONE ::: condition: Account is deleted and only a stable internal user_id is needed to preserve references to retained records ::: action: REDACT

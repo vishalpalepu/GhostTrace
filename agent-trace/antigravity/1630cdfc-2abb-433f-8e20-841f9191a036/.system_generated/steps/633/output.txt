@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Building identity resolver...
+Building evidence index...
+Loading sample requests and ground truth...
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_graph_recon.py", line 42, in <module>
+    emails = resolver.get_all_emails_for_user(user_id) if user_id else [s.email]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IdentityResolver' object has no attribute 'get_all_emails_for_user'

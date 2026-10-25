@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:36:39,321 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:36:39,347 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:36:39,348 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:36:39,527 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:36:39,562 [INFO] Loaded 4011 system activity records
+2026-10-25 20:36:39,579 [INFO] Loaded 518 requests from dataset\deletion_requests.csv
+2026-10-25 20:36:39,622 [INFO] Audited 100 / 518 requests...
+2026-10-25 20:36:39,657 [INFO] Audited 200 / 518 requests...
+2026-10-25 20:36:39,694 [INFO] Audited 300 / 518 requests...
+2026-10-25 20:36:39,731 [INFO] Audited 400 / 518 requests...
+2026-10-25 20:36:39,774 [INFO] Audited 500 / 518 requests...
+2026-10-25 20:36:39,780 [INFO] Audited 518 / 518 requests...
+2026-10-25 20:36:39,804 [INFO] Successfully serialized 518 decisions to output_run2.csv
+============================================================
+CHECK 6: REPRODUCIBILITY & DETERMINISM AUDIT
+============================================================
+Run 1 SHA-256: e6baf7d13f93f3ad43f828b04db2dff608ef94f0cd15ee6916aa1645d79c3849
+Run 2 SHA-256: e6baf7d13f93f3ad43f828b04db2dff608ef94f0cd15ee6916aa1645d79c3849
+Byte-Level Exact Match:     True
+Semantic Row Matches:       518 / 518 (100.0%)
+============================================================

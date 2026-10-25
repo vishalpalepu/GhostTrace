@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+audit_record_6645: []
+audit_record_5569: []
+audit_record_4902: ['structured_service_events_eu_west_20260918.log']
+audit_record_4816: ['customer_account_handover_20261001.txt']
+audit_record_987: ['customer_data_read_replica_20260708.sql', 'customer_account_handover_20261001.txt']
+audit_record_1596: ['service_events_ap_south_20260915.log']
+audit_record_9528: ['customer_data_read_replica_20260921.sql']
+audit_record_1797: ['service_events_ap_south_20260915.log']

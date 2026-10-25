@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+"""Global evidence repository index and point-in-time retrieval."""
+
+from collections import defaultdict
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Set
+
+from ..ingestion.csv_loader import EvidenceFileRecord, load_evidence_manifest
+from .document_extractor import DocumentExtractor
+from .json_extractor import JsonExtractor
+from .log_extractor import LogExtractor
+from .models import ExtractedObservation
+from .sql_extractor import SqlExtractor
+
+
+class EvidenceIndex:
+    """Indexes all evidence files once and provides point-in-time retrieval by subject and resource."""
+
+    def __init__(self, manifest_path: Path, dataset_dir: Path) -> None:
+        self.manifest_path = manifest_path
+        self.dataset_dir = dataset_dir
+        self.manifest_records: List[EvidenceFileRecord] = []
+        self.observations: List[ExtractedObservation] = []
+
+        # Lookup indices
+        self.by_user_id: Dict[str, List[ExtractedObservation]] = defaultdict(list)
+        self.by_email: Dict[str, List[ExtractedObservation]] = defaultdict(list)
+        self.by_phone: Dict[str, List[ExtractedObservation]] = defaultdict(list)
+        self.by_hash: Dict[str, List[ExtractedObservation]] = defaultdict(list)
+        self.by_resource_id: Dict[str, List[ExtractedObservation]] = defaultdict(list)
+        self.by_file_id: Dict[str, List[ExtractedObservation]] = defaultdict(list)
+
+        # Coverage tracking
+        self.parsed_files: Set[str] = set()
+        self.failed_files: Dict[str, str] = {}
+        self.discovered_resources: Set[str] = set()
+
+        self._build_index()
+
+    def _build_index(self) -> None:
+        """Parses and indexes every evidence file in evidence_files.csv."""
+        self.manifest_records = load_evidence_manifest(self.manifest_path)
+
+        for rec in self.manifest_records:
+            fpath = self.dataset_dir / rec.file_path

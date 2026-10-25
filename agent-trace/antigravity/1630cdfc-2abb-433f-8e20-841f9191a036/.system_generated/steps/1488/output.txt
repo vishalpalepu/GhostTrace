@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+42: # Case 1: Service resource exports (e.g. service_resource_export_*.json)
+43: if "service_exports" in data:
+44: exports = data.get("service_exports", {})
+45: for sys_name, sys_content in exports.items():
+90: elif sys_name == "export_service":
+189: # Case 3: Flat record list files (e.g. customer_export_jobs_*.json, customer_analytics_report_*.json)
+192: origin = data.get("origin") or data.get("source") or "export_service"
+202: cat = "USER_EXPORT" if "export" in origin.lower() else "ANALYTICS_PROFILE"

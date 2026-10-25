@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+backup_4978 in evidence_93: INSERT INTO backup_restore_entries VALUES ('backup_4978', NULL, 'k.appiah88@gmail.com', 'archive/customer-data/backup_4978.tar.zst', '1', '2026-09-16T07:59:54Z');

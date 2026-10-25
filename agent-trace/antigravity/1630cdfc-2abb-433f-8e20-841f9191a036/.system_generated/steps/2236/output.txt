@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+All 518 requests status distribution: {'COMPLETE': 185, 'INCOMPLETE': 323, 'NOT_APPLICABLE': 10}
+Total validation errors: 0

@@ -1,0 +1,13 @@
+Command exited with code 1.
+
+Command output:
+Loaded 4011 system activities.
+============================================================
+CASE case_01 (amina.elmasri@gmail.com) -> COMPLETE
+Resources in output: ['account_001']
+Matched system activities: 1
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\trace_resources.py", line 39, in <module>
+    print(f"  act: time={a['event_time']} op={a['operation']} sys={a['system_id']} res={a['resource_id']} user={a.get('user_id')} det={a.get('details')}")
+                                              ~^^^^^^^^^^^^^
+KeyError: 'operation'

@@ -1,0 +1,8 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_c9_obs.py", line 19, in <module>
+    all_c9_obs = [o for o in index.all_observations if o.subject_id == 'user_61' or o.subject_email == c9.email]
+                             ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EvidenceIndex' object has no attribute 'all_observations'. Did you mean: 'observations'?

@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+audit_record_3737 found in: dataset\sample_output.csv
+audit_record_3737 found in: dataset\evidence\records\customer_data_snapshot_bundle_20260917.json
+audit_record_3737 found in: dataset\evidence\records\service_resource_export_20260915_114455.json

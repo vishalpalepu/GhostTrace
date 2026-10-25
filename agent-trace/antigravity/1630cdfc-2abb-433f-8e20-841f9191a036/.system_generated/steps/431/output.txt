@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+size: : The term 'size:' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:52
++         print(f\"{r['file_id']}: {r['file_path']} (size: {size} bytes ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (size::String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

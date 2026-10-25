@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+=== Obj 6 strings (21) ===
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\extract_all_pdf_strings.py", line 45, in <module>
+    print("\n".join(decoded_strs[:30]))
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x88' in position 27: character maps to <undefined>

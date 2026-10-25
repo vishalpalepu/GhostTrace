@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+activity_3768,2026-09-09T20:31:16Z,RETAIN_RECORD,security_service,archive_service,audit_record_7343,SUCCESS,Security-event archival processed audit_record_7343.
+activity_3776,2026-09-10T06:11:21Z,RETAIN_RECORD,security_service,archive_service,audit_record_9748,SUCCESS,Security-event archival processed audit_record_9748.

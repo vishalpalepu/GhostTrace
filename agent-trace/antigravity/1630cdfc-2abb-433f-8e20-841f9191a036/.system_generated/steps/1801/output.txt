@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+audit_record_4128 found in: dataset\sample_output.csv
+audit_record_4128 found in: dataset\evidence\records\customer_data_snapshot_bundle_20260917.json

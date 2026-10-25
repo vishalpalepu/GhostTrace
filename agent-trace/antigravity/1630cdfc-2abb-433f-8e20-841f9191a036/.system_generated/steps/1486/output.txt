@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+activity_3458,2026-08-27T05:52:37Z,DELETE_RECORD,deletion_worker,account_service,account_2449,PARTIAL,Deletion worker submitted primary profile account_2449 to account_service.
+activity_3459,2026-08-27T06:01:11Z,DELETE_RECORD,deletion_worker,account_service,account_4911,PARTIAL,Deletion worker submitted primary profile account_4911 to account_service.
+activity_3460,2026-08-27T06:12:24Z,DELETE_RECORD,deletion_worker,account_service,account_2387,FAILED,Deletion worker submitted primary profile account_2387 to account_service.
+activity_3461,2026-08-27T07:44:03Z,SYNC_RECORD,integration_service,search_service,data_flow_9927,SUCCESS,Active connector repopulated downstream resource search_6302.
+activity_3462,2026-08-27T08:03:32Z,DELETE_RECORD,deletion_worker,search_service,search_6302,FAILED,Deletion worker received the final result for search_6302 from search_service.
+activity_3463,2026-08-27T08:47:41Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_901,SUCCESS,Deletion worker reported the requested operation as completed. Target resource: analytics_901.
+activity_3464,2026-08-27T09:33:26Z,SYNC_RECORD,account_service,analytics_platform,analytics_1805,SUCCESS,Customer profile synchronization processed analytics_1805.
+activity_3465,2026-08-27T10:55:42Z,DELETE_RECORD,deletion_worker,account_service,account_4163,SUCCESS,Deletion worker submitted primary profile account_4163 to account_service.
+activity_3466,2026-08-27T11:37:27Z,RETAIN_RECORD,security_service,archive_service,audit_record_7203,SUCCESS,Security-event archival processed audit_record_7203.
+activity_3467,2026-08-27T12:41:34Z,CHECK_DATA_FLOW,deletion_worker,integration_service,data_flow_8524,SUCCESS,Connector status check confirmed that data flow data_flow_8524 remains enabled.
+activity_3468,2026-08-27T13:00:04Z,DELETE_RECORD,deletion_worker,search_service,search_9359,FAILED,Deletion worker received the final result for search_9359 from search_service.

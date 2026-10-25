@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+['activity_id', 'event_time', 'event_type', 'source_system', 'target_system', 'resource_id', 'reported_result', 'details']

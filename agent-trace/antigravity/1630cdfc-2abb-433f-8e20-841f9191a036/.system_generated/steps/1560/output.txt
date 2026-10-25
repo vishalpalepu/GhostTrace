@@ -1,0 +1,9 @@
+Command exited with code 1.
+
+Command output:
+case_18 | req=2026-09-06 11:00:00+00:00 | rep=2026-09-09 11:00:00+00:00 | email=mori.ren@gmail.com
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\check_remaining_accounts.py", line 18, in <module>
+    print(f"   act: time={m.event_time} | res={m.resource_id} | status={m.status}")
+                                                                        ^^^^^^^^
+AttributeError: 'SystemActivityRecord' object has no attribute 'status'

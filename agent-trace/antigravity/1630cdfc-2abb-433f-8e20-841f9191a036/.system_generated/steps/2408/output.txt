@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+[{'step_no': 1, 'phase': 'VERIFICATION', 'system_id': 'account_service', 'resource_id': 'account_4857', 'operation': 'VERIFY_RECORD_ABSENT', 'state': 'ABSENT', 'evidence_id': 'evidence_51'}, {'step_no': 2, 'phase': 'VERIFICATION', 'system_id': 'security_service', 'resource_id': 'audit_record_6909', 'operation': 'VERIFY_RECORD_PRESENT', 'state': 'PRESENT', 'evidence_id': 'evidence_51'}, {'step_no': 3, 'phase': 'VERIFICATION', 'system_id': 'identity_service', 'resource_id': 'tombstone_440', 'operation': 'VERIFY_RECORD_REDACTED', 'state': 'REDACTED', 'evidence_id': 'evidence_51'}]

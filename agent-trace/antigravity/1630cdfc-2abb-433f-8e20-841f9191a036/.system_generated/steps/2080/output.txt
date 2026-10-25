@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Total analytics activities: 205
+Counter({'ANONYMIZE_RECORD': 204, 'DELETE_RECORD': 1})

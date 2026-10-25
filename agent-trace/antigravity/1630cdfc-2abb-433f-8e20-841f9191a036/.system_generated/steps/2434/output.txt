@@ -1,0 +1,33 @@
+Command exited with code 1.
+
+Command output:
+2026-10-25 20:36:24,964 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:36:24,993 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:36:24,994 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:36:25,194 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:36:25,236 [INFO] Loaded 4011 system activity records
+2026-10-25 20:36:25,255 [INFO] Loaded 518 requests from dataset\deletion_requests.csv
+2026-10-25 20:36:25,298 [INFO] Audited 100 / 518 requests...
+2026-10-25 20:36:25,337 [INFO] Audited 200 / 518 requests...
+2026-10-25 20:36:25,373 [INFO] Audited 300 / 518 requests...
+2026-10-25 20:36:25,412 [INFO] Audited 400 / 518 requests...
+2026-10-25 20:36:25,454 [INFO] Audited 500 / 518 requests...
+2026-10-25 20:36:25,458 [INFO] Audited 518 / 518 requests...
+2026-10-25 20:36:25,487 [INFO] Successfully serialized 518 decisions to output_run2.csv
+Traceback (most recent call last):
+  File "<string>", line 30, in <module>
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+============================================================
+CHECK 6: REPRODUCIBILITY & DETERMINISM AUDIT
+============================================================
+Run 1 SHA-256: e6baf7d13f93f3ad43f828b04db2dff608ef94f0cd15ee6916aa1645d79c3849
+Run 2 SHA-256: e6baf7d13f93f3ad43f828b04db2dff608ef94f0cd15ee6916aa1645d79c3849
+Byte-Level Exact Match:     True

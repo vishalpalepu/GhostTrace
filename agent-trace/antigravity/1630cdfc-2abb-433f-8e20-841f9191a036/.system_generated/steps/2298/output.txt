@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+usage: main.py [-h] [--mode {sample,eval,all}] [--requests REQUESTS]
+               [--output OUTPUT] [--dataset-dir DATASET_DIR]
+
+GhostTrace Deletion Verification Engine
+
+options:
+  -h, --help            show this help message and exit
+  --mode {sample,eval,all}
+                        Execution mode
+  --requests REQUESTS   Path to input requests CSV
+  --output OUTPUT       Path to output CSV
+  --dataset-dir DATASET_DIR
+                        Path to dataset directory

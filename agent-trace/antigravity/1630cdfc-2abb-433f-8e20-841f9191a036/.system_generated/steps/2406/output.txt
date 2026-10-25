@@ -1,0 +1,118 @@
+Command exited with code 1.
+
+Command output:
+test_account_tombstone_distinction (test_graph.TestEvidenceIngestionAndGraph.test_account_tombstone_distinction)
+Verify distinction between redacted tombstone (case_31) and direct PII exposure (case_32). ... ok
+test_backup_restoration_allowed_can_be_blocked (test_graph.TestEvidenceIngestionAndGraph.test_backup_restoration_allowed_can_be_blocked)
+Backup archive with active restore capability (case_09: backup_4978). ... ok
+test_backup_restoration_already_blocked (test_graph.TestEvidenceIngestionAndGraph.test_backup_restoration_already_blocked)
+Backup archive with restore access confirmed blocked (case_26: backup_3120). ... ok
+test_full_evidence_manifest_coverage (test_graph.TestEvidenceIngestionAndGraph.test_full_evidence_manifest_coverage)
+Verify that all 94 evidence files are parsed with 0 unhandled failures. ... ok
+test_past_successful_sync_with_later_disabled_state (test_graph.TestEvidenceIngestionAndGraph.test_past_successful_sync_with_later_disabled_state)
+Past SUCCESS sync must not override direct evidence that connector is currently disabled. ... ok
+test_process_with_affirmative_active_evidence (test_graph.TestEvidenceIngestionAndGraph.test_process_with_affirmative_active_evidence)
+Active sync process confirmed by affirmative evidence (e.g. data_flow_9522 in case_11). ... ok
+test_surviving_record_in_replica_after_primary_deletion (test_graph.TestEvidenceIngestionAndGraph.test_surviving_record_in_replica_after_primary_deletion)
+Test case_05: account record surviving in replica (evidence_54) despite deletion claim. ... ok
+test_temporal_cutoff_exclusion (test_graph.TestEvidenceIngestionAndGraph.test_temporal_cutoff_exclusion)
+Observations with captured_at or observation_time > audit_at must be strictly excluded. ... ok
+test_half_open_interval_boundaries (test_identity.TestTemporalIdentityResolution.test_half_open_interval_boundaries)
+Test [start, end) exact boundary semantics. ... ok
+test_hardened_parse_iso8601 (test_identity.TestTemporalIdentityResolution.test_hardened_parse_iso8601)
+Test strict ISO-8601 UTC parsing and error handling. ... ok
+test_independent_attribution_audit (test_identity.TestTemporalIdentityResolution.test_independent_attribution_audit)
+Independent ground truth cross-validation across all 550 requests. ... ok
+test_infinite_interval_boundaries (test_identity.TestTemporalIdentityResolution.test_infinite_interval_boundaries)
+Test intervals with -inf start or +inf end. ... ok
+test_multi_hop_historical_timeline (test_identity.TestTemporalIdentityResolution.test_multi_hop_historical_timeline)
+Test user_10 who underwent 2 email mutations. ... ok
+test_reassignment_handling (test_identity.TestTemporalIdentityResolution.test_reassignment_handling)
+Synthetic test: Reassignment of email between two distinct users. ... ok
+test_zero_name_based_merging (test_identity.TestTemporalIdentityResolution.test_zero_name_based_merging)
+Verify that similar names do NOT result in cross-user attribution. ... ok
+test_all_sample_requests_authorized (test_intent.TestIntentClassifier.test_all_sample_requests_authorized)
+All 32 sample requests must be classified as valid deletion requests. ... ok
+test_ambiguous_intent_handling (test_intent.TestIntentClassifier.test_ambiguous_intent_handling)
+Test that ambiguous inquiries are flagged internally as AMBIGUOUS and not prematurely NOT_APPLICABLE. ... ok
+test_boundary_negation_intent (test_intent.TestIntentClassifier.test_boundary_negation_intent)
+Test boundary cases where deletion keywords appear inside a non-deletion sentence. ... ok
+test_explicit_negation_intent (test_intent.TestIntentClassifier.test_explicit_negation_intent)
+Test standalone and explicit negation of deletion requests. ... ok
+test_mixed_intent_precedence (test_intent.TestIntentClassifier.test_mixed_intent_precedence)
+Test that non-deletion / negation signals take precedence over embedded deletion keywords. ... ok
+test_multilingual_deletion_requests (test_intent.TestIntentClassifier.test_multilingual_deletion_requests)
+Test deletion requests in various supported languages. ... ok
+test_multilingual_negation_intent (test_intent.TestIntentClassifier.test_multilingual_negation_intent)
+Test explicit negation across supported non-English languages. ... ok
+test_real_eval_non_deletion_requests (test_intent.TestIntentClassifier.test_real_eval_non_deletion_requests)
+Test cases 533 to 542 in deletion_requests.csv which represent non-deletion requests. ... ok
+test_all_32_sample_cases_exact_canonical_parity (test_planner.TestAuditPlanner.test_all_32_sample_cases_exact_canonical_parity)
+Verify 100% status, step count, and semantic field parity across all 32 sample cases. ... FAIL
+test_complete_case_has_only_verifications (test_planner.TestAuditPlanner.test_complete_case_has_only_verifications)
+Case 01 is complete and should have exactly 1 step in VERIFICATION phase. ... ok
+test_incomplete_case_has_remediation_and_empty_evidence_ids (test_planner.TestAuditPlanner.test_incomplete_case_has_remediation_and_empty_evidence_ids)
+Case 05 has remaining record in replica and must contain FINDING, REMEDIATION, VERIFICATION. ... ok
+test_intent_non_deletion_short_circuit (test_planner.TestAuditPlanner.test_intent_non_deletion_short_circuit)
+Non-deletion requests must short-circuit to NOT_APPLICABLE with 0 steps. ... ok
+test_security_audit_record_retention_rule_12 (test_planner.TestAuditPlanner.test_security_audit_record_retention_rule_12)
+Security audit records must be retained in VERIFICATION phase with PRESENT state. ... ok
+test_account_tombstone_redaction (test_policy.TestPolicyEngine.test_account_tombstone_redaction)
+Rule 15: Needs user_id with direct PII -> REDACT_RECORD; Already redacted -> Compliant; Not needed -> NONE. ... ok
+test_all_15_rules_loaded_verbatim (test_policy.TestPolicyEngine.test_all_15_rules_loaded_verbatim)
+Verify that all 15 rules from deletion_rules.csv are loaded accurately. ... ok
+test_analytics_and_telemetry_anonymization (test_policy.TestPolicyEngine.test_analytics_and_telemetry_anonymization)
+Rules 7 & 8: Attributable -> ANONYMIZE; Unlinked -> NONE (already compliant). ... ok
+test_backup_archive_restore_blocking (test_policy.TestPolicyEngine.test_backup_archive_restore_blocking)
+Rule 14: Restore blocked -> RETAIN (compliant); Restore allowed -> REPORT_RESTORE_RISK; Unblockable -> NONE. ... ok
+test_email_delivery_log_condition (test_policy.TestPolicyEngine.test_email_delivery_log_condition)
+Rule 11: Contains email -> REDACT; Already redacted -> NONE. ... ok
+test_legal_hold_condition (test_policy.TestPolicyEngine.test_legal_hold_condition)
+Rule 13: Active legal hold -> RETAIN; Inactive hold -> NONE (do NOT invent DELETE). ... ok
+test_security_audit_log_retention_boundary (test_policy.TestPolicyEngine.test_security_audit_log_retention_boundary)
+Rule 12: audit_at <= retention_until -> RETAIN; Expired -> NONE (do NOT invent DELETE). ... ok
+test_support_attachment_condition (test_policy.TestPolicyEngine.test_support_attachment_condition)
+Rule 6: Belongs only to subject -> DELETE; Shared attachment -> NONE. ... ok
+test_support_message_condition (test_policy.TestPolicyEngine.test_support_message_condition)
+Rule 5: Shared context -> REDACT; No shared context -> NONE (no unauthorized action). ... ok
+test_unconditional_deletion_rules (test_policy.TestPolicyEngine.test_unconditional_deletion_rules)
+Rules 1, 2, 3, 4, 9, 10 must always require full DELETE. ... ok
+test_complete_decision_with_findings_rejected (test_serializer.TestCsvSerializer.test_complete_decision_with_findings_rejected)
+COMPLETE decision cannot contain FINDING steps. ... ok
+test_consecutive_step_numbering (test_serializer.TestCsvSerializer.test_consecutive_step_numbering)
+Step numbers must be 1-based consecutive integers. ... ok
+test_incomplete_decision_evidence_invariants (test_serializer.TestCsvSerializer.test_incomplete_decision_evidence_invariants)
+INCOMPLETE requires evidence_id on FINDING and empty evidence_id on REMEDIATION/VERIFICATION. ... ok
+test_not_applicable_with_steps_rejected (test_serializer.TestCsvSerializer.test_not_applicable_with_steps_rejected)
+NOT_APPLICABLE decision cannot contain steps. ... ok
+test_rfc4180_csv_serialization (test_serializer.TestCsvSerializer.test_rfc4180_csv_serialization)
+Serialization output must adhere to RFC-4180 CSV standard. ... ok
+test_state_operation_correspondence (test_serializer.TestCsvSerializer.test_state_operation_correspondence)
+Step operation must correspond strictly to required state. ... ok
+test_step_sorting_invariants (test_serializer.TestCsvSerializer.test_step_sorting_invariants)
+Steps must be sorted by (phase, operation, system_id, resource_id). ... ok
+test_unknown_evidence_id_rejected (test_serializer.TestCsvSerializer.test_unknown_evidence_id_rejected)
+Evidence IDs must exist in the validated manifest. ... ok
+test_valid_complete_decision (test_serializer.TestCsvSerializer.test_valid_complete_decision)
+COMPLETE decision requires only VERIFICATION phase steps with valid evidence_id. ... ok
+test_valid_not_applicable (test_serializer.TestCsvSerializer.test_valid_not_applicable)
+NOT_APPLICABLE decision must have 0 steps and serialize properly. ... ok
+
+======================================================================
+FAIL: test_all_32_sample_cases_exact_canonical_parity (test_planner.TestAuditPlanner.test_all_32_sample_cases_exact_canonical_parity)
+Verify 100% status, step count, and semantic field parity across all 32 sample cases.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_planner.py", line 153, in test_all_32_sample_cases_exact_canonical_parity
+    self.assertEqual(
+AssertionError: 'evidence_54' != 'evidence_51'
+- evidence_54
+?           ^
++ evidence_51
+?           ^
+ : Field 'evidence_id' mismatch at step 1 in case_31: evidence_54 != evidence_51
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.324s
+
+FAILED (failures=1)

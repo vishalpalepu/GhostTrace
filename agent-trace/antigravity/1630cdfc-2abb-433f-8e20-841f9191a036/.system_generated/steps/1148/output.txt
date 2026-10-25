@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+obs count: 1
+ExtractedObservation(file_id='evidence_93', source_path='hackerrank-orchestrate-october26-main\\dataset\\evidence\\databases\\customer_data_inventory_20260916.sql', system_id='backup_service', resource_id='backup_4978', observed_state='ACTIVE', data_category='BACKUP_ARCHIVE', subject_id=None, subject_email='k.appiah88@gmail.com', subject_phone=None, observation_time=datetime.datetime(2026, 9, 16, 7, 59, 54, tzinfo=datetime.timezone.utc), captured_at=datetime.datetime(2026, 9, 16, 8, 37, 39, tzinfo=datetime.timezone.utc), extraction_method='SQL_EXEC', details={'table': 'backup_restore_entries', 'restore_allowed': True, 'can_be_blocked': True, 'raw': {'resource_id': 'backup_4978', 'customer_reference': None, 'customer_email': 'k.appiah88@gmail.com', 'archive_key': 'archive/customer-data/backup_4978.tar.zst', 'restore_allowed': 1, 'updated_at': '2026-09-16T07:59:54Z'}}, uncertainty=None)

@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                              Length LastWriteTime      
+--------                                                              ------ -------------      
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\output.csv 514722 25-10-2026 20:05:00
+C:\Vishal\GhostTrace\output.csv                                       514722 25-10-2026 20:05:00
+
+

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'case_id': 'case_26', 'email': 'almeida.mariana@gmail.com', 'requested_at': '2026-08-30T12:00:00Z', 'reported_status': 'NOT_STARTED', 'reported_at': '2026-09-02T12:00:00Z', 'audit_at': '2026-09-15T12:00:00Z', 'request_text': 'I found an old report saying my account still existed. Please check the latest state and confirm that the profile is gone and that remaining records cannot identify me.'}

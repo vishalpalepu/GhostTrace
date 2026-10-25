@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Sample outcomes: Counter({'DELETION': 32})
+Eval outcomes: Counter({'DELETION': 508, 'NON_DELETION': 10})
+Eval categories: Counter({'DELETION': 508, 'DATA_ACCESS': 4, 'RECTIFICATION': 3, 'MARKETING_OPT_OUT': 2, 'ACCOUNT_HELP': 1})

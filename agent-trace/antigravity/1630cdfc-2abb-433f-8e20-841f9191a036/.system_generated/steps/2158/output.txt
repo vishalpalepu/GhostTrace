@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+CLI output verified: 32/32 cases perfectly match canonical sample ground truth!

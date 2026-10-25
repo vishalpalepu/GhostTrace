@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+activity_3682,2026-09-06T10:45:58Z,DELETE_RECORD,deletion_worker,account_service,account_4857,SUCCESS,Deletion worker submitted primary profile account_4857 to account_service.
+activity_3683,2026-09-06T10:51:45Z,DELETE_RECORD,deletion_worker,account_service,account_2381,PARTIAL,Deletion worker submitted primary profile account_2381 to account_service.
+activity_3684,2026-09-06T11:00:18Z,DELETE_RECORD,deletion_worker,account_service,account_1810,SUCCESS,Deletion worker submitted primary profile account_1810 to account_service.
+activity_3685,2026-09-06T11:05:15Z,DELETE_RECORD,deletion_worker,account_service,account_8858,PARTIAL,Deletion worker submitted primary profile account_8858 to account_service.
+activity_3686,2026-09-06T11:11:02Z,DELETE_RECORD,deletion_worker,account_service,account_3677,SUCCESS,Deletion worker submitted primary profile account_3677 to account_service.
+activity_3687,2026-09-06T11:31:39Z,REDACT_RECORD,deletion_worker,identity_service,tombstone_440,SUCCESS,Policy action completed for tombstone_440.
+activity_3690,2026-09-06T12:44:53Z,CHECK_RESTORE_ACCESS,deletion_worker,backup_service,backup_3870,SUCCESS,Restore-access check confirmed that archive backup_3870 can still be restored.
+activity_3691,2026-09-06T12:51:10Z,REDACT_RECORD,deletion_worker,support_platform,support_4887,FAILED,Deletion worker received the final result for support_4887 from support_platform.
+activity_3692,2026-09-06T13:00:07Z,REDACT_RECORD,deletion_worker,identity_service,tombstone_9178,FAILED,Deletion worker received the final result for tombstone_9178 from identity_service.
+activity_3693,2026-09-06T13:00:37Z,CHECK_DATA_FLOW,deletion_worker,integration_service,data_flow_7495,SUCCESS,Connector status check confirmed that data flow data_flow_7495 remains enabled.
+activity_3694,2026-09-06T13:10:39Z,DELETE_RECORD,deletion_worker,search_service,search_3200,FAILED,Deletion worker received the final result for search_3200 from search_service.

@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Sources mentioning user_: {'data_catalog': 12}
+Sources mentioning email: {'data_catalog': 12}

@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+Total deletion requests: 550
+Total primary account DELETE_RECORD events: 539
+Matched: 546/550
+Unmatched count: 4
+   case_34: req=2026-09-24 08:00:00+00:00, rep=2026-09-26 02:00:00+00:00, email=haruka.s1838@zoho.com
+   case_50: req=2026-07-11 07:00:00+00:00, rep=2026-07-13 01:00:00+00:00, email=darwish.omar@icloud.com
+   case_533: req=2026-09-10 12:00:00+00:00, rep=2026-09-11 12:00:00+00:00, email=haruka-kato@gmail.com
+   case_542: req=2026-09-12 12:00:00+00:00, rep=2026-09-13 12:00:00+00:00, email=omar.nasser@gmail.com

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'resource_id': 'analytics_901', 'user_id': None, 'email': None, 'phone': None, 'email_hash': None, 'reporting_window': 'last_90_days', 'metrics': {'sessions_30d': 11, 'products_viewed_30d': 24, 'orders_completed_90d': 2, 'revenue_90d_usd': 146.8}, 'recent_activity': [{'event': 'product_viewed', 'product': 'Travel backpack'}, {'event': 'purchase_completed', 'product': 'Travel backpack', 'quantity': 1}]}

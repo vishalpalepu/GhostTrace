@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+{'customer_reference': 'user_28', 'message_excerpt': 'Customer supplied contact details for a delivery query.', 'observed_at': '2026-09-15T10:51:49Z', 'requester_email': None, 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_2351'}
+{'customer_reference': 'user_27', 'message_excerpt': 'Customer contacted support about account access.', 'observed_at': '2026-09-15T10:48:30Z', 'requester_email': None, 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_4707'}
+{'customer_reference': 'user_26', 'message_excerpt': 'Customer followed up about an order update.', 'observed_at': '2026-09-15T10:00:05Z', 'requester_email': None, 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_4715'}
+{'customer_reference': None, 'message_excerpt': 'Customer followed up about an order update.', 'observed_at': '2026-09-15T10:48:45Z', 'requester_email': 'noah.f438085@outlook.com', 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_5281'}
+{'customer_reference': None, 'message_excerpt': 'Customer supplied contact details for a delivery query.', 'observed_at': '2026-09-15T09:03:40Z', 'requester_email': 'camille.bernard86@outlook.com', 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_6477'}

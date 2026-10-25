@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+case_31 | req=2026-09-04 12:00:00+00:00 | rep=2026-09-06 12:00:00+00:00 | email=a.eze08@gmail.com
+case_32 | req=2026-09-03 12:00:00+00:00 | rep=2026-09-06 12:00:00+00:00 | email=addo.kofi@gmail.com

@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     13:58                evaluation                                                           
+-a----        25-10-2026     13:58              0 main.py                                                              
+
+

@@ -1,0 +1,123 @@
+Command exited with code 1.
+
+Command output:
+Loaded 32 sample outputs and 32 requests.
+================================================================================
+CASE case_01 | Status: COMPLETE | User: None | Email: amina.elmasri@gmail.com | Audit: 2026-09-03T11:30:00Z
+Request: Hi, I haven�t used this account in years and would like it closed. Please remove the profile and the personal details attached to it.
+Total Steps: 1
+  [ 1] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_001               | state: ABSENT       | ev: evidence_54
+================================================================================
+CASE case_02 | Status: COMPLETE | User: None | Email: mateo.rios@outlook.com | Audit: 2026-09-04T15:00:00Z
+Request: Intent� eliminar mi cuenta ayer, pero la p�gina termin� mostrando un error. �Pueden comprobar si todav�a queda alg�n dato y completar la eliminaci�n si hace falta?
+Total Steps: 1
+  [ 1] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_002               | state: ABSENT       | ev: evidence_54
+================================================================================
+CASE case_03 | Status: COMPLETE | User: None | Email: l.fontaine46@yahoo.com | Audit: 2026-09-26T11:00:00Z
+Request: Je demande la suppression d�finitive du compte associ� � cette adresse e-mail. Veuillez examiner les identifiants actuels et ant�rieurs conform�ment � votre proc�dure de confidentialit�. Merci de confirmer le r�sultat une fois la v�rification termin�e.
+Total Steps: 3
+  [ 1] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_7566              | state: ABSENT       | ev: evidence_94
+  [ 2] VERIFICATION | VERIFY_RECORD_PRESENT     | security_service     | audit_record_2016         | state: PRESENT      | ev: evidence_94
+  [ 3] VERIFICATION | VERIFY_RECORD_ANONYMIZED  | analytics_platform   | analytics_9406            | state: ANONYMIZED   | ev: evidence_94
+================================================================================
+CASE case_04 | Status: COMPLETE | User: None | Email: thandiwe.n@gmail.com | Audit: 2026-09-07T10:20:00Z
+Request: I�m deleting my account. You can keep anonymous statistics, but nothing in analytics should still point back to me.
+Total Steps: 2
+  [ 1] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_004               | state: ABSENT       | ev: evidence_54
+  [ 2] VERIFICATION | VERIFY_RECORD_ANONYMIZED  | analytics_platform   | analytics_901             | state: ANONYMIZED   | ev: evidence_56
+================================================================================
+CASE case_05 | Status: INCOMPLETE | User: None | Email: leila.haddad@yahoo.com | Audit: 2026-09-08T13:40:00Z
+Request: I deleted this account and received a confirmation, but the same email address is still recognized. Please remove any remaining copy of my profile.
+Total Steps: 3
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | account_service      | account_005               | state: PRESENT      | ev: evidence_54
+  [ 2] REMEDIATION  | DELETE_RECORD             | account_service      | account_005               | state: ABSENT       | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_005               | state: ABSENT       | ev: 
+================================================================================
+CASE case_06 | Status: INCOMPLETE | User: None | Email: jonas.berg@outlook.com | Audit: 2026-09-10T09:15:00Z
+Request: My account page is gone, but my old profile still appears when I search for it. Can you remove that search result too?
+Total Steps: 4
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | search_service       | search_001                | state: PRESENT      | ev: evidence_57
+  [ 2] REMEDIATION  | DELETE_RECORD             | search_service       | search_001                | state: ABSENT       | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_006               | state: ABSENT       | ev: 
+  [ 4] VERIFICATION | VERIFY_RECORD_ABSENT      | search_service       | search_001                | state: ABSENT       | ev: 
+================================================================================
+CASE case_07 | Status: INCOMPLETE | User: None | Email: priya.raman@gmail.com | Audit: 2026-09-12T08:00:00Z
+Request: Please delete my account and the identity document I sent to support while resolving a delivery issue.
+Total Steps: 4
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | support_platform     | support_001               | state: PRESENT      | ev: evidence_58
+  [ 2] REMEDIATION  | DELETE_RECORD             | support_platform     | support_001               | state: ABSENT       | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_007               | state: ABSENT       | ev: 
+  [ 4] VERIFICATION | VERIFY_RECORD_ABSENT      | support_platform     | support_001               | state: ABSENT       | ev: 
+================================================================================
+CASE case_08 | Status: INCOMPLETE | User: None | Email: gabriel.costa@proton.me | Audit: 2026-09-14T16:10:00Z
+Request: I closed my account, but an old �download your data� link still works. Please delete that export file as well.
+Total Steps: 4
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | export_service       | export_001                | state: PRESENT      | ev: evidence_59
+  [ 2] REMEDIATION  | DELETE_RECORD             | export_service       | export_001                | state: ABSENT       | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_008               | state: ABSENT       | ev: 
+  [ 4] VERIFICATION | VERIFY_RECORD_ABSENT      | export_service       | export_001                | state: ABSENT       | ev: 
+================================================================================
+CASE case_09 | Status: INCOMPLETE | User: None | Email: k.appiah88@gmail.com | Audit: 2026-09-16T09:00:00Z
+Request: Please permanently delete the account associated with this email address. Please apply the correct treatment to records covered by the request. Please confirm when the review is complete.
+Total Steps: 5
+  [ 1] FINDING      | REPORT_RESTORE_RISK       | backup_service       | backup_4978               | state: ACTIVE       | ev: evidence_93
+  [ 2] REMEDIATION  | BLOCK_RESTORE             | backup_service       | backup_4978               | state: BLOCKED      | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_3960              | state: ABSENT       | ev: 
+  [ 4] VERIFICATION | VERIFY_RECORD_PRESENT     | security_service     | audit_record_4902         | state: PRESENT      | ev: 
+  [ 5] VERIFICATION | VERIFY_RESTORE_BLOCKED    | backup_service       | backup_4978               | state: BLOCKED      | ev: 
+================================================================================
+CASE case_10 | Status: INCOMPLETE | User: None | Email: nadia.ionescu@yahoo.com | Audit: 2026-09-18T12:25:00Z
+Request: I used this Yahoo address before changing the email on my account. Please remove records linked to both the old and current addresses.
+Total Steps: 4
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | support_platform     | support_002               | state: PRESENT      | ev: evidence_61
+  [ 2] REMEDIATION  | DELETE_RECORD             | support_platform     | support_002               | state: ABSENT       | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_010               | state: ABSENT       | ev: 
+  [ 4] VERIFICATION | VERIFY_RECORD_ABSENT      | support_platform     | support_002               | state: ABSENT       | ev: 
+================================================================================
+CASE case_11 | Status: INCOMPLETE | User: None | Email: novak.tomasz@icloud.com | Audit: 2026-10-01T12:00:00Z
+Request: I would like the account associated with this address to be erased. Please handle any copies that fall within the scope of the deletion request. Please contact me if you need information to verify the request.
+Total Steps: 14
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | search_service       | search_052                | state: PRESENT      | ev: evidence_03
+  [ 2] FINDING      | REPORT_EXPOSED_PII        | analytics_platform   | analytics_2034            | state: PRESENT      | ev: evidence_03
+  [ 3] FINDING      | REPORT_EXPOSED_PII        | support_platform     | support_864               | state: PRESENT      | ev: evidence_03
+  [ 4] FINDING      | REPORT_ACTIVE_DATA_FLOW   | integration_service  | data_flow_9522            | state: ACTIVE       | ev: evidence_03
+  [ 5] REMEDIATION  | DISABLE_DATA_FLOW         | integration_service  | data_flow_9522            | state: DISABLED     | ev: 
+  [ 6] REMEDIATION  | DELETE_RECORD             | search_service       | search_052                | state: ABSENT       | ev: 
+  [ 7] REMEDIATION  | REDACT_RECORD             | support_platform     | support_864               | state: REDACTED     | ev: 
+  [ 8] REMEDIATION  | ANONYMIZE_RECORD          | analytics_platform   | analytics_2034            | state: ANONYMIZED   | ev: 
+  [ 9] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_4248              | state: ABSENT       | ev: 
+  [10] VERIFICATION | VERIFY_RECORD_ABSENT      | search_service       | search_052                | state: ABSENT       | ev: 
+  [11] VERIFICATION | VERIFY_RECORD_PRESENT     | security_service     | audit_record_9394         | state: PRESENT      | ev: 
+  [12] VERIFICATION | VERIFY_RECORD_REDACTED    | support_platform     | support_864               | state: REDACTED     | ev: 
+  [13] VERIFICATION | VERIFY_RECORD_ANONYMIZED  | analytics_platform   | analytics_2034            | state: ANONYMIZED   | ev: 
+  [14] VERIFICATION | VERIFY_DATA_FLOW_DISABLED | integration_service  | data_flow_9522            | state: DISABLED     | ev: 
+================================================================================
+CASE case_12 | Status: INCOMPLETE | User: None | Email: minjun.kim@gmail.com | Audit: 2026-09-15T12:00:00Z
+Request: I changed the email on this account before deleting it. Please check that nothing tied to the old address was left behind, even in systems that do not display the email.
+Total Steps: 5
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | analytics_platform   | analytics_9914            | state: PRESENT      | ev: evidence_01
+  [ 2] REMEDIATION  | DELETE_RECORD             | analytics_platform   | analytics_9914            | state: ABSENT       | ev: 
+  [ 3] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_9797              | state: ABSENT       | ev: 
+  [ 4] VERIFICATION | VERIFY_RECORD_ABSENT      | analytics_platform   | analytics_9914            | state: ABSENT       | ev: 
+  [ 5] VERIFICATION | VERIFY_RECORD_PRESENT     | security_service     | audit_record_2945         | state: PRESENT      | ev: 
+================================================================================
+CASE case_13 | Status: INCOMPLETE | User: None | Email: noor-khalil@proton.me | Audit: 2026-10-01T12:00:00Z
+Request: Please close my account and process the associated personal-data deletion. Please check the records connected to the account before confirming completion. Please contact me if you need information to verify the request.
+Total Steps: 8
+  [ 1] FINDING      | REPORT_REMAINING_RECORD   | search_service       | search_1308               | state: PRESENT      | ev: evidence_03
+  [ 2] FINDING      | REPORT_REMAINING_RECORD   | support_platform     | support_4218              | state: PRESENT      | ev: evidence_03
+  [ 3] REMEDIATION  | DELETE_RECORD             | search_service       | search_1308               | state: ABSENT       | ev: 
+  [ 4] REMEDIATION  | DELETE_RECORD             | support_platform     | support_4218              | state: ABSENT       | ev: 
+  [ 5] VERIFICATION | VERIFY_RECORD_ABSENT      | account_service      | account_9335              | state: ABSENT       | ev: 
+  [ 6] VERIFICATION | VERIFY_RECORD_ABSENT      | search_service       | search_1308               | state: ABSENT       | ev: 
+  [ 7] VERIFICATION | VERIFY_RECORD_ABSENT      | support_platform     | support_4218              | state: ABSENT       | ev: 
+  [ 8] VERIFICATION | VERIFY_RECORD_PRESENT     | security_service     | audit_record_4816         | state: PRESENT      | ev: 
+================================================================================
+CASE case_14 | Status: INCOMPLETE | User: None | Email: y.tanaka32@gmail.com | Audit: 2026-10-01T12:00:00Z
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\inspect_samples.py", line 21, in <module>
+    print(f"Request: {rrow.get('request_text')}")
+  File "C:\Users\visha\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 9-40: character maps to <undefined>

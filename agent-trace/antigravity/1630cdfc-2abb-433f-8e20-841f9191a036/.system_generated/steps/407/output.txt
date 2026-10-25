@@ -1,0 +1,58 @@
+Command exited with code 0.
+
+Command output:
+test_half_open_interval_boundaries (test_identity.TestTemporalIdentityResolution.test_half_open_interval_boundaries)
+Test [start, end) exact boundary semantics. ... ok
+test_hardened_parse_iso8601 (test_identity.TestTemporalIdentityResolution.test_hardened_parse_iso8601)
+Test strict ISO-8601 UTC parsing and error handling. ... ok
+test_independent_attribution_audit (test_identity.TestTemporalIdentityResolution.test_independent_attribution_audit)
+Independent ground truth cross-validation across all 550 requests. ... ok
+test_infinite_interval_boundaries (test_identity.TestTemporalIdentityResolution.test_infinite_interval_boundaries)
+Test intervals with -inf start or +inf end. ... ok
+test_multi_hop_historical_timeline (test_identity.TestTemporalIdentityResolution.test_multi_hop_historical_timeline)
+Test user_10 who underwent 2 email mutations. ... ok
+test_reassignment_handling (test_identity.TestTemporalIdentityResolution.test_reassignment_handling)
+Synthetic test: Reassignment of email between two distinct users. ... ok
+test_zero_name_based_merging (test_identity.TestTemporalIdentityResolution.test_zero_name_based_merging)
+Verify that similar names do NOT result in cross-user attribution. ... ok
+test_all_sample_requests_authorized (test_intent.TestIntentClassifier.test_all_sample_requests_authorized)
+All 32 sample requests must be classified as valid deletion requests. ... ok
+test_ambiguous_intent_handling (test_intent.TestIntentClassifier.test_ambiguous_intent_handling)
+Test that ambiguous inquiries are flagged internally as AMBIGUOUS and not prematurely NOT_APPLICABLE. ... ok
+test_boundary_negation_intent (test_intent.TestIntentClassifier.test_boundary_negation_intent)
+Test boundary cases where deletion keywords appear inside a non-deletion sentence. ... ok
+test_explicit_negation_intent (test_intent.TestIntentClassifier.test_explicit_negation_intent)
+Test standalone and explicit negation of deletion requests. ... ok
+test_mixed_intent_precedence (test_intent.TestIntentClassifier.test_mixed_intent_precedence)
+Test that non-deletion / negation signals take precedence over embedded deletion keywords. ... ok
+test_multilingual_deletion_requests (test_intent.TestIntentClassifier.test_multilingual_deletion_requests)
+Test deletion requests in various supported languages. ... ok
+test_multilingual_negation_intent (test_intent.TestIntentClassifier.test_multilingual_negation_intent)
+Test explicit negation across supported non-English languages. ... ok
+test_real_eval_non_deletion_requests (test_intent.TestIntentClassifier.test_real_eval_non_deletion_requests)
+Test cases 533 to 542 in deletion_requests.csv which represent non-deletion requests. ... ok
+test_account_tombstone_redaction (test_policy.TestPolicyEngine.test_account_tombstone_redaction)
+Rule 15: Needs user_id with direct PII -> REDACT_RECORD; Already redacted -> Compliant; Not needed -> NONE. ... ok
+test_all_15_rules_loaded_verbatim (test_policy.TestPolicyEngine.test_all_15_rules_loaded_verbatim)
+Verify that all 15 rules from deletion_rules.csv are loaded accurately. ... ok
+test_analytics_and_telemetry_anonymization (test_policy.TestPolicyEngine.test_analytics_and_telemetry_anonymization)
+Rules 7 & 8: Attributable -> ANONYMIZE; Unlinked -> NONE (already compliant). ... ok
+test_backup_archive_restore_blocking (test_policy.TestPolicyEngine.test_backup_archive_restore_blocking)
+Rule 14: Restore blocked -> RETAIN (compliant); Restore allowed -> REPORT_RESTORE_RISK; Unblockable -> NONE. ... ok
+test_email_delivery_log_condition (test_policy.TestPolicyEngine.test_email_delivery_log_condition)
+Rule 11: Contains email -> REDACT; Already redacted -> NONE. ... ok
+test_legal_hold_condition (test_policy.TestPolicyEngine.test_legal_hold_condition)
+Rule 13: Active legal hold -> RETAIN; Inactive hold -> NONE (do NOT invent DELETE). ... ok
+test_security_audit_log_retention_boundary (test_policy.TestPolicyEngine.test_security_audit_log_retention_boundary)
+Rule 12: audit_at <= retention_until -> RETAIN; Expired -> NONE (do NOT invent DELETE). ... ok
+test_support_attachment_condition (test_policy.TestPolicyEngine.test_support_attachment_condition)
+Rule 6: Belongs only to subject -> DELETE; Shared attachment -> NONE. ... ok
+test_support_message_condition (test_policy.TestPolicyEngine.test_support_message_condition)
+Rule 5: Shared context -> REDACT; No shared context -> NONE (no unauthorized action). ... ok
+test_unconditional_deletion_rules (test_policy.TestPolicyEngine.test_unconditional_deletion_rules)
+Rules 1, 2, 3, 4, 9, 10 must always require full DELETE. ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.033s
+
+OK

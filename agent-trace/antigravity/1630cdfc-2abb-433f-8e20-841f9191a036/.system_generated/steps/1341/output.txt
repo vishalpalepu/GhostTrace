@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+2026-09-26T07:49:50Z level=DEBUG service=account_service trace_id=rb-074950-001 event=profile_lookup_started resource_id=account_2064 lookup_key=charlotte.wright@outlook.com
+2026-09-26T07:49:50Z level=INFO service=account_service trace_id=rb-074950-001 event=profile_lookup_completed resource_id=account_2064 rows=0 http_status=404
+2026-09-26T08:57:38Z level=DEBUG service=analytics_platform trace_id=rb-085738-010 event=analytics_profile_read_started resource_id=analytics_5589 lookup_key=null
+2026-09-26T08:57:38Z level=INFO service=analytics_platform trace_id=rb-085738-010 event=analytics_profile_read_completed resource_id=analytics_5589 customer_reference=null email=null phone=null email_hash=null audience_cohort=mobile_browser
+2026-09-26T09:05:46Z level=DEBUG service=integration_service trace_id=rb-090546-013 event=connector_config_read_started resource_id=data_flow_223 lookup_key=user_42
+2026-09-26T09:05:46Z level=INFO service=integration_service trace_id=rb-090546-013 event=connector_config_read_completed resource_id=data_flow_223 enabled=false last_delivery_status=stopped connector_name=analytics_identity_bridge customer_email=null customer_reference=user_42
+2026-09-26T09:19:47Z level=DEBUG service=support_platform trace_id=rb-091947-014 event=support_ticket_read_started resource_id=support_1066 lookup_key=user_42
+2026-09-26T09:19:47Z level=INFO service=support_platform trace_id=rb-091947-014 event=support_ticket_read_completed resource_id=support_1066 customer_reference=user_42 requester_name=null requester_email=null requester_phone=null
+2026-09-26T10:21:52Z level=DEBUG service=backup_service trace_id=rb-102152-025 event=restore_policy_read_started resource_id=backup_6266 lookup_key=user_42
+2026-09-26T10:21:52Z level=INFO service=backup_service trace_id=rb-102152-025 event=restore_policy_read_completed resource_id=backup_6266 archive_present=true restore_allowed=false archive_key=archive/customer-data/backup_6266.tar.zst customer_email=null customer_reference=user_42

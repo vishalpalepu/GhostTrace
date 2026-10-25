@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Total requests: 550, Total deletion worker acts: 1466
+Total deletion worker batches: 539
+Total requests matched to a deletion batch: 532/550

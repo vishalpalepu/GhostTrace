@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 34
+    print(f'{cid}: {acc} | ev={a[" event_time\]}
+                                 ^
+SyntaxError: unterminated string literal (detected at line 34)

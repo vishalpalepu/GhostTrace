@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Counter({'COMPLETE': 17, 'NOT_STARTED': 10, 'PARTIALLY_COMPLETE': 5})

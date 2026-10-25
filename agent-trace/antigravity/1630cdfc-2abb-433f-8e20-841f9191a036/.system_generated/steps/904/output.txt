@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+2026-09-16T08:57:31Z {"severity":"DEBUG","logger":"account_service","service":"account_service","instance":"account-7","pod":"account-3cbd","region":"eu-west-1","trace_id":"tr-1463969","event":"profile_lookup_started","lookup_key":"k.appiah88@gmail.com","attempt":"1"}
+2026-09-16T08:57:34Z {"severity":"INFO","logger":"account_service","service":"account_service","instance":"account-7","pod":"account-3cbd","region":"eu-west-1","trace_id":"tr-1463969","resource_id":"account_3960","event":"profile_lookup_completed","rows":"0","http_status":"404","duration_ms":"67"}

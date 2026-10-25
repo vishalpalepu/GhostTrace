@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 52
+    print(f'  {eid} ({data[" kind\]},
+                           ^
+SyntaxError: unterminated string literal (detected at line 52)

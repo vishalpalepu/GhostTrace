@@ -1,0 +1,19 @@
+Command exited with code 1.
+
+Command output:
+At line:5 char:61
++ ... ['rule_id']}: {r['data_category']:<25} | {r['condition']:<50} | {r['r ...
++                                              ~~~~~~~~~~~~~~~~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:5 char:84
++ ... ta_category']:<25} | {r['condition']:<50} | {r['required_action']}\")
++                                                 ~~~~~~~~~~~~~~~~~~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:5 char:106
++ ... ta_category']:<25} | {r['condition']:<50} | {r['required_action']}\")
++                                                                       ~~~
+Unexpected token '\")
+"' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpressionsMustBeFirstInPipeline
+ 

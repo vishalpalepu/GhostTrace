@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+Case     Status       GT Resources                                           
+---------------------------------------------------------------------------
+case_01  COMPLETE     account_001
+case_02  COMPLETE     account_002
+case_03  COMPLETE     account_7566, audit_record_2016, analytics_9406
+case_04  COMPLETE     account_004, analytics_901
+case_05  INCOMPLETE   account_005
+case_06  INCOMPLETE   search_001, account_006
+case_07  INCOMPLETE   support_001, account_007
+case_08  INCOMPLETE   export_001, account_008
+case_09  INCOMPLETE   backup_4978, account_3960, audit_record_4902
+case_10  INCOMPLETE   support_002, account_010
+case_11  INCOMPLETE   search_052, analytics_2034, support_864, data_flow_9522, account_4248, audit_record_9394
+case_12  INCOMPLETE   analytics_9914, account_9797, audit_record_2945
+case_13  INCOMPLETE   search_1308, support_4218, account_9335, audit_record_4816
+case_14  INCOMPLETE   backup_3870, account_3677, audit_record_987
+case_15  INCOMPLETE   data_flow_9846, account_4745, audit_record_1596
+case_16  INCOMPLETE   account_994, search_1007, audit_record_9528
+case_17  INCOMPLETE   backup_3245, account_4092, audit_record_1797
+case_18  INCOMPLETE   search_4013, analytics_037, support_5569, data_flow_4890, account_5521, audit_record_6645
+case_19  INCOMPLETE   search_6083, support_9553, account_9102, audit_record_6793
+case_20  INCOMPLETE   search_4262, data_flow_1770, account_5037, audit_record_5569
+case_21  COMPLETE     account_6440, audit_record_3737, analytics_5335
+case_22  INCOMPLETE   search_8911, analytics_4440, account_4990, audit_record_3482
+case_23  INCOMPLETE   export_7364, search_898, account_410, audit_record_4128
+case_24  INCOMPLETE   account_5334, search_5577, audit_record_7095
+case_25  COMPLETE     account_3136, audit_record_451, analytics_1895
+case_26  COMPLETE     account_5684, audit_record_5416, support_4715, analytics_4566, data_flow_6244, backup_3120
+case_27  COMPLETE     account_3866, audit_record_3830, support_4707, analytics_4574, data_flow_2295, backup_5970
+case_28  COMPLETE     account_5482, audit_record_9265, support_2351, analytics_6077, data_flow_2337, backup_838
+case_29  INCOMPLETE   search_1993, analytics_5208, support_5281, data_flow_3827, account_7012, audit_record_3954
+case_30  INCOMPLETE   search_9359, analytics_3697, support_6477, data_flow_8524, account_4163, audit_record_1707
+case_31  COMPLETE     account_4857, audit_record_6909, tombstone_440
+case_32  INCOMPLETE   tombstone_9178, account_8858, audit_record_7068

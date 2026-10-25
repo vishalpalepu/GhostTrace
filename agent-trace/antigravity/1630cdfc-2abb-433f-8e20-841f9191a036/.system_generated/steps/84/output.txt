@@ -1,0 +1,19 @@
+Command exited with code 1.
+
+Command output:
+At line:9 char:54
++ ...   print(f\"{r['file_id']}: {r['origin']} | {r['captured_at']} | {r['f ...
++                                                ~~~~~~~~~~~~~~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:9 char:75
++ ... 'file_id']}: {r['origin']} | {r['captured_at']} | {r['file_path']}\")
++                                                       ~~~~~~~~~~~~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:9 char:91
++ ... 'file_id']}: {r['origin']} | {r['captured_at']} | {r['file_path']}\")
++                                                                       ~~~
+Unexpected token '\")
+"' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpressionsMustBeFirstInPipeline
+ 

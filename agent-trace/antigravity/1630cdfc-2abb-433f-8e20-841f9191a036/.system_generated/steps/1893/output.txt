@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'file_id': 'evidence_56', 'file_path': 'evidence/records/customer_analytics_report_20260907.json', 'origin': 'analytics_platform', 'captured_at': '2026-09-07T09:45:00Z'}

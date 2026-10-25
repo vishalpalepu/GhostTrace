@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Byte match in customer_data_regional_replicas_20260330.sql
+Byte match in application_trace_eu_north_20260302.log
+Byte match in cloud_runtime_export_af_south_20260930.log
+Byte match in resource_lookup_trace_20260926_103856.log

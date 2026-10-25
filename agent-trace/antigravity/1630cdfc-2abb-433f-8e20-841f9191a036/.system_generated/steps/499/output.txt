@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+service_resource_export top-level keys: ['exported_at', 'region', 'service_exports', 'source']
+
+customer_data_snapshot_bundle type: <class 'dict'> len: None

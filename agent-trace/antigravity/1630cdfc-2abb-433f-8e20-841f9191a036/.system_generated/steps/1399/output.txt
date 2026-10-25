@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+activity_3382,2026-08-22T11:05:18Z,DELETE_RECORD,deletion_worker,account_service,account_4745,SUCCESS,Deletion worker submitted primary profile account_4745 to account_service.
+activity_3432,2026-08-25T11:07:59Z,DELETE_RECORD,deletion_worker,account_service,account_9797,SUCCESS,Deletion worker submitted primary profile account_9797 to account_service.
+activity_3571,2026-09-01T08:50:41Z,DELETE_RECORD,deletion_worker,account_service,account_994,FAILED,Deletion worker submitted primary profile account_994 to account_service.
+activity_3573,2026-09-01T09:12:11Z,DELETE_RECORD,deletion_worker,account_service,account_4990,SUCCESS,Deletion worker submitted primary profile account_4990 to account_service.
+activity_3662,2026-09-05T11:10:55Z,DELETE_RECORD,deletion_worker,account_service,account_410,FAILED,Deletion worker submitted primary profile account_410 to account_service.
+activity_3732,2026-09-09T09:52:26Z,DELETE_RECORD,deletion_worker,account_service,account_5521,SUCCESS,Deletion worker submitted primary profile account_5521 to account_service.
+activity_3734,2026-09-09T10:14:55Z,DELETE_RECORD,deletion_worker,account_service,account_5037,FAILED,Deletion worker submitted primary profile account_5037 to account_service.

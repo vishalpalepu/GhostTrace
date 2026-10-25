@@ -1,0 +1,123 @@
+Command exited with code 0.
+
+Command output:
+=== case_04 (user_04, thandiwe.n@gmail.com, rep=2026-08-27 08:54:00+00:00, aud=2026-09-07 10:20:00+00:00) ===
+  GT: VERIFY_RECORD_ABSENT         account_service      account_004          ABSENT     eid=evidence_54
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_901        ANONYMIZED eid=evidence_56
+=== case_09 (user_61, k.appiah88@gmail.com, rep=2026-09-07 09:00:00+00:00, aud=2026-09-16 09:00:00+00:00) ===
+  GT: REPORT_RESTORE_RISK          backup_service       backup_4978          ACTIVE     eid=evidence_93
+  GT: BLOCK_RESTORE                backup_service       backup_4978          BLOCKED    eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_3960         ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_4902    PRESENT    eid=
+  GT: VERIFY_RESTORE_BLOCKED       backup_service       backup_4978          BLOCKED    eid=
+=== case_18 (user_50, mori.ren@gmail.com, rep=2026-09-09 11:00:00+00:00, aud=2026-09-26 11:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      search_service       search_4013          PRESENT    eid=evidence_94
+  GT: REPORT_EXPOSED_PII           analytics_platform   analytics_037        PRESENT    eid=evidence_94
+  GT: REPORT_EXPOSED_PII           support_platform     support_5569         PRESENT    eid=evidence_94
+  GT: REPORT_ACTIVE_DATA_FLOW      integration_service  data_flow_4890       ACTIVE     eid=evidence_94
+  GT: DISABLE_DATA_FLOW            integration_service  data_flow_4890       DISABLED   eid=
+  GT: DELETE_RECORD                search_service       search_4013          ABSENT     eid=
+  GT: REDACT_RECORD                support_platform     support_5569         REDACTED   eid=
+  GT: ANONYMIZE_RECORD             analytics_platform   analytics_037        ANONYMIZED eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_5521         ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_4013          ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_6645    PRESENT    eid=
+  GT: VERIFY_RECORD_REDACTED       support_platform     support_5569         REDACTED   eid=
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_037        ANONYMIZED eid=
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_4890       DISABLED   eid=
+=== case_20 (user_48, akosua.gyasi@gmail.com, rep=2026-09-09 11:00:00+00:00, aud=2026-09-26 11:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      search_service       search_4262          PRESENT    eid=evidence_94
+  GT: REPORT_ACTIVE_DATA_FLOW      integration_service  data_flow_1770       ACTIVE     eid=evidence_94
+  GT: DISABLE_DATA_FLOW            integration_service  data_flow_1770       DISABLED   eid=
+  GT: DELETE_RECORD                search_service       search_4262          ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_5037         ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_4262          ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_5569    PRESENT    eid=
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_1770       DISABLED   eid=
+=== case_22 (user_51, seoyeon-han@gmail.com, rep=2026-09-01 10:00:00+00:00, aud=2026-09-21 10:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      search_service       search_8911          PRESENT    eid=evidence_05
+  GT: REPORT_EXPOSED_PII           analytics_platform   analytics_4440       PRESENT    eid=evidence_05
+  GT: DELETE_RECORD                search_service       search_8911          ABSENT     eid=
+  GT: ANONYMIZE_RECORD             analytics_platform   analytics_4440       ANONYMIZED eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_4990         ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_8911          ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_3482    PRESENT    eid=
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_4440       ANONYMIZED eid=
+=== case_23 (user_23, thandiwe.m6866@zoho.com, rep=2026-09-05 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      export_service       export_7364          PRESENT    eid=evidence_92
+  GT: REPORT_REMAINING_RECORD      search_service       search_898           PRESENT    eid=evidence_92
+  GT: DELETE_RECORD                export_service       export_7364          ABSENT     eid=
+  GT: DELETE_RECORD                search_service       search_898           ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_410          ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         export_service       export_7364          ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_898           ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_4128    PRESENT    eid=
+=== case_24 (user_24, keiko.nakamura@gmail.com, rep=2026-09-02 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      account_service      account_5334         PRESENT    eid=evidence_92
+  GT: REPORT_REMAINING_RECORD      search_service       search_5577          PRESENT    eid=evidence_92
+  GT: DELETE_RECORD                account_service      account_5334         ABSENT     eid=
+  GT: DELETE_RECORD                search_service       search_5577          ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_5334         ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_5577          ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_7095    PRESENT    eid=
+=== case_26 (user_26, almeida.mariana@gmail.com, rep=2026-09-02 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: VERIFY_RECORD_ABSENT         account_service      account_5684         ABSENT     eid=evidence_92
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_5416    PRESENT    eid=evidence_92
+  GT: VERIFY_RECORD_REDACTED       support_platform     support_4715         REDACTED   eid=evidence_92
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_4566       ANONYMIZED eid=evidence_92
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_6244       DISABLED   eid=evidence_92
+  GT: VERIFY_RESTORE_BLOCKED       backup_service       backup_3120          BLOCKED    eid=evidence_92
+=== case_27 (user_27, ananya-nair@gmail.com, rep=2026-08-30 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: VERIFY_RECORD_ABSENT         account_service      account_3866         ABSENT     eid=evidence_92
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_3830    PRESENT    eid=evidence_92
+  GT: VERIFY_RECORD_REDACTED       support_platform     support_4707         REDACTED   eid=evidence_92
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_4574       ANONYMIZED eid=evidence_92
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_2295       DISABLED   eid=evidence_92
+  GT: VERIFY_RESTORE_BLOCKED       backup_service       backup_5970          BLOCKED    eid=evidence_92
+=== case_28 (user_28, smartinez6461@gmail.com, rep=2026-08-30 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: VERIFY_RECORD_ABSENT         account_service      account_5482         ABSENT     eid=evidence_92
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_9265    PRESENT    eid=evidence_92
+  GT: VERIFY_RECORD_REDACTED       support_platform     support_2351         REDACTED   eid=evidence_92
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_6077       ANONYMIZED eid=evidence_92
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_2337       DISABLED   eid=evidence_92
+  GT: VERIFY_RESTORE_BLOCKED       backup_service       backup_838           BLOCKED    eid=evidence_92
+=== case_29 (user_29, noah.f438085@outlook.com, rep=2026-08-30 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      search_service       search_1993          PRESENT    eid=evidence_92
+  GT: REPORT_EXPOSED_PII           analytics_platform   analytics_5208       PRESENT    eid=evidence_92
+  GT: REPORT_EXPOSED_PII           support_platform     support_5281         PRESENT    eid=evidence_92
+  GT: REPORT_ACTIVE_DATA_FLOW      integration_service  data_flow_3827       ACTIVE     eid=evidence_92
+  GT: DISABLE_DATA_FLOW            integration_service  data_flow_3827       DISABLED   eid=
+  GT: DELETE_RECORD                search_service       search_1993          ABSENT     eid=
+  GT: REDACT_RECORD                support_platform     support_5281         REDACTED   eid=
+  GT: ANONYMIZE_RECORD             analytics_platform   analytics_5208       ANONYMIZED eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_7012         ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_1993          ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_3954    PRESENT    eid=
+  GT: VERIFY_RECORD_REDACTED       support_platform     support_5281         REDACTED   eid=
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_5208       ANONYMIZED eid=
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_3827       DISABLED   eid=
+=== case_30 (user_30, camille.bernard86@outlook.com, rep=2026-08-27 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: REPORT_REMAINING_RECORD      search_service       search_9359          PRESENT    eid=evidence_92
+  GT: REPORT_EXPOSED_PII           analytics_platform   analytics_3697       PRESENT    eid=evidence_92
+  GT: REPORT_EXPOSED_PII           support_platform     support_6477         PRESENT    eid=evidence_92
+  GT: REPORT_ACTIVE_DATA_FLOW      integration_service  data_flow_8524       ACTIVE     eid=evidence_92
+  GT: DISABLE_DATA_FLOW            integration_service  data_flow_8524       DISABLED   eid=
+  GT: DELETE_RECORD                search_service       search_9359          ABSENT     eid=
+  GT: REDACT_RECORD                support_platform     support_6477         REDACTED   eid=
+  GT: ANONYMIZE_RECORD             analytics_platform   analytics_3697       ANONYMIZED eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_4163         ABSENT     eid=
+  GT: VERIFY_RECORD_ABSENT         search_service       search_9359          ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_1707    PRESENT    eid=
+  GT: VERIFY_RECORD_REDACTED       support_platform     support_6477         REDACTED   eid=
+  GT: VERIFY_RECORD_ANONYMIZED     analytics_platform   analytics_3697       ANONYMIZED eid=
+  GT: VERIFY_DATA_FLOW_DISABLED    integration_service  data_flow_8524       DISABLED   eid=
+=== case_31 (user_541, a.eze08@gmail.com, rep=2026-09-06 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: VERIFY_RECORD_ABSENT         account_service      account_4857         ABSENT     eid=evidence_51
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_6909    PRESENT    eid=evidence_51
+  GT: VERIFY_RECORD_REDACTED       identity_service     tombstone_440        REDACTED   eid=evidence_51
+=== case_32 (user_542, addo.kofi@gmail.com, rep=2026-09-06 12:00:00+00:00, aud=2026-09-15 12:00:00+00:00) ===
+  GT: REPORT_EXPOSED_PII           identity_service     tombstone_9178       PRESENT    eid=evidence_51
+  GT: REDACT_RECORD                identity_service     tombstone_9178       REDACTED   eid=
+  GT: VERIFY_RECORD_ABSENT         account_service      account_8858         ABSENT     eid=
+  GT: VERIFY_RECORD_PRESENT        security_service     audit_record_7068    PRESENT    eid=
+  GT: VERIFY_RECORD_REDACTED       identity_service     tombstone_9178       REDACTED   eid=

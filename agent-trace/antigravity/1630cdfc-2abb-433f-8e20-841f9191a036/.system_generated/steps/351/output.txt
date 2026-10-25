@@ -1,0 +1,80 @@
+Command exited with code 1.
+
+Command output:
+...........F.F.FFFF.
+======================================================================
+FAIL: test_account_tombstone_redaction (test_policy.TestPolicyEngine.test_account_tombstone_redaction)
+Rule 15: Needs user_id with direct PII -> REDACT_RECORD; Already redacted -> Compliant.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 181, in test_account_tombstone_redaction
+    self.assertEqual(res_unneeded.required_action, "DELETE")
+AssertionError: 'NONE' != 'DELETE'
+- NONE
++ DELETE
+
+
+======================================================================
+FAIL: test_analytics_and_telemetry_anonymization (test_policy.TestPolicyEngine.test_analytics_and_telemetry_anonymization)
+Rules 7 & 8: Attributable -> ANONYMIZE; Unlinked -> Compliant/RETAIN.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 96, in test_analytics_and_telemetry_anonymization
+    self.assertEqual(res_unlinked.required_action, "RETAIN")
+AssertionError: 'NONE' != 'RETAIN'
+- NONE
++ RETAIN
+
+
+======================================================================
+FAIL: test_legal_hold_condition (test_policy.TestPolicyEngine.test_legal_hold_condition)
+Rule 13: Active legal hold -> RETAIN; Inactive hold -> DELETE.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 130, in test_legal_hold_condition
+    self.assertEqual(res_no_hold.required_action, "DELETE")
+AssertionError: 'NONE' != 'DELETE'
+- NONE
++ DELETE
+
+
+======================================================================
+FAIL: test_security_audit_log_retention_boundary (test_policy.TestPolicyEngine.test_security_audit_log_retention_boundary)
+Rule 12: audit_at <= retention_until -> RETAIN; audit_at > retention_until -> DELETE.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 118, in test_security_audit_log_retention_boundary
+    self.assertEqual(res_expired.required_action, "DELETE")
+AssertionError: 'NONE' != 'DELETE'
+- NONE
++ DELETE
+
+
+======================================================================
+FAIL: test_support_attachment_condition (test_policy.TestPolicyEngine.test_support_attachment_condition)
+Rule 6: Belongs only to subject -> DELETE; Shared attachment -> REDACT.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 82, in test_support_attachment_condition
+    self.assertEqual(res_shared.required_action, "REDACT")
+AssertionError: 'NONE' != 'REDACT'
+- NONE
++ REDACT
+
+
+======================================================================
+FAIL: test_support_message_condition (test_policy.TestPolicyEngine.test_support_message_condition)
+Rule 5: Shared context -> REDACT; No shared context -> DELETE.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_policy.py", line 67, in test_support_message_condition
+    self.assertEqual(res_sole.required_action, "DELETE")
+AssertionError: 'NONE' != 'DELETE'
+- NONE
++ DELETE
+
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.032s
+
+FAILED (failures=6)

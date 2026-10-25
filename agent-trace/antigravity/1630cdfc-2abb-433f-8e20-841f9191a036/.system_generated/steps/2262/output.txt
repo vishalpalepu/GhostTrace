@@ -1,0 +1,93 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     20:01                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evaluation
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     20:06                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evidence
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     19:28                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\graph
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     16:47                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     14:51                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     14:51                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\intent
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     15:38                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\planner
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     20:04                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\policy
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     15:37                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\serializer
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     19:21                __pycache__                                                          
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     19:51                __pycache__                                                          
+
+

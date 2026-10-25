@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'activity_id': 'activity_4008', 'event_time': '2026-09-16T07:27:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'marketing_platform', 'resource_id': 'marketing_001', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked marketing_001 (marketing_001) to kwame-mensah@proton.me and user_09.'}

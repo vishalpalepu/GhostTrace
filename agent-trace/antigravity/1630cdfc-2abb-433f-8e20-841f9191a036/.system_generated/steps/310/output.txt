@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 10
+    print(f'Sample Failed: {r[" case_id\]}:
+                              ^
+SyntaxError: unterminated string literal (detected at line 10)

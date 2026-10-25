@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\serializer
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+da----        25-10-2026     19:21                __pycache__                                                          
+-a----        25-10-2026     18:45           5317 csv_serializer.py                                                    
+-a----        25-10-2026     18:46            148 __init__.py                                                          
+
+

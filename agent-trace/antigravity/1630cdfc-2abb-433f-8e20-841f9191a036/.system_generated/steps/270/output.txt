@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+case_535 --> I'd like to download my account information in a portable format. Please keep the account as it is.
+case_535 --> I'd like to download my account information in a portable format. Please keep the account as it is.
+case_536 --> I can't access my profile and need help resetting the login. Do not close the account.
+case_536 --> I can't access my profile and need help resetting the login. Do not close the account.
+case_537 --> My surname is misspelled on the account. Can you correct it without removing any of my records?
+case_537 --> My surname is misspelled on the account. Can you correct it without removing any of my records?
+case_538 --> Please remove me from marketing lists only. I still want receipts and service messages for this account.

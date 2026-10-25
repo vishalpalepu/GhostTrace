@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+"""Unit tests for evidence ingestion, temporal filtering, and Resurrection Graph."""
+
+import unittest
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+from code.config import (
+    DATASET_DIR,
+    EVIDENCE_FILES_CSV,
+    SAMPLE_DELETION_REQUESTS_CSV,
+    USER_AUDIT_LOG_CSV,
+    USER_IDENTITIES_CSV,
+)
+from code.evidence.evidence_index import EvidenceIndex
+from code.evidence.models import ExtractedObservation
+from code.graph.builder import GraphBuilder
+from code.identity.resolver import IdentityResolver
+from code.ingestion.csv_loader import (
+    load_deletion_requests,
+    load_evidence_manifest,
+    load_user_audit_log,
+    load_user_identities,
+)
+
+
+class TestEvidenceIngestionAndGraph(unittest.TestCase):
+    """Test suite for evidence indexing, temporal reconstruction, and graph building."""
+
+    @classmethod
+    def setUpClass(cls):

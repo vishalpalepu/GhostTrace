@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+2026-09-26T07:59:44Z level=DEBUG service=support_platform trace_id=rb-075944-005 event=support_ticket_read_started resource_id=support_5569 lookup_key=mori.ren@gmail.com
+2026-09-26T07:59:44Z level=INFO service=support_platform trace_id=rb-075944-005 event=support_ticket_read_completed resource_id=support_5569 customer_reference=null requester_name=null requester_email=mori.ren@gmail.com requester_phone=null

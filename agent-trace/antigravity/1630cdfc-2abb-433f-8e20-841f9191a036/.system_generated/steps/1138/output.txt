@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+user_61 False
+k.appiah88@gmail.com True
+account_3960 False
+backup_4978 True
+audit_record_4902 False

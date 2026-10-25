@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Total primary account deletion activities: 539
+Total deletion worker activities: 1466

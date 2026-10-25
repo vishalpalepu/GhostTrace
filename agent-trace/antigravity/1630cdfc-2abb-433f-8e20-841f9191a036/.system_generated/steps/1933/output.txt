@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+case_03: VERIFY_RECORD_ANONYMIZED analytics_9406 (ANONYMIZED) eid=evidence_94
+case_04: VERIFY_RECORD_ANONYMIZED analytics_901 (ANONYMIZED) eid=evidence_56
+case_11: REPORT_EXPOSED_PII analytics_2034 (PRESENT) eid=evidence_03
+case_11: ANONYMIZE_RECORD analytics_2034 (ANONYMIZED) eid=
+case_11: VERIFY_RECORD_ANONYMIZED analytics_2034 (ANONYMIZED) eid=
+case_12: REPORT_REMAINING_RECORD analytics_9914 (PRESENT) eid=evidence_01
+case_12: DELETE_RECORD analytics_9914 (ABSENT) eid=
+case_12: VERIFY_RECORD_ABSENT analytics_9914 (ABSENT) eid=
+case_18: REPORT_EXPOSED_PII analytics_037 (PRESENT) eid=evidence_94
+case_18: ANONYMIZE_RECORD analytics_037 (ANONYMIZED) eid=
+case_18: VERIFY_RECORD_ANONYMIZED analytics_037 (ANONYMIZED) eid=
+case_21: VERIFY_RECORD_ANONYMIZED analytics_5335 (ANONYMIZED) eid=evidence_92
+case_22: REPORT_EXPOSED_PII analytics_4440 (PRESENT) eid=evidence_05
+case_22: ANONYMIZE_RECORD analytics_4440 (ANONYMIZED) eid=
+case_22: VERIFY_RECORD_ANONYMIZED analytics_4440 (ANONYMIZED) eid=
+case_25: VERIFY_RECORD_ANONYMIZED analytics_1895 (ANONYMIZED) eid=evidence_92
+case_26: VERIFY_RECORD_ANONYMIZED analytics_4566 (ANONYMIZED) eid=evidence_92
+case_27: VERIFY_RECORD_ANONYMIZED analytics_4574 (ANONYMIZED) eid=evidence_92
+case_28: VERIFY_RECORD_ANONYMIZED analytics_6077 (ANONYMIZED) eid=evidence_92
+case_29: REPORT_EXPOSED_PII analytics_5208 (PRESENT) eid=evidence_92
+case_29: ANONYMIZE_RECORD analytics_5208 (ANONYMIZED) eid=
+case_29: VERIFY_RECORD_ANONYMIZED analytics_5208 (ANONYMIZED) eid=
+case_30: REPORT_EXPOSED_PII analytics_3697 (PRESENT) eid=evidence_92
+case_30: ANONYMIZE_RECORD analytics_3697 (ANONYMIZED) eid=
+case_30: VERIFY_RECORD_ANONYMIZED analytics_3697 (ANONYMIZED) eid=

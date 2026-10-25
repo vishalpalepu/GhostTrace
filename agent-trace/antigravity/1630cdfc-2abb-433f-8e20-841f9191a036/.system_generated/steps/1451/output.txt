@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+['_parse_json_log_entry', '_parse_kv_log_line', 'extract_from_file']

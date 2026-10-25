@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+analytics_5589 found in system_activity.csv
+support_1066 found in system_activity.csv
+data_flow_223 found in system_activity.csv
+backup_6266 found in system_activity.csv
+account_2064 found in system_activity.csv
+account_6523 found in system_activity.csv
+account_6523 found in resource_lookup_trace_20260310_061801.log
+analytics_5589 found in resource_lookup_trace_20260926_103856.log
+support_1066 found in resource_lookup_trace_20260926_103856.log
+data_flow_223 found in resource_lookup_trace_20260926_103856.log
+backup_6266 found in resource_lookup_trace_20260926_103856.log
+account_2064 found in resource_lookup_trace_20260926_103856.log

@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:25:25,979 [INFO] Initializing GhostTrace Pipeline with dataset: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset
+2026-10-25 20:25:25,990 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:25:25,991 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:25:26,090 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:25:26,107 [INFO] Loaded 4011 system activity records
+2026-10-25 20:25:26,112 [INFO] Loaded 32 requests from C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset\sample_deletion_requests.csv
+2026-10-25 20:25:26,117 [INFO] Audited 32 / 32 requests...
+2026-10-25 20:25:26,119 [INFO] Successfully serialized 32 decisions to ..\scratch\test_direct_main.csv

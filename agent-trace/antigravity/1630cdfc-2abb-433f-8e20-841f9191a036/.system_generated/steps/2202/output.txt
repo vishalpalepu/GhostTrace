@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+{'user_id': 'user_09', 'name': 'Kwame Mensah', 'email': 'kwame-mensah@proton.me', 'phone': '+233 24 456 1267', 'email_hash': 'e7ce7f1fd5cd4e5873576243ee7a0ca8599c51d0e9f2197f6184efc514e5bd2a', 'updated_at': '2025-05-30T20:03:00Z'}
+{'user_id': 'user_269', 'name': 'Kwame Gyasi', 'email': 'kwame.g4940@outlook.com', 'phone': '+233 24 805 0311', 'email_hash': '6f2c1494546867474f81aae4bc883a3bf9de29ec9d197f5012fa491ad9c4df39', 'updated_at': '2026-03-07T22:43:00Z'}
+{'user_id': 'user_373', 'name': 'Nana Mensah', 'email': 'n.mensah16@gmail.com', 'phone': '+233 24 163 2855', 'email_hash': '554823ef69b823f1b39e28c021e866d41c222e1befd1e7f648d374bf9f172828', 'updated_at': '2024-12-15T10:11:00Z'}
+{'user_id': 'user_399', 'name': 'Kwame Asante', 'email': 'kwame-asante@gmail.com', 'phone': '+233 24 383 0646', 'email_hash': 'a7e46c52df6c4eebaff410d77dd66813153bac69be158211fb7e1a830f9a59b7', 'updated_at': '2024-01-13T01:33:00Z'}
+{'user_id': 'user_412', 'name': 'Kofi Mensah', 'email': 'kmensah7357@gmail.com', 'phone': '+233 24 655 7337', 'email_hash': '05ce0cef1ad636f6373ca4c1f74bd889765e2be453bd294da21c098cd7b142ca', 'updated_at': '2025-11-25T06:29:30Z'}
+{'user_id': 'user_594', 'name': 'Ama Mensah', 'email': 'ama.mensah@outlook.com', 'phone': '+233 24 068 6641', 'email_hash': '4fc00bdfd92efa48a77bf7d6f8bcbc01cb5c0414ab8fe4673caa4f1caaeb7ea0', 'updated_at': '2026-08-14T05:18:00Z'}
+{'user_id': 'user_659', 'name': 'Kwame Owusu', 'email': 'kwame.o3350@zoho.com', 'phone': '+233 24 900 0383', 'email_hash': '61f968a5bbc175b5c4ab55730771ad4abc1f1076c6d7bdffa45debdf8390df96', 'updated_at': '2025-08-24T06:13:00Z'}
+{'user_id': 'user_776', 'name': 'Adwoa Mensah', 'email': 'mensah.adwoa@icloud.com', 'phone': '+233 24 765 2216', 'email_hash': '6701e614caa0127cd173e76833e16b6e8f558782595f59da6105875efdb92b2e', 'updated_at': '2025-05-17T03:52:00Z'}
+{'user_id': 'user_789', 'name': 'Kwame Frimpong', 'email': 'kwame-frimpong@proton.me', 'phone': '+233 24 222 2047', 'email_hash': 'd90766a6e1d66d87d9b19d17f8551b187ab3acf4d98a02af851dda34565e7b62', 'updated_at': '2026-03-02T08:03:00Z'}

@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+--- evidence_03 content ---
+CUSTOMER PLATFORM - SHIFT HANDOVER
+Snapshot: 2026-10-01T12:00:00Z
+
+Account and downstream checks completed during the shift:
+
+- 2026-10-01T12:00:00Z | account_service | account_146 | USER_PROFILE | NOT_FOUND | e.lindberg18@yahoo.com
+- 2026-10-01T12:00:00Z | account_service | account_1810 | USER_PROFILE | NOT_FOUND | CHOI.JIHOON94@GMAIL.COM
+- 2026-10-01T12:00:00Z | account_service | account_2381 | USER_PROFILE | NOT_FOUND | SIPHO.MOKOENA@GMAIL.COM
+- 2026-10-01T12:00:00Z | account_service | account_3677 | USER_PROFILE | NOT_FOUND | y.tanaka32@gmail.com
+- 2026-10-01T12:00:00Z | account_service | account_4051 | USER_PROFILE | NOT_FOUND | lucas-souza95@gmail.com
+- 2026-10-01T12:00:00Z | account_service | account_4248 | USER_PROFILE | NOT_FOUND | novak.tomasz@icloud.com
+- 2026-10-01T12:00:00Z | account_service | account_4337 | USER_PROFILE | NOT_FOUND | asingh1489@gmail.com
+- 2026-10-01T12:00:00Z | account_service | account_5193 | USER_PROFILE | NOT_FOUND | abena.o189491@zoho.com
+- 2026-10-0
+
+--- evidence_58 bytes analysis ---
+Total size: 66039 bytes
+First 200 bytes: b'%PDF-1.4\n%\x93\x8c\x8b\x9e ReportLab Generated PDF document (opensource)\n1 0 obj\n<<\n/F1 2 0 R /F2+0 8 0 R /F3+0 12 0 R\n>>\nendobj\n2 0 obj\n<<\n/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type'
+Parenthesized string chunks found in PDF: 92
+  chunk: opensource
+  chunk:   chunk:   chunk:   chunk:   chunk:   chunk:   chunk:   chunk: WpjVe!oG
+  chunk: 

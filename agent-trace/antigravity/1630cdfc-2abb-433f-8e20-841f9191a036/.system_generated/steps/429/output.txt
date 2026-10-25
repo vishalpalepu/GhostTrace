@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+sqlite3: available
+json: available
+re: available
+csv: available
+pathlib: available
+PIL: NOT available
+pypdf: NOT available
+pdfplumber: NOT available
+fitz: NOT available
+pytesseract: NOT available
+cv2: NOT available
+tesserocr: NOT available

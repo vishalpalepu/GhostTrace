@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Total .log files: 26
+All 26 log files read successfully.

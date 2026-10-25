@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+system_activity.csv {'activity_id': 'activity_3703', 'event_time': '2026-09-07T07:55:18Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_3960', 'reported_result': 'FAILED', 'details': 'Deletion worker submitted primary profile account_3960 to account_service.'}
+system_activity.csv {'activity_id': 'activity_3709', 'event_time': '2026-09-07T09:51:10Z', 'event_type': 'CHECK_RESTORE_ACCESS', 'source_system': 'deletion_worker', 'target_system': 'backup_service', 'resource_id': 'backup_4978', 'reported_result': 'SUCCESS', 'details': 'Restore-access check confirmed that archive backup_4978 can still be restored.'}

@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+Total sample requests: 32
+case_01: status=COMPLETE, intent=DELETION, steps=1, cats=[]
+case_02: status=COMPLETE, intent=DELETION, steps=1, cats=[]
+case_03: status=COMPLETE, intent=DELETION, steps=3, cats=[]
+case_04: status=COMPLETE, intent=DELETION, steps=2, cats=[]
+case_05: status=INCOMPLETE, intent=DELETION, steps=3, cats=[]
+case_06: status=INCOMPLETE, intent=DELETION, steps=4, cats=[]
+case_07: status=INCOMPLETE, intent=DELETION, steps=4, cats=[]
+case_08: status=INCOMPLETE, intent=DELETION, steps=4, cats=[]
+case_09: status=INCOMPLETE, intent=DELETION, steps=5, cats=[]
+case_10: status=INCOMPLETE, intent=DELETION, steps=4, cats=[]
+case_11: status=INCOMPLETE, intent=DELETION, steps=14, cats=[]
+case_12: status=INCOMPLETE, intent=DELETION, steps=5, cats=[]
+case_13: status=INCOMPLETE, intent=DELETION, steps=8, cats=[]
+case_14: status=INCOMPLETE, intent=DELETION, steps=5, cats=[]
+case_15: status=INCOMPLETE, intent=DELETION, steps=5, cats=[]
+case_16: status=INCOMPLETE, intent=DELETION, steps=7, cats=[]
+case_17: status=INCOMPLETE, intent=DELETION, steps=5, cats=[]
+case_18: status=INCOMPLETE, intent=DELETION, steps=14, cats=[]
+case_19: status=INCOMPLETE, intent=DELETION, steps=8, cats=[]
+case_20: status=INCOMPLETE, intent=DELETION, steps=8, cats=[]
+case_21: status=COMPLETE, intent=DELETION, steps=3, cats=[]
+case_22: status=INCOMPLETE, intent=DELETION, steps=8, cats=[]
+case_23: status=INCOMPLETE, intent=DELETION, steps=8, cats=[]
+case_24: status=INCOMPLETE, intent=DELETION, steps=7, cats=[]
+case_25: status=COMPLETE, intent=DELETION, steps=3, cats=[]
+case_26: status=COMPLETE, intent=DELETION, steps=6, cats=[]
+case_27: status=COMPLETE, intent=DELETION, steps=6, cats=[]
+case_28: status=COMPLETE, intent=DELETION, steps=6, cats=[]
+case_29: status=INCOMPLETE, intent=DELETION, steps=14, cats=[]
+case_30: status=INCOMPLETE, intent=DELETION, steps=14, cats=[]
+case_31: status=COMPLETE, intent=DELETION, steps=3, cats=[]
+case_32: status=INCOMPLETE, intent=DELETION, steps=5, cats=[]
+
+Total classified as DELETION: 32/32
+Total classified as NON_DELETION: 0/32

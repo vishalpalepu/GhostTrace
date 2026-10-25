@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+evidence_67 account_6523 account_service {'level': 'DEBUG', 'service': 'account_service', 'trace_id': 'rb-061801-001', 'event': 'profile_lookup_started', 'resource_id': 'account_6523', 'lookup_key': 'leonie.g9352@outlook.com'}
+evidence_67 account_6523 account_service {'level': 'INFO', 'service': 'account_service', 'trace_id': 'rb-061801-001', 'event': 'profile_lookup_completed', 'resource_id': 'account_6523', 'rows': '0', 'http_status': '404'}

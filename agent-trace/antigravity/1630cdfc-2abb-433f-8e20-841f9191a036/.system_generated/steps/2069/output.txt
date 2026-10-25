@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+{'activity_id': 'activity_3815', 'event_time': '2026-09-12T13:14:05Z', 'event_type': 'REDACT_RECORD', 'source_system': 'deletion_worker', 'target_system': 'support_platform', 'resource_id': 'support_864', 'reported_result': 'FAILED', 'details': 'Deletion worker received the final result for support_864 from support_platform.'}
+{'activity_id': 'activity_3851', 'event_time': '2026-09-15T10:07:35Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_7566', 'reported_result': 'SUCCESS', 'details': 'Deletion worker submitted primary profile account_7566 to account_service.'}
+{'activity_id': 'activity_3852', 'event_time': '2026-09-15T10:31:16Z', 'event_type': 'ANONYMIZE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'analytics_platform', 'resource_id': 'analytics_9406', 'reported_result': 'SUCCESS', 'details': 'Policy action completed for analytics_9406.'}

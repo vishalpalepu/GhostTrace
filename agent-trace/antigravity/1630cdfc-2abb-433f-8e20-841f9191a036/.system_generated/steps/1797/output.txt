@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+account_6440 found in: dataset\sample_output.csv
+account_6440 found in: dataset\system_activity.csv
+account_6440 found in: dataset\evidence\records\service_resource_export_20260915_114455.json

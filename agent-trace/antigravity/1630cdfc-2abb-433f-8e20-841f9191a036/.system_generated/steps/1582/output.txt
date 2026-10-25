@@ -1,0 +1,54 @@
+Command exited with code 0.
+
+Command output:
+customer_data_inventory_20260213.sql: INSERT INTO security_audit_records VALUES ('audit_record_5238', 'user_500', 'PRIVACY_REQUEST_ACCEPTED', '2032-06-30T23:5
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('analytics_784','analytics_platform','customer_analytics_reports','{"resource
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_1361','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_2323','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_3441','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_3733','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_4266','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_4883','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_5454','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_7627','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('audit_record_8154','security_service','security_audit_events','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('legal_hold_2227','legal_service','retained_order_records','{"resource_id":"l
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('legal_hold_4887','legal_service','retained_order_records','{"resource_id":"l
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('search_2591','search_service','customer_search_documents','{"resource_id":"s
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('search_6147','search_service','customer_search_documents','{"resource_id":"s
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('search_6246','search_service','customer_search_documents','{"resource_id":"s
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('support_2691','support_platform','support_conversations','{"resource_id":"su
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_primary" VALUES('support_9648','support_platform','support_conversations','{"resource_id":"su
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('account_1035','account_service','customer_profiles','{"resource_id
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('analytics_784','analytics_platform','customer_analytics_reports','
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_1361','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_2323','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_3441','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_3733','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_4266','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_4883','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_5454','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_7627','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('audit_record_8154','security_service','security_audit_events','{"r
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('legal_hold_2227','legal_service','retained_order_records','{"resou
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('legal_hold_4887','legal_service','retained_order_records','{"resou
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('search_2591','search_service','customer_search_documents','{"resou
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('search_6147','search_service','customer_search_documents','{"resou
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('search_6246','search_service','customer_search_documents','{"resou
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('support_2691','support_platform','support_conversations','{"resour
+customer_data_reporting_replica_20260208.sql: INSERT INTO "customer_data_reporting_replica" VALUES('support_9648','support_platform','support_conversations','{"resour
+resource_lookup_trace_20260218_083911.log: 2026-02-18T06:55:54Z level=DEBUG service=security_service trace_id=rb-065554-010 event=audit_record_read_started resourc
+resource_lookup_trace_20260218_083911.log: 2026-02-18T06:55:54Z level=INFO service=security_service trace_id=rb-065554-010 event=audit_record_read_completed resour
+resource_lookup_trace_20260218_083911.log: 2026-02-18T07:57:31Z level=DEBUG service=security_service trace_id=rb-075731-019 event=audit_record_read_started resourc
+resource_lookup_trace_20260218_083911.log: 2026-02-18T07:57:31Z level=INFO service=security_service trace_id=rb-075731-019 event=audit_record_read_completed resour
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_485"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_487"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_483"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_481"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_482"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_484"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_488"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_486"
+customer_data_snapshot_bundle_20260223.json: "lookup_value": "user_489"
+customer_data_snapshot_bundle_20260223.json: "customer_reference": "user_480"
+customer_data_snapshot_bundle_20260223.json: "subject_reference": "user_480",

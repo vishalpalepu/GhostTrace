@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+activity_3732,2026-09-09T09:52:26Z,DELETE_RECORD,deletion_worker,account_service,account_5521,SUCCESS,Deletion worker submitted primary profile account_5521 to account_service.
+activity_3744,2026-09-09T11:43:18Z,REDACT_RECORD,deletion_worker,support_platform,support_5569,FAILED,Deletion worker received the final result for support_5569 from support_platform.
+activity_3747,2026-09-09T12:02:47Z,DELETE_RECORD,deletion_worker,search_service,search_4013,FAILED,Deletion worker received the final result for search_4013 from search_service.
+activity_3751,2026-09-09T12:21:17Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_037,FAILED,Deletion worker received the final result for analytics_037 from analytics_platform.
+activity_3753,2026-09-09T12:40:46Z,CHECK_DATA_FLOW,deletion_worker,integration_service,data_flow_4890,SUCCESS,Connector status check confirmed that data flow data_flow_4890 remains enabled.

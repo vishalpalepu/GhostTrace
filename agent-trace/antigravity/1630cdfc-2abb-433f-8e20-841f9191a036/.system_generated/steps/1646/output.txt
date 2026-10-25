@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+2026-09-15T11:54:33Z level=DEBUG service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 event=restore_policy_check_started subject_key="leonie.g9352@outlook.com" attempt=1
+2026-09-15T11:54:37Z level=DEBUG service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 event=connection_acquired pool=backup_service_replica wait_ms=24
+2026-09-15T11:54:39Z level=WARN service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 event=dependency_retry dependency=backup_service_store attempt=1 retry_in_ms=325 reason=read_timeout
+2026-09-15T11:54:40Z level=INFO service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 event=dependency_recovered attempt=2 route=primary
+2026-09-15T11:54:41Z level=ERROR service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 resource_id=backup_3245 event=restore_candidate_evaluated eligible=true deletion_block=false

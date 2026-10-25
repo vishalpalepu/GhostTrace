@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+I want to download my data; do not delete my account. --> NON_DELETION RETENTION_REQUEST
+Please correct my surname without removing any records. --> NON_DELETION RETENTION_REQUEST
+Stop promotional emails only, I still need my account. --> AMBIGUOUS AMBIGUOUS
+I can't access my profile and need password help. Do not close the account. --> NON_DELETION RETENTION_REQUEST

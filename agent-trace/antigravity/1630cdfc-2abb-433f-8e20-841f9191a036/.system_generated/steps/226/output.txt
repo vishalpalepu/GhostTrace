@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Field of latest audit record: Counter({'email': 104, 'phone': 91, 'email_hash': 1})

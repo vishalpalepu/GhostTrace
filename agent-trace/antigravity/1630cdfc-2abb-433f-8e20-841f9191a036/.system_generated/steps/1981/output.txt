@@ -1,0 +1,1 @@
+Made 1 replacement in C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evidence\sql_extractor.py starting at line 330 (+6/-2 lines).

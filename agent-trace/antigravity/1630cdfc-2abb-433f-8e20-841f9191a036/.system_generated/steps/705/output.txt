@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Missing winmd: C:\Windows\System32\WinMetadata\Windows.Media.Ocr.winmd
+All WinMDs exist: False

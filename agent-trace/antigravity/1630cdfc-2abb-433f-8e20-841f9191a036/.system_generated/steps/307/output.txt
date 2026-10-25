@@ -1,0 +1,17 @@
+Command exited with code 1.
+
+Command output:
+.......F............
+======================================================================
+FAIL: test_all_sample_requests_authorized (test_intent.TestIntentClassifier.test_all_sample_requests_authorized)
+All 32 sample requests must be classified as valid deletion requests.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_intent.py", line 24, in test_all_sample_requests_authorized
+    self.assertTrue(
+AssertionError: False is not true : Sample case_26 was incorrectly marked as non-deletion: 'I found an old report saying my account still existed. Please check the latest state and confirm that the profile is gone and that remaining records cannot identify me.'
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.044s
+
+FAILED (failures=1)

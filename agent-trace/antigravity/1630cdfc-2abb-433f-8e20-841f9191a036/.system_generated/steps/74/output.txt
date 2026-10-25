@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+deletion_requests.csv: 518 data rows | Columns: ['case_id', 'email', 'requested_at', 'reported_status', 'reported_at', 'audit_at', 'request_text']
+deletion_rules.csv: 15 data rows | Columns: ['rule_id', 'data_category', 'condition', 'required_action']
+evidence_files.csv: 94 data rows | Columns: ['file_id', 'file_path', 'origin', 'captured_at']
+output.csv: 0 data rows | Columns: ['case_id', 'deletion_status', 'steps_json']
+sample_deletion_requests.csv: 32 data rows | Columns: ['case_id', 'email', 'requested_at', 'reported_status', 'reported_at', 'audit_at', 'request_text']
+sample_output.csv: 32 data rows | Columns: ['case_id', 'deletion_status', 'steps_json']
+system_activity.csv: 4011 data rows | Columns: ['activity_id', 'event_time', 'event_type', 'source_system', 'target_system', 'resource_id', 'reported_result', 'details']
+user_audit_log.csv: 306 data rows | Columns: ['audit_id', 'user_id', 'event_time', 'field_name', 'old_value', 'new_value']
+user_identities.csv: 850 data rows | Columns: ['user_id', 'name', 'email', 'phone', 'email_hash', 'updated_at']

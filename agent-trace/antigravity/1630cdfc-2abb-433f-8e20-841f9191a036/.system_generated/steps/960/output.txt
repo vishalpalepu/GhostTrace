@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+2026-09-16T08:52:49Z {"severity":"DEBUG","logger":"security_service","service":"security_service","instance":"security-5","pod":"security-c548","region":"ap-south-1","trace_id":"tr-9028396","event":"audit_record_query_started","subject_ref":"user_61","attempt":"1"}
+2026-09-16T08:52:55Z {"severity":"DEBUG","logger":"security_service","service":"security_service","instance":"security-5","pod":"security-c548","region":"ap-south-1","trace_id":"tr-9028396","event":"connection_acquired","pool":"security_service_replica","wait_ms":"34"}
+2026-09-16T08:52:57Z {"severity":"WARN","logger":"security_service","service":"security_service","instance":"security-5","pod":"security-c548","region":"ap-south-1","trace_id":"tr-9028396","event":"dependency_retry","dependency":"security_service_store","attempt":"1","retry_in_ms":"462","reason":"read_timeout"}
+2026-09-16T08:52:58Z {"severity":"INFO","logger":"security_service","service":"security_service","instance":"security-5","pod":"security-c548","region":"ap-south-1","trace_id":"tr-9028396","event":"dependency_recovered","attempt":"2","route":"primary"}
+2026-09-16T08:52:59Z {"severity":"DEBUG","logger":"security_service","service":"security_service","instance":"security-5","pod":"security-c548","region":"ap-south-1","trace_id":"tr-9028396","resource_id":"audit_record_4902","event":"audit_record_read_completed","integrity_check":"passed","rows":"1"}

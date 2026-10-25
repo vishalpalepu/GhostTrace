@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+6645: ['dataset\\sample_output.csv', 'dataset\\system_activity.csv', 'dataset\\evidence\\logs\\application_trace_eu_north_20260302.log']
+5569: ['dataset\\sample_output.csv', 'dataset\\system_activity.csv', 'dataset\\user_audit_log.csv', 'dataset\\user_identities.csv', 'code\\planner\\audit_planner.py', 'dataset\\evidence\\databases\\customer_data_regional_replicas_20260330.sql', 'dataset\\evidence\\logs\\cloud_runtime_export_af_south_20260930.log', 'dataset\\evidence\\logs\\resource_lookup_trace_20260926_103856.log']

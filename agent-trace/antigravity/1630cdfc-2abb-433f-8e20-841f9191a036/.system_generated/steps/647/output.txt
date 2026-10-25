@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Building identity resolver...
+Building evidence index...
+Loading sample requests and ground truth...
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_graph_recon.py", line 48, in <module>
+    emails.extend([iv.value for iv in tl.email_intervals])
+                                      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserTimeline' object has no attribute 'email_intervals'

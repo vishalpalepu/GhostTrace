@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+{'user_id': 'user_04', 'name': 'Thandiwe Ndlovu', 'email': 'thandiwe.n@gmail.com', 'phone': '+27 71 684 5928', 'email_hash': 'f730ef60615bde7a8f5ee21138637b4e9d4094855fbb02da6afcdba9c076281f', 'updated_at': '2026-03-21T20:59:00Z'}
+{'user_id': 'user_23', 'name': 'Thandiwe Mthembu', 'email': 'thandiwe.m6866@zoho.com', 'phone': '+27 72 861 6082', 'email_hash': '5a2cb16db260ce9c10ffddc80e9ebc9b56ace8b3160a15ffe71887ca431c04d3', 'updated_at': '2026-02-02T18:01:00Z'}
+{'user_id': 'user_43', 'name': 'Louis Fontaine', 'email': 'l.fontaine46@yahoo.com', 'phone': '+33 6 80 08 96 38', 'email_hash': '4b065493f4403c03ee3cd593b75b03cb6085134a7acb5c5c63ed71d3da346c77', 'updated_at': '2026-01-04T21:41:00Z'}
+{'user_id': 'user_153', 'name': 'Thandiwe Dlamini', 'email': 'thandiwe-dlamini@proton.me', 'phone': '+27 72 561 3552', 'email_hash': 'af1defa3067f7ef978568411cc6ab1f32dfac69c3734dc8d7baec8fd0c1df706', 'updated_at': '2026-04-04T02:40:17Z'}
+{'user_id': 'user_225', 'name': 'Arthur Fontaine', 'email': 'arthur-fontaine@proton.me', 'phone': '+33 6 86 49 75 02', 'email_hash': '3bfe13c9e7303ccab24d31f102ba85e4c7f8c46571b396323f6ef29f77bfd7b3', 'updated_at': '2026-02-27T17:52:41Z'}
+{'user_id': 'user_264', 'name': 'Hugo Fontaine', 'email': 'hugo.fontaine@gmail.com', 'phone': '+33 6 78 74 61 75', 'email_hash': 'b72201036746a2a7af263e2c8a0363c2fd7530354651aff031b2817c30ccd5b7', 'updated_at': '2024-05-17T09:48:00Z'}
+{'user_id': 'user_413', 'name': 'Thandiwe Ndlovu', 'email': 'thandiwe.n5276@outlook.com', 'phone': '+27 72 875 7280', 'email_hash': 'c1a5b11e2e4e22afb1edb07f8d4ff072da033156f449101dccf8166d879a8a7a', 'updated_at': '2024-09-06T21:31:00Z'}
+{'user_id': 'user_446', 'name': 'Manon Fontaine', 'email': 'fontaine.manon@gmail.com', 'phone': '+33 6 08 73 37 79', 'email_hash': 'aeb0c4ffb46a6aecfbdddf46725b037ed2d6508f00b02e900892028bbc7d1828', 'updated_at': '2025-05-06T03:22:00Z'}
+{'user_id': 'user_543', 'name': 'Thandiwe Molefe', 'email': 'thandiwe-molefe@gmail.com', 'phone': '+27 72 508 1740', 'email_hash': 'b8e7c4d26790075403789731bdca425630809e6407d8dbca3ccb23c50208b8c1', 'updated_at': '2025-09-21T02:21:00Z'}
+{'user_id': 'user_628', 'name': 'In�s Fontaine', 'email': 'ifontaine7861@gmail.com', 'phone': '+33 6 64 61 54 66', 'email_hash': '45249010eaf52cbe01f7930341f6896725a6ea49f0de33409b0538fbfc047db4', 'updated_at': '2024-09-15T07:56:00Z'}
+{'user_id': 'user_667', 'name': 'L�onie Fontaine', 'email': 'l.fontaine02@yahoo.com', 'phone': '+33 6 56 84 96 55', 'email_hash': 'cf144d7264ed27dc047a8100e8814a20a5612c35e5e8e9e6d40996daf43072b7', 'updated_at': '2024-08-12T22:29:00Z'}
+{'user_id': 'user_803', 'name': 'Thandiwe Khumalo', 'email': 'thandiwe.k3686@zoho.com', 'phone': '+27 72 049 1786', 'email_hash': 'ee7052a9a222b792cbc091dd2c1f1dcff683ead42debb9d5e8bcb3c316fc20a3', 'updated_at': '2024-05-13T06:01:00Z'}
+{'user_id': 'user_849', 'name': 'Jules Fontaine', 'email': 'jules-fontaine@proton.me', 'phone': '+33 6 53 94 29 75', 'email_hash': '987922df1c7ff7aba3d6666ab65bacd1959b8bbeb0cc515f8fa23f2a7a09cb75', 'updated_at': '2025-11-01T20:03:00Z'}

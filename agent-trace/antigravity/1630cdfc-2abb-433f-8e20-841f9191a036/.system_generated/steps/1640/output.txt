@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+user_12,Min-jun Kim,minjun.kim@gmail.com,+82 10 2466 4678,6e34ae5737be5401d915eb47a87a17264110c5a4e61c06f20b6a121f1520b9d2,2026-05-18T04:49:50Z

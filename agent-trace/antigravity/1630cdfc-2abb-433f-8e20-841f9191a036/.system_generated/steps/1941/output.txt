@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'file_id': 'evidence_06', 'file_path': 'evidence/logs/structured_service_events_eu_west_20260918.log', 'origin': 'central_observability_export', 'captured_at': '2026-09-18T11:55:24Z'}

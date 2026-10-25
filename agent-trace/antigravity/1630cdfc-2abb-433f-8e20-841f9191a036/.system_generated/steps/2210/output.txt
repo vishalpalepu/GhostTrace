@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Total eval requests: 518
+Statuses: {'COMPLETE': 184, 'INCOMPLETE': 323, 'NOT_APPLICABLE': 10}
+Validation errors count: 1
+   ('case_63', 'kwame-mensah@proton.me', "COMPLETE case 'case_63' must have at least 1 step")
+Zero steps count (non-NA): 0

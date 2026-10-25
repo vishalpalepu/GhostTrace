@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+account_service -> profile_lookups (6 items)
+   sample: {'observed_at': '2026-09-15T09:31:40Z', 'profile': None, 'resource_id': 'account_3136', 'status_code': 404}
+analytics_platform -> profiles (7 items)
+   sample: {'audience_cohort': 'home_lifestyle', 'customer_reference': None, 'email': None, 'email_hash': None, 'observed_at': '2026-09-15T09:58:44Z', 'phone': None, 'resource_id': 'analytics_1895'}
+backup_service -> restore_entries (3 items)
+   sample: {'archive_key': 'archive/customer-data/backup_3120.tar.zst', 'customer_email': None, 'customer_reference': 'user_26', 'observed_at': '2026-09-15T10:58:35Z', 'resource_id': 'backup_3120', 'restore_allowed': False}
+export_service -> exports (1 items)
+   sample: {'customer_reference': None, 'object_key': 'exports/export_7364/customer_data.zip', 'observed_at': '2026-09-15T09:39:19Z', 'owner_email': 'thandiwe.m6866@zoho.com', 'owner_phone': None, 'resource_id': 'export_7364'}
+integration_service -> connectors (5 items)
+   sample: {'connector_name': 'analytics_identity_bridge', 'customer_email': None, 'customer_reference': 'user_27', 'enabled': False, 'last_delivery_status': 'stopped', 'observed_at': '2026-09-15T08:48:09Z', 'resource_id': 'data_flow_2295'}
+search_service -> index_queries (4 items)
+   sample: {'hits': {'documents': [{'customer_reference': None, 'display_name': None, 'email': 'noah.f438085@outlook.com', 'email_hash': None, 'phone': None, 'resource_id': 'search_1993'}], 'total': 1}, 'observed_at': '2026-09-15T09:14:18Z', 'query': 'noah.f438085@outlook.com', 'resource_id': 'search_1993'}
+security_service -> audit_records (5 items)
+   sample: {'event_code': 'IDENTITY_CHANGE_RECORDED', 'observed_at': '2026-09-15T09:59:10Z', 'resource_id': 'audit_record_3737', 'retention_until': '2034-09-30T23:59:59Z', 'subject_reference': 'user_21'}
+support_platform -> tickets (5 items)
+   sample: {'customer_reference': 'user_28', 'message_excerpt': 'Customer supplied contact details for a delivery query.', 'observed_at': '2026-09-15T10:51:49Z', 'requester_email': None, 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_2351'}

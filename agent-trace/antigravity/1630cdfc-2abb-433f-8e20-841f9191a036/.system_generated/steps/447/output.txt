@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+=== account_history_report_20260718.pdf (65704 bytes) ===
+Streams found: 0
+Extracted text snippet: 
+
+=== legal_retention_register_20260529.pdf (65857 bytes) ===
+Streams found: 0
+Extracted text snippet: 
+
+=== security_retention_extract.pdf (64847 bytes) ===
+Streams found: 0
+Extracted text snippet: 
+
+=== delivery_correction_attachment.pdf (66039 bytes) ===
+Streams found: 0
+Extracted text snippet: 

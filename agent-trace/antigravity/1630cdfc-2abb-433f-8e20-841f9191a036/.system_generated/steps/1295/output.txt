@@ -1,0 +1,228 @@
+Command exited with code 0.
+
+Command output:
+case_01 | COMPLETE       |  1 steps | EIDs: ['evidence_54']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_001          ABSENT
+case_02 | COMPLETE       |  1 steps | EIDs: ['evidence_54']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_002          ABSENT
+case_03 | COMPLETE       |  3 steps | EIDs: ['evidence_94']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_7566         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_2016    PRESENT
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_9406       ANONYMIZED
+case_04 | COMPLETE       |  2 steps | EIDs: ['evidence_54', 'evidence_56']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_004          ABSENT
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_901        ANONYMIZED
+case_05 | INCOMPLETE     |  3 steps | EIDs: ['evidence_54']
+    FINDING      REPORT_REMAINING_RECORD    account_service      account_005          PRESENT
+    REMEDIATION  DELETE_RECORD              account_service      account_005          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_005          ABSENT
+case_06 | INCOMPLETE     |  4 steps | EIDs: ['evidence_57']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_001           PRESENT
+    REMEDIATION  DELETE_RECORD              search_service       search_001           ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_006          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_001           ABSENT
+case_07 | INCOMPLETE     |  4 steps | EIDs: ['evidence_58']
+    FINDING      REPORT_REMAINING_RECORD    support_platform     support_001          PRESENT
+    REMEDIATION  DELETE_RECORD              support_platform     support_001          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_007          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       support_platform     support_001          ABSENT
+case_08 | INCOMPLETE     |  4 steps | EIDs: ['evidence_59']
+    FINDING      REPORT_REMAINING_RECORD    export_service       export_001           PRESENT
+    REMEDIATION  DELETE_RECORD              export_service       export_001           ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_008          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       export_service       export_001           ABSENT
+case_09 | INCOMPLETE     |  5 steps | EIDs: ['evidence_93']
+    FINDING      REPORT_RESTORE_RISK        backup_service       backup_4978          ACTIVE
+    REMEDIATION  BLOCK_RESTORE              backup_service       backup_4978          BLOCKED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_3960         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_4902    PRESENT
+    VERIFICATION VERIFY_RESTORE_BLOCKED     backup_service       backup_4978          BLOCKED
+case_10 | INCOMPLETE     |  4 steps | EIDs: ['evidence_61']
+    FINDING      REPORT_REMAINING_RECORD    support_platform     support_002          PRESENT
+    REMEDIATION  DELETE_RECORD              support_platform     support_002          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_010          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       support_platform     support_002          ABSENT
+case_11 | INCOMPLETE     | 14 steps | EIDs: ['evidence_03']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_052           PRESENT
+    FINDING      REPORT_EXPOSED_PII         analytics_platform   analytics_2034       PRESENT
+    FINDING      REPORT_EXPOSED_PII         support_platform     support_864          PRESENT
+    FINDING      REPORT_ACTIVE_DATA_FLOW    integration_service  data_flow_9522       ACTIVE
+    REMEDIATION  DISABLE_DATA_FLOW          integration_service  data_flow_9522       DISABLED
+    REMEDIATION  DELETE_RECORD              search_service       search_052           ABSENT
+    REMEDIATION  REDACT_RECORD              support_platform     support_864          REDACTED
+    REMEDIATION  ANONYMIZE_RECORD           analytics_platform   analytics_2034       ANONYMIZED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_4248         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_052           ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_9394    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_864          REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_2034       ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_9522       DISABLED
+case_12 | INCOMPLETE     |  5 steps | EIDs: ['evidence_01']
+    FINDING      REPORT_REMAINING_RECORD    analytics_platform   analytics_9914       PRESENT
+    REMEDIATION  DELETE_RECORD              analytics_platform   analytics_9914       ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_9797         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       analytics_platform   analytics_9914       ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_2945    PRESENT
+case_13 | INCOMPLETE     |  8 steps | EIDs: ['evidence_03']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_1308          PRESENT
+    FINDING      REPORT_REMAINING_RECORD    support_platform     support_4218         PRESENT
+    REMEDIATION  DELETE_RECORD              search_service       search_1308          ABSENT
+    REMEDIATION  DELETE_RECORD              support_platform     support_4218         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_9335         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_1308          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       support_platform     support_4218         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_4816    PRESENT
+case_14 | INCOMPLETE     |  5 steps | EIDs: ['evidence_03']
+    FINDING      REPORT_RESTORE_RISK        backup_service       backup_3870          ACTIVE
+    REMEDIATION  BLOCK_RESTORE              backup_service       backup_3870          BLOCKED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_3677         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_987     PRESENT
+    VERIFICATION VERIFY_RESTORE_BLOCKED     backup_service       backup_3870          BLOCKED
+case_15 | INCOMPLETE     |  5 steps | EIDs: ['evidence_01']
+    FINDING      REPORT_ACTIVE_DATA_FLOW    integration_service  data_flow_9846       ACTIVE
+    REMEDIATION  DISABLE_DATA_FLOW          integration_service  data_flow_9846       DISABLED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_4745         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_1596    PRESENT
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_9846       DISABLED
+case_16 | INCOMPLETE     |  7 steps | EIDs: ['evidence_05']
+    FINDING      REPORT_REMAINING_RECORD    account_service      account_994          PRESENT
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_1007          PRESENT
+    REMEDIATION  DELETE_RECORD              account_service      account_994          ABSENT
+    REMEDIATION  DELETE_RECORD              search_service       search_1007          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_994          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_1007          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_9528    PRESENT
+case_17 | INCOMPLETE     |  5 steps | EIDs: ['evidence_01']
+    FINDING      REPORT_RESTORE_RISK        backup_service       backup_3245          ACTIVE
+    REMEDIATION  BLOCK_RESTORE              backup_service       backup_3245          BLOCKED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_4092         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_1797    PRESENT
+    VERIFICATION VERIFY_RESTORE_BLOCKED     backup_service       backup_3245          BLOCKED
+case_18 | INCOMPLETE     | 14 steps | EIDs: ['evidence_94']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_4013          PRESENT
+    FINDING      REPORT_EXPOSED_PII         analytics_platform   analytics_037        PRESENT
+    FINDING      REPORT_EXPOSED_PII         support_platform     support_5569         PRESENT
+    FINDING      REPORT_ACTIVE_DATA_FLOW    integration_service  data_flow_4890       ACTIVE
+    REMEDIATION  DISABLE_DATA_FLOW          integration_service  data_flow_4890       DISABLED
+    REMEDIATION  DELETE_RECORD              search_service       search_4013          ABSENT
+    REMEDIATION  REDACT_RECORD              support_platform     support_5569         REDACTED
+    REMEDIATION  ANONYMIZE_RECORD           analytics_platform   analytics_037        ANONYMIZED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_5521         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_4013          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_6645    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_5569         REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_037        ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_4890       DISABLED
+case_19 | INCOMPLETE     |  8 steps | EIDs: ['evidence_01']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_6083          PRESENT
+    FINDING      REPORT_EXPOSED_PII         support_platform     support_9553         PRESENT
+    REMEDIATION  DELETE_RECORD              search_service       search_6083          ABSENT
+    REMEDIATION  REDACT_RECORD              support_platform     support_9553         REDACTED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_9102         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_6083          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_6793    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_9553         REDACTED
+case_20 | INCOMPLETE     |  8 steps | EIDs: ['evidence_94']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_4262          PRESENT
+    FINDING      REPORT_ACTIVE_DATA_FLOW    integration_service  data_flow_1770       ACTIVE
+    REMEDIATION  DISABLE_DATA_FLOW          integration_service  data_flow_1770       DISABLED
+    REMEDIATION  DELETE_RECORD              search_service       search_4262          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_5037         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_4262          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_5569    PRESENT
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_1770       DISABLED
+case_21 | COMPLETE       |  3 steps | EIDs: ['evidence_92']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_6440         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_3737    PRESENT
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_5335       ANONYMIZED
+case_22 | INCOMPLETE     |  8 steps | EIDs: ['evidence_05']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_8911          PRESENT
+    FINDING      REPORT_EXPOSED_PII         analytics_platform   analytics_4440       PRESENT
+    REMEDIATION  DELETE_RECORD              search_service       search_8911          ABSENT
+    REMEDIATION  ANONYMIZE_RECORD           analytics_platform   analytics_4440       ANONYMIZED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_4990         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_8911          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_3482    PRESENT
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_4440       ANONYMIZED
+case_23 | INCOMPLETE     |  8 steps | EIDs: ['evidence_92']
+    FINDING      REPORT_REMAINING_RECORD    export_service       export_7364          PRESENT
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_898           PRESENT
+    REMEDIATION  DELETE_RECORD              export_service       export_7364          ABSENT
+    REMEDIATION  DELETE_RECORD              search_service       search_898           ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_410          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       export_service       export_7364          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_898           ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_4128    PRESENT
+case_24 | INCOMPLETE     |  7 steps | EIDs: ['evidence_92']
+    FINDING      REPORT_REMAINING_RECORD    account_service      account_5334         PRESENT
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_5577          PRESENT
+    REMEDIATION  DELETE_RECORD              account_service      account_5334         ABSENT
+    REMEDIATION  DELETE_RECORD              search_service       search_5577          ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_5334         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_5577          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_7095    PRESENT
+case_25 | COMPLETE       |  3 steps | EIDs: ['evidence_92']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_3136         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_451     PRESENT
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_1895       ANONYMIZED
+case_26 | COMPLETE       |  6 steps | EIDs: ['evidence_92']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_5684         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_5416    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_4715         REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_4566       ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_6244       DISABLED
+    VERIFICATION VERIFY_RESTORE_BLOCKED     backup_service       backup_3120          BLOCKED
+case_27 | COMPLETE       |  6 steps | EIDs: ['evidence_92']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_3866         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_3830    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_4707         REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_4574       ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_2295       DISABLED
+    VERIFICATION VERIFY_RESTORE_BLOCKED     backup_service       backup_5970          BLOCKED
+case_28 | COMPLETE       |  6 steps | EIDs: ['evidence_92']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_5482         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_9265    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_2351         REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_6077       ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_2337       DISABLED
+    VERIFICATION VERIFY_RESTORE_BLOCKED     backup_service       backup_838           BLOCKED
+case_29 | INCOMPLETE     | 14 steps | EIDs: ['evidence_92']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_1993          PRESENT
+    FINDING      REPORT_EXPOSED_PII         analytics_platform   analytics_5208       PRESENT
+    FINDING      REPORT_EXPOSED_PII         support_platform     support_5281         PRESENT
+    FINDING      REPORT_ACTIVE_DATA_FLOW    integration_service  data_flow_3827       ACTIVE
+    REMEDIATION  DISABLE_DATA_FLOW          integration_service  data_flow_3827       DISABLED
+    REMEDIATION  DELETE_RECORD              search_service       search_1993          ABSENT
+    REMEDIATION  REDACT_RECORD              support_platform     support_5281         REDACTED
+    REMEDIATION  ANONYMIZE_RECORD           analytics_platform   analytics_5208       ANONYMIZED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_7012         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_1993          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_3954    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_5281         REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_5208       ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_3827       DISABLED
+case_30 | INCOMPLETE     | 14 steps | EIDs: ['evidence_92']
+    FINDING      REPORT_REMAINING_RECORD    search_service       search_9359          PRESENT
+    FINDING      REPORT_EXPOSED_PII         analytics_platform   analytics_3697       PRESENT
+    FINDING      REPORT_EXPOSED_PII         support_platform     support_6477         PRESENT
+    FINDING      REPORT_ACTIVE_DATA_FLOW    integration_service  data_flow_8524       ACTIVE
+    REMEDIATION  DISABLE_DATA_FLOW          integration_service  data_flow_8524       DISABLED
+    REMEDIATION  DELETE_RECORD              search_service       search_9359          ABSENT
+    REMEDIATION  REDACT_RECORD              support_platform     support_6477         REDACTED
+    REMEDIATION  ANONYMIZE_RECORD           analytics_platform   analytics_3697       ANONYMIZED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_4163         ABSENT
+    VERIFICATION VERIFY_RECORD_ABSENT       search_service       search_9359          ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_1707    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     support_platform     support_6477         REDACTED
+    VERIFICATION VERIFY_RECORD_ANONYMIZED   analytics_platform   analytics_3697       ANONYMIZED
+    VERIFICATION VERIFY_DATA_FLOW_DISABLED  integration_service  data_flow_8524       DISABLED
+case_31 | COMPLETE       |  3 steps | EIDs: ['evidence_51']
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_4857         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_6909    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     identity_service     tombstone_440        REDACTED
+case_32 | INCOMPLETE     |  5 steps | EIDs: ['evidence_51']
+    FINDING      REPORT_EXPOSED_PII         identity_service     tombstone_9178       PRESENT
+    REMEDIATION  REDACT_RECORD              identity_service     tombstone_9178       REDACTED
+    VERIFICATION VERIFY_RECORD_ABSENT       account_service      account_8858         ABSENT
+    VERIFICATION VERIFY_RECORD_PRESENT      security_service     audit_record_7068    PRESENT
+    VERIFICATION VERIFY_RECORD_REDACTED     identity_service     tombstone_9178       REDACTED

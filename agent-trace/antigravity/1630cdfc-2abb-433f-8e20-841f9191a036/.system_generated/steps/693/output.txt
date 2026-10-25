@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset\evidence\images
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        25-10-2026     13:58         124989 account_admin_console_20260926.png                                   
+-a----        25-10-2026     13:58         129362 analytics_profile_view_20260713.png                                  
+-a----        25-10-2026     13:58         155587 backup_restore_console_20260429.png                                  
+-a----        25-10-2026     13:58         130271 connector_management_console_20260807.png                            
+-a----        25-10-2026     13:58         134597 customer_export_console_20260618.png                                 
+-a----        25-10-2026     13:58         136696 deleted_account_reference_20260310.png                               
+-a----        25-10-2026     13:58         129711 marketing_profile_console.png                                        
+-a----        25-10-2026     13:58         154193 object_storage_browser_20260213.png                                  
+-a----        25-10-2026     13:58         121101 search_index_inspector_20260901.png                                  
+-a----        25-10-2026     13:58         147699 security_audit_explorer_20260905.png                                 
+-a----        25-10-2026     13:58         135008 support_ticket_console_20260524.png                                  
+
+

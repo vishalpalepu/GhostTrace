@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+analytics_platform / profiles: {'audience_cohort': 'general_shopper', 'customer_reference': None, 'email': 'noah.f438085@outlook.com', 'email_hash': None, 'observed_at': '2026-09-15T11:38:32Z', 'phone': None, 'resource_id': 'analytics_5208'}
+integration_service / connectors: {'connector_name': 'analytics_identity_bridge', 'customer_email': 'noah.f438085@outlook.com', 'customer_reference': None, 'enabled': True, 'last_delivery_status': 'delivered', 'observed_at': '2026-09-15T08:56:38Z', 'resource_id': 'data_flow_3827'}
+search_service / index_queries: {'hits': {'documents': [{'customer_reference': None, 'display_name': None, 'email': 'noah.f438085@outlook.com', 'email_hash': None, 'phone': None, 'resource_id': 'search_1993'}], 'total': 1}, 'observed_at': '2026-09-15T09:14:18Z', 'query': 'noah.f438085@outlook.com', 'resource_id': 'search_1993'}
+support_platform / tickets: {'customer_reference': None, 'message_excerpt': 'Customer followed up about an order update.', 'observed_at': '2026-09-15T10:48:45Z', 'requester_email': 'noah.f438085@outlook.com', 'requester_name': None, 'requester_phone': None, 'resource_id': 'support_5281'}

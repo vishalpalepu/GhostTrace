@@ -1,0 +1,4 @@
+Command exited with code 1.
+
+Command output:
+fatal: not a git repository (or any of the parent directories): .git

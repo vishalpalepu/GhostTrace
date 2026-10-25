@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 27
+    print(f'{cid} (rep={req[" reported_at\]}):
+                            ^
+SyntaxError: unterminated string literal (detected at line 27)

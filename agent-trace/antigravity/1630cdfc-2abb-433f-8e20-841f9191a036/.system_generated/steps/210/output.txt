@@ -1,0 +1,36 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                        
+--------                                                                                                        
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evaluation                                      
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity                                        
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion                                       
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests                                           
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\__pycache__                                     
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\config.py                                       
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py                                         
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\__init__.py                                     
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\evaluation\main.py                              
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\__pycache__                            
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\models.py                              
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\resolver.py                            
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\__init__.py                            
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\__pycache__\models.cpython-312.pyc     
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\__pycache__\resolver.cpython-312.pyc   
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\identity\__pycache__\__init__.cpython-312.pyc   
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion\__pycache__                           
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion\csv_loader.py                         
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion\__init__.py                           
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion\__pycache__\csv_loader.cpython-312.pyc
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\ingestion\__pycache__\__init__.cpython-312.pyc  
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\__pycache__                               
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_identity.py                          
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\__init__.py                               
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\__pycache__\test_identity.cpython-312.pyc 
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\__pycache__\__init__.cpython-312.pyc      
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\__pycache__\config.cpython-312.pyc              
+C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\__pycache__\__init__.cpython-312.pyc            
+
+

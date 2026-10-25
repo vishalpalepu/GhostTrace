@@ -1,0 +1,12 @@
+Command exited with code 1.
+
+Command output:
+Known user accounts: 32
+Known user analytics: 13
+Security audit records indexed: 316
+
+Traceback (most recent call last):
+  File "C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_full_32_regression.py", line 373, in <module>
+    pred_json = CsvSerializer.serialize_steps(all_steps)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'CsvSerializer' has no attribute 'serialize_steps'

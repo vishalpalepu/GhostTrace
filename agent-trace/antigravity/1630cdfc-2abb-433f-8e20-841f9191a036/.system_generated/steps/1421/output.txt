@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+audit_record_6645 found in sample_output.csv

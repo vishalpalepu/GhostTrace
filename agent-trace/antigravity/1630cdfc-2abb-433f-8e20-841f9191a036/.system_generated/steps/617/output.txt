@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+Total handover lines parsed: 41
+Sample parsed handover records:
+  ('2026-10-01T12:00:00Z', 'account_service', 'account_146', 'USER_PROFILE', 'NOT_FOUND', 'e.lindberg18@yahoo.com')
+  ('2026-10-01T12:00:00Z', 'account_service', 'account_1810', 'USER_PROFILE', 'NOT_FOUND', 'CHOI.JIHOON94@GMAIL.COM')
+  ('2026-10-01T12:00:00Z', 'account_service', 'account_2381', 'USER_PROFILE', 'NOT_FOUND', 'SIPHO.MOKOENA@GMAIL.COM')
+  ('2026-10-01T12:00:00Z', 'account_service', 'account_3677', 'USER_PROFILE', 'NOT_FOUND', 'y.tanaka32@gmail.com')
+  ('2026-10-01T12:00:00Z', 'account_service', 'account_4051', 'USER_PROFILE', 'NOT_FOUND', 'lucas-souza95@gmail.com')

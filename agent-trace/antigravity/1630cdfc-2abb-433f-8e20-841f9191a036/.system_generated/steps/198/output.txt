@@ -1,0 +1,17 @@
+Command exited with code 1.
+
+Command output:
+...F...
+======================================================================
+FAIL: test_reassignment_handling (code.tests.test_identity.TestTemporalIdentityResolution.test_reassignment_handling)
+Synthetic test: Reassignment of email between two distinct users.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\tests\test_identity.py", line 128, in test_reassignment_handling
+    self.assertEqual(res_before.user_id, "uA")
+AssertionError: None != 'uA'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.016s
+
+FAILED (failures=1)

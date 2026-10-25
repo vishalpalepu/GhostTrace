@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+dict_keys(['activity_id', 'event_time', 'event_type', 'source_system', 'target_system', 'resource_id', 'reported_result', 'details'])
+{'activity_id': 'activity_01', 'event_time': '2026-01-04T14:56:29Z', 'event_type': 'INDEX_RECORD', 'source_system': 'account_service', 'target_system': 'search_service', 'resource_id': 'search_9729', 'reported_result': 'SUCCESS', 'details': 'Customer search-index refresh processed search_9729.'}

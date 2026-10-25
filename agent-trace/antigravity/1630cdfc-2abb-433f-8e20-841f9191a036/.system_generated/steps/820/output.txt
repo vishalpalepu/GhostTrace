@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'file_id': 'evidence_94', 'file_path': 'evidence/logs/resource_lookup_trace_20260926_103856.log', 'origin': 'service_readback_logs', 'captured_at': '2026-09-26T10:38:56Z'}

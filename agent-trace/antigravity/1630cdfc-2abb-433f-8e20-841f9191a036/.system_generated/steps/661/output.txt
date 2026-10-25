@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+All rows in customer_profiles_primary:
+  ('account_8741', 'user_8741', 'Karim El-Masri', 'karim.elmasri@gmail.com', '+971 50 731 6284', 'ACTIVE', '2026-09-02T22:45:00Z')
+  ('account_9116', 'user_9116', 'Mateo Rios Gil', 'm.rios.gil@outlook.com', '+34 628 491 736', 'ACTIVE', '2026-09-02T22:45:00Z')
+  ('account_7204', 'user_7204', 'Priya Ramanathan', 'p.ramanathan@gmail.com', '+91 90000 82014', 'ACTIVE', '2026-09-02T22:45:00Z')
+
+All rows in customer_profiles_failover_replica:
+  ('account_005', 'user_05', 'Leila Haddad', 'leila.haddad@yahoo.com', '+212 6 48 27 15 93', 'ACTIVE', '2026-09-02T22:45:00Z')
+  ('account_8741', 'user_8741', 'Karim El-Masri', 'karim.elmasri@gmail.com', '+971 50 731 6284', 'ACTIVE', '2026-09-02T22:45:00Z')
+  ('account_9116', 'user_9116', 'Mateo Rios Gil', 'm.rios.gil@outlook.com', '+34 628 491 736', 'ACTIVE', '2026-09-02T22:45:00Z')
+  ('account_7204', 'user_7204', 'Priya Ramanathan', 'p.ramanathan@gmail.com', '+91 90000 82014', 'ACTIVE', '2026-09-02T22:45:00Z')

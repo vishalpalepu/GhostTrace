@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+activity_3682,2026-09-06T10:45:58Z,DELETE_RECORD,deletion_worker,account_service,account_4857,SUCCESS,Deletion worker submitted primary profile account_4857 to account_service.
+activity_3685,2026-09-06T11:05:15Z,DELETE_RECORD,deletion_worker,account_service,account_8858,PARTIAL,Deletion worker submitted primary profile account_8858 to account_service.

@@ -1,0 +1,52 @@
+Command exited with code 0.
+
+Command output:
+Add-Type : c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(3) : The type or namespace name 'Globalization' does not 
+exist in the namespace 'Windows' (are you missing an assembly reference?)
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(2) : using System.Threading.Tasks;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(3) : >>> using Windows.Globalization;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(4) : using Windows.Graphics.Imaging;
+At C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_csharp_ocr.ps1:37 char:5
++     Add-Type -TypeDefinition $csharp
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(4) : The type or namespace name 'Graphics' does not exist 
+in the namespace 'Windows' (are you missing an assembly reference?)
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(3) : using Windows.Globalization;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(4) : >>> using Windows.Graphics.Imaging;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(5) : using Windows.Media.Ocr;
+At C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_csharp_ocr.ps1:37 char:5
++     Add-Type -TypeDefinition $csharp
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(5) : The type or namespace name 'Media' does not exist in 
+the namespace 'Windows' (are you missing an assembly reference?)
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(4) : using Windows.Graphics.Imaging;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(5) : >>> using Windows.Media.Ocr;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(6) : using Windows.Storage;
+At C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_csharp_ocr.ps1:37 char:5
++     Add-Type -TypeDefinition $csharp
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(6) : The type or namespace name 'Storage' does not exist in 
+the namespace 'Windows' (are you missing an assembly reference?)
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(5) : using Windows.Media.Ocr;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(6) : >>> using Windows.Storage;
+c:\Users\visha\AppData\Local\Temp\b0r4zxw3.0.cs(7) : 
+At C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_csharp_ocr.ps1:37 char:5
++     Add-Type -TypeDefinition $csharp
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Error: Cannot add type. Compilation errors occurred.

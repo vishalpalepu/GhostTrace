@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+2026-09-15T11:50:57Z level=DEBUG service=support_platform instance=support-2 pod=support-70f0 region=ap-south-1 trace_id=tr-8896806 event=message_scan_started subject_key="e.varga90@yahoo.com" attempt=1
+2026-09-15T11:51:08Z level=WARN service=support_platform instance=support-2 pod=support-70f0 region=ap-south-1 trace_id=tr-8896806 resource_id=support_9553 event=message_pii_scan matched_value="e.varga90@yahoo.com" detector=direct_identifier
+2026-09-15T11:51:09Z level=DEBUG service=account_service instance=account-6 pod=account-581a region=us-east-2 trace_id=tr-4708586 event=profile_lookup_started lookup_key="leonie.g9352@outlook.com" attempt=1
+2026-09-15T11:51:19Z level=INFO service=account_service instance=account-6 pod=account-581a region=us-east-2 trace_id=tr-4708586 resource_id=account_4092 event=profile_lookup_completed rows=0 http_status=404 duration_ms=33
+2026-09-15T11:51:20Z level=INFO service=account_service instance=account-1 pod=account-b3b8 region=ap-south-1 trace_id=tr-9146590 resource_id=account_4745 event=profile_lookup_completed rows=0 http_status=404 duration_ms=22 correlation_key="lucia-torres@gmail.com"
+2026-09-15T11:54:07Z level=INFO service=search_service instance=search-5 pod=search-7bcf region=eu-central-1 trace_id=tr-1522605 resource_id=search_6083 event=index_query_completed index=customer_directory_v3 result=hit shard=11 took_ms=10 correlation_key="e.varga90@yahoo.com"
+2026-09-15T11:54:33Z level=DEBUG service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8210651 event=restore_policy_check_started subject_key="leonie.g9352@outlook.com" attempt=1
+2026-09-15T11:56:41Z level=DEBUG service=account_service instance=account-4 pod=account-2ef7 region=eu-central-1 trace_id=tr-5115879 event=profile_lookup_started lookup_key="e.varga90@yahoo.com" attempt=1
+2026-09-15T11:56:47Z level=INFO service=account_service instance=account-4 pod=account-2ef7 region=eu-central-1 trace_id=tr-5115879 resource_id=account_9102 event=profile_lookup_completed rows=0 http_status=404 duration_ms=63
+2026-09-15T11:56:49Z level=DEBUG service=account_service instance=account-2 pod=account-898d region=eu-west-1 trace_id=tr-8001359 event=profile_lookup_started lookup_key="minjun.kim@gmail.com" attempt=1
+2026-09-15T11:56:57Z level=INFO service=account_service instance=account-2 pod=account-898d region=eu-west-1 trace_id=tr-8001359 resource_id=account_9797 event=profile_lookup_completed rows=0 http_status=404 duration_ms=11
+2026-09-15T11:58:08Z level=DEBUG service=integration_service instance=integration-1 pod=integration-95c3 region=eu-central-1 trace_id=tr-9750867 event=connector_config_read_started subject_key="lucia-torres@gmail.com" attempt=1

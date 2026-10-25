@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+47: status = r.get("account_status", "ACTIVE")
+65: details={"table": tname, "account_status": status, "raw": r},
+304: "customer_data_primary", "customer_data_read_replica",
+311: cursor.execute(f"SELECT resource_id, origin_system, collection_name, record_json, updated_at FROM \"{gt}\";")
+332: status = rec.get("account_status")
+378: details={"table": gt, "collection": coll_name, "raw": rec},

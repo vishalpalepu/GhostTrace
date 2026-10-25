@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+Total: 32
+case_01 COMPLETE 1
+case_02 COMPLETE 1
+case_03 COMPLETE 3
+case_04 COMPLETE 2
+case_05 INCOMPLETE 3
+case_06 INCOMPLETE 4
+case_07 INCOMPLETE 4
+case_08 INCOMPLETE 4
+case_09 INCOMPLETE 5
+case_10 INCOMPLETE 4
+case_11 INCOMPLETE 14
+case_12 INCOMPLETE 5
+case_13 INCOMPLETE 8
+case_14 INCOMPLETE 5
+case_15 INCOMPLETE 5

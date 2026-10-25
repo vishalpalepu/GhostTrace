@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Backup snapshot in bundle:
+  data_store: backup_service
+  collection: backup_catalog
+  captured_at: 2026-01-29T12:00:00Z
+  sample record: [{'resource_id': 'backup_3382', 'archive_path': 's3://customer-backups/weekly/segment-22.tar.zst', 'subject_reference': 'k.amponsah80@gmail.com', 'restore_allowed': True, 'encryption': 'AES-256'}]

@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+You must provide a value expression following the '-ne' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+ 

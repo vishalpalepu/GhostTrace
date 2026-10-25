@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+Service: account_service, type: <class 'dict'>, keys/len: ['profile_lookups']
+Service: analytics_platform, type: <class 'dict'>, keys/len: ['profiles']
+Service: backup_service, type: <class 'dict'>, keys/len: ['restore_entries']
+Service: export_service, type: <class 'dict'>, keys/len: ['exports']
+Service: integration_service, type: <class 'dict'>, keys/len: ['connectors']
+Service: search_service, type: <class 'dict'>, keys/len: ['index_queries']
+Service: security_service, type: <class 'dict'>, keys/len: ['audit_records']
+Service: support_platform, type: <class 'dict'>, keys/len: ['tickets']

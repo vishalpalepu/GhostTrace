@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+[{'evidence_id': 'evidence_54', 'operation': 'VERIFY_RECORD_ABSENT', 'phase': 'VERIFICATION', 'resource_id': 'account_004', 'state': 'ABSENT', 'step_no': 1, 'system_id': 'account_service'}, {'evidence_id': 'evidence_56', 'operation': 'VERIFY_RECORD_ANONYMIZED', 'phase': 'VERIFICATION', 'resource_id': 'analytics_901', 'state': 'ANONYMIZED', 'step_no': 2, 'system_id': 'analytics_platform'}]

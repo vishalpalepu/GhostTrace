@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+case_01: d_req=[55.46] hours, d_rep=[-0.0] hours
+case_02: d_req=[13.4] hours, d_rep=[0.08] hours
+case_03: d_req=[47.13, 47.52] hours, d_rep=[-0.87, -0.48] hours
+case_04: d_req=[44.26] hours, d_rep=[-0.11] hours
+case_05: d_req=[18.9] hours, d_rep=[0.13] hours
+case_06: d_req=[34.29, 34.51] hours, d_rep=[-0.06, 0.16] hours
+case_07: d_req=[32.04] hours, d_rep=[-0.02] hours
+case_08: d_req=[41.77, 41.77] hours, d_rep=[0.08, 0.09] hours
+case_09: d_req=[46.92, 48.85] hours, d_rep=[-1.08, 0.85] hours
+case_10: d_req=[42.44, 42.45] hours, d_rep=[0.01, 0.02] hours
+case_11: d_req=[71.08, 72.93, 73.23, 73.56, 73.87] hours, d_rep=[-0.92, 0.93, 1.23, 1.56, 1.87] hours
+case_12: d_req=[23.13, 24.9] hours, d_rep=[-0.87, 0.9] hours
+case_13: d_req=[22.89, 24.66, 24.98] hours, d_rep=[-1.11, 0.66, 0.98] hours
+case_14: d_req=[47.18, 48.75] hours, d_rep=[-0.82, 0.75] hours
+case_15: d_req=[23.09, 24.85] hours, d_rep=[-0.91, 0.85] hours
+case_16: d_req=[70.84, 73.0] hours, d_rep=[-1.16, 1.0] hours
+case_17: d_req=[71.24, 72.7] hours, d_rep=[-0.76, 0.7] hours
+case_18: d_req=[70.87, 72.72, 73.05, 73.35, 73.68] hours, d_rep=[-1.13, 0.72, 1.05, 1.35, 1.68] hours
+case_19: d_req=[46.87, 48.94, 49.26] hours, d_rep=[-1.13, 0.94, 1.26] hours
+case_20: d_req=[23.25, 24.88, 25.19] hours, d_rep=[-0.75, 0.88, 1.19] hours
+case_21: d_req=[23.03, 23.53] hours, d_rep=[-0.97, -0.47] hours
+case_22: d_req=[23.2, 24.83, 25.16] hours, d_rep=[-0.8, 0.83, 1.16] hours
+case_23: d_req=[71.18, 72.65, 72.95] hours, d_rep=[-0.82, 0.65, 0.95] hours
+case_24: d_req=[22.99, 25.07] hours, d_rep=[-1.01, 1.07] hours
+case_25: d_req=[46.81, 47.52] hours, d_rep=[-1.19, -0.48] hours
+case_26: d_req=[71.15, 71.52, 71.65, 71.76, 71.88] hours, d_rep=[-0.85, -0.48, -0.35, -0.24, -0.12] hours
+case_27: d_req=[22.96, 23.52, 23.64, 23.75, 23.88] hours, d_rep=[-1.04, -0.48, -0.36, -0.25, -0.12] hours
+case_28: d_req=[46.77, 47.53, 47.64, 47.76, 47.87] hours, d_rep=[-1.23, -0.47, -0.36, -0.24, -0.13] hours
+case_29: d_req=[71.12, 72.96, 73.27, 73.6, 73.91] hours, d_rep=[-0.88, 0.96, 1.27, 1.6, 1.91] hours
+case_30: d_req=[22.93, 24.69, 25.0, 25.33, 25.63] hours, d_rep=[-1.07, 0.69, 1.0, 1.33, 1.63] hours
+case_31: d_req=[46.77, 47.53] hours, d_rep=[-1.23, -0.47] hours
+case_32: d_req=[71.09, 73.0] hours, d_rep=[-0.91, 1.0] hours

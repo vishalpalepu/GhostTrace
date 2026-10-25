@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+Loaded 4011 system activities.
+============================================================
+CASE case_01 (amina.elmasri@gmail.com) -> COMPLETE
+Resources in output: ['account_001']
+Matched system activities: 1
+  act: time=2026-08-20T16:41:43Z type=DELETE_RECORD src=deletion_worker tgt=account_service res=account_001 res_res=SUCCESS
+============================================================
+CASE case_02 (mateo.rios@outlook.com) -> COMPLETE
+Resources in output: ['account_002']
+Matched system activities: 1
+  act: time=2026-08-22T07:30:03Z type=DELETE_RECORD src=deletion_worker tgt=account_service res=account_002 res_res=PARTIAL
+============================================================
+CASE case_03 (l.fontaine46@yahoo.com) -> COMPLETE
+Resources in output: ['account_7566', 'audit_record_2016', 'analytics_9406']
+Matched system activities: 2
+  act: time=2026-09-15T10:07:35Z type=DELETE_RECORD src=deletion_worker tgt=account_service res=account_7566 res_res=SUCCESS
+  act: time=2026-09-15T10:31:16Z type=ANONYMIZE_RECORD src=deletion_worker tgt=analytics_platform res=analytics_9406 res_res=SUCCESS
+============================================================
+CASE case_04 (thandiwe.n@gmail.com) -> COMPLETE
+Resources in output: ['account_004', 'analytics_901']
+Matched system activities: 1
+  act: time=2026-08-27T08:47:41Z type=ANONYMIZE_RECORD src=deletion_worker tgt=analytics_platform res=analytics_901 res_res=SUCCESS
+============================================================
+CASE case_05 (leila.haddad@yahoo.com) -> INCOMPLETE
+Resources in output: ['account_005']
+Matched system activities: 2
+  act: time=2026-08-28T09:11:01Z type=DELETE_RECORD src=deletion_worker tgt=account_service res=account_005 res_res=SUCCESS
+  act: time=2026-08-28T09:11:09Z type=SYNC_RECORD src=account_service tgt=account_failover_replica res=account_005 res_res=SUCCESS
+============================================================
+CASE case_06 (jonas.berg@outlook.com) -> INCOMPLETE
+Resources in output: ['search_001', 'account_006']
+Matched system activities: 2
+  act: time=2026-08-30T17:08:20Z type=DELETE_RECORD src=deletion_worker tgt=account_service res=account_006 res_res=SUCCESS
+  act: time=2026-08-30T17:21:43Z type=DELETE_RECORD src=deletion_worker tgt=search_service res=search_001 res_res=FAILED

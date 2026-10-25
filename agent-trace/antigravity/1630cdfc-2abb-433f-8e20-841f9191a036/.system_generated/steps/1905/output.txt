@@ -1,0 +1,31 @@
+Command exited with code 0.
+
+Command output:
+account_service customer_profiles 2026-09-09T12:00:00Z
+   {'resource_id': 'account_5684', 'customer_reference': 'user_26', 'full_name': 'Mariana Almeida', 'email': 'almeida.mariana@gmail.com', 'phone': '+55 21 90180-9087', 'account_status': 'ACTIVE', 'signup_channel': 'organic_search'}
+search_service customer_search_documents 2026-09-15T09:00:00Z
+   {'resource_id': 'search_8168', 'index_name': 'customer_directory_v3', 'document': {'display_name': None, 'email': 'smartinez6461.jr@gmail.com', 'customer_reference': None}}
+account_service customer_profiles 2026-09-15T12:00:00Z
+   {'resource_id': 'account_5334', 'customer_reference': 'user_24', 'full_name': 'Keiko Nakamura', 'email': 'keiko.nakamura@gmail.com', 'phone': '+81 90 2669 6684', 'account_status': 'ACTIVE', 'signup_channel': 'referral'}
+analytics_platform customer_analytics_reports 2026-09-15T12:00:00Z
+   {'resource_id': 'analytics_5335', 'user_id': None, 'email': None, 'phone': None, 'email_hash': None, 'reporting_window': 'last_90_days', 'metrics': {'sessions_30d': 9, 'products_viewed_30d': 7, 'orders_completed_90d': 0, 'revenue_90d_usd': 0.0}, 'recent_activity': [{'event': 'product_viewed', 'product': 'Stainless steel water bottle'}, {'event': 'added_to_cart', 'product': 'Stainless steel water bottle'}]}
+   {'resource_id': 'analytics_1895', 'user_id': None, 'email': None, 'phone': None, 'email_hash': None, 'reporting_window': 'last_90_days', 'metrics': {'sessions_30d': 7, 'products_viewed_30d': 8, 'orders_completed_90d': 0, 'revenue_90d_usd': 0.0}, 'recent_activity': [{'event': 'product_viewed', 'product': 'Stainless steel water bottle'}, {'event': 'added_to_cart', 'product': 'Stainless steel water bottle'}]}
+backup_service backup_catalog 2026-09-15T12:00:00Z
+   {'resource_id': 'backup_3120', 'archive_path': 's3://customer-backups/weekly/segment-16.tar.zst', 'subject_reference': 'user_26', 'restore_allowed': False, 'encryption': 'AES-256'}
+   {'resource_id': 'backup_5970', 'archive_path': 's3://customer-backups/weekly/segment-18.tar.zst', 'subject_reference': 'user_27', 'restore_allowed': False, 'encryption': 'AES-256'}
+export_service customer_export_jobs 2026-09-15T12:00:00Z
+   {'resource_id': 'export_7364', 'owner_email': 'thandiwe.m6866@zoho.com', 'file_name': 'customer_export_7364.zip', 'created_at': '2026-08-28T12:00:00Z', 'expires_at': '2026-10-15T12:00:00Z', 'download_available': True, 'included_sections': ['profile', 'orders', 'saved_addresses']}
+integration_service connector_configurations 2026-09-15T12:00:00Z
+   {'resource_id': 'data_flow_6244', 'connector_name': 'customer-events-to-warehouse-5', 'destination': 'customer_analytics_warehouse', 'subject_selector': 'user_26', 'enabled': False, 'mode': 'continuous_sync'}
+   {'resource_id': 'data_flow_2295', 'connector_name': 'customer-events-to-warehouse-8', 'destination': 'customer_analytics_warehouse', 'subject_selector': 'user_27', 'enabled': False, 'mode': 'continuous_sync'}
+search_service customer_search_documents 2026-09-15T12:00:00Z
+   {'resource_id': 'search_2912', 'index_name': 'customer_directory_v3', 'document': {'display_name': 'Kofi Agyeman', 'email': 'kagyeman8947@fastmail.com', 'customer_reference': 'user_22'}}
+   {'resource_id': 'search_898', 'index_name': 'customer_directory_v3', 'document': {'display_name': 'Thandiwe Mthembu', 'email': 'thandiwe.m6866@zoho.com', 'customer_reference': 'user_23'}}
+security_service security_audit_events 2026-09-15T12:00:00Z
+   {'resource_id': 'audit_record_3737', 'subject_reference': 'user_21', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000000e99'}
+   {'resource_id': 'audit_record_9644', 'subject_reference': 'user_22', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:00000000000000000000000000000000000000000000000000000000000025ac'}
+support_platform support_conversations 2026-09-15T12:00:00Z
+   {'resource_id': 'support_1034', 'ticket_id': 'CS-5034', 'subject_reference': 'user_22', 'channel': 'email', 'message_text': 'Please send the delivery update to kagyeman8947@fastmail.com. The affected order includes: Ceramic coffee set.'}
+   {'resource_id': 'support_4715', 'ticket_id': 'CS-8715', 'subject_reference': 'user_26', 'channel': 'email', 'message_text': '[REDACTED]'}
+account_service customer_profiles 2026-09-17T12:00:00Z
+   {'resource_id': 'account_3866', 'customer_reference': 'user_27', 'full_name': 'Ananya Nair', 'email': 'ananya-nair@gmail.com', 'phone': '+91 97441 66195', 'account_status': 'ACTIVE', 'signup_channel': 'referral'}

@@ -1,0 +1,135 @@
+Command exited with code 0.
+
+Command output:
+
+  hackerrank-orchestrate-october26-main\problem_statement.md:8:
+  hackerrank-orchestrate-october26-main\problem_statement.md:9:For deletion requests, the agent must investigate the 
+supplied records, determine the user's current and historical identifiers, reconstruct what happened across systems, 
+and decide whether the deletion is actually complete.
+  hackerrank-orchestrate-october26-main\problem_statement.md:10:
+> hackerrank-orchestrate-october26-main\problem_statement.md:11:When data remains, the agent must produce the ordered 
+remediation steps required to remove, redact, or anonymize it. When deletion has already been completed, the agent 
+must produce the checks that prove it. The agent must also preserve records that the supplied policy requires the 
+organization to retain.
+  hackerrank-orchestrate-october26-main\problem_statement.md:12:
+  hackerrank-orchestrate-october26-main\problem_statement.md:13:Some systems preserve an account tombstone so 
+permitted records can continue to reference the same internal `user_id`. In these records, the stable user reference 
+may remain, but direct identifiers such as name, email, phone, and email hash must be removed.
+  hackerrank-orchestrate-october26-main\problem_statement.md:14:
+  hackerrank-orchestrate-october26-main\problem_statement.md:19:- whether the deletion is `COMPLETE`, `INCOMPLETE`, or 
+`NOT_APPLICABLE` because the person did not request deletion;
+  hackerrank-orchestrate-october26-main\problem_statement.md:20:- which records or identifiers still expose the user;
+  hackerrank-orchestrate-october26-main\problem_statement.md:21:- which active processes can recreate deleted data;
+> hackerrank-orchestrate-october26-main\problem_statement.md:22:- the ordered remediation steps required to complete 
+the request.
+  hackerrank-orchestrate-october26-main\problem_statement.md:23:
+  hackerrank-orchestrate-october26-main\problem_statement.md:24:A deletion is complete only when:
+  hackerrank-orchestrate-october26-main\problem_statement.md:25:
+  hackerrank-orchestrate-october26-main\problem_statement.md:39:| `sample_output.csv` | Correct answers for the sample 
+requests |
+  hackerrank-orchestrate-october26-main\problem_statement.md:40:| `user_identities.csv` | Current user identities |
+  hackerrank-orchestrate-october26-main\problem_statement.md:41:| `user_audit_log.csv` | Historical identity changes |
+> hackerrank-orchestrate-october26-main\problem_statement.md:42:| `system_activity.csv` | Deletion, sync, export, 
+backup, restore, indexing, and related operational activity |
+  hackerrank-orchestrate-october26-main\problem_statement.md:43:| `deletion_rules.csv` | Required treatment for each 
+data category |
+  hackerrank-orchestrate-october26-main\problem_statement.md:44:| `evidence_files.csv` | Manifest of the supplied 
+evidence files |
+  hackerrank-orchestrate-october26-main\problem_statement.md:45:| `output.csv` | Blank submission template |
+  hackerrank-orchestrate-october26-main\problem_statement.md:68:| --- | --- |
+  hackerrank-orchestrate-october26-main\problem_statement.md:69:| `case_id` | Case being audited |
+  hackerrank-orchestrate-october26-main\problem_statement.md:70:| `deletion_status` | `COMPLETE`, `INCOMPLETE`, or 
+`NOT_APPLICABLE` |
+> hackerrank-orchestrate-october26-main\problem_statement.md:71:| `steps_json` | Ordered JSON array of findings, 
+remediation actions, and verification checks |
+  hackerrank-orchestrate-october26-main\problem_statement.md:72:
+  hackerrank-orchestrate-october26-main\problem_statement.md:73:The final file must contain exactly 518 data rows, 
+sorted by `case_id`.
+  hackerrank-orchestrate-october26-main\problem_statement.md:74:
+  hackerrank-orchestrate-october26-main\problem_statement.md:77:```json
+  hackerrank-orchestrate-october26-main\problem_statement.md:78:{
+  hackerrank-orchestrate-october26-main\problem_statement.md:79:  "step_no": 1,
+> hackerrank-orchestrate-october26-main\problem_statement.md:80:  "phase": "FINDING",
+  hackerrank-orchestrate-october26-main\problem_statement.md:81:  "system_id": "account_service",
+  hackerrank-orchestrate-october26-main\problem_statement.md:82:  "resource_id": "account_005",
+> hackerrank-orchestrate-october26-main\problem_statement.md:83:  "operation": "REPORT_REMAINING_RECORD",
+  hackerrank-orchestrate-october26-main\problem_statement.md:84:  "state": "PRESENT",
+  hackerrank-orchestrate-october26-main\problem_statement.md:85:  "evidence_id": "evidence_01"
+  hackerrank-orchestrate-october26-main\problem_statement.md:86:}
+  hackerrank-orchestrate-october26-main\problem_statement.md:87:```
+  hackerrank-orchestrate-october26-main\problem_statement.md:88:
+> hackerrank-orchestrate-october26-main\problem_statement.md:89:`phase` must be `FINDING`, `REMEDIATION`, or 
+`VERIFICATION`. Step numbers start at `1` and increase consecutively. Array order is significant.
+  hackerrank-orchestrate-october26-main\problem_statement.md:90:
+> hackerrank-orchestrate-october26-main\problem_statement.md:91:For `COMPLETE`, include only verification steps 
+proving the current state. For `INCOMPLETE`, include findings, the complete remediation plan, and the checks that must 
+pass afterward. For `NOT_APPLICABLE`, use an empty JSON array (`[]`) because no deletion or deletion verification is 
+authorized.
+  hackerrank-orchestrate-october26-main\problem_statement.md:92:
+  hackerrank-orchestrate-october26-main\problem_statement.md:93:A non-deletion row therefore has this form:
+  hackerrank-orchestrate-october26-main\problem_statement.md:94:
+  hackerrank-orchestrate-october26-main\problem_statement.md:98:
+  hackerrank-orchestrate-october26-main\problem_statement.md:99:The grader parses `steps_json` as JSON. JSON 
+object-key order and whitespace are ignored; array order is not.
+  hackerrank-orchestrate-october26-main\problem_statement.md:100:
+> hackerrank-orchestrate-october26-main\problem_statement.md:101:## Allowed Operations
+  hackerrank-orchestrate-october26-main\problem_statement.md:102:
+> hackerrank-orchestrate-october26-main\problem_statement.md:103:| Phase | Operation | State | Meaning |
+  hackerrank-orchestrate-october26-main\problem_statement.md:104:| --- | --- | --- | --- |
+> hackerrank-orchestrate-october26-main\problem_statement.md:105:| `FINDING` | `REPORT_REMAINING_RECORD` | `PRESENT` | 
+A record that should have been deleted still exists. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:106:| `FINDING` | `REPORT_EXPOSED_PII` | `PRESENT` | A 
+record may remain, but it still contains identifiers that should have been redacted or anonymized. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:107:| `FINDING` | `REPORT_ACTIVE_DATA_FLOW` | `ACTIVE` | 
+An active process can copy or recreate the user's data. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:108:| `FINDING` | `REPORT_RESTORE_RISK` | `ACTIVE` | A 
+backup or restore path can bring deleted data back. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:109:| `REMEDIATION` | `DISABLE_DATA_FLOW` | `DISABLED` | 
+Stop the process that can copy or recreate the data. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:110:| `REMEDIATION` | `BLOCK_RESTORE` | `BLOCKED` | 
+Prevent the affected backup from restoring the user's data. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:111:| `REMEDIATION` | `DELETE_RECORD` | `ABSENT` | Remove 
+the entire record. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:112:| `REMEDIATION` | `REDACT_RECORD` | `REDACTED` | Keep 
+the record but remove the identifying fields required by policy. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:113:| `REMEDIATION` | `ANONYMIZE_RECORD` | `ANONYMIZED` | 
+Keep the record after irreversibly unlinking it from the user. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:114:| `VERIFICATION` | `VERIFY_RECORD_ABSENT` | `ABSENT` 
+| Confirm that a record no longer exists. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:115:| `VERIFICATION` | `VERIFY_RECORD_PRESENT` | 
+`PRESENT` | Confirm that a policy-required retained record still exists. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:116:| `VERIFICATION` | `VERIFY_RECORD_REDACTED` | 
+`REDACTED` | Confirm that required identifying fields have been removed. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:117:| `VERIFICATION` | `VERIFY_RECORD_ANONYMIZED` | 
+`ANONYMIZED` | Confirm that the record can no longer be linked to the user. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:118:| `VERIFICATION` | `VERIFY_DATA_FLOW_DISABLED` | 
+`DISABLED` | Confirm that the relevant data flow is inactive. |
+> hackerrank-orchestrate-october26-main\problem_statement.md:119:| `VERIFICATION` | `VERIFY_RESTORE_BLOCKED` | 
+`BLOCKED` | Confirm that the affected data cannot be restored. |
+  hackerrank-orchestrate-october26-main\problem_statement.md:120:
+  hackerrank-orchestrate-october26-main\problem_statement.md:121:## Rules
+  hackerrank-orchestrate-october26-main\problem_statement.md:122:
+  hackerrank-orchestrate-october26-main\problem_statement.md:123:- Resolve the user's current and historical 
+identifiers.
+> hackerrank-orchestrate-october26-main\problem_statement.md:124:- Determine the resource state at `audit_at` using 
+the available evidence. Reported workflow statuses and operation results are claims.
+  hackerrank-orchestrate-october26-main\problem_statement.md:125:- Apply `deletion_rules.csv` to every relevant 
+record, including account tombstones, active data flows, and restore risks.
+> hackerrank-orchestrate-october26-main\problem_statement.md:126:- Order steps by phase: findings, remediation, then 
+verification. Within each phase, follow the operation order in the table above, followed by `system_id` and 
+`resource_id` in ascending order.
+> hackerrank-orchestrate-october26-main\problem_statement.md:127:- Findings and verification steps for `COMPLETE` 
+cases must cite a `file_id`, `activity_id`, or `audit_id`. Proposed remediation and future verification steps for 
+`INCOMPLETE` cases use an empty `evidence_id`.
+  hackerrank-orchestrate-october26-main\problem_statement.md:128:
+  hackerrank-orchestrate-october26-main\problem_statement.md:129:## Evaluation
+  hackerrank-orchestrate-october26-main\problem_statement.md:130:
+  hackerrank-orchestrate-october26-main\problem_statement.md:159:
+  hackerrank-orchestrate-october26-main\problem_statement.md:160:Do not include API keys, credentials, or sensitive 
+configuration values in the submission.
+  hackerrank-orchestrate-october26-main\problem_statement.md:161:
+> hackerrank-orchestrate-october26-main\problem_statement.md:162:These are the required deliverables. Participants are 
+encouraged to improve retrieval, multimodal interpretation, identity and deletion-state reconstruction, remediation 
+planning, deterministic verification, batching, caching, and token efficiency.
+
+

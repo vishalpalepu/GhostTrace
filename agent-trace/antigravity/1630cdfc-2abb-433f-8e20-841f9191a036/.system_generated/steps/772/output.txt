@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Keys in steps_json elements: ['evidence_id', 'operation', 'phase', 'resource_id', 'state', 'step_no', 'system_id']

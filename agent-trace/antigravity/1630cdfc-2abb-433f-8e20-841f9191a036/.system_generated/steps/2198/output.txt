@@ -1,0 +1,22 @@
+Command exited with code 1.
+
+Command output:
+2026-10-25 20:01:25,222 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:01:25,248 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:01:25,249 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:01:25,450 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:01:25,488 [INFO] Loaded 4011 system activity records
+2026-10-25 20:01:25,506 [INFO] Loaded 518 requests from dataset\deletion_requests.csv
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py", line 97, in run_and_serialize
+    decisions = self.audit_requests(requests)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\main.py", line 85, in audit_requests
+    decision = self.planner.plan_case(req)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\planner\audit_planner.py", line 426, in plan_case
+    self.serializer.validate_decision(decision)
+  File "C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\code\serializer\csv_serializer.py", line 76, in validate_decision
+    raise ValidationError(f"{status} case '{decision.case_id}' must have at least 1 step")
+code.serializer.csv_serializer.ValidationError: COMPLETE case 'case_63' must have at least 1 step

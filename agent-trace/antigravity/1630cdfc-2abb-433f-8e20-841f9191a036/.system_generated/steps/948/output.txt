@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+2026-09-26T07:59:44Z level=DEBUG service=support_platform trace_id=rb-075944-005 event=support_ticket_read_started resource_id=support_5569 lookup_key=mori.ren@gmail.com
+2026-09-26T07:59:44Z level=INFO service=support_platform trace_id=rb-075944-005 event=support_ticket_read_completed resource_id=support_5569 customer_reference=null requester_name=null requester_email=mori.ren@gmail.com requester_phone=null
+2026-09-26T08:57:49Z level=DEBUG service=analytics_platform trace_id=rb-085749-011 event=analytics_profile_read_started resource_id=analytics_037 lookup_key=mori.ren@gmail.com
+2026-09-26T08:57:49Z level=INFO service=analytics_platform trace_id=rb-085749-011 event=analytics_profile_read_completed resource_id=analytics_037 customer_reference=null email=mori.ren@gmail.com phone=null email_hash=null audience_cohort=general_shopper
+2026-09-26T09:05:11Z level=DEBUG service=integration_service trace_id=rb-090511-012 event=connector_config_read_started resource_id=data_flow_4890 lookup_key=mori.ren@gmail.com
+2026-09-26T09:05:11Z level=INFO service=integration_service trace_id=rb-090511-012 event=connector_config_read_completed resource_id=data_flow_4890 enabled=true last_delivery_status=delivered connector_name=analytics_identity_bridge customer_email=mori.ren@gmail.com customer_reference=null
+2026-09-26T10:23:12Z level=DEBUG service=search_service trace_id=rb-102312-026 event=index_query_started resource_id=search_4013 lookup_key=mori.ren@gmail.com
+2026-09-26T10:23:12Z level=INFO service=search_service trace_id=rb-102312-026 event=index_query_completed resource_id=search_4013 result=hit total_hits=1 index=customer_directory_v3 email=mori.ren@gmail.com customer_reference=null

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Temporal validation completed: 100% of cited evidence files satisfy captured_at <= audit_at!

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+2026-08-27T07:44:03Z integration_service search_service data_flow_9927 SYNC_RECORD
+2026-08-27T08:03:32Z deletion_worker search_service search_6302 DELETE_RECORD
+2026-08-27T08:47:41Z deletion_worker analytics_platform analytics_901 ANONYMIZE_RECORD
+2026-08-27T09:33:26Z account_service analytics_platform analytics_1805 SYNC_RECORD

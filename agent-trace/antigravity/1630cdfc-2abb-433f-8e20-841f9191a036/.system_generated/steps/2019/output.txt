@@ -1,0 +1,1 @@
+Made 1 replacement in C:\Users\visha\.gemini\antigravity\brain\1630cdfc-2abb-433f-8e20-841f9191a036\scratch\test_full_32_regression.py starting at line 153 (+1/-0 lines).

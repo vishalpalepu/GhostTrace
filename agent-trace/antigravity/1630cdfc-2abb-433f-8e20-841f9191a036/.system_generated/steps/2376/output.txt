@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+{'file_id': 'evidence_54', 'file_path': 'evidence/databases/customer_accounts_failover_replica_20260902.sql', 'origin': 'customer_account_failover_replica_capture', 'captured_at': '2026-09-02T23:00:00Z'}
+{'file_id': 'evidence_56', 'file_path': 'evidence/records/customer_analytics_report_20260907.json', 'origin': 'analytics_platform', 'captured_at': '2026-09-07T09:45:00Z'}

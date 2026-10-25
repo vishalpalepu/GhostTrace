@@ -1,0 +1,260 @@
+Command exited with code 0.
+
+Command output:
+
+case_01 (COMPLETE) - Total: 1 steps [F:0, R:0, V:1]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_001 -> ABSENT (evidence_54)
+
+case_02 (COMPLETE) - Total: 1 steps [F:0, R:0, V:1]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_002 -> ABSENT (evidence_54)
+
+case_03 (COMPLETE) - Total: 3 steps [F:0, R:0, V:3]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_7566 -> ABSENT (evidence_94)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_2016 -> PRESENT (evidence_94)
+  3. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_9406 -> ANONYMIZED (evidence_94)
+
+case_04 (COMPLETE) - Total: 2 steps [F:0, R:0, V:2]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_004 -> ABSENT (evidence_54)
+  2. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_901 -> ANONYMIZED (evidence_56)
+
+case_05 (INCOMPLETE) - Total: 3 steps [F:1, R:1, V:1]
+  1. [FINDING] REPORT_REMAINING_RECORD on account_service:account_005 -> PRESENT (evidence_54)
+  2. [REMEDIATION] DELETE_RECORD on account_service:account_005 -> ABSENT (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_005 -> ABSENT (empty)
+
+case_06 (INCOMPLETE) - Total: 4 steps [F:1, R:1, V:2]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_001 -> PRESENT (evidence_57)
+  2. [REMEDIATION] DELETE_RECORD on search_service:search_001 -> ABSENT (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_006 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_001 -> ABSENT (empty)
+
+case_07 (INCOMPLETE) - Total: 4 steps [F:1, R:1, V:2]
+  1. [FINDING] REPORT_REMAINING_RECORD on support_platform:support_001 -> PRESENT (evidence_58)
+  2. [REMEDIATION] DELETE_RECORD on support_platform:support_001 -> ABSENT (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_007 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_ABSENT on support_platform:support_001 -> ABSENT (empty)
+
+case_08 (INCOMPLETE) - Total: 4 steps [F:1, R:1, V:2]
+  1. [FINDING] REPORT_REMAINING_RECORD on export_service:export_001 -> PRESENT (evidence_59)
+  2. [REMEDIATION] DELETE_RECORD on export_service:export_001 -> ABSENT (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_008 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_ABSENT on export_service:export_001 -> ABSENT (empty)
+
+case_09 (INCOMPLETE) - Total: 5 steps [F:1, R:1, V:3]
+  1. [FINDING] REPORT_RESTORE_RISK on backup_service:backup_4978 -> ACTIVE (evidence_93)
+  2. [REMEDIATION] BLOCK_RESTORE on backup_service:backup_4978 -> BLOCKED (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_3960 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_4902 -> PRESENT (empty)
+  5. [VERIFICATION] VERIFY_RESTORE_BLOCKED on backup_service:backup_4978 -> BLOCKED (empty)
+
+case_10 (INCOMPLETE) - Total: 4 steps [F:1, R:1, V:2]
+  1. [FINDING] REPORT_REMAINING_RECORD on support_platform:support_002 -> PRESENT (evidence_61)
+  2. [REMEDIATION] DELETE_RECORD on support_platform:support_002 -> ABSENT (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_010 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_ABSENT on support_platform:support_002 -> ABSENT (empty)
+
+case_11 (INCOMPLETE) - Total: 14 steps [F:4, R:4, V:6]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_052 -> PRESENT (evidence_03)
+  2. [FINDING] REPORT_EXPOSED_PII on analytics_platform:analytics_2034 -> PRESENT (evidence_03)
+  3. [FINDING] REPORT_EXPOSED_PII on support_platform:support_864 -> PRESENT (evidence_03)
+  4. [FINDING] REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_9522 -> ACTIVE (evidence_03)
+  5. [REMEDIATION] DISABLE_DATA_FLOW on integration_service:data_flow_9522 -> DISABLED (empty)
+  6. [REMEDIATION] DELETE_RECORD on search_service:search_052 -> ABSENT (empty)
+  7. [REMEDIATION] REDACT_RECORD on support_platform:support_864 -> REDACTED (empty)
+  8. [REMEDIATION] ANONYMIZE_RECORD on analytics_platform:analytics_2034 -> ANONYMIZED (empty)
+  9. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_4248 -> ABSENT (empty)
+  10. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_052 -> ABSENT (empty)
+  11. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_9394 -> PRESENT (empty)
+  12. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_864 -> REDACTED (empty)
+  13. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_2034 -> ANONYMIZED (empty)
+  14. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_9522 -> DISABLED (empty)
+
+case_12 (INCOMPLETE) - Total: 5 steps [F:1, R:1, V:3]
+  1. [FINDING] REPORT_REMAINING_RECORD on analytics_platform:analytics_9914 -> PRESENT (evidence_01)
+  2. [REMEDIATION] DELETE_RECORD on analytics_platform:analytics_9914 -> ABSENT (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_9797 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_ABSENT on analytics_platform:analytics_9914 -> ABSENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_2945 -> PRESENT (empty)
+
+case_13 (INCOMPLETE) - Total: 8 steps [F:2, R:2, V:4]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_1308 -> PRESENT (evidence_03)
+  2. [FINDING] REPORT_REMAINING_RECORD on support_platform:support_4218 -> PRESENT (evidence_03)
+  3. [REMEDIATION] DELETE_RECORD on search_service:search_1308 -> ABSENT (empty)
+  4. [REMEDIATION] DELETE_RECORD on support_platform:support_4218 -> ABSENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_9335 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_1308 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_ABSENT on support_platform:support_4218 -> ABSENT (empty)
+  8. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_4816 -> PRESENT (empty)
+
+case_14 (INCOMPLETE) - Total: 5 steps [F:1, R:1, V:3]
+  1. [FINDING] REPORT_RESTORE_RISK on backup_service:backup_3870 -> ACTIVE (evidence_03)
+  2. [REMEDIATION] BLOCK_RESTORE on backup_service:backup_3870 -> BLOCKED (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_3677 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_987 -> PRESENT (empty)
+  5. [VERIFICATION] VERIFY_RESTORE_BLOCKED on backup_service:backup_3870 -> BLOCKED (empty)
+
+case_15 (INCOMPLETE) - Total: 5 steps [F:1, R:1, V:3]
+  1. [FINDING] REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_9846 -> ACTIVE (evidence_01)
+  2. [REMEDIATION] DISABLE_DATA_FLOW on integration_service:data_flow_9846 -> DISABLED (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_4745 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_1596 -> PRESENT (empty)
+  5. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_9846 -> DISABLED (empty)
+
+case_16 (INCOMPLETE) - Total: 7 steps [F:2, R:2, V:3]
+  1. [FINDING] REPORT_REMAINING_RECORD on account_service:account_994 -> PRESENT (evidence_05)
+  2. [FINDING] REPORT_REMAINING_RECORD on search_service:search_1007 -> PRESENT (evidence_05)
+  3. [REMEDIATION] DELETE_RECORD on account_service:account_994 -> ABSENT (empty)
+  4. [REMEDIATION] DELETE_RECORD on search_service:search_1007 -> ABSENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_994 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_1007 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_9528 -> PRESENT (empty)
+
+case_17 (INCOMPLETE) - Total: 5 steps [F:1, R:1, V:3]
+  1. [FINDING] REPORT_RESTORE_RISK on backup_service:backup_3245 -> ACTIVE (evidence_01)
+  2. [REMEDIATION] BLOCK_RESTORE on backup_service:backup_3245 -> BLOCKED (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_4092 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_1797 -> PRESENT (empty)
+  5. [VERIFICATION] VERIFY_RESTORE_BLOCKED on backup_service:backup_3245 -> BLOCKED (empty)
+
+case_18 (INCOMPLETE) - Total: 14 steps [F:4, R:4, V:6]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_4013 -> PRESENT (evidence_94)
+  2. [FINDING] REPORT_EXPOSED_PII on analytics_platform:analytics_037 -> PRESENT (evidence_94)
+  3. [FINDING] REPORT_EXPOSED_PII on support_platform:support_5569 -> PRESENT (evidence_94)
+  4. [FINDING] REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_4890 -> ACTIVE (evidence_94)
+  5. [REMEDIATION] DISABLE_DATA_FLOW on integration_service:data_flow_4890 -> DISABLED (empty)
+  6. [REMEDIATION] DELETE_RECORD on search_service:search_4013 -> ABSENT (empty)
+  7. [REMEDIATION] REDACT_RECORD on support_platform:support_5569 -> REDACTED (empty)
+  8. [REMEDIATION] ANONYMIZE_RECORD on analytics_platform:analytics_037 -> ANONYMIZED (empty)
+  9. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_5521 -> ABSENT (empty)
+  10. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_4013 -> ABSENT (empty)
+  11. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_6645 -> PRESENT (empty)
+  12. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_5569 -> REDACTED (empty)
+  13. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_037 -> ANONYMIZED (empty)
+  14. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_4890 -> DISABLED (empty)
+
+case_19 (INCOMPLETE) - Total: 8 steps [F:2, R:2, V:4]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_6083 -> PRESENT (evidence_01)
+  2. [FINDING] REPORT_EXPOSED_PII on support_platform:support_9553 -> PRESENT (evidence_01)
+  3. [REMEDIATION] DELETE_RECORD on search_service:search_6083 -> ABSENT (empty)
+  4. [REMEDIATION] REDACT_RECORD on support_platform:support_9553 -> REDACTED (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_9102 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_6083 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_6793 -> PRESENT (empty)
+  8. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_9553 -> REDACTED (empty)
+
+case_20 (INCOMPLETE) - Total: 8 steps [F:2, R:2, V:4]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_4262 -> PRESENT (evidence_94)
+  2. [FINDING] REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_1770 -> ACTIVE (evidence_94)
+  3. [REMEDIATION] DISABLE_DATA_FLOW on integration_service:data_flow_1770 -> DISABLED (empty)
+  4. [REMEDIATION] DELETE_RECORD on search_service:search_4262 -> ABSENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_5037 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_4262 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_5569 -> PRESENT (empty)
+  8. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_1770 -> DISABLED (empty)
+
+case_21 (COMPLETE) - Total: 3 steps [F:0, R:0, V:3]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_6440 -> ABSENT (evidence_92)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_3737 -> PRESENT (evidence_92)
+  3. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_5335 -> ANONYMIZED (evidence_92)
+
+case_22 (INCOMPLETE) - Total: 8 steps [F:2, R:2, V:4]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_8911 -> PRESENT (evidence_05)
+  2. [FINDING] REPORT_EXPOSED_PII on analytics_platform:analytics_4440 -> PRESENT (evidence_05)
+  3. [REMEDIATION] DELETE_RECORD on search_service:search_8911 -> ABSENT (empty)
+  4. [REMEDIATION] ANONYMIZE_RECORD on analytics_platform:analytics_4440 -> ANONYMIZED (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_4990 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_8911 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_3482 -> PRESENT (empty)
+  8. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_4440 -> ANONYMIZED (empty)
+
+case_23 (INCOMPLETE) - Total: 8 steps [F:2, R:2, V:4]
+  1. [FINDING] REPORT_REMAINING_RECORD on export_service:export_7364 -> PRESENT (evidence_92)
+  2. [FINDING] REPORT_REMAINING_RECORD on search_service:search_898 -> PRESENT (evidence_92)
+  3. [REMEDIATION] DELETE_RECORD on export_service:export_7364 -> ABSENT (empty)
+  4. [REMEDIATION] DELETE_RECORD on search_service:search_898 -> ABSENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_410 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on export_service:export_7364 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_898 -> ABSENT (empty)
+  8. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_4128 -> PRESENT (empty)
+
+case_24 (INCOMPLETE) - Total: 7 steps [F:2, R:2, V:3]
+  1. [FINDING] REPORT_REMAINING_RECORD on account_service:account_5334 -> PRESENT (evidence_92)
+  2. [FINDING] REPORT_REMAINING_RECORD on search_service:search_5577 -> PRESENT (evidence_92)
+  3. [REMEDIATION] DELETE_RECORD on account_service:account_5334 -> ABSENT (empty)
+  4. [REMEDIATION] DELETE_RECORD on search_service:search_5577 -> ABSENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_5334 -> ABSENT (empty)
+  6. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_5577 -> ABSENT (empty)
+  7. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_7095 -> PRESENT (empty)
+
+case_25 (COMPLETE) - Total: 3 steps [F:0, R:0, V:3]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_3136 -> ABSENT (evidence_92)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_451 -> PRESENT (evidence_92)
+  3. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_1895 -> ANONYMIZED (evidence_92)
+
+case_26 (COMPLETE) - Total: 6 steps [F:0, R:0, V:6]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_5684 -> ABSENT (evidence_92)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_5416 -> PRESENT (evidence_92)
+  3. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_4715 -> REDACTED (evidence_92)
+  4. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_4566 -> ANONYMIZED (evidence_92)
+  5. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_6244 -> DISABLED (evidence_92)
+  6. [VERIFICATION] VERIFY_RESTORE_BLOCKED on backup_service:backup_3120 -> BLOCKED (evidence_92)
+
+case_27 (COMPLETE) - Total: 6 steps [F:0, R:0, V:6]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_3866 -> ABSENT (evidence_92)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_3830 -> PRESENT (evidence_92)
+  3. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_4707 -> REDACTED (evidence_92)
+  4. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_4574 -> ANONYMIZED (evidence_92)
+  5. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_2295 -> DISABLED (evidence_92)
+  6. [VERIFICATION] VERIFY_RESTORE_BLOCKED on backup_service:backup_5970 -> BLOCKED (evidence_92)
+
+case_28 (COMPLETE) - Total: 6 steps [F:0, R:0, V:6]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_5482 -> ABSENT (evidence_92)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_9265 -> PRESENT (evidence_92)
+  3. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_2351 -> REDACTED (evidence_92)
+  4. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_6077 -> ANONYMIZED (evidence_92)
+  5. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_2337 -> DISABLED (evidence_92)
+  6. [VERIFICATION] VERIFY_RESTORE_BLOCKED on backup_service:backup_838 -> BLOCKED (evidence_92)
+
+case_29 (INCOMPLETE) - Total: 14 steps [F:4, R:4, V:6]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_1993 -> PRESENT (evidence_92)
+  2. [FINDING] REPORT_EXPOSED_PII on analytics_platform:analytics_5208 -> PRESENT (evidence_92)
+  3. [FINDING] REPORT_EXPOSED_PII on support_platform:support_5281 -> PRESENT (evidence_92)
+  4. [FINDING] REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_3827 -> ACTIVE (evidence_92)
+  5. [REMEDIATION] DISABLE_DATA_FLOW on integration_service:data_flow_3827 -> DISABLED (empty)
+  6. [REMEDIATION] DELETE_RECORD on search_service:search_1993 -> ABSENT (empty)
+  7. [REMEDIATION] REDACT_RECORD on support_platform:support_5281 -> REDACTED (empty)
+  8. [REMEDIATION] ANONYMIZE_RECORD on analytics_platform:analytics_5208 -> ANONYMIZED (empty)
+  9. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_7012 -> ABSENT (empty)
+  10. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_1993 -> ABSENT (empty)
+  11. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_3954 -> PRESENT (empty)
+  12. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_5281 -> REDACTED (empty)
+  13. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_5208 -> ANONYMIZED (empty)
+  14. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_3827 -> DISABLED (empty)
+
+case_30 (INCOMPLETE) - Total: 14 steps [F:4, R:4, V:6]
+  1. [FINDING] REPORT_REMAINING_RECORD on search_service:search_9359 -> PRESENT (evidence_92)
+  2. [FINDING] REPORT_EXPOSED_PII on analytics_platform:analytics_3697 -> PRESENT (evidence_92)
+  3. [FINDING] REPORT_EXPOSED_PII on support_platform:support_6477 -> PRESENT (evidence_92)
+  4. [FINDING] REPORT_ACTIVE_DATA_FLOW on integration_service:data_flow_8524 -> ACTIVE (evidence_92)
+  5. [REMEDIATION] DISABLE_DATA_FLOW on integration_service:data_flow_8524 -> DISABLED (empty)
+  6. [REMEDIATION] DELETE_RECORD on search_service:search_9359 -> ABSENT (empty)
+  7. [REMEDIATION] REDACT_RECORD on support_platform:support_6477 -> REDACTED (empty)
+  8. [REMEDIATION] ANONYMIZE_RECORD on analytics_platform:analytics_3697 -> ANONYMIZED (empty)
+  9. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_4163 -> ABSENT (empty)
+  10. [VERIFICATION] VERIFY_RECORD_ABSENT on search_service:search_9359 -> ABSENT (empty)
+  11. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_1707 -> PRESENT (empty)
+  12. [VERIFICATION] VERIFY_RECORD_REDACTED on support_platform:support_6477 -> REDACTED (empty)
+  13. [VERIFICATION] VERIFY_RECORD_ANONYMIZED on analytics_platform:analytics_3697 -> ANONYMIZED (empty)
+  14. [VERIFICATION] VERIFY_DATA_FLOW_DISABLED on integration_service:data_flow_8524 -> DISABLED (empty)
+
+case_31 (COMPLETE) - Total: 3 steps [F:0, R:0, V:3]
+  1. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_4857 -> ABSENT (evidence_51)
+  2. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_6909 -> PRESENT (evidence_51)
+  3. [VERIFICATION] VERIFY_RECORD_REDACTED on identity_service:tombstone_440 -> REDACTED (evidence_51)
+
+case_32 (INCOMPLETE) - Total: 5 steps [F:1, R:1, V:3]
+  1. [FINDING] REPORT_EXPOSED_PII on identity_service:tombstone_9178 -> PRESENT (evidence_51)
+  2. [REMEDIATION] REDACT_RECORD on identity_service:tombstone_9178 -> REDACTED (empty)
+  3. [VERIFICATION] VERIFY_RECORD_ABSENT on account_service:account_8858 -> ABSENT (empty)
+  4. [VERIFICATION] VERIFY_RECORD_PRESENT on security_service:audit_record_7068 -> PRESENT (empty)
+  5. [VERIFICATION] VERIFY_RECORD_REDACTED on identity_service:tombstone_9178 -> REDACTED (empty)

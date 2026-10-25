@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'rule_id': 'rule_12', 'data_category': 'SECURITY_AUDIT_LOG', 'condition': 'Record is within the supplied retention period', 'required_action': 'RETAIN'}

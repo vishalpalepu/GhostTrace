@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+Total audit records in evidence_02: 10
+user_21 audit_record_3737
+user_22 audit_record_9644
+user_23 audit_record_4128
+user_24 audit_record_7095
+user_25 audit_record_451
+user_26 audit_record_5416
+user_27 audit_record_3830
+user_28 audit_record_9265
+user_29 audit_record_3954
+user_30 audit_record_1707

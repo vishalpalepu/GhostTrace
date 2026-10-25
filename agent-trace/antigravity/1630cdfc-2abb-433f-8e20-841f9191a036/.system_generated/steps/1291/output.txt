@@ -1,0 +1,76 @@
+Command exited with code 0.
+
+Command output:
+=== GT FOR case_01 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_001 | ABSENT | eid=evidence_54
+=== GT FOR case_02 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_002 | ABSENT | eid=evidence_54
+=== GT FOR case_03 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_7566 | ABSENT | eid=evidence_94
+  step 2: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_2016 | PRESENT | eid=evidence_94
+  step 3: VERIFICATION | VERIFY_RECORD_ANONYMIZED | analytics_platform | analytics_9406 | ANONYMIZED | eid=evidence_94
+=== GT FOR case_04 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_004 | ABSENT | eid=evidence_54
+  step 2: VERIFICATION | VERIFY_RECORD_ANONYMIZED | analytics_platform | analytics_901 | ANONYMIZED | eid=evidence_56
+=== GT FOR case_08 (Status: INCOMPLETE) ===
+  step 1: FINDING | REPORT_REMAINING_RECORD | export_service | export_001 | PRESENT | eid=evidence_59
+  step 2: REMEDIATION | DELETE_RECORD | export_service | export_001 | ABSENT | eid=
+  step 3: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_008 | ABSENT | eid=
+  step 4: VERIFICATION | VERIFY_RECORD_ABSENT | export_service | export_001 | ABSENT | eid=
+=== GT FOR case_09 (Status: INCOMPLETE) ===
+  step 1: FINDING | REPORT_RESTORE_RISK | backup_service | backup_4978 | ACTIVE | eid=evidence_93
+  step 2: REMEDIATION | BLOCK_RESTORE | backup_service | backup_4978 | BLOCKED | eid=
+  step 3: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_3960 | ABSENT | eid=
+  step 4: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_4902 | PRESENT | eid=
+  step 5: VERIFICATION | VERIFY_RESTORE_BLOCKED | backup_service | backup_4978 | BLOCKED | eid=
+=== GT FOR case_11 (Status: INCOMPLETE) ===
+  step 1: FINDING | REPORT_REMAINING_RECORD | search_service | search_052 | PRESENT | eid=evidence_03
+  step 2: FINDING | REPORT_EXPOSED_PII | analytics_platform | analytics_2034 | PRESENT | eid=evidence_03
+  step 3: FINDING | REPORT_EXPOSED_PII | support_platform | support_864 | PRESENT | eid=evidence_03
+  step 4: FINDING | REPORT_ACTIVE_DATA_FLOW | integration_service | data_flow_9522 | ACTIVE | eid=evidence_03
+  step 5: REMEDIATION | DISABLE_DATA_FLOW | integration_service | data_flow_9522 | DISABLED | eid=
+  step 6: REMEDIATION | DELETE_RECORD | search_service | search_052 | ABSENT | eid=
+  step 7: REMEDIATION | REDACT_RECORD | support_platform | support_864 | REDACTED | eid=
+  step 8: REMEDIATION | ANONYMIZE_RECORD | analytics_platform | analytics_2034 | ANONYMIZED | eid=
+  step 9: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_4248 | ABSENT | eid=
+  step 10: VERIFICATION | VERIFY_RECORD_ABSENT | search_service | search_052 | ABSENT | eid=
+  step 11: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_9394 | PRESENT | eid=
+  step 12: VERIFICATION | VERIFY_RECORD_REDACTED | support_platform | support_864 | REDACTED | eid=
+  step 13: VERIFICATION | VERIFY_RECORD_ANONYMIZED | analytics_platform | analytics_2034 | ANONYMIZED | eid=
+  step 14: VERIFICATION | VERIFY_DATA_FLOW_DISABLED | integration_service | data_flow_9522 | DISABLED | eid=
+=== GT FOR case_12 (Status: INCOMPLETE) ===
+  step 1: FINDING | REPORT_REMAINING_RECORD | analytics_platform | analytics_9914 | PRESENT | eid=evidence_01
+  step 2: REMEDIATION | DELETE_RECORD | analytics_platform | analytics_9914 | ABSENT | eid=
+  step 3: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_9797 | ABSENT | eid=
+  step 4: VERIFICATION | VERIFY_RECORD_ABSENT | analytics_platform | analytics_9914 | ABSENT | eid=
+  step 5: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_2945 | PRESENT | eid=
+=== GT FOR case_13 (Status: INCOMPLETE) ===
+  step 1: FINDING | REPORT_REMAINING_RECORD | search_service | search_1308 | PRESENT | eid=evidence_03
+  step 2: FINDING | REPORT_REMAINING_RECORD | support_platform | support_4218 | PRESENT | eid=evidence_03
+  step 3: REMEDIATION | DELETE_RECORD | search_service | search_1308 | ABSENT | eid=
+  step 4: REMEDIATION | DELETE_RECORD | support_platform | support_4218 | ABSENT | eid=
+  step 5: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_9335 | ABSENT | eid=
+  step 6: VERIFICATION | VERIFY_RECORD_ABSENT | search_service | search_1308 | ABSENT | eid=
+  step 7: VERIFICATION | VERIFY_RECORD_ABSENT | support_platform | support_4218 | ABSENT | eid=
+  step 8: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_4816 | PRESENT | eid=
+=== GT FOR case_14 (Status: INCOMPLETE) ===
+  step 1: FINDING | REPORT_RESTORE_RISK | backup_service | backup_3870 | ACTIVE | eid=evidence_03
+  step 2: REMEDIATION | BLOCK_RESTORE | backup_service | backup_3870 | BLOCKED | eid=
+  step 3: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_3677 | ABSENT | eid=
+  step 4: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_987 | PRESENT | eid=
+  step 5: VERIFICATION | VERIFY_RESTORE_BLOCKED | backup_service | backup_3870 | BLOCKED | eid=
+=== GT FOR case_21 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_6440 | ABSENT | eid=evidence_92
+  step 2: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_3737 | PRESENT | eid=evidence_92
+  step 3: VERIFICATION | VERIFY_RECORD_ANONYMIZED | analytics_platform | analytics_5335 | ANONYMIZED | eid=evidence_92
+=== GT FOR case_28 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_5482 | ABSENT | eid=evidence_92
+  step 2: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_9265 | PRESENT | eid=evidence_92
+  step 3: VERIFICATION | VERIFY_RECORD_REDACTED | support_platform | support_2351 | REDACTED | eid=evidence_92
+  step 4: VERIFICATION | VERIFY_RECORD_ANONYMIZED | analytics_platform | analytics_6077 | ANONYMIZED | eid=evidence_92
+  step 5: VERIFICATION | VERIFY_DATA_FLOW_DISABLED | integration_service | data_flow_2337 | DISABLED | eid=evidence_92
+  step 6: VERIFICATION | VERIFY_RESTORE_BLOCKED | backup_service | backup_838 | BLOCKED | eid=evidence_92
+=== GT FOR case_31 (Status: COMPLETE) ===
+  step 1: VERIFICATION | VERIFY_RECORD_ABSENT | account_service | account_4857 | ABSENT | eid=evidence_51
+  step 2: VERIFICATION | VERIFY_RECORD_PRESENT | security_service | audit_record_6909 | PRESENT | eid=evidence_51
+  step 3: VERIFICATION | VERIFY_RECORD_REDACTED | identity_service | tombstone_440 | REDACTED | eid=evidence_51

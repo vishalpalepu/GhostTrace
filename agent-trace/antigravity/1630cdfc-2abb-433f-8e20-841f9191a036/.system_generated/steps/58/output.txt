@@ -1,0 +1,13 @@
+Command exited with code 1.
+
+Command output:
+Python 3.12.10
+Program 'python3.exe' failed to run: The file cannot be accessed by the systemAt line:1 char:105
++ ... OCALAPPDATA = $env:_LOCALAPPDATA; python --version; python3 --version
++                                                         ~~~~~~~~~~~~~~~~~.
+At line:1 char:105
++ ... OCALAPPDATA = $env:_LOCALAPPDATA; python --version; python3 --version
++                                                         ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+ 

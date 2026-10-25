@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+user_42,Charlotte Wright,charlotte.wright@outlook.com,+44 7700 900042,1069cae2df8987d3e2fce2a1967e3ab2220eb3dafd0abc153f51c4bc1fd1bbe8,2026-02-22T04:54:00Z
+user_43,Louis Fontaine,l.fontaine46@yahoo.com,+33 6 80 08 96 38,4b065493f4403c03ee3cd593b75b03cb6085134a7acb5c5c63ed71d3da346c77,2026-01-04T21:41:00Z
+user_48,Akosua Gyasi,akosua.gyasi@gmail.com,+233 24 014 4504,fe822c22457cb0bf2c7b96098b2756bff294e939c93a5eb55b3c6438be0245ad,2025-05-10T10:36:00Z
+user_49,Naledi Masuku,n.masuku60@gmail.com,+27 72 058 0208,82671907ea5c5a13febf35ad2e11fced23c933e75cbd73638511031bb8782ec9,2025-03-23T03:23:00Z
+user_50,Ren Mori,mori.ren@gmail.com,+81 90 6947 3342,17813ce08076a05a5d763fa691e2df7f241b610f34b10a81f82544d06f74a4dd,2026-01-28T18:46:59Z

@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+Known user accounts: 20
+Security audit records indexed: 315
+
+case_01  COMPLETE   (GT: COMPLETE  ) Steps=1  (GT: 1 ) | PERFECT
+case_02  COMPLETE   (GT: COMPLETE  ) Steps=1  (GT: 1 ) | PERFECT
+case_03  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | PERFECT
+case_04  COMPLETE   (GT: COMPLETE  ) Steps=2  (GT: 2 ) | PERFECT
+case_05  INCOMPLETE (GT: INCOMPLETE) Steps=3  (GT: 3 ) | PERFECT
+case_06  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_07  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_08  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_09  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | DIFF (miss={'audit_record_4902', 'account_3960'}, ext={'analytics_5718', 'account_565'})
+case_10  INCOMPLETE (GT: INCOMPLETE) Steps=4  (GT: 4 ) | PERFECT
+case_11  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | PERFECT
+case_12  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_13  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 8 ) | PERFECT
+case_14  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_15  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_16  INCOMPLETE (GT: INCOMPLETE) Steps=7  (GT: 7 ) | PERFECT
+case_17  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | PERFECT
+case_18  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | DIFF (miss={'account_5521'}, ext={'account_5193'})
+case_19  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 8 ) | PERFECT
+case_20  INCOMPLETE (GT: INCOMPLETE) Steps=9  (GT: 8 ) | DIFF (miss={'account_5037'}, ext={'account_5823', 'analytics_2265'})
+case_21  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | DIFF (miss={'account_6440'}, ext={'account_9155'})
+case_22  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 8 ) | PERFECT
+case_23  INCOMPLETE (GT: INCOMPLETE) Steps=9  (GT: 8 ) | DIFF (miss=set(), ext={'analytics_5335'})
+case_24  INCOMPLETE (GT: INCOMPLETE) Steps=8  (GT: 7 ) | DIFF (miss=set(), ext={'analytics_1895'})
+case_25  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | DIFF (miss={'account_3136'}, ext={'account_7225'})
+case_26  COMPLETE   (GT: COMPLETE  ) Steps=6  (GT: 6 ) | DIFF (miss={'analytics_4566'}, ext={'analytics_1895'})
+case_27  COMPLETE   (GT: COMPLETE  ) Steps=6  (GT: 6 ) | PERFECT
+case_28  COMPLETE   (GT: COMPLETE  ) Steps=6  (GT: 6 ) | DIFF (miss={'analytics_6077', 'account_5482'}, ext={'account_7012', 'analytics_4574'})
+case_29  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | DIFF (miss={'account_7012'}, ext={'account_5482'})
+case_30  INCOMPLETE (GT: INCOMPLETE) Steps=14 (GT: 14) | PERFECT
+case_31  COMPLETE   (GT: COMPLETE  ) Steps=3  (GT: 3 ) | DIFF (miss={'account_4857'}, ext={'account_8858'})
+case_32  INCOMPLETE (GT: INCOMPLETE) Steps=5  (GT: 5 ) | DIFF (miss={'account_8858'}, ext={'account_1810'})
+
+Summary:
+Status Matches:     32 / 32 (100.0%)
+Count Matches:      29 / 32 (90.6%)
+Exact Full Matches: 20 / 32 (62.5%)

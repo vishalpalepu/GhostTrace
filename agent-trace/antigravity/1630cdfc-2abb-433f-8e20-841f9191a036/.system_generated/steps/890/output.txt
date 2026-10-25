@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+Header: user_id,name,email,phone,email_hash,updated_at
+
+user_50,Ren Mori,mori.ren@gmail.com,+81 90 6947 3342,17813ce08076a05a5d763fa691e2df7f241b610f34b10a81f82544d06f74a4dd,2026-01-28T18:46:59Z
+
+user_500,Pavel Horvat,horvat.pavel@icloud.com,+48 603 525 512,7d9dc5a03dd0bc1ced805ac25a2454afd79f9e5e39447b56455be158b4f9d93d,2025-03-29T15:16:29Z
+
+user_501,Sami Nasser,sami-nasser@proton.me,+971 55 289 4844,b91f7b7c24a828d13e7776f9b94f98dc456c2a1b7dd2e1ab33ae764d924d05c7,2025-08-04T03:27:00Z
+
+user_502,Obinna Eze,oeze0067@fastmail.com,+234 803 127 0461,cb86b5f1d23cad9999ef69d4ba25b7b1feddb18e0ee0a56e6e10fff146835e52,2025-06-16T20:14:00Z
+
+user_503,Nana Addo,nana.a7986@zoho.com,+233 24 077 1311,54fd54401770470e66bcd78d1114413ad27f4f36f639a44a4ede4024122ee202,2025-04-29T13:01:00Z
+
+user_504,Ayanda Molefe,ayanda.molefe@gmail.com,+27 72 904 9490,ac6efb491c472a3cb019074b840467fd9c8c032031a33ddfe60ef914b4d8c32a,2025-03-13T06:48:00Z
+
+user_505,Rina Ito,r.ito24@gmail.com,+81 90 7870 0272,7dbdf7ba1042e12fecf3e27d9c82cd0c95ccbdcfbfcfc79740c078962aef681d,2024-12-25T00:51:04Z
+
+user_506,Jun-seo Kang,kang.junseo@gmail.com,+82 10 1111 7523,e8e87b410e165e673548cb8a164da97e2752941764ebd0411ee71b0f0d4ada62,2024-12-06T16:22:00Z
+
+user_507,Jo�o Costa,joao-costa@gmail.com,+55 31 94739-9361,c83e1f4e40e9d75f9ece76834e6f3e91063b10bf96dd5cf82c198f3a4259aae3,2024-10-19T09:09:00Z
+
+user_508,Rohan Patel,rpatel7581@gmail.com,+91 94527 88161,cf0fafddc6580834046041a6c6b7387235f91718cd761f37d8c80d62b332b6b2,2024-09-02T02:56:00Z
+
+user_509,Nicol�s Fern�ndez,nicolas.f5500@outlook.com,+34 733 038 927,ffcccdd81c7d5fbfe33fd37d71d01bc80b52049f246c0914f3d1ef8af4856e56,2025-10-11T00:36:49Z
+

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+2026-09-26T08:57:37Z level=DEBUG service=account_service trace_id=rb-085737-009 event=profile_lookup_started resource_id=account_7566 lookup_key=l.fontaine46@yahoo.com
+2026-09-26T08:57:37Z level=INFO service=account_service trace_id=rb-085737-009 event=profile_lookup_completed resource_id=account_7566 rows=0 http_status=404
+2026-09-26T09:40:29Z level=DEBUG service=security_service trace_id=rb-094029-017 event=audit_record_read_started resource_id=audit_record_2016 lookup_key=user_43
+2026-09-26T09:40:29Z level=INFO service=security_service trace_id=rb-094029-017 event=audit_record_read_completed resource_id=audit_record_2016 rows=1 subject_reference=user_43 event_code=IDENTITY_CHANGE_RECORDED retention_until=2034-09-30T23:59:59Z

@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Found analytics_9406 in system_activity.csv
+   activity_3852,2026-09-15T10:31:16Z,ANONYMIZE_RECORD,deletion_worker,analytics_platform,analytics_9406,SUCCESS,Policy action completed for analytics_9406.
+Found analytics_9406 in evidence: resource_lookup_trace_20260926_103856.log

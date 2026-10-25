@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Vishal\GhostTrace\hackerrank-orchestrate-october26-main\dataset
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     13:58                evidence                                                             
+-a----        25-10-2026     13:58         163664 deletion_requests.csv                                                
+-a----        25-10-2026     13:58           1039 deletion_rules.csv                                                   
+-a----        25-10-2026     13:58          11089 evidence_files.csv                                                   
+-a----        25-10-2026     13:58             35 output.csv                                                           
+-a----        25-10-2026     13:58           9010 sample_deletion_requests.csv                                         
+-a----        25-10-2026     13:58          38648 sample_output.csv                                                    
+-a----        25-10-2026     13:58         657360 system_activity.csv                                                  
+-a----        25-10-2026     13:58          36709 user_audit_log.csv                                                   
+-a----        25-10-2026     13:58         126411 user_identities.csv                                                  
+
+

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Sample from customer_data_read_replica_20260613.sql:
+  account_3150 account_service customer_profiles {"resource_id":"account_3150","customer_reference":"user_259","full_name":"Yu-na 2026-06-13T11:00:00Z
+  account_9608 account_service customer_profiles {"resource_id":"account_9608","customer_reference":"user_257","full_name":"Sibus 2026-06-13T11:00:00Z
+  analytics_2977 analytics_platform customer_analytics_reports {"resource_id":"analytics_2977","user_id":null,"email":null,"phone":null,"email_ 2026-06-13T11:00:00Z

@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+Services in service_exports: dict_keys(['account_service', 'analytics_platform', 'backup_service', 'export_service', 'integration_service', 'search_service', 'security_service', 'support_platform'])
+  account_service: keys=['profile_lookups']
+  analytics_platform: keys=['profiles']
+  backup_service: keys=['restore_entries']
+  export_service: keys=['exports']
+  integration_service: keys=['connectors']
+  search_service: keys=['index_queries']
+  security_service: keys=['audit_records']
+  support_platform: keys=['tickets']

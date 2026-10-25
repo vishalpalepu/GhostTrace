@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Result outcome: DELETION is_deletion: True reason: Matched deletion authorization pattern: '\b(?:permanently )?delet(?:e|ed|ing|ion|ions)?\b'.

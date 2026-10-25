@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:28:20,529 [INFO] Initializing GhostTrace Pipeline with dataset: dataset
+2026-10-25 20:28:20,572 [INFO] Loaded 850 identities, 306 audit log entries
+2026-10-25 20:28:20,574 [INFO] Policy engine loaded 15 rules
+2026-10-25 20:28:20,782 [INFO] Evidence index built: 94 parsed files, 3092 total observations
+2026-10-25 20:28:20,814 [INFO] Loaded 4011 system activity records
+case_33: DeletionRequest(case_id='case_33', email='ingrid.dahl@outlook.com', requested_at=datetime.datetime(2026, 7, 16, 8, 0, tzinfo=datetime.timezone.utc), reported_status='COMPLETE', reported_at=datetime.datetime(2026, 7, 18, 2, 0, tzinfo=datetime.timezone.utc), audit_at=datetime.datetime(2026, 7, 19, 13, 0, tzinfo=datetime.timezone.utc), request_text='Please close my account and process the associated personal-data deletion. Please handle any copies that fall within the scope of the deletion request. Please confirm when the review is complete.')

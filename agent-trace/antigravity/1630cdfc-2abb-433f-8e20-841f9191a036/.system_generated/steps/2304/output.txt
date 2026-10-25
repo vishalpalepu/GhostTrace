@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+2026-10-25 20:25:18,168 [INFO] Starting GhostTrace Benchmark Evaluation...
+
+============================================================
+GHOSTTRACE SAMPLE BENCHMARK EVALUATION SUMMARY
+============================================================
+Sample Requests Audited:      32
+Status Accuracy:              32 / 32 (100.0%)
+Step-Count Accuracy:          32 / 32 (100.0%)
+Field-Level Property Parity:  1351 / 1351 (100.0%)
+============================================================
+

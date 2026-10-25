@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+evidence_93,evidence/databases/customer_data_inventory_20260916.sql,customer_data_inventory_capture,2026-09-16T08:37:39Z

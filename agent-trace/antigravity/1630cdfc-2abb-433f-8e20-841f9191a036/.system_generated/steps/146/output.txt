@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+{'connector_name': 'analytics_identity_bridge', 'customer_email': None, 'customer_reference': 'user_27', 'enabled': False, 'last_delivery_status': 'stopped', 'observed_at': '2026-09-15T08:48:09Z', 'resource_id': 'data_flow_2295'}
+{'connector_name': 'support_profile_sync', 'customer_email': None, 'customer_reference': 'user_28', 'enabled': False, 'last_delivery_status': 'stopped', 'observed_at': '2026-09-15T09:35:32Z', 'resource_id': 'data_flow_2337'}
+{'connector_name': 'customer_events_connector', 'customer_email': None, 'customer_reference': 'user_26', 'enabled': False, 'last_delivery_status': 'stopped', 'observed_at': '2026-09-15T10:15:29Z', 'resource_id': 'data_flow_6244'}

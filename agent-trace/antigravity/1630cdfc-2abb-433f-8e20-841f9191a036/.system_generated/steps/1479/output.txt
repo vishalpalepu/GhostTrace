@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Total obs: 1
+   file=evidence_56, res=analytics_901, sys=analytics_identity_store, obs_time=2026-09-07 09:45:00+00:00, cap_time=2026-09-07 09:45:00+00:00, sub=None, email=None

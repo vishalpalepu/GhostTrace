@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+Identity snapshot in evidence_51:
+  data_store: identity_service
+  collection: deleted_customer_references
+  records: [
+  {
+    "resource_id": "tombstone_440",
+    "subject_reference": "user_541",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "email_hash": null,
+    "account_status": "DELETED"
+  },
+  {
+    "resource_id": "tombstone_9178",
+    "subject_reference": "user_542",
+    "name": "Kofi Addo",
+    "email": "addo.kofi@gmail.com",
+    "phone": "+233 24 991 1328",
+    "email_hash": "4f4b9c98a05a2dad20e52313cce7809d18c3da544754dcd46d728b0173174b26",
+    "account_status": "DELETED"
+  }
+]

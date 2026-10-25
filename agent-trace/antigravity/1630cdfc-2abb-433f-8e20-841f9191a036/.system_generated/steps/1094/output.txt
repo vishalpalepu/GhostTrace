@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Found account_5684 in snapshot: account_service customer_profiles
+  Record: {'resource_id': 'account_5684', 'customer_reference': 'user_26', 'full_name': 'Mariana Almeida', 'email': 'almeida.mariana@gmail.com', 'phone': '+55 21 90180-9087', 'account_status': 'ACTIVE', 'signup_channel': 'organic_search'}

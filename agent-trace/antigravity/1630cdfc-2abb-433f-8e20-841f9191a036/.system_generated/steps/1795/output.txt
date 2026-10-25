@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+activity_3657 2026-09-05T10:50:10Z DELETE_RECORD account_service account_294 PARTIAL Deletion worker submitted primary profile account_294 to account_service.
+activity_3658 2026-09-05T10:52:20Z DELETE_RECORD account_service account_8832 PARTIAL Deletion worker submitted primary profile account_8832 to account_service.
+activity_3660 2026-09-05T11:01:52Z DELETE_RECORD account_service account_7015 FAILED Deletion worker submitted primary profile account_7015 to account_service.
+activity_3661 2026-09-05T11:01:53Z DELETE_RECORD account_service account_6440 SUCCESS Deletion worker submitted primary profile account_6440 to account_service.
+activity_3662 2026-09-05T11:10:55Z DELETE_RECORD account_service account_410 FAILED Deletion worker submitted primary profile account_410 to account_service.
+activity_3663 2026-09-05T11:12:36Z DELETE_RECORD account_service account_9155 FAILED Deletion worker submitted primary profile account_9155 to account_service.
+activity_3664 2026-09-05T11:31:17Z REDACT_RECORD identity_service tombstone_8774 SUCCESS Policy action completed for tombstone_8774.
+activity_3665 2026-09-05T11:31:34Z ANONYMIZE_RECORD analytics_platform analytics_5335 SUCCESS Policy action completed for analytics_5335.
+activity_3667 2026-09-05T12:38:47Z DELETE_RECORD export_service export_7364 FAILED Deletion worker received the final result for export_7364 from export_service.
+activity_3668 2026-09-05T12:42:12Z REDACT_RECORD identity_service tombstone_8095 FAILED Deletion worker received the final result for tombstone_8095 from identity_service.
+activity_3669 2026-09-05T12:54:02Z REDACT_RECORD support_platform support_1034 FAILED Deletion worker received the final result for support_1034 from support_platform.
+activity_3670 2026-09-05T12:56:44Z REDACT_RECORD identity_service tombstone_3745 FAILED Deletion worker received the final result for tombstone_3745 from identity_service.
+activity_3671 2026-09-05T12:57:17Z DELETE_RECORD search_service search_898 FAILED Deletion worker received the final result for search_898 from search_service.
+activity_3672 2026-09-05T13:13:31Z DELETE_RECORD search_service search_2912 FAILED Deletion worker received the final result for search_2912 from search_service.

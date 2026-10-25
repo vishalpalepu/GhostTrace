@@ -1,0 +1,95 @@
+Command exited with code 0.
+
+Command output:
+Total unique cited: 13
+=== evidence_01 ===
+Manifest Path: evidence/logs/service_events_ap_south_20260915.log
+Origin: central_observability_export
+Captured At: 2026-09-15T11:59:39Z
+Cited in cases count: 5
+Operations cited: {('FINDING', 'REPORT_RESTORE_RISK', 'backup_service'), ('FINDING', 'REPORT_EXPOSED_PII', 'support_platform'), ('FINDING', 'REPORT_REMAINING_RECORD', 'search_service'), ('FINDING', 'REPORT_REMAINING_RECORD', 'analytics_platform'), ('FINDING', 'REPORT_ACTIVE_DATA_FLOW', 'integration_service')}
+Sample cases: [('case_12', 'FINDING', 'REPORT_REMAINING_RECORD', 'analytics_platform', 'analytics_9914'), ('case_15', 'FINDING', 'REPORT_ACTIVE_DATA_FLOW', 'integration_service', 'data_flow_9846'), ('case_17', 'FINDING', 'REPORT_RESTORE_RISK', 'backup_service', 'backup_3245')]
+=== evidence_03 ===
+Manifest Path: evidence/records/customer_account_handover_20261001.txt
+Origin: customer_account_service
+Captured At: 2026-10-01T12:00:00Z
+Cited in cases count: 7
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'search_service'), ('FINDING', 'REPORT_EXPOSED_PII', 'analytics_platform'), ('FINDING', 'REPORT_EXPOSED_PII', 'support_platform'), ('FINDING', 'REPORT_RESTORE_RISK', 'backup_service'), ('FINDING', 'REPORT_ACTIVE_DATA_FLOW', 'integration_service'), ('FINDING', 'REPORT_REMAINING_RECORD', 'support_platform')}
+Sample cases: [('case_11', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_052'), ('case_11', 'FINDING', 'REPORT_EXPOSED_PII', 'analytics_platform', 'analytics_2034'), ('case_11', 'FINDING', 'REPORT_EXPOSED_PII', 'support_platform', 'support_864')]
+=== evidence_05 ===
+Manifest Path: evidence/databases/customer_data_read_replica_20260921.sql
+Origin: customer_data_read_replica_capture
+Captured At: 2026-09-21T10:00:00Z
+Cited in cases count: 4
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'search_service'), ('FINDING', 'REPORT_EXPOSED_PII', 'analytics_platform'), ('FINDING', 'REPORT_REMAINING_RECORD', 'account_service')}
+Sample cases: [('case_16', 'FINDING', 'REPORT_REMAINING_RECORD', 'account_service', 'account_994'), ('case_16', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_1007'), ('case_22', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_8911')]
+=== evidence_51 ===
+Manifest Path: evidence/records/customer_data_snapshot_bundle_20260915.json
+Origin: records_assurance_snapshot_bundle
+Captured At: 2026-09-15T12:00:00Z
+Cited in cases count: 4
+Operations cited: {('FINDING', 'REPORT_EXPOSED_PII', 'identity_service'), ('VERIFICATION', 'VERIFY_RECORD_REDACTED', 'identity_service'), ('VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service'), ('VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service')}
+Sample cases: [('case_31', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_4857'), ('case_31', 'VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service', 'audit_record_6909'), ('case_31', 'VERIFICATION', 'VERIFY_RECORD_REDACTED', 'identity_service', 'tombstone_440')]
+=== evidence_54 ===
+Manifest Path: evidence/databases/customer_accounts_failover_replica_20260902.sql
+Origin: customer_account_failover_replica_capture
+Captured At: 2026-09-02T23:00:00Z
+Cited in cases count: 4
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'account_service'), ('VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service')}
+Sample cases: [('case_01', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_001'), ('case_02', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_002'), ('case_04', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_004')]
+=== evidence_56 ===
+Manifest Path: evidence/records/customer_analytics_report_20260907.json
+Origin: analytics_platform
+Captured At: 2026-09-07T09:45:00Z
+Cited in cases count: 1
+Operations cited: {('VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform')}
+Sample cases: [('case_04', 'VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform', 'analytics_901')]
+=== evidence_57 ===
+Manifest Path: evidence/databases/customer_search_primary_20260910.sql
+Origin: customer_search_primary_capture
+Captured At: 2026-09-10T08:45:00Z
+Cited in cases count: 1
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'search_service')}
+Sample cases: [('case_06', 'FINDING', 'REPORT_REMAINING_RECORD', 'search_service', 'search_001')]
+=== evidence_58 ===
+Manifest Path: evidence/documents/delivery_correction_attachment.pdf
+Origin: support_platform
+Captured At: 2026-09-12T07:30:00Z
+Cited in cases count: 1
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'support_platform')}
+Sample cases: [('case_07', 'FINDING', 'REPORT_REMAINING_RECORD', 'support_platform', 'support_001')]
+=== evidence_59 ===
+Manifest Path: evidence/records/customer_export_jobs_20260914.json
+Origin: export_service
+Captured At: 2026-09-14T15:40:00Z
+Cited in cases count: 1
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'export_service')}
+Sample cases: [('case_08', 'FINDING', 'REPORT_REMAINING_RECORD', 'export_service', 'export_001')]
+=== evidence_61 ===
+Manifest Path: evidence/logs/support_replica.log
+Origin: support_platform
+Captured At: 2026-09-17T22:00:19Z
+Cited in cases count: 1
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'support_platform')}
+Sample cases: [('case_10', 'FINDING', 'REPORT_REMAINING_RECORD', 'support_platform', 'support_002')]
+=== evidence_92 ===
+Manifest Path: evidence/records/service_resource_export_20260915_114455.json
+Origin: service_resource_export
+Captured At: 2026-09-15T11:44:55Z
+Cited in cases count: 36
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'search_service'), ('FINDING', 'REPORT_EXPOSED_PII', 'analytics_platform'), ('FINDING', 'REPORT_EXPOSED_PII', 'support_platform'), ('VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service'), ('VERIFICATION', 'VERIFY_RECORD_REDACTED', 'support_platform'), ('FINDING', 'REPORT_REMAINING_RECORD', 'export_service'), ('FINDING', 'REPORT_ACTIVE_DATA_FLOW', 'integration_service'), ('FINDING', 'REPORT_REMAINING_RECORD', 'account_service'), ('VERIFICATION', 'VERIFY_RESTORE_BLOCKED', 'backup_service'), ('VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform'), ('VERIFICATION', 'VERIFY_DATA_FLOW_DISABLED', 'integration_service'), ('VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service')}
+Sample cases: [('case_21', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_6440'), ('case_21', 'VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service', 'audit_record_3737'), ('case_21', 'VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform', 'analytics_5335')]
+=== evidence_93 ===
+Manifest Path: evidence/databases/customer_data_inventory_20260916.sql
+Origin: customer_data_inventory_capture
+Captured At: 2026-09-16T08:37:39Z
+Cited in cases count: 1
+Operations cited: {('FINDING', 'REPORT_RESTORE_RISK', 'backup_service')}
+Sample cases: [('case_09', 'FINDING', 'REPORT_RESTORE_RISK', 'backup_service', 'backup_4978')]
+=== evidence_94 ===
+Manifest Path: evidence/logs/resource_lookup_trace_20260926_103856.log
+Origin: service_readback_logs
+Captured At: 2026-09-26T10:38:56Z
+Cited in cases count: 9
+Operations cited: {('FINDING', 'REPORT_REMAINING_RECORD', 'search_service'), ('FINDING', 'REPORT_EXPOSED_PII', 'analytics_platform'), ('FINDING', 'REPORT_EXPOSED_PII', 'support_platform'), ('VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service'), ('FINDING', 'REPORT_ACTIVE_DATA_FLOW', 'integration_service'), ('VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform'), ('VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service')}
+Sample cases: [('case_03', 'VERIFICATION', 'VERIFY_RECORD_ABSENT', 'account_service', 'account_7566'), ('case_03', 'VERIFICATION', 'VERIFY_RECORD_PRESENT', 'security_service', 'audit_record_2016'), ('case_03', 'VERIFICATION', 'VERIFY_RECORD_ANONYMIZED', 'analytics_platform', 'analytics_9406')]

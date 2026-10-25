@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+activity_3731 2026-09-09T07:15:00Z UPDATE_RECORD support_platform search_service support_2486 SUCCESS Support-case index update processed support_2486.
+activity_3732 2026-09-09T09:52:26Z DELETE_RECORD deletion_worker account_service account_5521 SUCCESS Deletion worker submitted primary profile account_5521 to account_service.
+activity_3733 2026-09-09T10:03:41Z DELETE_RECORD deletion_worker account_service account_3610 SUCCESS Deletion worker submitted primary profile account_3610 to account_service.
+activity_3734 2026-09-09T10:14:55Z DELETE_RECORD deletion_worker account_service account_5037 FAILED Deletion worker submitted primary profile account_5037 to account_service.
+activity_3735 2026-09-09T10:31:22Z ANONYMIZE_RECORD deletion_worker analytics_platform analytics_2265 SUCCESS Policy action completed for analytics_2265.
+activity_3736 2026-09-09T10:38:51Z REDACT_RECORD deletion_worker support_platform support_1097 SUCCESS Policy action completed for support_1097.
+activity_3737 2026-09-09T10:45:21Z DISABLE_DATA_FLOW deletion_worker integration_service data_flow_4713 SUCCESS Policy action completed for data_flow_4713.
+activity_3738 2026-09-09T10:52:50Z BLOCK_RESTORE deletion_worker backup_service backup_7809 SUCCESS Policy action completed for backup_7809.
+activity_3739 2026-09-09T10:53:28Z DELETE_RECORD deletion_worker account_service account_9335 FAILED Deletion worker submitted primary profile account_9335 to account_service.
+activity_3740 2026-09-09T11:02:59Z DELETE_RECORD deletion_worker account_service account_5193 SUCCESS Deletion worker submitted primary profile account_5193 to account_service.

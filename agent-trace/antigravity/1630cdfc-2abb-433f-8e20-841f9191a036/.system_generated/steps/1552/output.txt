@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+Explicit catalog links:
+  account_5762: Data catalog linked account_5762 (account_5762) to haruka.s1838@zoho.com and user_11.
+  search_428: Data catalog linked search_428 (search_428) to g.silva76@gmail.com and user_13.
+  data_flow_1121: Data catalog linked data_flow_1121 (data_flow_1121) to jain.aditi@gmail.com and user_14.
+  analytics_7438: Data catalog linked analytics_7438 (analytics_7438) to darwish.omar@icloud.com and user_20.
+  export_1260: Data catalog linked export_1260 (export_1260) to ingrid.dahl@outlook.com and user_18.
+  support_1034: Data catalog linked support_1034 (support_1034) to kagyeman8947@fastmail.com and user_22.
+  backup_9287: Data catalog linked backup_9287 (backup_9287) to areed1433@gmail.com and user_16.
+  object_19: Attachment catalog confirmed object_19 (delivery_confirmation_19.pdf) belongs only to priya.raman@gmail.com and user_07; no other subject is linked.
+  marketing_001: Data catalog linked marketing_001 (marketing_001) to kwame-mensah@proton.me and user_09.
+  export_1842: Data catalog linked export_1842 (NST-2026-0718-1842) to ingrid.dahl@outlook.com and user_18.
+  audit_record_003: Data catalog linked audit_record_003 (audit_record_003) to oliver-bennett@gmail.com and user_03.
+  tombstone_17: Data catalog linked tombstone_17 (user_17) to leonie.g9352@outlook.com and user_17.

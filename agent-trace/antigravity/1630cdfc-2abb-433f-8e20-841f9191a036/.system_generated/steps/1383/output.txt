@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+account_4857 in sample_output.csv
+account_8858 in sample_output.csv
+account_4857 in system_activity.csv
+account_8858 in system_activity.csv

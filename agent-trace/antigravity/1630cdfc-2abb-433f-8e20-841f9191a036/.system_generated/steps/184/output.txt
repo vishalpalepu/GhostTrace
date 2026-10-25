@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Total audit chains checked: 302 Mismatches with current: 0

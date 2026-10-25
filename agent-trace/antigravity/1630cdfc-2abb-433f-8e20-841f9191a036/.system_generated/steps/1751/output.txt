@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Total obs extracted: 4
+tombstone_440 identity_service user_541 REDACTED 2026-09-15 12:00:00+00:00 2026-09-15 12:00:00+00:00
+audit_record_6909 security_service user_541 PRESENT 2026-09-15 12:00:00+00:00 2026-09-15 12:00:00+00:00

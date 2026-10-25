@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+obs count: 1
+evidence_18 support_platform support_001 PRESENT 2026-07-18 11:00:00+00:00

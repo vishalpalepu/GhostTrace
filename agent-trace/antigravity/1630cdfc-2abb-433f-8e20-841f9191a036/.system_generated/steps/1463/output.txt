@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+['file_id', 'source_path', 'system_id', 'resource_id', 'observed_state', 'data_category', 'subject_id', 'subject_email', 'subject_phone', 'observation_time', 'captured_at', 'extraction_method', 'details', 'uncertainty']
